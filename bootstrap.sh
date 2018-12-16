@@ -1,0 +1,58 @@
+#!/usr/bin/env bash
+
+# Functions
+function append_to_file() {
+    if [[ -f "$2" ]]
+    then
+        grep -Fxq "$1" "$2" || echo "$1" >> "$2"
+    else
+        echo "$1" > "$2"
+    fi
+}
+
+function setup_virtualenv() {
+    deactivate
+    source `which virtualenvwrapper.sh` && mkvirtualenv $1  --python=$2
+    workon $1
+
+    cd /vagrant
+    pip install -r "requirements/development.txt"
+    pip install -r "requirements/$3.txt"
+}
+
+# Enable soft tabs in Vim
+append_to_file "set tabstop=4" ~/.vimrc
+append_to_file "set softtabstop=4" ~/.vimrc
+append_to_file "set shiftwidth=4" ~/.vimrc
+append_to_file "set expandtab" ~/.vimrc
+
+cd /vagrant
+sudo apt-get update
+sudo apt-get install -y dos2unix
+dos2unix provision.sh
+chmod a+x provision.sh
+sh provision.sh
+
+# Installing and setup required basic python packages
+sudo apt-get install -y python3
+sudo python -m pip install --upgrade pip
+sudo pip install --upgrade setuptools wheel virtualenv virtualenvwrapper
+
+append_to_file "export WORKON_HOME=$HOME/.virtualenvs" $HOME/.bashrc
+append_to_file "export PROJECT_HOME=/vagrant" $HOME/.bashrc
+append_to_file "source /usr/local/bin/virtualenvwrapper.sh" $HOME/.bashrc
+source $HOME/.bashrc
+
+# Setup virtual environments
+setup_virtualenv "upkook_web" "python3" "django-1.11"
+append_to_file "workon upkook_web" ~/.bashrc
+
+# Create project folder
+mkdir -p /home/vagrant/projects
+
+cp /vagrant/id_rsa /home/vagrant/.ssh/id_rsa
+chmod 600 /home/vagrant/.ssh/id_rsa
+
+append_to_file "cd /vagrant" ~/.bashrc
+cd /vagrant
+mkdir -p upkook_web/logs
