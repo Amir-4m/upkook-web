@@ -7,6 +7,10 @@ from .base import *  # NOQA
 
 USE_I18N = True
 
+# Language code for this installation. All choices can be found here:
+# http://www.i18nguy.com/unicode/language-identifiers.html
+LANGUAGE_CODE = get_env_var('LANGUAGE_CODE', 'en')
+
 LANGUAGES = (
     ('en-us', _('English')),
     ('fa', _('Farsi')),
@@ -27,4 +31,6 @@ TEMPLATES[0]['OPTIONS'] = {
 }
 
 INSTALLED_APPS += (
+    'upkook_web.apps.cms.home',
+    'upkook_web.apps.customers',
 )
