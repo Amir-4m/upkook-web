@@ -1,0 +1,15 @@
+{% extends "upkook_web/base.html" %}
+{% load i18n staticfiles %}
+{% block extracss %}
+    {{ block.super }}
+    <link rel="stylesheet" href="{{ STATIC_URL }}customers/css/sign-up.css">
+{% endblock %}
+
+{% block extrajs %}
+    {{ block.super }}
+    <script src="{{ STATIC_URL }}customers/js/sign-up.js"></script>
+{% endblock %}
+
+{% block content %}
+{% include 'customers/includes/sign-up.html' %}
+{% endblock %}

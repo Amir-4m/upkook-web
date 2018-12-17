@@ -1,0 +1,12 @@
+{% load i18n %}
+<div class="row sign-up">
+    <div class="col-sm-6 col-xs-12">
+        <h2>{% trans 'Upkook pre sign up' %}</h2>
+        <br/>
+        {% include 'customers/forms/sign-up.html' %}
+    </div>
+    <div class="col-sm-6 col-xs-12 sign-up-intro">
+        {% include 'customers/includes/startup-intro.html' %}
+        {% include 'customers/includes/entrepreneur-intro.html' %}
+    </div>
+</div>

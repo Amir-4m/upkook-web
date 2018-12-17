@@ -1,0 +1,72 @@
+/* Signup */
+.sign-up {
+    margin-top: 10px;
+}
+
+.sign-up-intro {
+    font-size: 20px;
+}
+
+.sign-up-intro .intro {
+    display: none;
+}
+
+.sign-up-form .sign-up-cta {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sign-up-form .btn-radio a {
+    display: none;
+}
+
+/* RESPONSIVE */
+
+/* Breakpoint XL */
+/* Usage:  9.4% */
+@media screen and (max-width: 1280px) {
+
+}
+
+/* Breakpoint LG*/
+/* Usage:  3.9% */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* Breakpoint MD */
+/* Usage:  4.5% */
+@media screen and (max-width: 768px) {
+    .sign-up-form .btn-radio:first-child {
+        margin-bottom: 10px;
+    }
+
+    .sign-up div:last-child {
+        margin-top: 10px;
+    }
+
+    .sign-up-form .btn-radio a {
+        display: inline-block;
+    }
+}
+
+/* Usage:  1.6% */
+@media screen and (max-width: 720px) {
+
+}
+
+/* Breakpoint SM*/
+/* Usage:  1.1% */
+@media screen and (max-width: 480px) {
+
+}
+
+/* Usage:  2.3% */
+@media screen and (max-width: 360px) {
+
+}
+
+/* Usage:  12.1% */
+@media screen and (max-width: 320px) {
+
+}

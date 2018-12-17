@@ -1,0 +1,49 @@
+{% load i18n %}
+<form id="sign-up" action="http://127.0.0.1:8080/customers/" method="post" class="sign-up-form">
+    <div class="form-group">
+        <div class="row">
+            <div class="col-sm-6 col-xs-12">
+                <div class="btn-radio">
+                    <input type="radio" id="customer_entrepreneur" name="customer_type" value="Entrepreneur" required>
+                    <label for="customer_entrepreneur">{% trans 'Entrepreneur' %}</label>
+                    <br/>{% trans "I'm going to run a startup." %}&nbsp;
+                    <a href="#customer_entrepreneur_intro">{% trans 'Learn more' %}</a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-xs-12">
+                <div class="btn-radio">
+                    <input type="radio" id="customer_startup" name="customer_type" value="Startup" required>
+                    <label for="customer_startup">{% trans 'Startup' %}</label>
+                    <br/>{% trans 'I have an active startup.' %}&nbsp;
+                    <a href="#customer_startup_intro">{% trans 'Learn more' %}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="email">{% trans 'Email' %}*</label>
+        <input type="email" class="form-control" name="email" id="email" placeholder="" required>
+        <small id="email_help" class="form-text text-muted">{% trans 'Your information is safe with us.' %}</small>
+    </div>
+    <div class="form-group">
+        <label for="password">{% trans 'Password' %}*</label>
+        <input type="password" class="form-control" name="password" id="password" placeholder="" required>
+    </div>
+    <div class="form-group">
+        <label for="confirm_password">{% trans 'Confirm Password' %}*</label>
+        <input type="password" class="form-control" name="confirm_password" id="confirm_password" required>
+    </div>
+    <div class="form-group">
+        <label for="coupon_code">{% trans 'Discount Code' %}</label>
+        <input type="text" class="form-control" name="coupon_code" id="coupon_code" maxlength="4" size="4">
+    </div>
+    <div class="form-group">
+        <input type="checkbox" id="accept_terms" name="terms" value="yes" required>
+        <label for="accept_terms">
+            {% trans 'I accept <a href="https://policies.upkook.com/terms/" target="_blank">terms and conditions</a> of pre sign up at upkook.' %}
+        </label>
+    </div>
+    <div class="sign-up-cta">
+        <button type="submit" class="btn btn-primary btn-cta">{% trans 'Pre Sign up' %}</button>
+    </div>
+</form>

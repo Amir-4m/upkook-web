@@ -1,0 +1,61 @@
+{% load i18n staticfiles %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    {% block title %}<title>{% if title %}{{ title }}{% endif %}</title>{% endblock %}
+    {% block description %}
+        {% if description %}<meta name="description" content="{{ description }}">{% endif %}
+    {% endblock %}
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    {% block robots %}
+        <meta name="robots" content="{% if robots %}{{ robots }}{% else %}{% if title %}index{% else %}noindex{% endif %},follow{% endif %}">
+    {% endblock %}
+    <style>
+        {%  block custom_css %}{% include 'upkook_web/includes/custom.css' %}{% endblock %}
+    </style>
+    <!--[if lt IE 9]><script src="/js/html5shiv.js"></script><![endif]-->
+    {% block extra_head %}{% endblock %}
+</head>
+<body>
+    <div id="outer-wrapper">
+        <div class="container">
+            {% block content %}{% endblock %}
+        </div>
+    </div>
+    <button id="back_to_top" class="btn btn-primary btn-lg back-to-top" role="button" title="{% trans 'Click to return to top' %}" data-toggle="tooltip" data-placement="left">
+        <b>&#8682;</b>
+    </button>
+    <noscript id="deferred-styles">
+        {% block external_css %}
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+            {% if LANGUAGE_BIDI %}<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.3.4/css/bootstrap-rtl.min.css">{% endif %}
+        {% endblock %}
+        {% block stylesheets %}
+            <link rel="stylesheet" href="{{ STATIC_URL }}site/css/styles.css">
+        {% endblock %}
+        {% block extracss %}{% endblock %}
+    </noscript>
+    <script>
+      var loadDeferredStyles = function() {
+        var addStylesNode = document.getElementById("deferred-styles");
+        var replacement = document.createElement("div");
+        replacement.innerHTML = addStylesNode.textContent;
+        document.body.appendChild(replacement);
+        addStylesNode.parentElement.removeChild(addStylesNode);
+      };
+      var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
+          window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
+      if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+      else window.addEventListener('load', loadDeferredStyles);
+    </script>
+    {% block external_js %}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    {% endblock %}
+    {% block javascripts %}
+        <script src="{{ STATIC_URL }}site/js/script.js"></script>
+    {% endblock %}
+    {% block extrajs %}{% endblock %}
+</body>
+</html>

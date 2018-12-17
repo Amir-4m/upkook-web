@@ -1,0 +1,194 @@
+html {
+    line-height: 1.5;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: Tahoma, sans-serif;
+    line-height: 1.8;
+    direction: rtl;
+    text-align: right;
+    color: #212529;
+}
+
+a {
+    text-decoration: none;
+}
+
+.back-to-top {
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #2196F3;
+    font-size: 38px;
+    padding: 3px 17px;
+    border-radius: 100%;
+}
+
+.back-to-top:hover {
+    background-color: #2196F3;
+}
+
+/* Forms */
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-weight: bold;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit
+}
+
+input[type=email], input[type=password] {
+    direction: ltr;
+}
+
+input[type=checkbox], input[type=radio] {
+    transition: background .25s ease-in-out;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 5px;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    border: solid 1px #000;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input[type=checkbox] {
+    line-height: 2.2rem;
+}
+
+input[type=radio] {
+    width: 26px;
+    height: 26px;
+    line-height: 2.2rem;
+}
+
+input[type=checkbox] {
+    border-radius: 5%;
+}
+
+input[type=radio] {
+    border-radius: 100%;
+}
+
+input[type=checkbox]:checked, input[type=radio]:checked {
+    color: #fff;
+    background: #000;
+}
+
+input[type=checkbox]:checked:after, input[type=radio]:checked:after {
+    text-align: center;
+    content: "✓";
+}
+
+input[type=checkbox][disabled], input[type=radio][disabled] {
+    opacity: .5;
+}
+
+input[type=checkbox]:focus, input[type=radio]:focus {
+    outline: 0;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #FAF9F9;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.form-control::-ms-expand {
+    background-color: transparent;
+    border: 0
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #FAF9F9;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25)
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #6c757d;
+    opacity: 1
+}
+
+.form-control::-moz-placeholder {
+    color: #6c757d;
+    opacity: 1
+}
+
+.form-control:-ms-input-placeholder {
+    color: #6c757d;
+    opacity: 1
+}
+
+.form-control::-ms-input-placeholder {
+    color: #6c757d;
+    opacity: 1
+}
+
+.form-control::placeholder {
+    color: #6c757d;
+    opacity: 1
+}
+
+.form-control:disabled, .form-control[readonly] {
+    background-color: #e9ecef;
+    opacity: 1
+}
+
+select.form-control:focus::-ms-value {
+    color: #495057;
+    background-color: #fff
+}
+
+select.form-control[multiple], select.form-control[size] {
+    height: auto
+}
+
+textarea.form-control {
+    height: auto
+}
+
+.btn-radio {
+    padding: 20px 15px 20px 0;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+}
+
+.btn-radio:hover {
+    cursor: pointer;
+}
+
+.btn-cta, .btn-cta:hover {
+    width: 200px;
+    height: 50px;
+    background-color: #2196F3;
+}
