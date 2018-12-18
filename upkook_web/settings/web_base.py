@@ -21,6 +21,7 @@ TEMPLATES[0]['OPTIONS'] = {
     'context_processors': (
         'django.template.context_processors.i18n',
         'django.template.context_processors.static',
+        'upkook_web.apps.cms.sites.context_processors.site_settings',
     ),
     # List of callables that know how to import templates from
     # various sources.
@@ -31,4 +32,9 @@ TEMPLATES[0]['OPTIONS'] = {
 }
 
 INSTALLED_APPS += (
+    'upkook_web.apps.cms.sites',
 )
+
+HOSTNAME = get_env_var("HOSTNAME")
+
+GTM_ID = get_env_var("GTM_ID")

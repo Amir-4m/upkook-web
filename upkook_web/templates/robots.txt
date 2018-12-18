@@ -11,3 +11,5 @@ Disallow: /
 
 User-agent: MJ12bot
 Disallow: /
+
+# {% if hostname %}Sitemap: {{ protocol }}://{{ hostname }}/sitemap.xml{% endif %}
