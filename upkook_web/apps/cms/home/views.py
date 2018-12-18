@@ -9,6 +9,10 @@ class HomeView(TemplateView):
     http_method_names = ['get']
     template_name = 'home/index.html'
 
+    def get_context_data(self, **kwargs):
+        kwargs.update({'campaign_key': 'YN97'})
+        return super(HomeView, self).get_context_data(**kwargs)
+
     @method_decorator(cache_page(1 * 24 * 60 * 60))  # 1 day
     def get(self, request, *args, **kwargs):
         return super(HomeView, self).get(request, *args, **kwargs)

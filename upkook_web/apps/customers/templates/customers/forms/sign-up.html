@@ -1,5 +1,5 @@
 {% load i18n %}
-<form id="sign-up" action="http://127.0.0.1:8080/customers/" method="post" class="sign-up-form">
+<form id="sign-up" action="http://127.0.0.1:8080/customers/" method="POST" class="sign-up-form">
     <div class="form-group">
         <div class="row">
             <div class="col-sm-6 col-xs-12">
@@ -36,6 +36,7 @@
     <div class="form-group">
         <label for="coupon_code">{% trans 'Discount Code' %}</label>
         <input type="text" class="form-control" name="coupon_code" id="coupon_code" maxlength="4" size="4">
+        <input type="hidden" class="form-control" name="campaign" id="campaign" value="{{ campaign_key }}">
     </div>
     <div class="form-group">
         <input type="checkbox" id="accept_terms" name="terms" value="yes" required>

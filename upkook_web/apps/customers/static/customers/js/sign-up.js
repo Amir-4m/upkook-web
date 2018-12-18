@@ -11,10 +11,22 @@
             event.preventDefault();
             var url = $(this).attr('action');
             var method = $(this).attr('method');
-            var data = $(this).serialize();
+            var data = {
+                email: $(this).find("input[name=email]").val(),
+                password: $(this).find("input[name=password]").val(),
+                customer_type: $(this).find("input[name=customer_type]").val(),
+            };
 
-            $.ajax({url: url, type: method, data: data}).done(function (response) {
-                console.log(response);
+            var code = $(this).find("input[name=coupon_code]").val();
+            if (code !== "") {
+                data['coupon_code'] = {campaign: $(this).find("input[name=campaign]").val(), code: code}
+            }
+
+            $.ajax({
+                url: url, type: method, data: JSON.stringify(data),
+                cache: false, contentType: "application/json", dataType: "json"
+            }).complete(function (response) {
+                console.log(response.responseText);
             });
         });
 
