@@ -1,0 +1,13 @@
+User-agent: *
+Disallow:
+
+# too many repeated hits, too quick
+User-agent: litefinder
+Disallow: /
+
+# too many repeated hits, too quick
+User-agent: Baidu
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
