@@ -3,9 +3,8 @@
 
 from .web_base import *  # NOQA
 
-ROOT_URLCONF = 'upkook_web.urls.web'
+ROOT_URLCONF = 'upkook_web.urls.policies'
 
 INSTALLED_APPS += (
-    'upkook_web.apps.cms.home',
-    'upkook_web.apps.customers',
+    'upkook_web.apps.cms.policies',
 )

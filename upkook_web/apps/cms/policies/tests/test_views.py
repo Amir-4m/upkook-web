@@ -7,11 +7,11 @@ from django.urls import reverse
 
 
 @unittest.skipIf(
-    os.environ['DJANGO_SETTINGS_MODULE'] != 'upkook_web.settings.web',
-    'This test is intended only for web settings.'
+    os.environ['DJANGO_SETTINGS_MODULE'] != 'upkook_web.settings.policies',
+    'This test is intended only for policies settings.'
 )
-class HomeViewTestCase(TestCase):
-    view_name = 'home:index'
+class TermsViewTestCase(TestCase):
+    view_name = "policies:terms"
 
     def test_get(self):
         url = reverse(self.view_name)

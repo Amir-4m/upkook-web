@@ -147,13 +147,13 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.common.CommonMiddleware',
 )
 
-if DEBUG or TEST:  # pragma: no cover
+if DEBUG or TEST:
     CACHES = {
         'default': {
             'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
         }
     }
-else:
+else:  # pragma: no cover
     CACHES = {
         'default': {
             'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',

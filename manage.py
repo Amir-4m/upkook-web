@@ -10,5 +10,5 @@ if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", DEFAULT_SETTINGS_MODULE)
     from django.core.management import execute_from_command_line  # NOQA
 
-    os.environ.setdefault('{UPKOOK_WEB_TEST', '%s' % ('test' in sys.argv))
+    os.environ.setdefault('UPKOOK_WEB_TEST', '%s' % ('test' in sys.argv))
     execute_from_command_line(sys.argv)
