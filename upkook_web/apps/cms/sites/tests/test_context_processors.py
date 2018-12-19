@@ -23,14 +23,17 @@ from django.urls import reverse
 class SiteContextProcessorTestCase(TestCase):
     @override_settings(
         GTM_ID='fake',
-        HOSTNAME='www.upkook.com'
+        HOSTNAME='www.upkook.com',
+        API_URL="/"
     )
     def test_site_settings(self):
         response = self.client.get(reverse('request_site'))
         self.assertEqual(response.context.get('hostname'), 'www.upkook.com')
         self.assertEqual(response.context.get('gtm_id'), 'fake')
+        self.assertEqual(response.context.get('api_url'), "/")
 
     def test_site_settings_none(self):
         response = self.client.get(reverse('request_site'))
         self.assertIsNone(response.context.get('hostname'))
         self.assertIsNone(response.context.get('gtm_id'))
+        self.assertIsNone(response.context.get('api_url'))

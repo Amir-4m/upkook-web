@@ -7,5 +7,5 @@ def site_settings(request):
     protocol = 'https' if request.is_secure() else 'http'
     return {
         'protocol': protocol, 'hostname': settings.HOSTNAME,
-        'gtm_id': settings.GTM_ID
+        'gtm_id': settings.GTM_ID, 'api_url': settings.API_URL,
     }

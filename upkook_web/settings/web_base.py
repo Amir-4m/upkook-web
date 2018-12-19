@@ -34,3 +34,5 @@ INSTALLED_APPS += (
 HOSTNAME = get_env_var("HOSTNAME")
 
 GTM_ID = get_env_var("GTM_ID")
+
+API_URL = get_env_var("API_URL")
