@@ -45,6 +45,7 @@
             }
 
         }).complete(function () {
+            $("body,html").animate({scrollTop: 0}, 800);
             $(form).find("[type=submit]").removeAttr("disabled");
         }).error(function (response) {
             if (response.status !== 201) {
