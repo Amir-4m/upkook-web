@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-17 14:11+0330\n"
+"POT-Creation-Date: 2018-12-19 14:53+0330\n"
 "PO-Revision-Date: 2018-12-17 10:22+0330\n"
 "Last-Translator: Saeed Salehian <saeed@upkook.com>\n"
 "Language-Team: Upkook <info@upkook.com>\n"
@@ -18,48 +18,48 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: upkook_web/apps/customers/templates/customers/forms/sign-up.html:8
+#: upkook_web/apps/customers/templates/customers/forms/sign-up.html:9
 msgid "Entrepreneur"
 msgstr "کارآفرین"
 
-#: upkook_web/apps/customers/templates/customers/forms/sign-up.html:9
+#: upkook_web/apps/customers/templates/customers/forms/sign-up.html:10
 msgid "I'm going to run a startup."
 msgstr "در حال راه اندازی یک استارتاپ هستم."
 
-#: upkook_web/apps/customers/templates/customers/forms/sign-up.html:10
-#: upkook_web/apps/customers/templates/customers/forms/sign-up.html:18
+#: upkook_web/apps/customers/templates/customers/forms/sign-up.html:11
+#: upkook_web/apps/customers/templates/customers/forms/sign-up.html:19
 msgid "Learn more"
 msgstr "بیشتر بدانید"
 
-#: upkook_web/apps/customers/templates/customers/forms/sign-up.html:16
+#: upkook_web/apps/customers/templates/customers/forms/sign-up.html:17
 msgid "Startup"
 msgstr "استارتاپ"
 
-#: upkook_web/apps/customers/templates/customers/forms/sign-up.html:17
+#: upkook_web/apps/customers/templates/customers/forms/sign-up.html:18
 msgid "I have an active startup."
 msgstr "یک استارتاپ فعال دارم."
 
-#: upkook_web/apps/customers/templates/customers/forms/sign-up.html:24
+#: upkook_web/apps/customers/templates/customers/forms/sign-up.html:26
 msgid "Email"
 msgstr "ایمیل"
 
-#: upkook_web/apps/customers/templates/customers/forms/sign-up.html:26
+#: upkook_web/apps/customers/templates/customers/forms/sign-up.html:28
 msgid "Your information is safe with us."
 msgstr "اطلاعات شما نزد ما محفوظ است."
 
-#: upkook_web/apps/customers/templates/customers/forms/sign-up.html:29
+#: upkook_web/apps/customers/templates/customers/forms/sign-up.html:32
 msgid "Password"
 msgstr "گذرواژه"
 
-#: upkook_web/apps/customers/templates/customers/forms/sign-up.html:33
+#: upkook_web/apps/customers/templates/customers/forms/sign-up.html:37
 msgid "Confirm Password"
 msgstr "تایید گذرواژه"
 
-#: upkook_web/apps/customers/templates/customers/forms/sign-up.html:37
+#: upkook_web/apps/customers/templates/customers/forms/sign-up.html:42
 msgid "Discount Code"
 msgstr "کد تخفیف"
 
-#: upkook_web/apps/customers/templates/customers/forms/sign-up.html:44
+#: upkook_web/apps/customers/templates/customers/forms/sign-up.html:50
 msgid ""
 "I accept <a href=\"https://policies.upkook.com/terms/\" target=\"_blank"
 "\">terms and conditions</a> of pre sign up at upkook."
@@ -67,7 +67,7 @@ msgstr ""
 "<a href=\"https://policies.upkook.com/terms/\" target=\"_blank\">شرایط و "
 "قوانین</a> پیش ثبت نام در آپ کوک را می پذیرم."
 
-#: upkook_web/apps/customers/templates/customers/forms/sign-up.html:48
+#: upkook_web/apps/customers/templates/customers/forms/sign-up.html:54
 msgid "Pre Sign up"
 msgstr "پیش ثبت نام"
 
