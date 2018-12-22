@@ -6,10 +6,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 0.1.0\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-22 15:26+0330\n"
-"PO-Revision-Date: 2018-12-17 10:22+0330\n"
+"PO-Revision-Date: 2018-12-22 15:26+0330\n"
 "Last-Translator: Saeed Salehian <saeed@upkook.com>\n"
 "Language-Team: Upkook <info@upkook.com>\n"
 "Language: \n"
@@ -17,15 +17,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-
-#: upkook_web/settings/web_base.py:11
-msgid "English"
-msgstr "انگلیسی"
-
-#: upkook_web/settings/web_base.py:12
-msgid "Farsi"
-msgstr "فارسی"
-
-#: upkook_web/templates/upkook_web/base.html:51
-msgid "Click to return to top"
-msgstr ""
+#: upkook_web/apps/cms/home/views.py:14
+msgid "Upkook"
+msgstr "آپ کوک"
