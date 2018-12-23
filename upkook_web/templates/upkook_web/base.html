@@ -10,8 +10,7 @@
     {% endblock %}
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     {% block robots %}
-        <meta name="robots" content="
-                {% if robots %}{{ robots }}{% else %}{% if title %}index{% else %}noindex{% endif %},follow{% endif %}">
+        <meta name="robots" content="{% if robots %}{{ robots }}{% else %}{% if title %}index{% else %}noindex{% endif %},follow{% endif %}">
     {% endblock %}
     <style>
         {%  block custom_css %}{% include 'upkook_web/includes/custom.css' %}{% endblock %}
