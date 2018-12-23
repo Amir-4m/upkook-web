@@ -102,6 +102,7 @@ STATICFILES_DIRS = (
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    'compressor.finders.CompressorFinder',
 )
 
 TEMPLATES = [
@@ -116,6 +117,7 @@ TEMPLATES = [
             'context_processors': (
                 'django.template.context_processors.request',
                 'django.template.context_processors.csrf',
+                'sekizai.context_processors.sekizai',
             ),
             # List of callables that know how to import templates from
             # various sources.
@@ -143,8 +145,12 @@ PREPEND_WWW = False
 USE_ETAGS = True
 
 MIDDLEWARE_CLASSES = (
+    'django.middleware.cache.UpdateCacheMiddleware',
+    'htmlmin.middleware.HtmlMinifyMiddleware',
     # Adds a few conveniences for perfectionists (i.e. URL rewriting)
     'django.middleware.common.CommonMiddleware',
+    'django.middleware.cache.FetchFromCacheMiddleware',
+    'htmlmin.middleware.MarkRequestMiddleware',
 )
 
 if DEBUG or TEST:
@@ -250,6 +256,8 @@ INSTALLED_APPS = (
     # External Apps
     # Sentry
     'raven.contrib.django.raven_compat',
+    'compressor',
+    'sekizai',
 
     # Project Apps
 
@@ -263,3 +271,13 @@ CSRF_COOKIE_DOMAIN = get_env_var('CSRF_COOKIE_DOMAIN')
 RAVEN_CONFIG = {
     'dsn': get_env_var('SENTRY_DSN'),
 }
+
+COMPRESS_ENABLED = get_env_var('COMPRESS_ENABLED', str(not DEBUG)) == 'True'
+
+# A list of filters that will be applied to CSS.
+COMPRESS_CSS_FILTERS = [
+    'compressor.filters.css_default.CssAbsoluteFilter',
+    'compressor.filters.cssmin.CSSMinFilter'
+]
+
+HTML_MINIFY = get_env_var('HTML_MINIFY', str(not DEBUG)) == 'True'

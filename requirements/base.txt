@@ -1,2 +1,8 @@
 python-memcached
+django-sekizai
+django_compressor
+csscompressor
+beautifulsoup4
+lxml
 raven
+django-htmlmin
