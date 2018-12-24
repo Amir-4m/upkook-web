@@ -1,9 +1,16 @@
 #!/usr/bin/env python
 # vim: ai ts=4 sts=4 et sw=4
+import os
+import unittest
+
 from django.test import TestCase, override_settings
 from django.urls import reverse
 
 
+@unittest.skipIf(
+    os.environ['DJANGO_SETTINGS_MODULE'] != 'upkook_web.settings.web',
+    'This test is intended only for web settings.'
+)
 @override_settings(
     ROOT_URLCONF='upkook_web.apps.cms.sites.tests.urls',
     TEMPLATES=[{
