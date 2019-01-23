@@ -18,7 +18,7 @@ TEMPLATES[0]['OPTIONS'] = {
         'django.template.context_processors.i18n',
         'django.template.context_processors.static',
         'sekizai.context_processors.sekizai',
-        'upkook_web.apps.cms.sites.context_processors.site_settings',
+        'django_contrib.sites.context_processors.site_settings',
     ),
     # List of callables that know how to import templates from
     # various sources.
@@ -29,7 +29,8 @@ TEMPLATES[0]['OPTIONS'] = {
 }
 
 INSTALLED_APPS += (
-    'upkook_web.apps.cms.sites',
+    'django.contrib.sites',
+    'django_contrib.sites',
 )
 
 HOSTNAME = get_env_var("HOSTNAME")
