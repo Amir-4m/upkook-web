@@ -1,0 +1,52 @@
+language: python
+
+python:
+  - 3.5
+
+env:
+  global:
+    - DJANGO=1.11
+
+build:
+  pre_ci_boot:
+    image_name: drydock/u16pytall
+    image_tag: latest
+    pull: true
+
+  ci:
+    - chmod a+x provision.sh
+    - sh provision.sh
+
+    - python -m pip install --upgrade pip
+    - sudo pip install --upgrade setuptools virtualenv
+
+    - pip install -r "requirements/development.txt"
+    - pip install -r "requirements/django-$DJANGO.txt"
+
+    - mkdir -p upkook_web/logs
+    - mkdir -p public/media/upload
+    - mkdir -p public/media/sites
+    - mkdir -p shippable/codecoverage
+
+    # Script
+    - flake8
+    - export DJANGO_SETTINGS_MODULE=upkook_web.settings.policies
+    - coverage run --branch --parallel-mode manage.py test ice_blog
+    - export DJANGO_SETTINGS_MODULE=upkook_web.settings.static
+    - coverage run --branch --parallel-mode manage.py test ice_blog
+    - export DJANGO_SETTINGS_MODULE=upkook_web.settings.web
+    - coverage run --branch --parallel-mode manage.py test ice_blog
+    - coverage combine
+    - coverage xml -o shippable/codecoverage/coverage.xml
+
+integrations:
+    - integrationName: Slack
+      type: slack
+      recipients:
+        - "#ci"
+      branches:
+        only:
+          - master
+          - develop
+      on_success: change
+      on_failure: always
