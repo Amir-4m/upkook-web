@@ -5,4 +5,5 @@ from . import urlpatterns
 
 urlpatterns += [
     url(r'^', include('upkook_web.apps.cms.home.urls', 'home')),
+    url(r'^', include('django_contrib.sites.urls.web', 'sites')),
 ]

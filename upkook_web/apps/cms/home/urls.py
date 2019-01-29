@@ -4,5 +4,5 @@ from django.conf.urls import url
 from .views import HomeView
 
 urlpatterns = [
-    url(r'^$', HomeView.as_view(), name='index')
+    url(r'^((?P<amp>amp)/)?$', HomeView.as_view(), name='index')
 ]

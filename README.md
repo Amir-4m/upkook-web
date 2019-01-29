@@ -1,14 +1,15 @@
 # Upkook Web
 
-.. todo:: Add CI & coverage badges
+[![Run Status](https://api.shippable.com/projects/5c1fb93687b5930700bd97dc/badge?branch=master)]()
+[![Coverage Badge](https://api.shippable.com/projects/5c1fb93687b5930700bd97dc/coverageBadge?branch=develop)]()
 
 ## Features
 
-.. todo:: Add features here.
+ - Add features here.
 
 ## Requirements
 
-This project requires Django version 1.11 and Python 3.4.
+This project requires Django version 1.11 and Python 3.4 or higher.
 
 ## Quick Start
 

@@ -145,11 +145,9 @@ PREPEND_WWW = False
 USE_ETAGS = True
 
 MIDDLEWARE_CLASSES = (
-    'django.middleware.cache.UpdateCacheMiddleware',
     'htmlmin.middleware.HtmlMinifyMiddleware',
     # Adds a few conveniences for perfectionists (i.e. URL rewriting)
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.cache.FetchFromCacheMiddleware',
     'htmlmin.middleware.MarkRequestMiddleware',
 )
 
@@ -260,8 +258,6 @@ INSTALLED_APPS = (
     'sekizai',
 
     # Project Apps
-
-    # cookie and session domain name. must be string
 )
 
 SESSION_COOKIE_DOMAIN = get_env_var('SESSION_COOKIE_DOMAIN')

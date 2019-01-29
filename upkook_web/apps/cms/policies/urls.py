@@ -4,5 +4,5 @@ from django.conf.urls import url
 from .views import TermsView
 
 urlpatterns = [
-    url(r'^terms/$', TermsView.as_view(), name='terms')
+    url(r'^terms(/(?P<amp>amp))?/$', TermsView.as_view(), name='terms')
 ]

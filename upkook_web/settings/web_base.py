@@ -17,8 +17,10 @@ TEMPLATES[0]['OPTIONS'] = {
     'context_processors': (
         'django.template.context_processors.i18n',
         'django.template.context_processors.static',
+        'django.template.context_processors.request',
         'sekizai.context_processors.sekizai',
         'django_contrib.sites.context_processors.site_settings',
+        'django_contrib.amp.context_processors.amp',
     ),
     # List of callables that know how to import templates from
     # various sources.
@@ -30,7 +32,11 @@ TEMPLATES[0]['OPTIONS'] = {
 
 INSTALLED_APPS += (
     'django.contrib.sites',
+
+    'django_contrib.amp',
     'django_contrib.sites',
+    'django_contrib.seo',
+    'django_contrib.social',
 )
 
 HOSTNAME = get_env_var("HOSTNAME")

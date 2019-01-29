@@ -1,15 +1,25 @@
-{% extends "upkook_web/base.html" %}
+{% extends "upkook_web/upkook.html" %}
 {% load i18n staticfiles %}
-{% block extracss %}
+{% block css %}
     {{ block.super }}
-    <link rel="stylesheet" href="{{ STATIC_URL }}customers/css/sign-up.css">
-{% endblock %}
-
-{% block extrajs %}
-    {{ block.super }}
-    <script src="{{ STATIC_URL }}customers/js/sign-up.js"></script>
+    <link rel="stylesheet" href="{{ STATIC_URL }}home/css/styles.css">
 {% endblock %}
 
 {% block content %}
-{% include 'customers/includes/sign-up.html' %}
+    <section class="hero">
+        <div class="hero__background-container"></div>
+        <div class="row top-section">
+            <div class="top-section__container">
+                <h1 class="hero__header">کسب و کار محبوب مشتریان باشید.</h1>
+                <h2 class="hero__sub-header">
+                    به راحتی شاخص های رضایت مشتری را اندازه گیری کنید
+                    <span>
+  داده های بزرگ را تحلیل کنید، 7 برابر بیشتر رشد کنید.
+                    </span>
+                </h2>
+                <button class="button-cta button-alt-action">به زودی</button>
+            </div>
+        </div>
+    </section>
+
 {% endblock %}

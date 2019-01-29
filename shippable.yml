@@ -31,11 +31,11 @@ build:
     # Script
     - flake8
     - export DJANGO_SETTINGS_MODULE=upkook_web.settings.policies
-    - coverage run --branch --parallel-mode manage.py test ice_blog
+    - coverage run --branch --parallel-mode manage.py test upkook_web
     - export DJANGO_SETTINGS_MODULE=upkook_web.settings.static
-    - coverage run --branch --parallel-mode manage.py test ice_blog
+    - coverage run --branch --parallel-mode manage.py test upkook_web
     - export DJANGO_SETTINGS_MODULE=upkook_web.settings.web
-    - coverage run --branch --parallel-mode manage.py test ice_blog
+    - coverage run --branch --parallel-mode manage.py test upkook_web
     - coverage combine
     - coverage xml -o shippable/codecoverage/coverage.xml
 
