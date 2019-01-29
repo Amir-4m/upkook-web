@@ -1,0 +1,7 @@
+=== 0.2.0 (unreleased) ===
+
+- Features
+
+=== 0.1.0 (2019-01-29) ===
+
+- Homepage first screen, above the fold (coming soon)
