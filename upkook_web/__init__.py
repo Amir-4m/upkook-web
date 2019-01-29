@@ -4,6 +4,6 @@
 from __future__ import absolute_import, unicode_literals
 
 __author__ = 'Upkook'
-__version__ = '0.1.0'
+__version__ = '0.2.0.dev1'
 
 DEFAULT_SETTINGS_MODULE = 'upkook_web.settings.web'
