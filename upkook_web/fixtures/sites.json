@@ -1,5 +1,13 @@
 [
   {
+    "model": "sites.site",
+    "pk": 1,
+    "fields": {
+      "domain": "www.upkook.com",
+      "name": "\u0622\u067e \u06a9\u0648\u06a9"
+    }
+  },
+  {
     "model": "django_sites.setting",
     "pk": 1,
     "fields": {

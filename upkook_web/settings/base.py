@@ -213,10 +213,6 @@ LOGGING = {
             'maxBytes': 20 * 1024 * 1024,  # 20 MBs
             'backupCount': 40,
         },
-        'sentry': {
-            'level': 'ERROR',  # To capture more than ERROR, change to WARNING, INFO, etc.
-            'class': 'raven.contrib.django.raven_compat.handlers.SentryHandler',
-        },
     },
     'loggers': {
         'django': {
@@ -230,16 +226,11 @@ LOGGING = {
             'propagate': True,
         },
         'upkook': {
-            'handlers': ['console'] if DEBUG else ['sentry', 'file'],
+            'handlers': ['console'] if DEBUG else ['file'],
             'level': 'DEBUG' if DEBUG else 'ERROR',
             'propagate': True,
         },
         'raven': {
-            'level': 'WARNING' if DEBUG else 'ERROR',
-            'handlers': ['console'] if DEBUG else ['file'],
-            'propagate': False,
-        },
-        'sentry.errors': {
             'level': 'WARNING' if DEBUG else 'ERROR',
             'handlers': ['console'] if DEBUG else ['file'],
             'propagate': False,
@@ -252,8 +243,6 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
 
     # External Apps
-    # Sentry
-    'raven.contrib.django.raven_compat',
     'compressor',
     'sekizai',
 
@@ -263,10 +252,6 @@ INSTALLED_APPS = (
 SESSION_COOKIE_DOMAIN = get_env_var('SESSION_COOKIE_DOMAIN')
 
 CSRF_COOKIE_DOMAIN = get_env_var('CSRF_COOKIE_DOMAIN')
-
-RAVEN_CONFIG = {
-    'dsn': get_env_var('SENTRY_DSN'),
-}
 
 COMPRESS_ENABLED = get_env_var('COMPRESS_ENABLED', str(not DEBUG)) == 'True'
 
