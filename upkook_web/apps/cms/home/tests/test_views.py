@@ -14,6 +14,7 @@ from django_contrib.sites.services import SiteService
 class HomeViewTestCase(TestCase):
     fixtures = ['sites']
     view_name = 'home:index'
+    amp_view_name = 'home:index-amp'
 
     def test_get(self):
         url = reverse(self.view_name)
@@ -25,7 +26,7 @@ class HomeViewTestCase(TestCase):
         self.assertEqual(response.status_code, 200)
 
     def test_get_amp(self):
-        url = '/amp/'
+        url = reverse(self.amp_view_name, kwargs={'amp': 'amp'})
         response = self.client.get(url)
         self.assertEqual(response.context_data.get('canonical_url'), 'http://testserver')
         self.assertEqual(response.status_code, 200)

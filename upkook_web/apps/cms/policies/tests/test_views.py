@@ -12,8 +12,14 @@ from django.urls import reverse
 )
 class TermsViewTestCase(TestCase):
     view_name = "policies:terms"
+    amp_view_name = "policies:terms-amp"
 
     def test_get(self):
         url = reverse(self.view_name)
+        response = self.client.get(url)
+        self.assertEqual(response.status_code, 200)
+
+    def test_get_amp(self):
+        url = reverse(self.amp_view_name, kwargs={'amp': 'amp'})
         response = self.client.get(url)
         self.assertEqual(response.status_code, 200)
