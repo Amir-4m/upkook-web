@@ -5,7 +5,7 @@ python:
 
 env:
   global:
-    - DJANGO=1.11
+    - DJANGO=2.1
 
 build:
   ci:
