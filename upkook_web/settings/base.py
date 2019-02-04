@@ -231,11 +231,6 @@ LOGGING = {
             'level': 'DEBUG' if DEBUG else 'ERROR',
             'propagate': True,
         },
-        'raven': {
-            'level': 'WARNING' if DEBUG else 'ERROR',
-            'handlers': ['console'] if DEBUG else ['file'],
-            'propagate': False,
-        },
     }
 }
 

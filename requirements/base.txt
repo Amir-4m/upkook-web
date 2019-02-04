@@ -4,7 +4,6 @@ django_compressor
 csscompressor
 beautifulsoup4
 lxml
-raven
 django-htmlmin
 -e git+git@github.com:nargeel/django-fancy-imagefield.git@master#egg=django-fancy-imagefield
 -e git+git@github.com:nargeel/django-contrib.git@master#egg=django-contrib
