@@ -28,5 +28,5 @@ class HomeViewTestCase(TestCase):
     def test_get_amp(self):
         url = reverse(self.amp_view_name, kwargs={'amp': 'amp'})
         response = self.client.get(url)
-        self.assertEqual(response.context_data.get('canonical_url'), 'http://testserver')
+        self.assertEqual(response.context_data.get('canonical_url'), 'http://testserver/')
         self.assertEqual(response.status_code, 200)

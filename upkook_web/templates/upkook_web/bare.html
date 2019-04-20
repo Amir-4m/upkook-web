@@ -1,0 +1,11 @@
+{% extends is_amp|yesno:"upkook_web/amp/base.html,upkook_web/base.html" %}
+{% block body %}
+    <div id="outer-wrapper" class="mdl-layout mdl-js-layout">
+        <div class="container row" id="main-wrapper">
+            <div class="content" id="content-wrapper">
+                {% block content %}{% endblock %}
+            </div>
+        </div>
+        {% include 'upkook_web/includes/footer-bare.html' %}
+    </div>
+{% endblock %}

@@ -1,0 +1,54 @@
+.c-wrapper {
+    margin: 40px auto;
+    width: 100%;
+    max-width: 380px;
+    text-align: center;
+}
+
+.c-wrapper h1 {
+    color: #172b4d;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 1280px) {
+
+}
+
+@media screen and (max-width: 960px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 736px) {
+}
+
+@media screen and (max-width: 667px) {
+
+}
+
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 568px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 414px) {
+}
+
+@media screen and (max-width: 375px) {
+}
+
+@media screen and (max-width: 360px) {
+}
+
+@media screen and (max-width: 320px) {
+}

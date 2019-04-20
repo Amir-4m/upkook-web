@@ -21,6 +21,7 @@ TEMPLATES[0]['OPTIONS'] = {
         'sekizai.context_processors.sekizai',
         'django_contrib.sites.context_processors.site_settings',
         'django_contrib.amp.context_processors.amp',
+        'upkook_web.apps.contrib.api.context_processors.api',
     ),
     # List of callables that know how to import templates from
     # various sources.
@@ -31,10 +32,12 @@ TEMPLATES[0]['OPTIONS'] = {
 }
 
 INSTALLED_APPS += (
+    'statici18n',
     'django.contrib.sites',
 
     'django_contrib.amp',
     'django_contrib.sites',
     'django_contrib.seo',
     'django_contrib.social',
+    'upkook_web.apps.contrib.api',
 )

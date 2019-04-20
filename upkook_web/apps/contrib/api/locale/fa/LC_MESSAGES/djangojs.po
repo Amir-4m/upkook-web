@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-17 15:18+0430\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+#: upkook_web/apps/contrib/api/static/api/js/api.js:3
+msgid "Bad Request"
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:4
+msgid "Your client is not authenticated to get requested URL from this server."
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:5
+msgid "Payment Required"
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:6
+msgid ""
+"Your client does not have permission to get requested URL from this server."
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:7
+msgid "The requested URL was not found on this server."
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:8
+msgid "Method Not Allowed"
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:9
+msgid "Not Acceptable"
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:10
+msgid "Proxy Authentication Required"
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:11
+msgid "Request Timeout"
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:12
+msgid "Conflict"
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:13
+msgid "Gone"
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:14
+msgid "Length Required"
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:15
+msgid "Precondition Failed"
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:16
+msgid "Payload Too Large"
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:17
+msgid "Request-URI Too Long"
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:18
+msgid "Unsupported Media Type"
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:19
+msgid "Requested Range Not Satisfiable"
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:20
+msgid "Expectation Failed"
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:21
+msgid "I'm a teapot"
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:22
+msgid "Misdirected Request"
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:23
+msgid "Unprocessable Entity"
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:24
+msgid "Locked"
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:25
+msgid "Failed Dependency"
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:26
+msgid "Upgrade Required"
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:27
+msgid "Precondition Required"
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:28
+msgid "Too Many Requests"
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:29
+msgid "Request Header Fields Too Large"
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:30
+msgid "Connection Closed Without Response"
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:31
+msgid "Unavailable For Legal Reasons"
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:32
+msgid "Client Closed Request"
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:35
+msgid "The server encountered an unexpected error. We are working on it."
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:36
+msgid ""
+"Sorry, The server does not support the functionality required to fulfill "
+"your request."
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:37
+msgid "The server is not available right now. Please try later again."
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:38
+msgid "The server is not available temporary. Please try later again."
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:39
+msgid "The requested URL got timeout. Please try later again."
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:40
+msgid ""
+"The server does not support the major version of HTTP that was used in the "
+"request message."
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:41
+msgid "Server internal configuration error. We are working on it."
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:42
+msgid ""
+"The server is unable to successfully complete the request. We are working on "
+"it."
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:43
+msgid "Operation failed. We are working on it."
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:44
+msgid "The policy for accessing the resource has not been met in the request."
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:45
+msgid "The client needs to authenticate to gain network access."
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:46
+msgid ""
+"The client proxy network connection timeout. Please check your internet and "
+"proxy connection"
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:52
+msgid "Limited or No Connectivity. Please check your internet connection."
+msgstr ""
+
+#: upkook_web/apps/contrib/api/static/api/js/api.js:57
+msgid "We cannot process your request now, please try reloading the page."
+msgstr ""

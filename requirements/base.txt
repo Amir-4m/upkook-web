@@ -1,5 +1,6 @@
 python-memcached
 django-sekizai
+django-statici18n
 django_compressor
 csscompressor
 beautifulsoup4

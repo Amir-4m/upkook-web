@@ -1,11 +1,14 @@
 #!/usr/bin/env python
 # vim: ai ts=4 sts=4 et sw=4
+from django.urls import reverse
 
 
 class HomeService(object):
     @staticmethod
     def get_index_relative_url(is_amp=False):
-        return '/amp/' if is_amp else ''
+        if is_amp:
+            return reverse('home:index-amp', kwargs={'amp': 'amp'})
+        return reverse('home:index')
 
     @staticmethod
     def get_index_absolute_url(request, is_amp=False):

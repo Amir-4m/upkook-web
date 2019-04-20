@@ -1,0 +1,49 @@
+{% extends "customers/base.html" %}
+{% load i18n staticfiles %}
+
+{% block customer-content %}
+  <h1>{% trans 'Sign in to Upkook' %}</h1>
+  <form action="#" method="POST" id="sign-in" data-action="{{ api_url }}jwt/token/">
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="fg-email">
+      <label class="mdl-textfield__label" for="email">{% trans 'Email' %}</label>
+      <input
+        type="email"
+        class="mdl-textfield__input"
+        name="email"
+        id="email"
+        data-required="true"
+      />
+      <span class="mdl-textfield__error">{% trans 'Please enter a valid email.' %}</span>
+    </div>
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="fg-password">
+      <label class="mdl-textfield__label" for="password">{% trans 'Password' %}</label>
+      <input
+        type="password"
+        class="mdl-textfield__input"
+        name="password"
+        id="password"
+        data-required="true"
+      />
+      <span class="mdl-textfield__error">{% trans 'Please enter your password.' %}</span>
+    </div>
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary">
+      {% trans 'Sign in' %}
+    </button>
+  </form>
+{% endblock %}
+
+{% block javascripts %}
+  {{ block.super }}
+  <script type="text/javascript">
+    const Auth = {
+      age: {{ auth_cookie.age }},
+      domain: {% if auth_cookie.domain is not None %}"{{ auth_cookie.domain }}"{% else %}null{% endif %},
+      path: "{{ auth_cookie.path }}",
+      secure: {% if auth_cookie.secure %}true{% else %}false{% endif %},
+      accessKey: "{{ auth_cookie.access_key }}",
+      refreshKey: "{{ auth_cookie.refresh_key }}",
+    };
+    const dashboardURL = "{{ dashboard_url }}";
+  </script>
+  <script src="{{ STATIC_URL }}customers/js/sign-in.js"></script>
+{% endblock %}

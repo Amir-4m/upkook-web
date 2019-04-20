@@ -1,0 +1,11 @@
+<footer class="footer-bare" id="footer">
+    <div class="clear"></div>
+    <div class="row">
+        {% for link in footer_links %}
+        <a href="{{ link.href }}"{% if link.target %}target="{{ link.target }}"{% endif %}>
+            {{ link.text }}
+        </a>
+        {% endfor %}
+    </div>
+    <div class="clear"></div>
+</footer>

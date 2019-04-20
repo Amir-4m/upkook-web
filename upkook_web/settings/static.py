@@ -3,8 +3,10 @@
 from .base import *  # NOQA
 
 INSTALLED_APPS += (
+    'statici18n',
     'django.contrib.sites',
     'django_contrib.sites',
+    'upkook_web.apps.contrib.api',
     'upkook_web.apps.cms.home',
     'upkook_web.apps.customers',
     'upkook_web.apps.cms.policies',
