@@ -30,20 +30,16 @@
       {% trans 'Sign in' %}
     </button>
   </form>
+  <br />
+  <br />
+  <a href="{{ sign_up_url }}">
+    <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+      {% trans 'Sign up at UPKOOK' %}
+    </button>
+  </a>
 {% endblock %}
 
 {% block javascripts %}
   {{ block.super }}
-  <script type="text/javascript">
-    const Auth = {
-      age: {{ auth_cookie.age }},
-      domain: {% if auth_cookie.domain is not None %}"{{ auth_cookie.domain }}"{% else %}null{% endif %},
-      path: "{{ auth_cookie.path }}",
-      secure: {% if auth_cookie.secure %}true{% else %}false{% endif %},
-      accessKey: "{{ auth_cookie.access_key }}",
-      refreshKey: "{{ auth_cookie.refresh_key }}",
-    };
-    const dashboardURL = "{{ dashboard_url }}";
-  </script>
   <script src="{{ STATIC_URL }}customers/js/sign-in.js"></script>
 {% endblock %}

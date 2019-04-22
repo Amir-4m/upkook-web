@@ -1,0 +1,11 @@
+{% extends "customers/base.html" %}
+{% load i18n staticfiles %}
+
+{% block customer-content %}
+  {% include 'customers/sign-up-step1.html' %}
+{% endblock %}
+
+{% block javascripts %}
+  {{ block.super }}
+  <script src="{{ STATIC_URL }}customers/js/sign-up.js"></script>
+{% endblock %}

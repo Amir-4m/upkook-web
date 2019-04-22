@@ -9,6 +9,10 @@
     color: #172b4d;
 }
 
+.c-wrapper h5 {
+    color: #36b37e;
+}
+
 /* RESPONSIVE */
 @media screen and (max-width: 1280px) {
 

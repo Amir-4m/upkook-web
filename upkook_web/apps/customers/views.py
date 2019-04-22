@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # vim: ai ts=4 sts=4 et sw=4
 from django.conf import settings
+from django.urls import reverse
 from django.views.generic import TemplateView
 from django.utils.translation import ugettext_lazy as _
 from django_contrib.html.link import Link
@@ -8,7 +9,7 @@ from django_contrib.sites.services import SiteService
 
 
 class CustomerViewBase(TemplateView):
-    view_name = ''
+    http_method_names = ['get']
 
     def get_context_data(self):
         context = super(CustomerViewBase, self).get_context_data()
@@ -35,6 +36,20 @@ class CustomerViewBase(TemplateView):
 
 
 class SignInView(CustomerViewBase):
-    view_name = 'customers:sign-in'
-    http_method_names = ['get']
     template_name = 'customers/sign-in.html'
+    view_name = 'customers:sign-in'
+
+    def get_context_data(self):
+        context = super(SignInView, self).get_context_data()
+        context.update({'sign_up_url': reverse(SignUpView.view_name)})
+        return context
+
+
+class SignUpView(CustomerViewBase):
+    template_name = 'customers/sign-up.html'
+    view_name = 'customers:sign-up'
+
+    def get_context_data(self):
+        context = super(SignUpView, self).get_context_data()
+        context.update({'sign_in_url': reverse(SignInView.view_name)})
+        return context

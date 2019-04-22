@@ -1,0 +1,59 @@
+{% load i18n %}
+<h1>{% trans 'Start using UPKOOK' %}</h1>
+<h5>{% trans 'Free Sign Up' %}</h5>
+<form action="#" method="POST" id="sign-up-step1" data-action="{{ api_url }}customers/">
+  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="fg-email">
+    <label class="mdl-textfield__label" for="email">{% trans 'Email' %}</label>
+    <input
+      type="email"
+      class="mdl-textfield__input"
+      name="email"
+      id="email"
+      data-required="true"
+    />
+    <span class="mdl-textfield__error" data-text="{% trans 'Please enter a valid email.' %}"></span>
+  </div>
+  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="fg-password">
+    <label class="mdl-textfield__label" for="password">{% trans 'Password' %}</label>
+    <input
+      type="password"
+      class="mdl-textfield__input"
+      name="password"
+      id="password"
+      data-required="true"
+    />
+    <span class="mdl-textfield__error" data-text="{% trans 'Please enter your password.' %}"></span>
+  </div>
+  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="fg-first_name">
+    <label class="mdl-textfield__label" for="first_name">{% trans 'First Name' %}</label>
+    <input
+      type="text"
+      class="mdl-textfield__input"
+      name="first_name"
+      id="first_name"
+      data-required="true"
+    />
+    <span class="mdl-textfield__error" data-text="{% trans 'Please enter your first name.' %}"></span>
+  </div>
+  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="fg-last_name">
+    <label class="mdl-textfield__label" for="last_name">{% trans 'Last Name' %}</label>
+    <input
+      type="text"
+      class="mdl-textfield__input"
+      name="last_name"
+      id="last_name"
+      data-required="true"
+    />
+    <span class="mdl-textfield__error" data-text="{% trans 'Please enter your last name.' %}"></span>
+  </div>
+  <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary">
+    {% trans 'Continue' %}
+  </button>
+</form>
+<br/>
+<br/>
+<a href="{{ sign_in_url }}">
+  <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+    {% trans 'Sign in to UPKOOK' %}
+  </button>
+</a>

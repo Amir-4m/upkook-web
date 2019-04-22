@@ -20,26 +20,26 @@
       return $(this.form).attr('method');
     }
 
-    is_valid() {
+    isValid() {
       return Boolean(this.email) && Boolean(this.password);
     }
 
     static handleSuccess(data) {
       cookie.setItem(
-        Auth.accessKey,
+        ath.ak,
         data.access,
-        Auth.age,
-        Auth.path,
-        Auth.domain,
-        Auth.secure,
+        ath.age,
+        ath.path,
+        ath.d,
+        ath.secure,
       );
       cookie.setItem(
-        Auth.refreshKey,
+        ath.rk,
         data.refresh,
-        Auth.age,
-        Auth.path,
-        Auth.domain,
-        Auth.secure,
+        ath.age,
+        ath.path,
+        ath.d,
+        ath.secure,
       );
 
       const path = getURLParameter(window.location.search, 'ret');
@@ -79,7 +79,7 @@
     $("#sign-in").submit(function (event) {
       event.preventDefault();
       const form = new SignInForm(this);
-      if (form.is_valid()) {
+      if (form.isValid()) {
         snackbar.cleanup();
         $(this).find("button").attr("disabled", "disabled");
         form.submit();
