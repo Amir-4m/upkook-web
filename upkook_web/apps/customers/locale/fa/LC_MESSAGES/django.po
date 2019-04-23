@@ -86,7 +86,7 @@ msgstr "ادامه"
 
 #: upkook_web/apps/customers/templates/customers/sign-up-step1.html:59
 msgid "By signing up at upkook, I accept terms and conditions of upkook."
-msgstr ""
+msgstr "با ثبت نام در آپ کوک شرایط و قوانین استفاده از آپ کوک را می پذیریم."
 
 #: upkook_web/apps/customers/templates/customers/sign-up-step2.html:4
 msgid "Business Information"

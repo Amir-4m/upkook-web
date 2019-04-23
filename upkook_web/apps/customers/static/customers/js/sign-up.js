@@ -6,6 +6,10 @@
       });
     }
 
+    static isLoaded() {
+      return $('ul[for="industry"]').html().trim() !== "";
+    }
+
     static load() {
       $.ajax({
         tryCount: 0, retryLimit: 3, retryInterval: 300,
@@ -105,6 +109,9 @@
     changeStep(step) {
       $(`#sign-up-step${this.step}-wrapper`).hide();
       this.step = step;
+      if (step == 2 && !IndustryService.isLoaded()) {
+        IndustryService.load();
+      }
       $(`#sign-up-step${step}-wrapper`).show();
 
     }
@@ -154,9 +161,10 @@
 
     done(data) {
       this.form.find("button").removeAttr("disabled");
+      token.access = data.access;
+      token.refresh = data.refresh;
+
       if (this.step === 1) {
-        token.access = data.access;
-        token.refresh = data.refresh;
         this.changeStep(2);
       } else {
         const path = getURLParameter(window.location.search, 'ret');
@@ -170,10 +178,19 @@
         snackbar.cleanup();
         this.form.find("button").attr("disabled", "disabled");
 
-        // TODO include Bearer authentication headers when requesting in step 2
+        let headers = {};
+        if (this.step === 2) {
+          headers = { Authorization: `Bearer ${token.access}` };
+        }
+
         $.ajax({
-          url: this.action, type: this.method, data: JSON.stringify(this.stepForm.data),
-          cache: false, contentType: "application/json", dataType: "json",
+          url: this.action,
+          type: this.method,
+          headers,
+          data: JSON.stringify(this.stepForm.data),
+          cache: false,
+          contentType: "application/json",
+          dataType: "json",
           error: this.handleError.bind(this),
         }).fail(
           this.fail.bind(this),
