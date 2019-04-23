@@ -152,10 +152,11 @@
       this.form.find("button").removeAttr("disabled");
     }
 
-    done() {
+    done(data) {
       this.form.find("button").removeAttr("disabled");
       if (this.step === 1) {
-        // TODO store jwt token in cookie
+        token.access = data.access;
+        token.refresh = data.refresh;
         this.changeStep(2);
       } else {
         const path = getURLParameter(window.location.search, 'ret');

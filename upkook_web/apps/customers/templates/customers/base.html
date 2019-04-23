@@ -2,20 +2,23 @@
 {% load staticfiles %}
 
 {% block css %}
-    {{ block.super }}
-    <link rel="stylesheet" href="{{ STATIC_URL }}customers/css/styles.css">
+  {{ block.super }}
+  <link rel="stylesheet" href="{{ STATIC_URL }}customers/css/styles.css">
 {% endblock %}
 
 {% block content %}
-    <div class="c-wrapper">
-        {% block customer-content %}
-        {% endblock %}
-    </div>
+  <div class="c-wrapper">
+    {% block customer-content %}
+    {% endblock %}
+  </div>
 {% endblock %}
 
 {% block javascripts %}
   {{ block.super }}
+  <script src="{{ STATIC_URL }}customers/js/token.js"></script>
   <script type="text/javascript">
+    const apiURL = "{{ api_url }}";
+    const dashboardURL = "{{ dashboard_url }}";
     const ath = {
       age: {{ auth_cookie.age }},
       d: {% if auth_cookie.domain is not None %}"{{ auth_cookie.domain }}"{% else %}null{% endif %},
@@ -24,7 +27,6 @@
       ak: "{{ auth_cookie.access_key }}",
       rk: "{{ auth_cookie.refresh_key }}",
     };
-    const apiURL = "{{ api_url }}";
-    const dashboardURL = "{{ dashboard_url }}";
+    const token = new Token(ath);
   </script>
 {% endblock %}

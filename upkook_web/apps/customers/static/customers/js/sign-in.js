@@ -25,23 +25,8 @@
     }
 
     static handleSuccess(data) {
-      cookie.setItem(
-        ath.ak,
-        data.access,
-        ath.age,
-        ath.path,
-        ath.d,
-        ath.secure,
-      );
-      cookie.setItem(
-        ath.rk,
-        data.refresh,
-        ath.age,
-        ath.path,
-        ath.d,
-        ath.secure,
-      );
-
+      token.access = data.access;
+      token.refresh = data.refresh;
       const path = getURLParameter(window.location.search, 'ret');
       window.location.assign(`${dashboardURL}${path != null ? path : ''}`);
     }
