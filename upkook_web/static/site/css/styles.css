@@ -77,11 +77,16 @@ h6, p {
     line-height: 4rem;
 }
 
+.mdl-menu__item {
+    text-align: right;
+}
+
 .mdl-textfield {
     width: 360px;
 }
 
 .mdl-textfield__input {
+    font-family: iranyekan, Tahoma, sans-serif;
     text-align: right;
 }
 

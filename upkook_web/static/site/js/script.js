@@ -1,6 +1,6 @@
 (function ($) {
   window.addEventListener('load', function () {
-    $('input[data-required=true]').attr('required', true);
+    $('[data-required=true]').attr('required', true);
   });
 })(jQuery);
 

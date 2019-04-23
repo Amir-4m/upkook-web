@@ -1,23 +1,82 @@
 (function ($) {
+  class IndustryService {
+    static options(industries) {
+      return industries.map(function (industry) {
+        return `<li class="mdl-menu__item" data-val="${industry.id}">${industry.name}</li>`;
+      });
+    }
+
+    static load() {
+      $.ajax({
+        tryCount: 0, retryLimit: 3, retryInterval: 300,
+        url: `${apiURL}industries/`, type: 'GET',
+        cache: true, contentType: "application/json", dataType: "json",
+        success: function (data) {
+          $('ul[for=industry]').html(IndustryService.options(data));
+        },
+        error: function (jqXHR) {
+          this.tryCount++;
+          if (this.tryCount <= this.retryLimit) {
+            setTimeout(
+              () => {
+                $.ajax(this);
+              },
+              this.retryInterval * this.tryCount,
+            );
+          } else {
+            handleAPIError(jqXHR);
+          }
+        },
+      })
+    }
+  }
+
   class StepOne {
     constructor(form) {
+      this.fields = ['email', 'password', 'first_name', 'last_name'];
       this.form = form;
     }
 
-    get email() {
-      return $(this.form).find("input[name=email]").val().trim();
+    get data() {
+      return {
+        email: $(this.form).find("input[name=email]").val().trim(),
+        password: $(this.form).find("input[name=password]").val(),
+        first_name: $(this.form).find("input[name=first_name]").val().trim(),
+        last_name: $(this.form).find("input[name=last_name]").val().trim(),
+      };
+    }
+  }
+
+  class StepTwo {
+    constructor(form) {
+      this.fields = ['domain', 'name', 'industry', 'size'];
+      this.form = form;
     }
 
-    get password() {
-      return $(this.form).find("input[name=password]").val();
+    get data() {
+      return {
+        domain: $(this.form).find("input[name=domain]").val().trim(),
+        name: $(this.form).find("input[name=name]").val().trim(),
+        industry: $(this.form).find("input[name=industry]").val(),
+        size: $(this.form).find("input[name=size]").val(),
+      };
+    }
+  }
+
+  class SignupForm {
+    constructor(step = 1) {
+      this.step = step;
     }
 
-    get firstName() {
-      return $(this.form).find("input[name=first_name]").val().trim();
+    get form() {
+      return $(`#sign-up-step${this.step}`);
     }
 
-    get lastName() {
-      return $(this.form).find("input[name=last_name]").val().trim();
+    get stepForm() {
+      if (this.step === 2) {
+        return new StepTwo(this.form);
+      }
+      return new StepOne(this.form);
     }
 
     get action() {
@@ -26,6 +85,39 @@
 
     get method() {
       return $(this.form).attr('method');
+    }
+
+    init() {
+      IndustryService.load();
+      const forms = $('form');
+      forms.submit(this.submit.bind(this));
+      forms.find('.mdl-textfield__error').each(function () {
+        const element = $(this);
+        const handleText = () => {
+          element.text(element.attr('data-text'));
+        };
+
+        $(this).siblings('input').keyup(handleText);
+        $(this).siblings('select').change(handleText);
+      });
+    }
+
+    changeStep(step) {
+      $(`#sign-up-step${this.step}-wrapper`).hide();
+      this.step = step;
+      $(`#sign-up-step${step}-wrapper`).show();
+
+    }
+
+    isValid() {
+      const currentStep = this.stepForm;
+      for (let i = 0; i < currentStep.fields; i += 1) {
+        const name = currentStep.fields[i];
+        if (this.form.find(`#fg-${name}`).hasClass('is-invalid')) {
+          return false;
+        }
+      }
+      return true;
     }
 
     handleFieldError(name, errors) {
@@ -39,9 +131,9 @@
     handleError(jqXHR) {
       if (jqXHR.status === 400) {
         const {responseJSON: data} = jqXHR;
-        const fields = ['email', 'password', 'first_name', 'last_name'];
-        for (let i = 0; i < fields.length; i += 1) {
-          const name = fields[i];
+        const currentStep = this.stepForm;
+        for (let i = 0; i < currentStep.fields.length; i += 1) {
+          const name = currentStep.fields[i];
           this.handleFieldError(name, data[name]);
         }
 
@@ -56,56 +148,6 @@
       }
     }
 
-    isValid() {
-      return Boolean(this.email) && Boolean(this.password) && Boolean(this.firstName) && Boolean(this.lastName);
-    }
-
-    submit() {
-      const data = {
-        email: this.email,
-        password: this.password,
-        first_name: this.firstName,
-        last_name: this.lastName,
-      };
-
-      return $.ajax({
-        url: this.action, type: this.method, data: JSON.stringify(data),
-        cache: false, contentType: "application/json", dataType: "json",
-        error: this.handleError.bind(this),
-      });
-    }
-  }
-
-  class SignupForm {
-    constructor(step = 1) {
-      this.step = step;
-    }
-
-    get form() {
-      return $(`#sign-up-step${this.step}`);
-    }
-
-    get stepForm() {
-      return new StepOne(this.form);
-    }
-
-    init() {
-      const forms = $('form');
-      forms.submit(this.submit.bind(this));
-      forms.find('.mdl-textfield__error').each(function () {
-        const element = $(this);
-        $(this).siblings('input').keyup(function (element) {
-          return function () {
-            element.text(element.attr('data-text'));
-          }
-        }(element));
-      });
-    }
-
-    isValid() {
-      return this.stepForm.isValid();
-    }
-
     fail() {
       this.form.find("button").removeAttr("disabled");
     }
@@ -113,7 +155,11 @@
     done() {
       this.form.find("button").removeAttr("disabled");
       if (this.step === 1) {
+        // TODO store jwt token in cookie
         this.changeStep(2);
+      } else {
+        const path = getURLParameter(window.location.search, 'ret');
+        window.location.assign(`${dashboardURL}${path != null ? path : ''}`);
       }
     }
 
@@ -123,18 +169,17 @@
         snackbar.cleanup();
         this.form.find("button").attr("disabled", "disabled");
 
-        this.stepForm.submit().fail(
+        // TODO include Bearer authentication headers when requesting in step 2
+        $.ajax({
+          url: this.action, type: this.method, data: JSON.stringify(this.stepForm.data),
+          cache: false, contentType: "application/json", dataType: "json",
+          error: this.handleError.bind(this),
+        }).fail(
           this.fail.bind(this),
         ).done(
           this.done.bind(this),
         );
       }
-    }
-
-    changeStep(step) {
-      this.form.hide();
-      this.step = step;
-      this.form.show();
     }
   }
 

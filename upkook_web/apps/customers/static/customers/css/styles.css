@@ -13,6 +13,14 @@
     color: #36b37e;
 }
 
+form .getmdl-select .mdl-icon-toggle__label {
+    float: left;
+}
+
+#sign-up-step2-wrapper {
+    display: none;
+}
+
 /* RESPONSIVE */
 @media screen and (max-width: 1280px) {
 

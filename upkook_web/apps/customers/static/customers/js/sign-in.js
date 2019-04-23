@@ -43,7 +43,7 @@
       );
 
       const path = getURLParameter(window.location.search, 'ret');
-      window.location.assign(`${dashboardURL}${path}`);
+      window.location.assign(`${dashboardURL}${path != null ? path : ''}`);
     }
 
     static handleError(jqXHR) {

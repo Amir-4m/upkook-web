@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-17 15:14+0430\n"
+"POT-Creation-Date: 2019-04-23 11:36+0430\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,27 +17,33 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
 #: upkook_web/apps/customers/apps.py:12
 msgid "Customers"
 msgstr "مشتریان"
 
 #: upkook_web/apps/customers/templates/customers/sign-in.html:5
+#: upkook_web/apps/customers/templates/customers/sign-up-step1.html:66
 msgid "Sign in to Upkook"
 msgstr "ورود به آپ کوک"
 
 #: upkook_web/apps/customers/templates/customers/sign-in.html:8
+#: upkook_web/apps/customers/templates/customers/sign-up-step1.html:7
 msgid "Email"
 msgstr "ایمیل"
 
 #: upkook_web/apps/customers/templates/customers/sign-in.html:16
+#: upkook_web/apps/customers/templates/customers/sign-up-step1.html:16
 msgid "Please enter a valid email."
 msgstr "لطفا یک ایمیل معتبر وارد نمایید."
 
 #: upkook_web/apps/customers/templates/customers/sign-in.html:19
+#: upkook_web/apps/customers/templates/customers/sign-up-step1.html:19
 msgid "Password"
 msgstr "رمز عبور"
 
 #: upkook_web/apps/customers/templates/customers/sign-in.html:27
+#: upkook_web/apps/customers/templates/customers/sign-up-step1.html:27
 msgid "Please enter your password."
 msgstr "لطفا رمز عبور خود را وارد نمایید."
 
@@ -45,10 +51,111 @@ msgstr "لطفا رمز عبور خود را وارد نمایید."
 msgid "Sign in"
 msgstr "ورود"
 
-#: upkook_web/apps/customers/views.py:19
+#: upkook_web/apps/customers/templates/customers/sign-in.html:37
+msgid "Sign up at UPKOOK"
+msgstr "ثبت نام در آپ کوک"
+
+#: upkook_web/apps/customers/templates/customers/sign-up-step1.html:3
+msgid "Start using UPKOOK"
+msgstr "شروع به استفاده از آپ کوک"
+
+#: upkook_web/apps/customers/templates/customers/sign-up-step1.html:4
+#: upkook_web/apps/customers/templates/customers/sign-up-step2.html:56
+msgid "Free Sign Up"
+msgstr "ثبت نام رایگان"
+
+#: upkook_web/apps/customers/templates/customers/sign-up-step1.html:30
+msgid "First Name"
+msgstr "نام"
+
+#: upkook_web/apps/customers/templates/customers/sign-up-step1.html:39
+msgid "Please enter your first name."
+msgstr "لطفا نام خود را وارد نمایید."
+
+#: upkook_web/apps/customers/templates/customers/sign-up-step1.html:42
+msgid "Last Name"
+msgstr "نام خانوادگی"
+
+#: upkook_web/apps/customers/templates/customers/sign-up-step1.html:51
+msgid "Please enter your last name."
+msgstr "لطفا نام خانوادگی خود را وارد نمایید."
+
+#: upkook_web/apps/customers/templates/customers/sign-up-step1.html:54
+msgid "Continue"
+msgstr "ادامه"
+
+#: upkook_web/apps/customers/templates/customers/sign-up-step1.html:59
+msgid "By signing up at upkook, I accept terms and conditions of upkook."
+msgstr ""
+
+#: upkook_web/apps/customers/templates/customers/sign-up-step2.html:4
+msgid "Business Information"
+msgstr "اطلاعات کسب و کار"
+
+#: upkook_web/apps/customers/templates/customers/sign-up-step2.html:6
+msgid "Business Name"
+msgstr "نام کسب و کار"
+
+#: upkook_web/apps/customers/templates/customers/sign-up-step2.html:15
+msgid "Please enter your business name."
+msgstr "لطفا نام کسب و کار خود را وارد نمایید."
+
+#: upkook_web/apps/customers/templates/customers/sign-up-step2.html:18
+msgid "Website"
+msgstr "وب سایت"
+
+#: upkook_web/apps/customers/templates/customers/sign-up-step2.html:28
+msgid "Please enter a valid domain."
+msgstr "لطفا یک دامنه معتبر وارد نمایید."
+
+#: upkook_web/apps/customers/templates/customers/sign-up-step2.html:34
+msgid "Indsutry"
+msgstr "صنعت"
+
+#: upkook_web/apps/customers/templates/customers/sign-up-step2.html:37
+msgid "Please choose an industry."
+msgstr "لطفا یک صنعت انتخاب کنید."
+
+#: upkook_web/apps/customers/templates/customers/sign-up-step2.html:43
+msgid "Size"
+msgstr "تعداد کارمندان"
+
+#: upkook_web/apps/customers/templates/customers/sign-up-step2.html:45
+msgid "1 - 5"
+msgstr "۱ - ۵"
+# ۱٬۲۳۴٬۵۶۷٬۸۹۰
+#: upkook_web/apps/customers/templates/customers/sign-up-step2.html:46
+msgid "6 - 10"
+msgstr "۶ - ۱۰"
+
+#: upkook_web/apps/customers/templates/customers/sign-up-step2.html:47
+msgid "11 - 15"
+msgstr "۱۱ - ۱۵"
+
+#: upkook_web/apps/customers/templates/customers/sign-up-step2.html:48
+msgid "16 - 30"
+msgstr "۱۶ - ۳۰"
+
+#: upkook_web/apps/customers/templates/customers/sign-up-step2.html:49
+msgid "31 - 50"
+msgstr "۳۱ - ۵۰"
+
+#: upkook_web/apps/customers/templates/customers/sign-up-step2.html:50
+msgid "51 - 150"
+msgstr "۵۱ - ۱۵۰"
+
+#: upkook_web/apps/customers/templates/customers/sign-up-step2.html:51
+msgid "150 or higher"
+msgstr "۱۵۰ یا بیشتر"
+
+#: upkook_web/apps/customers/templates/customers/sign-up-step2.html:53
+msgid "Please choose size of your company."
+msgstr "لطفا تعداد کارمندان را مشخص کنید."
+
+#: upkook_web/apps/customers/views.py:20
 msgid "Blog"
 msgstr "بلاگ"
 
-#: upkook_web/apps/customers/views.py:20
+#: upkook_web/apps/customers/views.py:21
 msgid "Terms of Service"
 msgstr "شرایط و قوانین"

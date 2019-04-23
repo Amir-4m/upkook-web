@@ -1,0 +1,59 @@
+{% load i18n %}
+<div id="sign-up-step2-wrapper">
+  <form action="#" method="POST" id="sign-up-step2" data-action="{{ api_url }}customers/businesses/">
+    <h1>{% trans 'Business Information' %}</h1>
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="fg-name">
+      <label class="mdl-textfield__label" for="name">{% trans 'Business Name' %}</label>
+      <input
+        type="text"
+        class="mdl-textfield__input"
+        name="name"
+        id="name"
+        maxlength="256"
+        data-required="true"
+      />
+      <span class="mdl-textfield__error" data-text="{% trans 'Please enter your business name.' %}"></span>
+    </div>
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="fg-domain">
+      <label class="mdl-textfield__label" for="domain">{% trans 'Website' %}</label>
+      <input
+        type="text"
+        pattern="^[a-zA-Z0-9][a-zA-Z0-9-]{1,61}[a-zA-Z0-9](?:\.[a-zA-Z]{2,})+$"
+        class="mdl-textfield__input"
+        name="domain"
+        id="domain"
+        maxlength="100"
+        data-required="true"
+      />
+      <span class="mdl-textfield__error" data-text="{% trans 'Please enter a valid domain.' %}"></span>
+    </div>
+    <div class="mdl-textfield mdl-js-textfield getmdl-select mdl-textfield--floating-label" id="fg-industry">
+      <input type="text" value="" class="mdl-textfield__input" id="industry" readonly data-required="true">
+      <input type="hidden" value="" name="industry" data-required="true">
+      <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
+      <label class="mdl-textfield__label" for="industry">{% trans 'Indsutry' %}</label>
+      <ul for="industry" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
+      </ul>
+      <span class="mdl-textfield__error" data-text="{% trans 'Please choose an industry.' %}"></span>
+    </div>
+    <div class="mdl-textfield mdl-js-textfield getmdl-select mdl-textfield--floating-label" id="fg-size">
+      <input type="text" value="" class="mdl-textfield__input" id="size" readonly data-required="true">
+      <input type="hidden" value="" name="size" data-required="true">
+      <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
+      <label class="mdl-textfield__label" for="size">{% trans 'Size' %}</label>
+      <ul for="size" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
+        <li class="mdl-menu__item" data-val="5">{% trans '1 - 5' %}</li>
+        <li class="mdl-menu__item" data-val="10">{% trans '6 - 10' %}</li>
+        <li class="mdl-menu__item" data-val="15">{% trans '11 - 15' %}</li>
+        <li class="mdl-menu__item" data-val="30">{% trans '16 - 30' %}</li>
+        <li class="mdl-menu__item" data-val="50">{% trans '31 - 50' %}</li>
+        <li class="mdl-menu__item" data-val="150">{% trans '51 - 150' %}</li>
+        <li class="mdl-menu__item" data-val="2147483647">{% trans '150 or higher' %}</li>
+      </ul>
+      <span class="mdl-textfield__error" data-text="{% trans 'Please choose size of your company.' %}"></span>
+    </div>
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary">
+      {% trans 'Free Sign Up' %}
+    </button>
+  </form>
+</div>

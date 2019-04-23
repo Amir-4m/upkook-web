@@ -45,12 +45,15 @@ h6 {
 	font-size: 1rem;
 }
 
-input {
+input,
+select {
 	width: 360px;
 	height: 36px;
 }
 
-input[type=email], input[type=password] {
+input[type=email],
+input[type=password],
+input[name=domain] {
 	direction: ltr;
 	text-align: left;
 }
@@ -247,6 +250,10 @@ footer.footer-bare a:visited {
 }
 
 /* MATERIAL */
+.mdl-menu__item {
+    text-align: right;
+}
+
 .mdl-navigation {
 	display: -webkit-flex;
 	display: -ms-flexbox;
