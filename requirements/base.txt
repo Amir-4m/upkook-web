@@ -1,6 +1,6 @@
 python-memcached
 django-sekizai
-django-statici18n
+django-statici18n>=1.8,<1.8.3
 django_compressor
 csscompressor
 beautifulsoup4

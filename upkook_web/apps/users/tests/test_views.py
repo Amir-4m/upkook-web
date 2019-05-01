@@ -23,7 +23,7 @@ class SignInViewTestCase(TestCase):
         AUTH_REFRESH_COOKIE_NAME='refresh'
     )
     def test_get(self):
-        url = reverse('customers:sign-in')
+        url = reverse('users:sign-in')
         response = self.client.get(url)
 
         self.assertEqual(response.status_code, 200)
@@ -33,7 +33,7 @@ class SignInViewTestCase(TestCase):
 
         self.assertEqual(context.get('title'), site.name)
         self.assertEqual(context.get('dashboard_url'), 'https://testserver/dashboard/')
-        self.assertEqual(context.get('sign_up_url'), reverse('customers:sign-up'))
+        self.assertEqual(context.get('sign_up_url'), reverse('users:sign-up'))
 
         auth_cookie = context.get('auth_cookie')
         self.assertEqual(auth_cookie.get('age'), 1)
@@ -59,7 +59,7 @@ class SignUpViewTestCase(TestCase):
         AUTH_REFRESH_COOKIE_NAME='refresh'
     )
     def test_get(self):
-        url = reverse('customers:sign-up')
+        url = reverse('users:sign-up')
         response = self.client.get(url)
 
         self.assertEqual(response.status_code, 200)
@@ -69,7 +69,7 @@ class SignUpViewTestCase(TestCase):
 
         self.assertEqual(context.get('title'), site.name)
         self.assertEqual(context.get('dashboard_url'), 'https://testserver/dashboard/')
-        self.assertEqual(context.get('sign_in_url'), reverse('customers:sign-in'))
+        self.assertEqual(context.get('sign_in_url'), reverse('users:sign-in'))
 
         auth_cookie = context.get('auth_cookie')
         self.assertEqual(auth_cookie.get('age'), 1)

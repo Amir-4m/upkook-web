@@ -8,11 +8,11 @@ from django_contrib.html.link import Link
 from django_contrib.sites.services import SiteService
 
 
-class CustomerViewBase(TemplateView):
+class UserViewBase(TemplateView):
     http_method_names = ['get']
 
     def get_context_data(self):
-        context = super(CustomerViewBase, self).get_context_data()
+        context = super(UserViewBase, self).get_context_data()
         site = SiteService.get_current_site(self.request)
         context.update({'title': site.name})
 
@@ -35,9 +35,9 @@ class CustomerViewBase(TemplateView):
         return context
 
 
-class SignInView(CustomerViewBase):
-    template_name = 'customers/sign-in.html'
-    view_name = 'customers:sign-in'
+class SignInView(UserViewBase):
+    template_name = 'users/sign-in.html'
+    view_name = 'users:sign-in'
 
     def get_context_data(self):
         context = super(SignInView, self).get_context_data()
@@ -45,9 +45,9 @@ class SignInView(CustomerViewBase):
         return context
 
 
-class SignUpView(CustomerViewBase):
-    template_name = 'customers/sign-up.html'
-    view_name = 'customers:sign-up'
+class SignUpView(UserViewBase):
+    template_name = 'users/sign-up.html'
+    view_name = 'users:sign-up'
 
     def get_context_data(self):
         context = super(SignUpView, self).get_context_data()

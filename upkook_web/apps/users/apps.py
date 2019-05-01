@@ -7,8 +7,8 @@ from . import settings as app_settings
 
 
 class CustomersAppConfig(AppConfig):
-    label = 'customers'
-    name = 'upkook_web.apps.customers'
+    label = 'users'
+    name = 'upkook_web.apps.users'
     verbose_name = _('Customers')
 
     def ready(self):

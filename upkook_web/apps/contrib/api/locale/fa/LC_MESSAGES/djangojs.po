@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-17 15:18+0430\n"
+"POT-Creation-Date: 2019-05-01 13:48+0430\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,50 +17,51 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
 #: upkook_web/apps/contrib/api/static/api/js/api.js:3
 msgid "Bad Request"
-msgstr ""
+msgstr "درخواست اشتباه"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:4
 msgid "Your client is not authenticated to get requested URL from this server."
-msgstr ""
+msgstr "شما هنوز وارد سیستم نشده اید"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:5
 msgid "Payment Required"
-msgstr ""
+msgstr "اعتبار شما کافی نیست"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:6
 msgid ""
 "Your client does not have permission to get requested URL from this server."
-msgstr ""
+msgstr "شما مجوز لازم جهت دسترسی به این سرویس را ندارید"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:7
 msgid "The requested URL was not found on this server."
-msgstr ""
+msgstr "صفحه مورد نظر یافت نشد"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:8
 msgid "Method Not Allowed"
-msgstr ""
+msgstr "انجام عملیات مورد نظر مجاز نیست"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:9
 msgid "Not Acceptable"
-msgstr ""
+msgstr "عملیات مورد نظر قابل اجرا نیست"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:10
 msgid "Proxy Authentication Required"
-msgstr ""
+msgstr "خطای IP ناشناس"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:11
 msgid "Request Timeout"
-msgstr ""
+msgstr "زمان درخواست شما منقضی شده است"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:12
 msgid "Conflict"
-msgstr ""
+msgstr "خطایی رخ داده است"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:13
 msgid "Gone"
-msgstr ""
+msgstr "از دسترس خارج شده"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:14
 msgid "Length Required"
@@ -68,7 +69,7 @@ msgstr ""
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:15
 msgid "Precondition Failed"
-msgstr ""
+msgstr "پیش شرط مورد نظر رعایت نشده است"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:16
 msgid "Payload Too Large"
@@ -80,11 +81,11 @@ msgstr ""
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:18
 msgid "Unsupported Media Type"
-msgstr ""
+msgstr "فایل مورد نظر پشتیبانی نمی شود"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:19
 msgid "Requested Range Not Satisfiable"
-msgstr ""
+msgstr "انجام درخواست مورد نظر مقدور نیست"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:20
 msgid "Expectation Failed"
@@ -92,19 +93,19 @@ msgstr ""
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:21
 msgid "I'm a teapot"
-msgstr ""
+msgstr "خطای ناشناخته"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:22
 msgid "Misdirected Request"
-msgstr ""
+msgstr "درخواست اشتباه"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:23
 msgid "Unprocessable Entity"
-msgstr ""
+msgstr "مقدار ورودی اشتباه است"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:24
 msgid "Locked"
-msgstr ""
+msgstr "صفحه مورد نظر در دسترس نیست"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:25
 msgid "Failed Dependency"
@@ -112,7 +113,7 @@ msgstr ""
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:26
 msgid "Upgrade Required"
-msgstr ""
+msgstr "نیازمند به روز رسانی"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:27
 msgid "Precondition Required"
@@ -120,7 +121,7 @@ msgstr ""
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:28
 msgid "Too Many Requests"
-msgstr ""
+msgstr "درخواست بیش از حد مجاز"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:29
 msgid "Request Header Fields Too Large"
@@ -128,37 +129,37 @@ msgstr ""
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:30
 msgid "Connection Closed Without Response"
-msgstr ""
+msgstr "درخواست مورد نظر بدون پاسخ لغو گردید"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:31
 msgid "Unavailable For Legal Reasons"
-msgstr ""
+msgstr "اجرای درخواست شما به دلایل قانونی قابل انجام نیست "
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:32
 msgid "Client Closed Request"
-msgstr ""
+msgstr "درخواست مورد نظر توسط کاربر لغو شد"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:35
 msgid "The server encountered an unexpected error. We are working on it."
-msgstr ""
+msgstr "لطفا منتظر بمانید"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:36
 msgid ""
 "Sorry, The server does not support the functionality required to fulfill "
 "your request."
-msgstr ""
+msgstr "با عرض پوزش، سیستم قادر به اجرای درخواست مورد نظر نیست"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:37
 msgid "The server is not available right now. Please try later again."
-msgstr ""
+msgstr "در حال حاضر سرور قادر به پاسخگویی نیست، لطفا کمی بعد مجدداً تلاش کنید"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:38
 msgid "The server is not available temporary. Please try later again."
-msgstr ""
+msgstr "سرور به صورت موقت از دسترس خارج شده است، لطفا کمی بعد مجدداً تلاش کنید"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:39
 msgid "The requested URL got timeout. Please try later again."
-msgstr ""
+msgstr "صفحه مورد نظر در دسترس نمی باشد، لطفا کمی بعد مجدداد تلاش کنید"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:40
 msgid ""
@@ -168,36 +169,37 @@ msgstr ""
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:41
 msgid "Server internal configuration error. We are working on it."
-msgstr ""
+msgstr "خطا در تنظیمات سرور، لطفا منتظر بمانید"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:42
 msgid ""
 "The server is unable to successfully complete the request. We are working on "
 "it."
-msgstr ""
+msgstr "سیستم در حال حاضر قادر به پاسخگویی نیست، لطفاً منتظر بمانید"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:43
 msgid "Operation failed. We are working on it."
-msgstr ""
+msgstr "عملیات مورد نظر قابل انجام نیست"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:44
 msgid "The policy for accessing the resource has not been met in the request."
-msgstr ""
+msgstr "شما مجاز به دسترسی به صفحه مورد نظر نیستید"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:45
 msgid "The client needs to authenticate to gain network access."
-msgstr ""
+msgstr "کاربر گرامی لطفا جهت ادامه عملیات مجدداً وارد حساب کاربری خود شوید"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:46
 msgid ""
 "The client proxy network connection timeout. Please check your internet and "
 "proxy connection"
 msgstr ""
+"شما به شبکه متصل نیستید، لطفا تنظیمات پروکسی و اینترنت خود را بررسی نمایید"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:52
 msgid "Limited or No Connectivity. Please check your internet connection."
-msgstr ""
+msgstr "شما به شبکه متصل نیستید، لطفا اتصال اینترنت خود را بررسی نمایید"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:57
 msgid "We cannot process your request now, please try reloading the page."
-msgstr ""
+msgstr "سیستم  قادر به دریافت درخواست شما نیست، لطفا صفحه را رفرش کنید"

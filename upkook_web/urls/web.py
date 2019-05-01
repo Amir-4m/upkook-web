@@ -6,5 +6,5 @@ from . import urlpatterns
 urlpatterns += [
     path('', include('upkook_web.apps.cms.home.urls', 'home')),
     path('', include('django_contrib.sites.urls.web', 'sites')),
-    path('', include('upkook_web.apps.customers.urls', 'customers')),
+    path('', include('upkook_web.apps.users.urls', 'users')),
 ]

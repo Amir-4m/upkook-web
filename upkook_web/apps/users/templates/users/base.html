@@ -3,7 +3,7 @@
 
 {% block css %}
   {{ block.super }}
-  <link rel="stylesheet" href="{{ STATIC_URL }}customers/css/styles.css">
+  <link rel="stylesheet" href="{{ STATIC_URL }}users/css/styles.css">
 {% endblock %}
 
 {% block content %}
@@ -15,7 +15,7 @@
 
 {% block javascripts %}
   {{ block.super }}
-  <script src="{{ STATIC_URL }}customers/js/token.js"></script>
+  <script src="{{ STATIC_URL }}users/js/token.js"></script>
   <script type="text/javascript">
     const apiURL = "{{ api_url }}";
     const dashboardURL = "{{ dashboard_url }}";

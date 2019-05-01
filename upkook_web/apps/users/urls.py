@@ -3,7 +3,7 @@
 from django.urls import path
 from .views import SignInView, SignUpView
 
-app_name = 'customers'
+app_name = 'users'
 
 urlpatterns = [
     path('login/', SignInView.as_view(), name='sign-in'),

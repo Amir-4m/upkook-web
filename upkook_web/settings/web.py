@@ -7,7 +7,7 @@ ROOT_URLCONF = 'upkook_web.urls.web'
 
 INSTALLED_APPS += (
     'upkook_web.apps.cms.home',
-    'upkook_web.apps.customers',
+    'upkook_web.apps.users',
 )
 
 API_URL = get_env_var("API_URL")
