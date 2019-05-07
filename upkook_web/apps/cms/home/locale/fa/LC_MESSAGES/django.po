@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-22 15:26+0330\n"
+"POT-Creation-Date: 2019-05-07 09:57+0430\n"
 "PO-Revision-Date: 2018-12-22 15:26+0330\n"
 "Last-Translator: Saeed Salehian <saeed@upkook.com>\n"
 "Language-Team: Upkook <info@upkook.com>\n"
@@ -17,6 +17,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-#: upkook_web/apps/cms/home/views.py:14
-msgid "Upkook"
-msgstr "آپ کوک"
+
+#: upkook_web/apps/cms/home/templates/home/index.html:11
+msgid "Become your Customers Favorite."
+msgstr "کسب و کار محبوب مشتریان باشید."
+
+#: upkook_web/apps/cms/home/templates/home/index.html:19
+msgid "Easy to measure customer satisfaction KPIs."
+msgstr "به راحتی شاخص های رضایت مشتری را اندازه گیری کنید."
+
+#: upkook_web/apps/cms/home/templates/home/index.html:23
+msgid "Big data insights, 7 times more revenue."
+msgstr "داده های بزرگ را تحلیل کنید، 7 برابر بیشتر رشد کنید."
+
+#: upkook_web/apps/cms/home/templates/home/index.html:27
+msgid "Free Sign Up"
+msgstr "ثبت نام رایگان"
+
+#: upkook_web/apps/cms/home/templates/home/index.html:34
+msgid "Try Demo"
+msgstr "مشاهده دمو"

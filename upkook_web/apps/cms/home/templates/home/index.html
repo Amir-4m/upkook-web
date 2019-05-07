@@ -1,25 +1,40 @@
 {% extends "upkook_web/upkook.html" %}
 {% load i18n staticfiles %}
 {% block css %}
-    {{ block.super }}
-    <link rel="stylesheet" href="{{ STATIC_URL }}home/css/styles.css">
+  {{ block.super }}
+  <link rel="stylesheet" href="{{ STATIC_URL }}home/css/styles.css">
 {% endblock %}
 
 {% block content %}
-    <section class="hero">
-        <div class="hero__background-container"></div>
-        <div class="row top-section">
-            <div class="top-section__container">
-                <h1 class="hero__header">کسب و کار محبوب مشتریان باشید.</h1>
-                <h2 class="hero__sub-header">
-                    به راحتی شاخص های رضایت مشتری را اندازه گیری کنید
-                    <span>
-  داده های بزرگ را تحلیل کنید، 7 برابر بیشتر رشد کنید.
-                    </span>
-                </h2>
-                <button class="button-cta button-alt-action">به زودی</button>
-            </div>
-        </div>
-    </section>
+  <section class="hero">
+    <div class="hero__slogan">
+      <h1 class="hero__header">{% trans 'Become your Customers Favorite.' %}</h1>
+    </div>
+    <div class="hero__background-container"></div>
+    <div class="row top-section">
+      <div class="top-section__container">
+        <ul class="hero__sub-header">
+          <li>
+            <span class="dot"></span>
+            {% trans 'Easy to measure customer satisfaction KPIs.' %}
+          </li>
+          <li>
+            <span class="dot"></span>
+            {% trans 'Big data insights, 7 times more revenue.' %}
+          </li>
+        </ul>
+        <a href="{% url 'users:sign-up' %}" class="button-cta button-action-primary">
+          {% trans 'Free Sign Up' %}
+        </a>
+        <a
+          href="https://demo.upkook.com"
+          class="button-cta button-action-secondary"
+          target="_blank"
+        >
+          {% trans 'Try Demo' %}
+        </a>
+      </div>
+    </div>
+  </section>
 
 {% endblock %}
