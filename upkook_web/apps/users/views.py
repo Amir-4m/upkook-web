@@ -17,6 +17,7 @@ class UserViewBase(TemplateView):
         context.update({'title': site.name})
 
         context.update({'footer_links': [
+            Link(href='https://www.upkook.com/', text=_('UPKOOK'), target='_blank'),
             Link(href='https://blog.upkook.com/', text=_('Blog'), target='_blank'),
             Link(href='https://policies.upkook.com/terms/', text=_('Terms of Service'), target='_blank'),
         ]})

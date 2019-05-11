@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-01 13:47+0430\n"
+"POT-Creation-Date: 2019-05-11 11:53+0430\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -154,9 +154,13 @@ msgid "Please choose size of your company."
 msgstr "لطفا تعداد کارمندان را مشخص کنید."
 
 #: upkook_web/apps/users/views.py:20
+msgid "UPKOOK"
+msgstr "آپ‌کوک"
+
+#: upkook_web/apps/users/views.py:21
 msgid "Blog"
 msgstr "بلاگ"
 
-#: upkook_web/apps/users/views.py:21
+#: upkook_web/apps/users/views.py:22
 msgid "Terms of Service"
 msgstr "شرایط و قوانین"

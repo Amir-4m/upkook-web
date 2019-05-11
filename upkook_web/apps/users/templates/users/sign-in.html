@@ -1,7 +1,7 @@
 {% extends "users/base.html" %}
 {% load i18n staticfiles %}
 
-{% block customer-content %}
+{% block user-content %}
   <h1>{% trans 'Sign in to Upkook' %}</h1>
   <form action="#" method="POST" id="sign-in" data-action="{{ api_url }}auth/token/">
     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="fg-email">
