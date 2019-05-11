@@ -155,14 +155,24 @@
       }
     }
 
-    fail() {
-      this.form.find("button").removeAttr("disabled");
+    track(jqXHR) {
+      dataLayer.push({
+        event: 'signUp',
+        signUpAction: this.step === 1 ? 'create-user' : 'create-business',
+        signUpStatus: jqXHR.status,
+      });
     }
 
-    done(data) {
+    fail(jqXHR) {
+      this.form.find("button").removeAttr("disabled");
+      this.track(jqXHR);
+    }
+
+    done(data, textStatus, jqXHR) {
       this.form.find("button").removeAttr("disabled");
       token.access = data.access;
       token.refresh = data.refresh;
+      this.track(jqXHR);
 
       if (this.step === 1) {
         this.changeStep(2);

@@ -24,4 +24,4 @@ msgstr "ایمیل یا رمز عبور اشتباه است."
 
 #: upkook_web/apps/users/static/users/js/sign-up.js:147
 msgid "Please fix form errors."
-msgstr ""
+msgstr "لطفا خطای فرم را رفع کنید."

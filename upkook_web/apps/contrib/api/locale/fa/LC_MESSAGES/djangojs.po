@@ -141,7 +141,7 @@ msgstr "درخواست مورد نظر توسط کاربر لغو شد"
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:35
 msgid "The server encountered an unexpected error. We are working on it."
-msgstr "لطفا منتظر بمانید"
+msgstr "خطایی رخ داده است، لطفا منتظر بمانید."
 
 #: upkook_web/apps/contrib/api/static/api/js/api.js:36
 msgid ""
