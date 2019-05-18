@@ -4,8 +4,8 @@
 {% block policies-content %}
 {% get_current_language as LANGUAGE_CODE %}
 {% if LANGUAGE_CODE == "fa" %}
-    {% include "policies/includes/fa/terms.html" %}
+    {% include "policies/includes/fa/privacy.html" %}
 {% else %}
-    {% include "policies/includes/en-us/terms.html" %}
+    {% include "policies/includes/en-us/privacy.html" %}
 {% endif %}
 {% endblock %}

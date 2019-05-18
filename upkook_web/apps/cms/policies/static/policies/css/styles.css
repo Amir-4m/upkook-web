@@ -1,0 +1,47 @@
+.policies-content {
+    max-width: 1280px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.policies-text {
+    padding: 10px;
+}
+
+.policies-card {
+    float: right;
+    width: 50%;
+}
+
+.policies-item {
+    margin: 25px;
+}
+
+@media screen and (max-width: 960px) {
+    .policies-item {
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .policies-card {
+        float: right;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .policies-content {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .policies-item {
+        margin: 15px;
+    }
+}
+
+
+
+
