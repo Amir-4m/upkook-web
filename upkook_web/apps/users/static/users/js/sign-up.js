@@ -17,6 +17,11 @@
         cache: true, contentType: "application/json", dataType: "json",
         success: function (data) {
           $('ul[for=industry]').html(IndustryService.options(data));
+          $('ul[for=industry] > li').click(function() {
+            document.getElementById('sign-up-step2').scrollIntoView();
+          });
+          $('#fg-industry').addClass('getmdl-select');
+          getmdlSelect.init("#fg-industry.getmdl-select");
         },
         error: function (jqXHR) {
           this.tryCount++;
@@ -109,7 +114,7 @@
     changeStep(step) {
       $(`#sign-up-step${this.step}-wrapper`).hide();
       this.step = step;
-      if (step == 2 && !IndustryService.isLoaded()) {
+      if (step === 2 && !IndustryService.isLoaded()) {
         IndustryService.load();
       }
       $(`#sign-up-step${step}-wrapper`).show();
