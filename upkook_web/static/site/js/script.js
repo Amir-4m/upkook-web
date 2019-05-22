@@ -11,7 +11,7 @@ const Snackbar = function () {
 Snackbar.prototype.setClass = function (klass) {
   let className = this.notification.className;
   className = className.replace(/\bmdl-snackbar--(success|info|warning|error)\b/g, ``);
-  this.notification.className = `${className.trim()} mdl-snackbar--${klass}`;
+  this.notification.className = [className.trim(), `mdl-snackbar--${klass}`].join(' ');
 };
 
 Snackbar.prototype.error = function (message, timeout = 3750) {
