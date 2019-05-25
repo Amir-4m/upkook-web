@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-16 13:33+0430\n"
+"POT-Creation-Date: 2019-05-25 12:45+0430\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -164,3 +164,7 @@ msgstr "بلاگ"
 #: upkook_web/apps/users/views.py:22
 msgid "Terms of Service"
 msgstr "شرایط و قوانین"
+
+#: upkook_web/apps/users/views.py:23
+msgid "Privacy Policy"
+msgstr "حریم خصوصی"
