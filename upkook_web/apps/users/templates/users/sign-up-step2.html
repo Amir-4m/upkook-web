@@ -18,7 +18,7 @@
       <label class="mdl-textfield__label" for="domain">{% trans 'Website' %}</label>
       <input
         type="text"
-        pattern="^[a-zA-Z0-9][a-zA-Z0-9-]{1,61}[a-zA-Z0-9](?:\.[a-zA-Z]{2,})+$"
+        pattern="(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z0-9][a-z0-9-]{0,61}[a-z0-9]"
         class="mdl-textfield__input"
         name="domain"
         id="domain"
@@ -27,7 +27,7 @@
       />
       <span class="mdl-textfield__error" data-text="{% trans 'Please enter a valid domain.' %}"></span>
     </div>
-    <div class="mdl-textfield mdl-js-textfield getmdl-select mdl-textfield--floating-label" id="fg-industry">
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="fg-industry">
       <input type="text" value="" class="mdl-textfield__input" id="industry" readonly data-required="true">
       <input type="hidden" value="" name="industry" data-required="true">
       <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>

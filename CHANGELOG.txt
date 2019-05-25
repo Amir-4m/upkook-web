@@ -1,3 +1,12 @@
+=== 1.0.4 (2019-05-22) ===
+
+- better domain validation regex
+- Improved snackbar message UI
+
+=== 1.0.3 (2019-05-21) ===
+
+- Free Sign Up, Step 2: Fixed industry select bug
+
 === 1.0.2 (2019-05-11) ===
 
 - Sign Up Tracking
