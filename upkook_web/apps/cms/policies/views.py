@@ -11,9 +11,35 @@ class TermsView(TemplateView):
     template_name = 'policies/terms.html'
 
     def get_context_data(self, **kwargs):
-        kwargs.update({'title': _('Upkook Terms of Service – Privacy &amp; Terms – Upkook')})
+        kwargs.update({'title': _('Terms of Service – Privacy &amp; Terms – Upkook')})
         return super(TermsView, self).get_context_data(**kwargs)
 
     @method_decorator(cache_page(1 * 24 * 60 * 60))  # 1 day
     def get(self, request, *args, **kwargs):
         return super(TermsView, self).get(request, *args, **kwargs)
+
+
+class IndexView(TemplateView):
+    http_method_names = ['get']
+    template_name = 'policies/index.html'
+
+    def get_context_data(self, **kwargs):
+        kwargs.update({'title': _('Privacy &amp; Terms – Upkook')})
+        return super(IndexView, self).get_context_data(**kwargs)
+
+    @method_decorator(cache_page(1 * 24 * 60 * 60))  # 1 day
+    def get(self, request, *args, **kwargs):
+        return super(IndexView, self).get(request, *args, **kwargs)
+
+
+class PrivacyView(TemplateView):
+    http_method_names = ['get']
+    template_name = 'policies/privacy.html'
+
+    def get_context_data(self, **kwargs):
+        kwargs.update({'title': _('Privacy Policy – Privacy &amp; Terms – Upkook')})
+        return super(PrivacyView, self).get_context_data(**kwargs)
+
+    @method_decorator(cache_page(1 * 24 * 60 * 60))  # 1 day
+    def get(self, request, *args, **kwargs):
+        return super(PrivacyView, self).get(request, *args, **kwargs)
