@@ -1,13 +1,15 @@
 #!/usr/bin/env python
 # vim: ai ts=4 sts=4 et sw=4
 from django.utils.decorators import method_decorator
-from django.views.decorators.cache import cache_page
+from django.views.decorators.cache import cache_control, cache_page
 from django.views.generic import TemplateView
 from django_contrib.sites.services import SiteService
 
 from .services import HomeService
 
 
+@method_decorator(cache_control(max_age=1 * 24 * 60 * 60), name='get')  # 1 day
+@method_decorator(cache_page(1 * 24 * 60 * 60), name='get')  # 1 day
 class HomeView(TemplateView):
     http_method_names = ['get']
     template_name = 'home/index.html'
@@ -22,7 +24,3 @@ class HomeView(TemplateView):
             context.update({'amp_url': HomeService.get_index_absolute_url(self.request, is_amp=True)})
 
         return context
-
-    @method_decorator(cache_page(1 * 24 * 60 * 60))  # 1 day
-    def get(self, request, *args, **kwargs):
-        return super(HomeView, self).get(request, *args, **kwargs)
