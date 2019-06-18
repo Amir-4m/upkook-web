@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-18 15:24+0430\n"
+"POT-Creation-Date: 2019-06-18 17:48+0430\n"
 "PO-Revision-Date: 2018-12-22 15:26+0330\n"
 "Last-Translator: Saeed Salehian <saeed@upkook.com>\n"
 "Language-Team: Upkook <info@upkook.com>\n"
@@ -22,68 +22,78 @@ msgstr ""
 msgid "Become your Customers Favorite."
 msgstr "کسب و کار محبوب مشتریان باشید."
 
-#: upkook_web/apps/cms/home/templates/home/includes/hero.html:12
-msgid "Easy to measure customer satisfaction KPIs."
-msgstr "به راحتی شاخص های رضایت مشتری را اندازه گیری کنید."
+#: upkook_web/apps/cms/home/templates/home/includes/hero.html:13
+msgid "Entrust customer satisfaction measurement to out experts. "
+msgstr "با اطمینان سنجش رضایت مشتری را به متخصصین ما بسپارید."
 
-#: upkook_web/apps/cms/home/templates/home/includes/hero.html:16
-msgid "Big data insights, 7 times more revenue."
-msgstr "داده های بزرگ را تحلیل کنید، 7 برابر بیشتر رشد کنید."
+#: upkook_web/apps/cms/home/templates/home/includes/hero.html:17
+msgid "Receive valuable reactions from your customers with NPS."
+msgstr "با NPS، هزاران بازخورد ارزشمند از مشتریانتان دریافت کنید"
 
-#: upkook_web/apps/cms/home/templates/home/includes/hero.html:20
-#: upkook_web/apps/cms/home/templates/home/includes/intro.html:39
-#: upkook_web/apps/cms/home/templates/home/includes/intro.html:42
+#: upkook_web/apps/cms/home/templates/home/includes/hero.html:22
+msgid "Learn more"
+msgstr "بیشتر بدانید... "
+
+#: upkook_web/apps/cms/home/templates/home/includes/hero.html:26
+#: upkook_web/apps/cms/home/templates/home/includes/intro.html:40
+#: upkook_web/apps/cms/home/templates/home/includes/intro.html:43
 msgid "Free Sign Up"
 msgstr "ثبت نام رایگان"
 
-#: upkook_web/apps/cms/home/templates/home/includes/hero.html:27
+#: upkook_web/apps/cms/home/templates/home/includes/hero.html:33
 msgid "Try Demo"
 msgstr "مشاهده دمو"
 
-#: upkook_web/apps/cms/home/templates/home/includes/intro.html:8
+#: upkook_web/apps/cms/home/templates/home/includes/intro.html:9
 msgid "intro heading title"
 msgstr "باز خوردهای مشتریان را به سرمایه های ارزشمند تبدیل کنید"
 
-#: upkook_web/apps/cms/home/templates/home/includes/intro.html:18
+#: upkook_web/apps/cms/home/templates/home/includes/intro.html:19
 msgid "intro feature description 2"
 msgstr ""
 "مشتریان با چرخه عمر بالا را شناسایی کنید، قبل از اینکه مشتریان شما را ترک "
 "کنند علل نارضایتی شان را بفهمید، مشتریان وفادارتان را بشناسید و از آنها به "
 "عنوان مرجان ارگانیک استفاده کنید."
 
-#: upkook_web/apps/cms/home/templates/home/includes/intro.html:21
+#: upkook_web/apps/cms/home/templates/home/includes/intro.html:22
 msgid "intro feature title 2"
 msgstr "آپ کوک چه مزایای برای شما دارد؟"
 
-#: upkook_web/apps/cms/home/templates/home/includes/intro.html:30
+#: upkook_web/apps/cms/home/templates/home/includes/intro.html:31
 msgid "intro feature description 1"
 msgstr ""
 "سوالات نظرسنجی و گزینه ها مطابق با استانداردهای جهانی است. نتایج نظر سنجی و "
 "گزارش های دوره ای منظم را آنلاین دریافت و بر اساس اطلاعات درست و قابل اعتماد "
 "تصمیم گیری کنید."
 
-#: upkook_web/apps/cms/home/templates/home/includes/intro.html:33
+#: upkook_web/apps/cms/home/templates/home/includes/intro.html:34
 msgid "intro feature title 1"
 msgstr "چرا باید از آپ کوک استفاده کنید؟"
 
-#: upkook_web/apps/cms/home/templates/home/includes/intro.html:49
+#: upkook_web/apps/cms/home/templates/home/includes/intro.html:50
 msgid "intro feature title 4"
 msgstr "آپ کوک دقیقا چگونه کار می کند؟"
 
-#: upkook_web/apps/cms/home/templates/home/includes/intro.html:52
+#: upkook_web/apps/cms/home/templates/home/includes/intro.html:53
 msgid "intro feature description 4"
 msgstr ""
 "شما پس از ثبت نام، در کمتر از یک دقیقه می توانید نظر سنجی خود را تنظیم کنید، "
 "لینک نظرسنجی را دریافت کنید و آن را با مشتریانتان در هر کانال ارتباطی به "
 "اشتراک بگذارید."
 
-#: upkook_web/apps/cms/home/templates/home/includes/intro.html:59
+#: upkook_web/apps/cms/home/templates/home/includes/intro.html:60
 msgid "intro feature title 3"
 msgstr "آپ کوک چگونه به شما کمک می کند؟"
 
-#: upkook_web/apps/cms/home/templates/home/includes/intro.html:62
+#: upkook_web/apps/cms/home/templates/home/includes/intro.html:63
 msgid "intro feature description 3"
 msgstr ""
 "آپ کوک یک ابزار آنلاین تخصصی سنجش رضایت مشتری است که به شما کمک می کند تا "
 "شاخص خالص مروجان (NPS) را اندازه گیری کنید و نمره وفاداری برندتان را محاسبه "
 "کنید."
+
+#~ msgid "Easy to measure customer satisfaction KPIs."
+#~ msgstr "به راحتی شاخص های رضایت مشتری را اندازه گیری کنید."
+
+#~ msgid "Big data insights, 7 times more revenue."
+#~ msgstr "داده های بزرگ را تحلیل کنید، 7 برابر بیشتر رشد کنید."

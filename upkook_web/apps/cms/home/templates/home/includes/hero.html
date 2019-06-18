@@ -1,31 +1,37 @@
 {% load i18n  %}
 <section class="hero">
     <div class="hero__slogan">
-      <h1 class="hero__header">{% trans 'Become your Customers Favorite.' %}</h1>
+        <h1 class="hero__header">{% trans 'Become your Customers Favorite.' %}</h1>
+
     </div>
     <div class="hero__background-container"></div>
     <div class="row top-section">
-      <div class="top-section__container">
-        <ul class="hero__sub-header">
-          <li>
-            <span class="dot"></span>
-            {% trans 'Easy to measure customer satisfaction KPIs.' %}
-          </li>
-          <li>
-            <span class="dot"></span>
-            {% trans 'Big data insights, 7 times more revenue.' %}
-          </li>
-        </ul>
-        <a href="{% url 'users:sign-up' %}" class="button-cta button-action-primary">
-          {% trans 'Free Sign Up' %}
-        </a>
-        <a
-          href="https://demo.upkook.com"
-          class="button-cta button-action-secondary"
-          target="_blank"
-        >
-          {% trans 'Try Demo' %}
-        </a>
-      </div>
+        <div class="top-section__container">
+            <ul class="hero__sub-header">
+                <li>
+                <span class="dot"></span>
+                {% trans 'Entrust customer satisfaction measurement to out experts. ' %}
+                </li>
+                <li>
+                    <span class="dot"></span>
+                    {% trans 'Receive valuable reactions from your customers with NPS.' %}
+                </li>
+
+                <li>
+                    <span class="dot"></span>
+                    <a class="mdl-button mdl-js-button button-cta-sm learn-more" href="#intro">{% trans 'Learn more' %}</a>
+                </li>
+            </ul>
+            <a href="{% url 'users:sign-up' %}" class="button-cta button-action-primary">
+                {% trans 'Free Sign Up' %}
+            </a>
+            <a
+                    href="https://demo.upkook.com"
+                    class="button-cta button-action-secondary"
+                    target="_blank"
+            >
+                {% trans 'Try Demo' %}
+            </a>
+        </div>
     </div>
-  </section>
+</section>
