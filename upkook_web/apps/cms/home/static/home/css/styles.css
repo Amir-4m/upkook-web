@@ -138,6 +138,22 @@ ul.hero__sub-header {
     list-style: none;
 }
 
+.hero .mdl-button.learn-more {
+    margin-bottom: 0;
+    float: none;
+    width: auto;
+    height: 40px;
+    color: #DFE1E6;
+}
+
+.hero .mdl-button.learn-more:hover {
+    color: #DFE1E6;
+}
+
+.hero .mdl-button.learn-more:visited {
+    color: #DFE1E6;
+}
+
 .top-section__container a {
     float: right;
     margin-left: 15px;
@@ -184,6 +200,11 @@ ul.hero__sub-header {
 }
 
 @media screen and (max-width: 960px) {
+    .hero .top-section__container li:nth-of-type(2){
+        display: none;
+
+    }
+
 }
 
 @media screen and (max-width: 768px) {

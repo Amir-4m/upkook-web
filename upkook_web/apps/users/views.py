@@ -3,11 +3,15 @@
 from django.conf import settings
 from django.urls import reverse
 from django.views.generic import TemplateView
+from django.utils.decorators import method_decorator
+from django.views.decorators.cache import cache_control, cache_page
 from django.utils.translation import ugettext_lazy as _
 from django_contrib.html.link import Link
 from django_contrib.sites.services import SiteService
 
 
+@method_decorator(cache_control(max_age=1 * 24 * 60 * 60), name='get')  # 1 day
+@method_decorator(cache_page(1 * 24 * 60 * 60), name='get')  # 1 day
 class UserViewBase(TemplateView):
     http_method_names = ['get']
 

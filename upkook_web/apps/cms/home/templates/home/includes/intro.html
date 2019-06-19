@@ -1,0 +1,72 @@
+{% load i18n  %}
+<a name="intro"></a>
+<section>
+    <div class="mdl-layout in-wrapper">
+        <!--feature border box start-->
+        <div class="inline-block in-header">
+            <!--title-->
+            <div class="in-heading-title">
+                <h3 class="mdl-typography--text-uppercase">{% trans 'intro heading title' %} </h3>
+
+            </div>
+            <!--title-->
+        </div>
+        <div class="mdl-grid in-items-grid">
+            <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone mdl-cell--4-col-tablet  in-second-col">
+                <div class="in-featured-item">
+
+                    <div class="desc">
+                        {% trans 'intro feature description 2'%}
+                    </div>
+                    <div class="title mdl-typography--text-uppercase">
+                        <h4>{% trans 'intro feature title 2'%}</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone mdl-cell--4-col-tablet in-first-col">
+                <div class="in-featured-item">
+
+
+                    <div class="desc">
+                        {% trans 'intro feature description 1'%}
+                    </div>
+                    <div class="title mdl-typography--text-uppercase">
+                        <h4>{% trans 'intro feature title 1'%}</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="mdl-cell mdl-cell--12-col mdl-cell--4-col-phone mdl-cell--10-col-tablet in-mid-row">
+                <a href="{% url 'users:sign-up' %}" class="in-button-cta--fab">
+                    {% trans 'Free Sign Up' %}
+                </a>
+                <a href="{% url 'users:sign-up' %}" class="button-cta button-action-primary button-cta-md">
+                    {% trans 'Free Sign Up' %}
+                </a>
+            </div>
+            <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone mdl-cell--4-col-tablet in-second-col in-second-row">
+                <div class="in-featured-item">
+
+                    <div class="title mdl-typography--text-uppercase">
+                        <h4>{% trans 'intro feature title 4'%}</h4>
+                    </div>
+                    <div class="desc">
+                        {% trans 'intro feature description 4'%}
+                    </div>
+                </div>
+            </div>
+            <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone mdl-cell--4-col-tablet in-first-col in-second-row">
+                <div class="in-featured-item">
+                    <div class="title mdl-typography--text-uppercase">
+                        <h4>{% trans 'intro feature title 3'%}</h4>
+                    </div>
+                    <div class="desc">
+                        {% trans 'intro feature description 3'%}
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!--feature border box end-->
+    </div>
+</section>
