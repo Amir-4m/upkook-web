@@ -1,4 +1,4 @@
-{% load i18n staticfiles sekizai_tags compress seo_tags site_tags %}
+{% load i18n staticfiles sekizai_tags compress seo_tags site_tags chat_tags %}
 <!doctype html>
 <html{% if setting %} lang="{{ setting.language }}"{% endif %}>
 <head>
@@ -95,6 +95,7 @@
     <script src="{{ STATIC_URL }}jsi18n/{{ LANGUAGE_CODE }}/djangojs.js"></script>
     <script src="{{ STATIC_URL }}api/js/api.js"></script>
     <script src="{{ STATIC_URL }}site/js/script.js"></script>
+    {% pure_chat pure_chat_id %}
     {% endblock %}
     {% block extrajs %}{% endblock %}
     {% endcompress %}

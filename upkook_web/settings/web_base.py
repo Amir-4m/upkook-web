@@ -22,6 +22,7 @@ TEMPLATES[0]['OPTIONS'] = {
         'django_contrib.sites.context_processors.site_settings',
         'django_contrib.amp.context_processors.amp',
         'upkook_web.apps.contrib.api.context_processors.api',
+        'upkook_web.context_processors.upkook_web'
     ),
     # List of callables that know how to import templates from
     # various sources.
@@ -39,5 +40,9 @@ INSTALLED_APPS += (
     'django_contrib.sites',
     'django_contrib.seo',
     'django_contrib.social',
+    'django_contrib.chats',
     'upkook_web.apps.contrib.api',
+
 )
+
+PURE_CHAT_ID = get_env_var('PURE_CHAT_ID')
