@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-18 17:48+0430\n"
+"POT-Creation-Date: 2019-06-19 11:54+0430\n"
 "PO-Revision-Date: 2018-12-22 15:26+0330\n"
 "Last-Translator: Saeed Salehian <saeed@upkook.com>\n"
 "Language-Team: Upkook <info@upkook.com>\n"
@@ -23,7 +23,7 @@ msgid "Become your Customers Favorite."
 msgstr "کسب و کار محبوب مشتریان باشید."
 
 #: upkook_web/apps/cms/home/templates/home/includes/hero.html:13
-msgid "Entrust customer satisfaction measurement to out experts. "
+msgid "Entrust customer satisfaction measurement to our experts. "
 msgstr "با اطمینان سنجش رضایت مشتری را به متخصصین ما بسپارید."
 
 #: upkook_web/apps/cms/home/templates/home/includes/hero.html:17
@@ -88,9 +88,10 @@ msgstr "آپ کوک چگونه به شما کمک می کند؟"
 #: upkook_web/apps/cms/home/templates/home/includes/intro.html:63
 msgid "intro feature description 3"
 msgstr ""
-"آپ کوک یک ابزار آنلاین تخصصی سنجش رضایت مشتری است که به شما کمک می کند تا "
-"شاخص خالص مروجان (NPS) را اندازه گیری کنید و نمره وفاداری برندتان را محاسبه "
-"کنید."
+"آپ کوک یک ابزار آنلاین تخصصی سنجش رضایت مشتری است که به شما کمک می کند تا <a "
+"target=\"_blank\" href=\"https://blog.upkook.com/customer-survey/what-is-nps/"
+"\">شاخص خالص مروجان (NPS)</a> را اندازه گیری کنید و نمره وفاداری برندتان را "
+"محاسبه کنید."
 
 #~ msgid "Easy to measure customer satisfaction KPIs."
 #~ msgstr "به راحتی شاخص های رضایت مشتری را اندازه گیری کنید."
