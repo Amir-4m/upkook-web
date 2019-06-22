@@ -1,3 +1,9 @@
+=== 1.0.7 (2019-06-22) ===
+
+- Support for pure chat integration
+- Added upkook introduction section to homepage
+- Configured upstream and downstream cache for views
+
 === 1.0.6 (2019-05-27) ===
 
 - Added privacy to Upkook policies
