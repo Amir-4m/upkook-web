@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # vim: ai ts=4 sts=4 et sw=4
 import os
-from django import get_version
 
 
 def get_env_var(key, default=None):
@@ -258,4 +257,4 @@ COMPRESS_CSS_FILTERS = [
 ]
 
 # HTML Minify does not support django 2.0 or higher
-HTML_MINIFY = get_version() < '2.0' and get_env_var('HTML_MINIFY', str(not DEBUG)) == 'True'
+HTML_MINIFY = get_env_var('HTML_MINIFY', str(not DEBUG)) == 'True'

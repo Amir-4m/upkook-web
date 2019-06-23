@@ -9,7 +9,7 @@
 
 ## Requirements
 
-This project requires Django version 2.1 or higher and Python 3.5 or higher.
+This project requires Django version 2.2 or higher and Python 3.5 or higher.
 
 ## Quick Start
 

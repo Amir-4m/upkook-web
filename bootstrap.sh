@@ -44,7 +44,7 @@ append_to_file "source /usr/local/bin/virtualenvwrapper.sh" $HOME/.bashrc
 source $HOME/.bashrc
 
 # Setup virtual environments
-setup_virtualenv "upkook_web" "python3" "django-1.11"
+setup_virtualenv "upkook_web" "python3" "django-2.2"
 append_to_file "workon upkook_web" ~/.bashrc
 
 # Create project folder
