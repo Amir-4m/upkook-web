@@ -175,8 +175,7 @@
 
     done(data, textStatus, jqXHR) {
       this.form.find("button").removeAttr("disabled");
-      token.access = data.access;
-      token.refresh = data.refresh;
+      token.update(data);
       this.track(jqXHR);
 
       if (this.step === 1) {
