@@ -56,4 +56,4 @@ GA_COOKIE_DOMAIN = get_env_var('GA_COOKIE_DOMAIN')
 GA_COOKIE_SECURE = get_env_var('GA_COOKIE_SECURE', 'False') == 'True'
 
 GTM_AMP_CONF_URL = get_env_var('GTM_AMP_CONF_URL', 'https://www.googletagmanager.com/amp.json')
-GTM_CONFIG_CACHE_TIMEOUT = get_env_var('GTM_CONFIG_CACHE_TIMEOUT', 10 * 60)  # 10 minutes
+GTM_CONFIG_CACHE_TIMEOUT = int(get_env_var('GTM_CONFIG_CACHE_TIMEOUT', 10 * 60))  # 10 minutes
