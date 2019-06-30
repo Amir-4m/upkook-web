@@ -167,6 +167,12 @@ ul.hero__sub-header {
     width: 180px;
 }
 
+/* NPS BENCHMARK */
+.nps-benchmark {
+    max-width: 100%;
+    padding: 0 150px;
+}
+
 /* RESPONSIVE */
 @media screen and (max-width: 1280px) {
     .hero .top-section {
@@ -200,7 +206,7 @@ ul.hero__sub-header {
 }
 
 @media screen and (max-width: 960px) {
-    .hero .top-section__container li:nth-of-type(2){
+    .hero .top-section__container li:nth-of-type(2) {
         display: none;
 
     }
