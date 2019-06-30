@@ -1937,3 +1937,22 @@ input.mdl-button[type="submit"] {
 .mdl-button {
     font-family: iranyekan, Tahoma, sans-serif;
 }
+
+.mdl-layout__header {
+    background-color: white;
+    color: inherit;
+    box-shadow: none;
+    border-bottom: 1px solid rgba(151, 151, 151, 0.5)
+}
+
+.mdl-layout__header-row .mdl-navigation__link {
+    color: inherit;
+}
+
+header .mdl-layout__header-row .mdl-navigation {
+    height: 50px;
+}
+
+header img, header amp-img {
+    height: 50px;
+}

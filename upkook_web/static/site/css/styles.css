@@ -177,3 +177,14 @@ h6, p {
         height: 64px;
     }
 }
+
+.mdl-layout__header {
+    background-color: white;
+    color: inherit;
+    box-shadow: none;
+    border-bottom: 1px solid rgba(151, 151, 151, 0.5)
+}
+
+.mdl-layout__header-row .mdl-navigation__link {
+    color: inherit;
+}

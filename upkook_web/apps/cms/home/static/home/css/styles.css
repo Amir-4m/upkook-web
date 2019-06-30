@@ -11,14 +11,6 @@ header.mdl-layout__header,
     border: 0;
 }
 
-header .mdl-layout__header-row .mdl-navigation {
-    height: 50px;
-}
-
-header img, header amp-img {
-    height: 50px;
-}
-
 header a, header a:hover, header a:visited {
     color: #DFE1E6;
 }
@@ -172,6 +164,11 @@ ul.hero__sub-header {
     max-width: 100%;
     padding: 0 150px;
 }
+/* PROMO BOX */
+.testbox {
+    max-width: 100%;
+    padding: 0 200px;
+}
 
 /* RESPONSIVE */
 @media screen and (max-width: 1280px) {
@@ -214,6 +211,9 @@ ul.hero__sub-header {
 @media screen and (max-width: 840px) {
     .nps-benchmark{
         padding: 0 0;
+    }
+    .testbox{
+        padding: 0 20px;
     }
 }
 
