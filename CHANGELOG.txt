@@ -1,3 +1,7 @@
+=== 1.0.8 (2019-06-24) ===
+
+- Updated homepage messages
+
 === 1.0.7 (2019-06-22) ===
 
 - Support for pure chat integration

@@ -8,7 +8,7 @@
                         {% if setting and setting.logo %}
                             {% if is_amp %}
                                 <amp-img alt="{{ site.name }}" height="64" width="64" src="{{ setting.logo.url }}"
-                                         title="{{ site.name }}"></amp-img>
+                                         title="{{ site.name }}" layout="intrinsic"></amp-img>
                             {% else %}
                                 <img alt="{{ site.name }}" src="{{ setting.logo.url }}" title="{{ site.name }}"/>
                             {% endif %}

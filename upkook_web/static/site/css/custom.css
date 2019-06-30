@@ -147,7 +147,6 @@ button {
 /* HEADER */
 header {
     width: 100%;
-    height: 80px;
 }
 
 header .mdl-grid {
@@ -1933,4 +1932,8 @@ input.mdl-button[type="submit"] {
 
 .mdl-button .material-icons {
     vertical-align: middle;
+}
+
+.mdl-button {
+    font-family: iranyekan, Tahoma, sans-serif;
 }

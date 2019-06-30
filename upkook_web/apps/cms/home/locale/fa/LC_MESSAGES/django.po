@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-19 11:54+0430\n"
+"POT-Creation-Date: 2019-06-24 10:50+0430\n"
 "PO-Revision-Date: 2018-12-22 15:26+0330\n"
 "Last-Translator: Saeed Salehian <saeed@upkook.com>\n"
 "Language-Team: Upkook <info@upkook.com>\n"
@@ -23,12 +23,12 @@ msgid "Become your Customers Favorite."
 msgstr "کسب و کار محبوب مشتریان باشید."
 
 #: upkook_web/apps/cms/home/templates/home/includes/hero.html:13
-msgid "Entrust customer satisfaction measurement to our experts. "
-msgstr "با اطمینان سنجش رضایت مشتری را به متخصصین ما بسپارید."
+msgid "Be smart, creative and confident in customer satisfaction."
+msgstr "هوشمندانه، خلاقانه و با اطمینان رضایت مشتریان را بسنجید."
 
 #: upkook_web/apps/cms/home/templates/home/includes/hero.html:17
 msgid "Receive valuable reactions from your customers with NPS."
-msgstr "با NPS، هزاران بازخورد ارزشمند از مشتریانتان دریافت کنید"
+msgstr "با NPS، هزاران بازخورد ارزشمند از مشتریانتان دریافت کنید."
 
 #: upkook_web/apps/cms/home/templates/home/includes/hero.html:22
 msgid "Learn more"
@@ -51,20 +51,21 @@ msgstr "باز خوردهای مشتریان را به سرمایه های ار�
 #: upkook_web/apps/cms/home/templates/home/includes/intro.html:19
 msgid "intro feature description 2"
 msgstr ""
-"مشتریان با چرخه عمر بالا را شناسایی کنید، قبل از اینکه مشتریان شما را ترک "
-"کنند علل نارضایتی شان را بفهمید، مشتریان وفادارتان را بشناسید و از آنها به "
-"عنوان مرجان ارگانیک استفاده کنید."
+"قبل از اینکه مشتریان شما را ترک کنند علل نارضایتی شان را بفهمید،  مشتریان "
+"وفادار با چرخه عمر بالا را بشناسید و از آنها به عنوان مروجان ارگانیک استفاده "
+"کنید."
 
 #: upkook_web/apps/cms/home/templates/home/includes/intro.html:22
 msgid "intro feature title 2"
-msgstr "آپ کوک چه مزایای برای شما دارد؟"
+msgstr "آپ کوک چه مزایایی برای شما دارد؟"
 
 #: upkook_web/apps/cms/home/templates/home/includes/intro.html:31
 msgid "intro feature description 1"
 msgstr ""
-"سوالات نظرسنجی و گزینه ها مطابق با استانداردهای جهانی است. نتایج نظر سنجی و "
-"گزارش های دوره ای منظم را آنلاین دریافت و بر اساس اطلاعات درست و قابل اعتماد "
-"تصمیم گیری کنید."
+"<a href=\"https://blog.upkook.com/customer-survey/what-is-nps/\" title=\"NPS "
+"چیست\" target=\"_blank\">نظرسنجی NPS</a> را مطابق با استانداردهای جهانی "
+"برگزار کنید، نتایج را بصورت آنلاین دریافت کنید و بر اساس اطلاعات درست و قابل "
+"اعتماد تصمیم گیری کنید."
 
 #: upkook_web/apps/cms/home/templates/home/includes/intro.html:34
 msgid "intro feature title 1"
@@ -77,9 +78,9 @@ msgstr "آپ کوک دقیقا چگونه کار می کند؟"
 #: upkook_web/apps/cms/home/templates/home/includes/intro.html:53
 msgid "intro feature description 4"
 msgstr ""
-"شما پس از ثبت نام، در کمتر از یک دقیقه می توانید نظر سنجی خود را تنظیم کنید، "
-"لینک نظرسنجی را دریافت کنید و آن را با مشتریانتان در هر کانال ارتباطی به "
-"اشتراک بگذارید."
+"شما پس از <a href=\"https://www.upkook.com/sign-up/\">ثبت نام</a>، در کمتر "
+"از یک دقیقه می توانید نظرسنجی خود را تنظیم، لینک آن را دریافت کنید و با "
+"مشتریانتان در هر کانال ارتباطی به اشتراک بگذارید."
 
 #: upkook_web/apps/cms/home/templates/home/includes/intro.html:60
 msgid "intro feature title 3"
@@ -89,9 +90,12 @@ msgstr "آپ کوک چگونه به شما کمک می کند؟"
 msgid "intro feature description 3"
 msgstr ""
 "آپ کوک یک ابزار آنلاین تخصصی سنجش رضایت مشتری است که به شما کمک می کند تا <a "
-"target=\"_blank\" href=\"https://blog.upkook.com/customer-survey/what-is-nps/"
-"\">شاخص خالص مروجان (NPS)</a> را اندازه گیری کنید و نمره وفاداری برندتان را "
-"محاسبه کنید."
+"href=\"https://blog.upkook.com/customer-survey/what-is-nps/\" title=\"NPS "
+"چیست\" target=\"_blank\">شاخص خالص مروجان (NPS)</a> را اندازه گیری کنید و "
+"نمره وفاداری برندتان را محاسبه کنید."
+
+#~ msgid "Entrust customer satisfaction measurement to our experts. "
+#~ msgstr "با اطمینان سنجش رضایت مشتری را به متخصصین ما بسپارید."
 
 #~ msgid "Easy to measure customer satisfaction KPIs."
 #~ msgstr "به راحتی شاخص های رضایت مشتری را اندازه گیری کنید."
