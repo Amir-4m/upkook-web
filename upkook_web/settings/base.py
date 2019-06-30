@@ -242,6 +242,7 @@ INSTALLED_APPS = (
     'sekizai',
 
     # Project Apps
+    'upkook_web.apps.cms.showcase',
 )
 
 SESSION_COOKIE_DOMAIN = get_env_var('SESSION_COOKIE_DOMAIN')
