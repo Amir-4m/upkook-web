@@ -210,7 +210,11 @@ ul.hero__sub-header {
         display: none;
 
     }
-
+}
+@media screen and (max-width: 840px) {
+    .nps-benchmark{
+        padding: 0 0;
+    }
 }
 
 @media screen and (max-width: 768px) {
