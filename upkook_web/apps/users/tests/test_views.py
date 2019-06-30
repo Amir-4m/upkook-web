@@ -20,7 +20,8 @@ class SignInViewTestCase(TestCase):
         AUTH_COOKIE_PATH='/',
         AUTH_COOKIE_SECURE='True',
         AUTH_ACCESS_COOKIE_NAME='access',
-        AUTH_REFRESH_COOKIE_NAME='refresh'
+        AUTH_REFRESH_COOKIE_NAME='refresh',
+        AUTH_USER_TRACK_ID_COOKIE_NAME='uti',
     )
     def test_get(self):
         url = reverse('users:sign-in')
@@ -42,6 +43,7 @@ class SignInViewTestCase(TestCase):
         self.assertTrue(auth_cookie.get('secure'))
         self.assertEqual(auth_cookie.get('access_key'), 'access')
         self.assertEqual(auth_cookie.get('refresh_key'), 'refresh')
+        self.assertEqual(auth_cookie.get('user_track_id_key'), 'uti')
 
 
 @unittest.skipIf(
@@ -56,7 +58,8 @@ class SignUpViewTestCase(TestCase):
         AUTH_COOKIE_PATH='/',
         AUTH_COOKIE_SECURE='True',
         AUTH_ACCESS_COOKIE_NAME='access',
-        AUTH_REFRESH_COOKIE_NAME='refresh'
+        AUTH_REFRESH_COOKIE_NAME='refresh',
+        AUTH_USER_TRACK_ID_COOKIE_NAME='uti',
     )
     def test_get(self):
         url = reverse('users:sign-up')
@@ -78,3 +81,4 @@ class SignUpViewTestCase(TestCase):
         self.assertTrue(auth_cookie.get('secure'))
         self.assertEqual(auth_cookie.get('access_key'), 'access')
         self.assertEqual(auth_cookie.get('refresh_key'), 'refresh')
+        self.assertEqual(auth_cookie.get('user_track_id_key'), 'uti')

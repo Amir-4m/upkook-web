@@ -25,8 +25,7 @@
     }
 
     static handleSuccess(data) {
-      token.access = data.access;
-      token.refresh = data.refresh;
+      token.update(data);
       const path = getURLParameter(window.location.search, 'ret');
       window.location.assign(`${dashboardURL}${path != null ? path : ''}`);
     }

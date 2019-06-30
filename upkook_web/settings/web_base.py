@@ -46,3 +46,14 @@ INSTALLED_APPS += (
 )
 
 PURE_CHAT_ID = get_env_var('PURE_CHAT_ID')
+
+GA_VERSION = get_env_var('GA_VERSION', 'GA1')
+
+GA_COOKIE_NAME = get_env_var('GA_COOKIE_NAME', '_ga')
+GA_COOKIE_AGE = int(get_env_var('GA_COOKIE_AGE', 2 * 365 * 24 * 60 * 60))  # 2 years
+GA_COOKIE_PATH = get_env_var('GA_COOKIE_PATH', '/')
+GA_COOKIE_DOMAIN = get_env_var('GA_COOKIE_DOMAIN')
+GA_COOKIE_SECURE = get_env_var('GA_COOKIE_SECURE', 'False') == 'True'
+
+GTM_AMP_CONF_URL = get_env_var('GTM_AMP_CONF_URL', 'https://www.googletagmanager.com/amp.json')
+GTM_CONFIG_CACHE_TIMEOUT = int(get_env_var('GTM_CONFIG_CACHE_TIMEOUT', 10 * 60))  # 10 minutes

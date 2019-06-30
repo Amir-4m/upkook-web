@@ -36,6 +36,7 @@ class UserViewBase(TemplateView):
                 'secure': settings.AUTH_COOKIE_SECURE,
                 'access_key': settings.AUTH_ACCESS_COOKIE_NAME,
                 'refresh_key': settings.AUTH_REFRESH_COOKIE_NAME,
+                'user_track_id_key': settings.AUTH_USER_TRACK_ID_COOKIE_NAME,
             }
         })
         return context

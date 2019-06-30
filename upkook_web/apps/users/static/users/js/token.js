@@ -1,11 +1,23 @@
 class Token {
-  constructor({ak, rk, age, path, d, secure}) {
+  constructor({ak, rk, uk, age, path, d, secure}) {
     this.ak = ak;
     this.rk = rk;
+    this.uk = uk;
     this.age = age;
     this.path = path;
     this.d = d;
     this.secure = secure;
+  }
+
+  setCookie(key, value) {
+    cookie.setItem(
+      key,
+      value,
+      this.age,
+      this.path,
+      this.d,
+      this.secure,
+    );
   }
 
   get access() {
@@ -13,14 +25,7 @@ class Token {
   }
 
   set access(value) {
-    cookie.setItem(
-      this.ak,
-      value,
-      this.age,
-      this.path,
-      this.d,
-      this.secure,
-    );
+    this.setCookie(this.ak, value);
   }
 
   get refresh() {
@@ -28,13 +33,20 @@ class Token {
   }
   
   set refresh(value) {
-    cookie.setItem(
-      this.rk,
-      value,
-      this.age,
-      this.path,
-      this.d,
-      this.secure,
-    );
+    this.setCookie(this.rk, value);
   }
+
+  get trackId() {
+    return cookie.getItem(this.uk);
+  }
+
+  set trackId(value) {
+    this.setCookie(this.uk, value);
+  }
+
+  update = (data) => {
+      this.access = data.access;
+      this.refresh = data.refresh;
+      this.trackId = data[this.uk];
+  };
 }

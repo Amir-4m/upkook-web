@@ -1,3 +1,16 @@
+=== 1.0.11 (2019-06-28) ===
+
+- GA_COOKIE_AGE must be a number
+
+=== 1.0.10 (2019-06-28) ===
+
+- GTM_CONFIG_CACHE_TIMEOUT setting must be number
+
+=== 1.0.9 (2019-06-28) ===
+
+- Setup for using a single client ID across cached, AMP and non-AMP pages
+- Setup user tracking id for logged in user analytics
+
 === 1.0.8 (2019-06-24) ===
 
 - Updated homepage messages
