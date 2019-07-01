@@ -1,3 +1,9 @@
+=== 1.0.12 (2019-07-01) ===
+
+- Added showcase tag
+- Serve GTM / GA config from hosted server
+- Improved header UI in non-Home pages
+
 === 1.0.11 (2019-06-28) ===
 
 - GA_COOKIE_AGE must be a number
