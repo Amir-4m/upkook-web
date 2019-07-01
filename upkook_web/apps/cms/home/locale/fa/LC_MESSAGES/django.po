@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-24 10:50+0430\n"
+"POT-Creation-Date: 2019-07-01 10:14+0430\n"
 "PO-Revision-Date: 2018-12-22 15:26+0330\n"
 "Last-Translator: Saeed Salehian <saeed@upkook.com>\n"
 "Language-Team: Upkook <info@upkook.com>\n"
@@ -93,6 +93,16 @@ msgstr ""
 "href=\"https://blog.upkook.com/customer-survey/what-is-nps/\" title=\"NPS "
 "چیست\" target=\"_blank\">شاخص خالص مروجان (NPS)</a> را اندازه گیری کنید و "
 "نمره وفاداری برندتان را محاسبه کنید."
+
+#: upkook_web/apps/cms/home/templates/home/includes/nps-benchmark.html:5
+msgid "Which companies are using NPS?"
+msgstr "کدام شرکت ها از نظرسنجی NPS استفاده می کنند؟"
+
+#: upkook_web/apps/cms/home/templates/home/includes/nps-benchmark.html:6
+msgid "<a href=\"https://www.upkook.com/sign-up/\">Join</a> pioneer companies"
+msgstr ""
+"به جمع شرکت های پیشگام بپیوندید: "
+"<a href=\"https://www.upkook.com/sign-up/\">ثبت نام</a>"
 
 #~ msgid "Entrust customer satisfaction measurement to our experts. "
 #~ msgstr "با اطمینان سنجش رضایت مشتری را به متخصصین ما بسپارید."
