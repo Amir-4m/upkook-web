@@ -7,6 +7,7 @@ app_name = 'policies'
 
 urlpatterns = [
     path('', IndexView.as_view(), name='index'),
+    path('<amp:amp>/', IndexView.as_view(), name='index-amp'),
     path('terms/', TermsView.as_view(), name='terms'),
     path('terms/<amp:amp>/', TermsView.as_view(), name='terms-amp'),
     path('privacy/', PrivacyView.as_view(), name='privacy')
