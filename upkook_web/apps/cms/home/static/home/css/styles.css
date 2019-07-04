@@ -165,7 +165,7 @@ ul.hero__sub-header {
     padding: 0 150px;
 }
 /* PROMO BOX */
-.testbox {
+.home-promo-box {
     max-width: 100%;
     padding: 0 165px;
 }
@@ -212,7 +212,7 @@ ul.hero__sub-header {
     .nps-benchmark{
         padding: 0 0;
     }
-    .testbox{
+    .home-promo-box{
         padding: 0 20px;
     }
 }
@@ -265,6 +265,9 @@ ul.hero__sub-header {
 }
 
 @media screen and (max-width: 600px) {
+    .home-promo-box .promo-wrapper {
+        border: 0;
+    }
 }
 
 @media screen and (max-width: 568px) {

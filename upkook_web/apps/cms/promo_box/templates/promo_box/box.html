@@ -1,22 +1,11 @@
-{% load staticfiles %}
-{% load i18n  %}
-
 <div class="promo-wrapper">
-    <div class="promo-details">
-        <div class="promo-title">
-            <h3>{{title}}</h3>
-        </div>
-        <div class="promo-description">
-            <span>{{desc}}</span>
-        </div>
-        <div class="promo-button">
-            {% for field in button %}
-            <a {% if field.href %} href="{{field.href}}" {% else %} href="#" {% endif %}
-               class="button-cta button-action-primary button-cta-md" {% if field.target %} target="{{field.target}}"
-               {% endif %}>
-                {{field.text}}
-            </a>
-            {% endfor %}
-        </div>
-    </div>
+  <h3 class="promo-title">{{ title }}</h3>
+  <div class="promo-description">
+    {{ desc }}
+  </div>
+  {% if cta and cta.href and cta.text %}
+    <a href="{{ cta.href }}" class="promo-button button-cta button-action-primary button-cta-md"{% if cta.target %} target="{{ cta.target }}"{% endif %}>
+      {{ cta.text }}
+    </a>
+  {% endif %}
 </div>

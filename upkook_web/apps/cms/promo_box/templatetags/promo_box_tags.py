@@ -5,9 +5,9 @@ register = template.Library()
 
 
 @register.inclusion_tag('promo_box/box.html', name='promo_box')
-def promo_box(title, desc, button):
+def promo_box(title, desc, cta):
     return {
         "title": title,
-        "button": button,
+        "cta": cta,
         "desc": desc,
     }

@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # vim: ai ts=4 sts=4 et sw=4
+from django.urls import reverse
 from django.utils.decorators import method_decorator
 from django.views.decorators.cache import cache_control, cache_page
 from django.views.generic import TemplateView
@@ -23,33 +24,24 @@ class HomeView(TemplateView):
         context = super(HomeView, self).get_context_data(amp=amp)
         site = SiteService.get_current_site(self.request)
         context.update({'title': site.name})
-        img_src1 = '%s%s' % (settings.STATIC_URL, 'home/images/huawei.png')
-        img_src2 = '%s%s' % (settings.STATIC_URL, 'home/images/honda.png')
-        img_src3 = '%s%s' % (settings.STATIC_URL, 'home/images/apple.png')
-        img_src4 = '%s%s' % (settings.STATIC_URL, 'home/images/google.png')
-        img_src5 = '%s%s' % (settings.STATIC_URL, 'home/images/amazon.png')
-        img_src6 = '%s%s' % (settings.STATIC_URL, 'home/images/airbnb.png')
-        img_src7 = '%s%s' % (settings.STATIC_URL, 'home/images/microsoft.png')
-        img_src8 = '%s%s' % (settings.STATIC_URL, 'home/images/netflix.png')
 
-        context.update({
-            'showcase_items': [
-                ShowcaseItem(img_src=img_src1),
-                ShowcaseItem(img_src=img_src2),
-                ShowcaseItem(img_src=img_src3),
-                ShowcaseItem(img_src=img_src4),
-                ShowcaseItem(img_src=img_src5),
-                ShowcaseItem(img_src=img_src6),
-                ShowcaseItem(img_src=img_src7),
-                ShowcaseItem(img_src=img_src8),
-            ],
-            'promo_box_button': [Link(text=_('Free sign up'), href='/test-url/', target='_blank')
-                                 ],
-
-        })
         if amp == 'amp':
             context.update({'canonical_url': HomeService.get_index_absolute_url(self.request, is_amp=False)})
         else:
             context.update({'amp_url': HomeService.get_index_absolute_url(self.request, is_amp=True)})
+
+        context.update({
+            'showcase_items': [
+                ShowcaseItem(img_src='%s%s' % (settings.STATIC_URL, 'home/images/huawei.png')),
+                ShowcaseItem(img_src='%s%s' % (settings.STATIC_URL, 'home/images/honda.png')),
+                ShowcaseItem(img_src='%s%s' % (settings.STATIC_URL, 'home/images/apple.png')),
+                ShowcaseItem(img_src='%s%s' % (settings.STATIC_URL, 'home/images/google.png')),
+                ShowcaseItem(img_src='%s%s' % (settings.STATIC_URL, 'home/images/amazon.png')),
+                ShowcaseItem(img_src='%s%s' % (settings.STATIC_URL, 'home/images/airbnb.png')),
+                ShowcaseItem(img_src='%s%s' % (settings.STATIC_URL, 'home/images/microsoft.png')),
+                ShowcaseItem(img_src='%s%s' % (settings.STATIC_URL, 'home/images/netflix.png')),
+            ],
+            'promo_box_cta': Link(text=_('Free sign up'), href=reverse('users:sign-up')),
+        })
 
         return context

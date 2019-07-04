@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-03 11:52+0430\n"
+"POT-Creation-Date: 2019-07-04 17:12+0430\n"
 "PO-Revision-Date: 2018-12-22 15:26+0330\n"
 "Last-Translator: Saeed Salehian <saeed@upkook.com>\n"
 "Language-Team: Upkook <info@upkook.com>\n"
@@ -94,26 +94,25 @@ msgstr ""
 "چیست\" target=\"_blank\">شاخص خالص مروجان (NPS)</a> را اندازه گیری کنید و "
 "نمره وفاداری برندتان را محاسبه کنید."
 
-#: upkook_web/apps/cms/home/templates/home/includes/nps-benchmark.html:5
+#: upkook_web/apps/cms/home/templates/home/includes/nps_benchmark.html:5
 msgid "Which companies are using NPS?"
 msgstr "کدام شرکت ها از نظرسنجی NPS استفاده می کنند؟"
 
-#: upkook_web/apps/cms/home/templates/home/includes/nps-benchmark.html:6
+#: upkook_web/apps/cms/home/templates/home/includes/nps_benchmark.html:6
 msgid "<a href=\"https://www.upkook.com/sign-up/\">Join</a> pioneer companies"
 msgstr ""
 "به جمع شرکت های پیشگام بپیوندید: <a href=\"https://www.upkook.com/sign-up/"
 "\">ثبت نام</a>"
 
-#: upkook_web/apps/cms/home/templates/home/includes/testbox.html:5
+#: upkook_web/apps/cms/home/templates/home/includes/promo_box.html:5
 msgid "What is your NPS score?"
 msgstr "نمره NPS شما چند خواهد بود؟"
 
-#: upkook_web/apps/cms/home/templates/home/includes/testbox.html:6
+#: upkook_web/apps/cms/home/templates/home/includes/promo_box.html:6
 msgid "You have not calculated your brand loyalty score yet?, start now."
 msgstr "هنوز نمره وفاداری برندتان را محاسبه نکرده اید، همین الان شروع کنید."
 
-#: upkook_web/apps/cms/home/views.py:46
-#| msgid "Free Sign Up"
+#: upkook_web/apps/cms/home/views.py:44
 msgid "Free sign up"
 msgstr "ثبت نام رایگان"
 

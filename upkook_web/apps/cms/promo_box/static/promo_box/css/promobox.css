@@ -5,11 +5,9 @@
     margin-bottom: 50px;
     background: white;
     text-align: center;
-
 }
 
 .promo-title {
-    margin-bottom: -15px;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #FF8B00;
@@ -17,12 +15,11 @@
 }
 
 .promo-description {
-    max-width: 100%;
-    width: 90%;
+    width: 100%;
     display: inline-block;
     color: #212529;
 }
 
 .promo-button {
-    padding: 15px 30px;
+    margin: 30px auto;
 }
