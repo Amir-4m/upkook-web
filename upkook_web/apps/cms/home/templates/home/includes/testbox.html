@@ -1,0 +1,12 @@
+{% load promo_box_tags %}
+{% load i18n  %}
+
+<section class="testbox">
+    {% trans 'What is your NPS score?' as nps_score %}
+    {% trans 'You have not calculated your brand loyalty score yet?, start now.' as start_now %}
+
+    {% promo_box nps_score start_now  promo_box_button %}
+
+</section>
+
+

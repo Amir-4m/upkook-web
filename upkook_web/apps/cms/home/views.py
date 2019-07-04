@@ -5,9 +5,12 @@ from django.views.decorators.cache import cache_control, cache_page
 from django.views.generic import TemplateView
 from django_contrib.sites.services import SiteService
 from django.conf import settings
+from django.utils.translation import gettext_lazy as _
+
 
 from .services import HomeService
 from upkook_web.apps.cms.showcase.showcase_item import ShowcaseItem
+from django_contrib.html.link import Link
 
 
 @method_decorator(cache_control(max_age=1 * 24 * 60 * 60), name='get')  # 1 day
@@ -39,7 +42,10 @@ class HomeView(TemplateView):
                 ShowcaseItem(img_src=img_src6),
                 ShowcaseItem(img_src=img_src7),
                 ShowcaseItem(img_src=img_src8),
-            ]
+            ],
+            'promo_box_button': [Link(text=_('Free sign up'), href='/test-url/', target='_blank')
+                                 ],
+
         })
         if amp == 'amp':
             context.update({'canonical_url': HomeService.get_index_absolute_url(self.request, is_amp=False)})

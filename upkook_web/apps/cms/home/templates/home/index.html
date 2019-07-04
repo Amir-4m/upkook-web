@@ -5,10 +5,12 @@
   <link rel="stylesheet" href="{{ STATIC_URL }}home/css/styles.css">
   <link rel="stylesheet" href="{{STATIC_URL}}home/css/intro.css">
   <link rel="stylesheet" href="{{ STATIC_URL }}showcase/css/showcase.css">
+  <link rel="stylesheet" href="{{ STATIC_URL }}promo_box/css/promobox.css">
 {% endblock %}
 
 {% block content %}
   {% include "home/includes/hero.html" %}
   {% include "home/includes/intro.html" %}
   {% include "home/includes/nps-benchmark.html" %}
+  {% include "home/includes/testbox.html" %}
 {% endblock %}

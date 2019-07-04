@@ -243,6 +243,7 @@ INSTALLED_APPS = (
 
     # Project Apps
     'upkook_web.apps.cms.showcase',
+    'upkook_web.apps.cms.promo_box',
 )
 
 SESSION_COOKIE_DOMAIN = get_env_var('SESSION_COOKIE_DOMAIN')
