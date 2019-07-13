@@ -284,6 +284,16 @@ footer.footer-bare a:visited {
 }
 
 /* MATERIAL */
+.mdl-textfield.mdl-textfield__helper-line {
+    padding: 2px 0;
+    text-align: justify;
+    color: #B3BAC5;
+}
+
+.mdl-textfield__helper-text {
+    font-size: 0.8rem;
+}
+
 .mdl-menu__item {
     text-align: right;
 }
