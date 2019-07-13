@@ -131,6 +131,7 @@ h6, p {
 .mdl-snackbar {
     left: auto;
     right: 100%;
+    z-index: 2147483647;
 }
 
 .mdl-snackbar__text {
