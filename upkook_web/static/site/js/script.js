@@ -10,13 +10,14 @@ const Snackbar = function () {
 
 Snackbar.prototype.setClass = function (klass) {
   let className = this.notification.className;
-  className = className.replace(/\bmdl-snackbar--(success|info|warning|error)\b/g, ``);
-  this.notification.className = [className.trim(), `mdl-snackbar--${klass}`].join(' ');
+  className = className.replace(/\bmdl-snackbar--(success|info|warning|error)\b/g, '');
+  this.notification.className = [className.trim(), 'mdl-snackbar--' + klass].join(' ');
 };
 
-Snackbar.prototype.error = function (message, timeout = 3750) {
+Snackbar.prototype.error = function (message, timeout) {
+  timeout = timeout || 3750;
   this.setClass('error');
-  this.notification.MaterialSnackbar.showSnackbar({message, timeout});
+  this.notification.MaterialSnackbar.showSnackbar({message: message, timeout: timeout});
 };
 
 Snackbar.prototype.cleanup = function () {
