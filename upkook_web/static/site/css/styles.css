@@ -173,6 +173,25 @@ h6, p {
     background-color: #DE350B;
 }
 
+.mega-footer-right-section i {
+    display: contents;
+
+}
+.mdl-mini-footer.mdl-mini-footer {
+    padding: 10px 0 10px 0;
+}
+.mini-footer-grid {
+    display: contents;
+}
+
+.mini-footer-left-section p {
+    margin: 0;
+}
+
+.policies-footer-grid {
+    display: contents;
+}
+
 /* Responsive */
 
 @media screen and (max-width: 1024px) {

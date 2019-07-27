@@ -288,6 +288,8 @@ ul.hero__sub-header {
 @media screen and (max-width: 568px) {
 }
 
+@media screen and (max-width: 480px) {
+}
 @media screen and (max-width: 414px) {
     .hero__background-container {
         background: url("../images/bg-home-1.0-414.png") no-repeat center top;

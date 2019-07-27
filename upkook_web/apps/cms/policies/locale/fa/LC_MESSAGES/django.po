@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-03 11:52+0430\n"
+"POT-Creation-Date: 2019-07-27 16:23+0430\n"
 "PO-Revision-Date: 2018-12-22 15:26+0330\n"
 "Last-Translator: Saeed Salehian <saeed@upkook.com>\n"
 "Language-Team: Upkook <info@upkook.com>\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: upkook_web/apps/cms/policies/templates/policies/index.html:8
+#: upkook_web/apps/cms/policies/templates/policies/index.html:10
 msgid "Privacy Policy"
 msgstr "سیاست حفظ حریم خصوصی"
 
-#: upkook_web/apps/cms/policies/templates/policies/index.html:10
+#: upkook_web/apps/cms/policies/templates/policies/index.html:12
 msgid ""
 "Explains what information we collect and why how we use it, and how to "
 "review and update it"
@@ -30,21 +30,21 @@ msgstr ""
 "برای اطلاع از سیاست های جمع آوری اطلاعات، نحوه و چگونگی استفاده از این "
 "اطلاعات سیاست های حریم خصوصی آپ کوک را مطالعه کنید."
 
-#: upkook_web/apps/cms/policies/templates/policies/index.html:13
+#: upkook_web/apps/cms/policies/templates/policies/index.html:15
 msgid "Read our Privacy Policy"
 msgstr "سیاست حفظ حریم خصوصی را بخوانید."
 
-#: upkook_web/apps/cms/policies/templates/policies/index.html:18
+#: upkook_web/apps/cms/policies/templates/policies/index.html:22
 msgid "Terms of Service"
 msgstr "شرایط و قوانین استفاده"
 
-#: upkook_web/apps/cms/policies/templates/policies/index.html:19
+#: upkook_web/apps/cms/policies/templates/policies/index.html:23
 msgid "Describes the rules you agree to when using our services"
 msgstr ""
 "برای اطلاع از شرایط استفاده از سرویس های آپ کوک شرایط و قوانین استفاده از آپ "
 "کوک را مطالعه کنید."
 
-#: upkook_web/apps/cms/policies/templates/policies/index.html:21
+#: upkook_web/apps/cms/policies/templates/policies/index.html:25
 msgid "Read our Terms of Service"
 msgstr "شرایط و قوانین استفاده را بخوانید."
 

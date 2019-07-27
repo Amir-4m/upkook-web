@@ -1,13 +1,16 @@
 {% extends is_amp|yesno:"upkook_web/amp/base.html,upkook_web/base.html" %}
 
 {% block body %}
-    {% if is_amp %}{% include 'upkook_web/amp/drawer.html' %}{% endif %}
-    <div id="outer-wrapper" class="mdl-layout mdl-js-layout">
-        {% include 'upkook_web/includes/header.html' %}
-        {% if not is_amp %}{% include 'upkook_web/includes/drawer.html' %}{% endif %}
-        <div class="container row" id="main-wrapper">
-            <div class="content" id="content-wrapper">{% block content %}{% endblock %}</div>
-        </div>
-        {% include 'upkook_web/includes/footer.html' %}
+{% if is_amp %}{% include 'upkook_web/amp/drawer.html' %}{% endif %}
+<div id="outer-wrapper" class="mdl-layout mdl-js-layout">
+    {% include 'upkook_web/includes/header.html' %}
+    {% if not is_amp %}{% include 'upkook_web/includes/drawer.html' %}{% endif %}
+    <div class="container row" id="main-wrapper">
+        <div class="content" id="content-wrapper">{% block content %}{% endblock %}</div>
     </div>
+    {% block footer %}
+    {% include 'upkook_web/includes/footer.html' %}
+    {% endblock %}
+
+</div>
 {% endblock %}
