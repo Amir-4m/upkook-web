@@ -3,22 +3,28 @@
 {% load staticfiles %}
 
 {% block policies-content %}
-<div class="policies-card">
-    <div class="policies-item">
-        <h2>{% trans "Privacy Policy" %}</h2>
-        <p>
-            {% trans "Explains what information we collect and why how we use it, and how to review and update it" %}
-        </p>
-        <br/>
-        <a href="{% url 'policies:privacy' %}">{% trans "Read our Privacy Policy" %}</a>
+<div class="mdl-grid">
+    <div class="mdl-cell--6-col">
+        <div class="policies-card">
+            <div class="policies-item">
+                <h2>{% trans "Privacy Policy" %}</h2>
+                <p>
+                    {% trans "Explains what information we collect and why how we use it, and how to review and update it" %}
+                </p>
+                <br/>
+                <a href="{% url 'policies:privacy' %}">{% trans "Read our Privacy Policy" %}</a>
+            </div>
+        </div>
     </div>
-</div>
-<div class="policies-card">
-    <div class="policies-item">
-        <h2>{% trans "Terms of Service" %}</h2>
-        <p>{% trans "Describes the rules you agree to when using our services" %}</p>
-        <br/>
-        <a href="{% url 'policies:terms' %}">{% trans "Read our Terms of Service" %}</a>
+    <div class="mdl-cell--6-col">
+        <div class="policies-card">
+            <div class="policies-item">
+                <h2>{% trans "Terms of Service" %}</h2>
+                <p>{% trans "Describes the rules you agree to when using our services" %}</p>
+                <br/>
+                <a href="{% url 'policies:terms' %}">{% trans "Read our Terms of Service" %}</a>
+            </div>
+        </div>
     </div>
 </div>
 
