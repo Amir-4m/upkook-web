@@ -38,6 +38,9 @@ sudo apt-get install -y python3
 sudo python -m pip install --upgrade pip
 sudo pip install --upgrade setuptools wheel virtualenv virtualenvwrapper
 
+ssh-keyscan -t rsa bitbucket.org >> ~/.ssh/known_hosts
+ssh-keyscan -t rsa 45.82.137.40 >> ~/.ssh/known_hosts
+append_to_file "export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3" $HOME/.bashrc
 append_to_file "export WORKON_HOME=$HOME/.virtualenvs" $HOME/.bashrc
 append_to_file "export PROJECT_HOME=/vagrant" $HOME/.bashrc
 append_to_file "source /usr/local/bin/virtualenvwrapper.sh" $HOME/.bashrc
