@@ -10,7 +10,7 @@
     {% compress css inline %}
         {%  block css %}
             <link rel="stylesheet" href="{{ STATIC_URL }}site/css/custom.css">
-            <link rel="stylesheet" href="{{ STATIC_URL }}iranyekan/3.0/css/iranyekan.css">
+            <link rel="stylesheet" href="{{ STATIC_URL }}iranyekan/{{ IRAN_YEKAN_LICENSE|default:'3.0' }}/css/iranyekan.css">
             <link rel="stylesheet" href="{{ STATIC_URL }}social/css/social.css">
         {% endblock %}
     {% endcompress %}

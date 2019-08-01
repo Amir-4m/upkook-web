@@ -1,6 +1,6 @@
 # Upkook Web
 
-[![Run Status](https://api.shippable.com/projects/5c1fb93687b5930700bd97dc/badge?branch=master)]()
+[![Run Status](https://api.shippable.com/projects/5c1fb93687b5930700bd97dc/badge?branch=develop)]()
 [![Coverage Badge](https://api.shippable.com/projects/5c1fb93687b5930700bd97dc/coverageBadge?branch=develop)]()
 
 ## Features
