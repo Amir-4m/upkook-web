@@ -1,0 +1,2 @@
+-e git+git@45.82.137.40:nargeel/django-fancy-imagefield.git@master#egg=django-fancy-imagefield
+-e git+git@45.82.137.40:nargeel/django-contrib.git@master#egg=django-contrib
