@@ -1,3 +1,7 @@
+=== 1.0.14 (2019-08-07) ===
+
+- Changed private git server
+
 === 1.0.13 (2019-07-04) ===
 
 - Added promo box
