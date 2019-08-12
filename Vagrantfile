@@ -3,7 +3,7 @@
 
 # A set of Vagrant version requirements to enforce that people use a specific
 # version of Vagrant with a Vagrantfile
-Vagrant.require_version ">= 1.8.1"
+Vagrant.require_version ">= 2.2.2"
 
 # OVERWRITE HOST LOCALE IN SSH SESSION
 ENV["LC_ALL"] = "en_US.UTF-8"

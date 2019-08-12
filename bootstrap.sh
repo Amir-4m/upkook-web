@@ -36,7 +36,7 @@ sh provision.sh
 # Installing and setup required basic python packages
 sudo apt-get install -y python3
 sudo python -m pip install --upgrade pip
-sudo pip install --upgrade setuptools wheel virtualenv virtualenvwrapper
+sudo pip3 install --upgrade setuptools wheel virtualenv virtualenvwrapper
 
 ssh-keyscan -t rsa bitbucket.org >> ~/.ssh/known_hosts
 ssh-keyscan -t rsa 45.82.137.3 >> ~/.ssh/known_hosts
