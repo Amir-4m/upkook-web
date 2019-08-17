@@ -28,7 +28,9 @@ msgstr "فارسی"
 
 #: upkook_web/templates/upkook_web/includes/mega-footer.html:10
 msgid "Upkook Address"
-msgstr "نشانی: بزرگراه اشرفی اصفهانی، نرسیده به همت، خیابان قموشی، کوچه هما، دانشگاه علم و فرهنگ، طبقه ششم"
+msgstr ""
+"نشانی: تهران، بزرگراه اشرفی اصفهانی، خیابان قموشی، کوچه هما، دانشگاه"
+ "علم و فرهنگ، طبقه ششم، پارک ملی علوم و فناوری های نرم و صنایع فرهنگی، اتاق 1036"
 
 #: upkook_web/templates/upkook_web/includes/mega-footer.html:18
 msgid "E-mail"
@@ -36,11 +38,11 @@ msgstr "ایمیل"
 
 #: upkook_web/templates/upkook_web/includes/mega-footer.html:26
 msgid "Phone"
-msgstr "تلفن"
+msgstr "تلفن: 44372126-021"
 
 #: upkook_web/templates/upkook_web/includes/mega-footer.html:32
 msgid "Postal Code"
-msgstr "کد پستی"
+msgstr "کد پستی: 1461968197"
 
 #: upkook_web/templates/upkook_web/includes/mini-footer.html:8
 #: upkook_web/templates/upkook_web/includes/navigation.html:2
