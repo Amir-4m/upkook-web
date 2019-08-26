@@ -25,9 +25,9 @@ class HomeView(TemplateView):
         site = SiteService.get_current_site(self.request)
         context.update({'title': site.name})
 
-        if amp == 'amp':
+        if amp == 'amp' or self.request.GET:
             context.update({'canonical_url': HomeService.get_index_absolute_url(self.request, is_amp=False)})
-        else:
+        if amp != 'amp':
             context.update({'amp_url': HomeService.get_index_absolute_url(self.request, is_amp=True)})
 
         context.update({

@@ -12,8 +12,8 @@ from django.urls import reverse
 )
 class HIWViewTestCase(TestCase):
     fixtures = ['sites']
-    view_name = 'hiw:hiw'
-    amp_view_name = 'hiw:hiw-amp'
+    view_name = 'hiw:index'
+    amp_view_name = 'hiw:index-amp'
 
     @override_settings(
         DASHBOARD_URL='https://testserver/dashboard/',
