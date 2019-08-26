@@ -1,0 +1,133 @@
+{% extends "upkook_web/upkook.html" %}
+{% load staticfiles i18n %}
+{% block css %}
+{{ block.super }}
+<link rel="stylesheet" href="{{ STATIC_URL }}hiw/css/custom.css">
+{% if not is_amp %}
+<link rel="stylesheet" href="{{ STATIC_URL }}material/1.3.0/css/getmdl-select.min.css">
+{% endif %}
+{% endblock %}
+
+{% block content %}
+<div class="hiw-wrapper">
+    <section class="hiw-right-section">
+        <div class="hiw-section-1">
+            <div class="hiw-section-1-contents">
+                <div class="mdl-grid">
+                    <div class="mdl-cell--12-col hiw-section-1-h"><h2>{% trans 'how it works Benefits of upkook' %}</h2>
+                    </div>
+                </div>
+                <div class="mdl-grid">
+                    <div class="mdl-cell--12-col hiw-section-1-p">
+                        <p>
+                            {% trans 'benefits description' %}
+                        </p>
+                    </div>
+                </div>
+                <div class="mdl-grid">
+                    <div class="mdl-cell--12-col hiw-section-1-a">
+                        <a href="{% url 'users:sign-up' %}" class="button-cta button-action-primary">
+                            {% trans 'Free sign up' %}
+                        </a>
+                    </div>
+                    <div class="mdl-cell--12-col hiw-section-1-i">
+                        <a href="#hiw-section-2"><i>&#10140;</i></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="hiw-section-2">
+            <a name="hiw-section-2"></a>
+            <div class="hiw-section-2-contents">
+                <div class="mdl-grid">
+                    <div class="mdl-cell--12-col hiw-section-2-h">
+                        <h2>{% trans 'how it works Why use cx measurement?' %}</h2>
+
+
+                    </div>
+                    <div class="mdl-cell--12-col hiw-section-2-p">
+                        <ul>
+                            <li>{% trans 'Why use cx measurement des1' %}</li>
+                            <li>{% trans 'Why use cx measurement des2' %}</li>
+                            <li>{% trans 'Why use cx measurement des3' %}</li>
+                            <li>{% trans 'Why use cx measurement des4' %}</li>
+                            <li>{% trans 'Why use cx measurement des5' %}</li>
+                        </ul>
+                    </div>
+
+                    <div class="mdl-cell--12-col hiw-section-2-i">
+                        <a href="#hiw-section-3"><i>&#10140;</i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="hiw-section-3">
+            <a name="hiw-section-3"></a>
+            <div class="hiw-section-3-contents">
+                <div class="mdl-grid">
+                    <div class="mdl-cell--12-col hiw-section-3-h">
+                        <h2>{% trans 'how it works CX Metrics and surveys' %}</h2>
+                    </div>
+
+                    <div class="mdl-cell--12-col hiw-section-3-p">
+                        <ul>
+                            <li>{% trans 'CX Metrics and surveys des1' %}</li>
+                            <li>{% trans 'CX Metrics and surveys des2' %}</li>
+                            <li>{% trans 'CX Metrics and surveys des3' %}</li>
+                            <li>{% trans 'CX Metrics and surveys des4' %}</li>
+                            <li>{% trans 'CX Metrics and surveys des5' %}</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mdl-grid">
+                    <div class="mdl-cell--12-col hiw-section-3-demo">
+                        <a
+                                href="https://demo.upkook.com"
+                                class="button-cta button-action-secondary"
+                                target="_blank">
+                            {% trans 'Try Demo' %}
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    {% if is_amp %}
+    {% else %}
+    <section class="hiw-left-section">
+        <div class="sign-up-form1">
+            {% include 'users/sign-up-step1.html' %}
+        </div>
+        <div class="sign-up-form2">
+            {% include 'users/sign-up-step2.html' %}
+        </div>
+    </section>
+    {% endif %}
+</div>
+{% endblock %}
+{% block stylesheets %}
+{{ block.super }}
+<link rel="stylesheet" href="{{ STATIC_URL }}hiw/css/styles.css">
+{% endblock %}
+
+
+
+
+{% block javascripts %}
+{{ block.super }}
+{% if is_amp %}  TODO
+{% else %}
+
+<script src="{{ STATIC_URL }}users/js/token.js"></script>
+{% include "users/js/auth-cookie-js.html" %}
+<script src="{{ STATIC_URL }}material/1.3.0/js/getmdl-select-ie11.js"></script>
+<script src="{{ STATIC_URL }}users/js/sign-up.js"></script>
+{% endif %}
+{% endblock %}
+
