@@ -6,7 +6,9 @@
     src: url(https://fonts.gstatic.com/s/materialicons/v47/flUhRq6tzZclQEJ-Vdg-IuiaDsNa.woff) format('woff');
     src: url(https://fonts.gstatic.com/s/materialicons/v47/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
 }
-
+html{
+    scroll-behavior: smooth;
+}
 .material-icons {
     font-family: 'Material Icons';
     font-weight: normal;

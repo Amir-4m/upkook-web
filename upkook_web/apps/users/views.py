@@ -58,5 +58,4 @@ class SignUpView(UserViewBase):
 
     def get_context_data(self):
         context = super(SignUpView, self).get_context_data()
-        context.update({'sign_in_url': reverse(SignInView.view_name)})
         return context

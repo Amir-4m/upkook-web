@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-27 16:23+0430\n"
+"POT-Creation-Date: 2019-08-26 12:04+0430\n"
 "PO-Revision-Date: 2018-12-17 10:22+0330\n"
 "Last-Translator: Saeed Salehian <saeed@upkook.com>\n"
 "Language-Team: Upkook <info@upkook.com>\n"
@@ -18,29 +18,32 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: upkook_web/settings/static.py:10 upkook_web/settings/web_base.py:10
+#: upkook_web/settings/static.py:10 upkook_web/settings/web_base.py:11
 msgid "English"
 msgstr "انگلیسی"
 
-#: upkook_web/settings/static.py:11 upkook_web/settings/web_base.py:11
+#: upkook_web/settings/static.py:11 upkook_web/settings/web_base.py:12
 msgid "Farsi"
 msgstr "فارسی"
 
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:10
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:11
 msgid "Upkook Address"
-msgstr "نشانی: بزرگراه اشرفی اصفهانی، نرسیده به همت، خیابان قموشی، کوچه هما، دانشگاه علم و فرهنگ، طبقه ششم"
+msgstr ""
+"نشانی: تهران، بزرگراه اشرفی اصفهانی، خیابان قموشی، کوچه هما، دانشگاه علم و "
+"فرهنگ، طبقه ششم،<br/> پارک ملی علوم و فناوری های نرم و صنایع فرهنگی، اتاق "
+"1036 "
 
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:18
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:19
 msgid "E-mail"
 msgstr "ایمیل"
 
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:26
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:27
 msgid "Phone"
-msgstr "تلفن"
+msgstr "تلفن: 44372126-021"
 
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:32
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:33
 msgid "Postal Code"
-msgstr "کد پستی"
+msgstr "کد پستی: 1461968197"
 
 #: upkook_web/templates/upkook_web/includes/mini-footer.html:8
 #: upkook_web/templates/upkook_web/includes/navigation.html:2

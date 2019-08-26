@@ -4,10 +4,11 @@
     <div class="mdl-grid mega-footer-grid">
         <div class="mega-footer-info mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mega-footer-right-section">
             <div class="footer-address">
-                <i class="material-icons">
+                <div class="footer-address-i">
+                    <i class="material-icons">
                     location_on
                 </i>
-                {% trans "Upkook Address" %}
+                </div><div class="footer-address-text">{% trans "Upkook Address" %}</div>
 
 
             </div>
@@ -18,20 +19,20 @@
                 <span>{% trans "E-mail" %}: <a href="mailto:info@upkook.com" target="_top">info@upkook.com</a></span>
 
             </div>
-            <!--<div class="mega-footer-contact">-->
-                    <!--<span>-->
-                    <!--<i class="material-icons">-->
-                        <!--phone-->
-                    <!--</i>-->
-                    <!--{% trans "Phone" %}: </span>-->
+            <div class="mega-footer-contact">
+                    <span>
+                    <i class="material-icons">
+                        phone
+                    </i>
+                    {% trans "Phone" %} </span>
 
-                <!--<span>-->
-                    <!--<i class="material-icons">-->
-                        <!--mail_outline-->
-                    <!--</i>-->
-                    <!--{% trans "Postal Code" %}: </span>-->
+                <span>
+                    <i class="material-icons">
+                        mail_outline
+                    </i>
+                    {% trans "Postal Code" %} </span>
 
-            <!--</div>-->
+            </div>
 
         </div>
 
