@@ -40,7 +40,7 @@ class HIWViewTestCase(TestCase):
         self.assertEqual(auth_cookie.get('access_key'), 'access')
         self.assertEqual(auth_cookie.get('refresh_key'), 'refresh')
         self.assertEqual(auth_cookie.get('user_track_id_key'), 'uti')
-        self.assertEqual(response.context_data.get('title'), site.name)
+        self.assertEqual(response.context_data.get('title'), 'How It Works')
         self.assertEqual(response.context_data.get('amp_url'), 'http://testserver/how-it-works/amp/')
         self.assertEqual(response.status_code, 200)
 

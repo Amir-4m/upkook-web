@@ -72,7 +72,6 @@ class SignUpViewTestCase(TestCase):
 
         self.assertEqual(context.get('title'), site.name)
         self.assertEqual(context.get('dashboard_url'), 'https://testserver/dashboard/')
-        self.assertEqual(context.get('sign_in_url'), reverse('users:sign-in'))
 
         auth_cookie = context.get('auth_cookie')
         self.assertEqual(auth_cookie.get('age'), 1)
