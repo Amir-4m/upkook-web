@@ -7,8 +7,8 @@ class HIWService(object):
     @staticmethod
     def get_index_relative_url(is_amp=False):
         if is_amp:
-            return reverse('hiw:hiw-amp', kwargs={'amp': 'amp'})
-        return reverse('hiw:hiw')
+            return reverse('hiw:index-amp', kwargs={'amp': 'amp'})
+        return reverse('hiw:index')
 
     @staticmethod
     def get_index_absolute_url(request, is_amp=False):
