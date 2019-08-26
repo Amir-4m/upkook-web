@@ -4,7 +4,6 @@ import os
 import unittest
 from django.test import TestCase, override_settings
 from django.urls import reverse
-from django_contrib.sites.services import SiteService
 
 
 @unittest.skipIf(
@@ -29,8 +28,6 @@ class HIWViewTestCase(TestCase):
     def test_get(self):
         url = reverse(self.view_name)
         response = self.client.get(url)
-
-        site = SiteService.get_current_site(response.request)
 
         auth_cookie = response.context_data.get('auth_cookie')
         self.assertEqual(auth_cookie.get('age'), 1)
