@@ -2,6 +2,7 @@
 # vim: ai ts=4 sts=4 et sw=4
 from django.urls import reverse
 from django.utils.decorators import method_decorator
+from datetime import datetime
 from django.views.decorators.cache import cache_control, cache_page
 from django.views.generic import TemplateView
 from django_contrib.sites.services import SiteService
@@ -19,6 +20,7 @@ from django_contrib.html.link import Link
 class HomeView(TemplateView):
     http_method_names = ['get']
     template_name = 'home/index.html'
+    last_modification = datetime(2019, 8, 26)
 
     def get_context_data(self, amp=None):
         context = super(HomeView, self).get_context_data(amp=amp)

@@ -4,6 +4,7 @@ from django.conf import settings
 from django.urls import reverse
 from django.views.generic import TemplateView
 from django.utils.decorators import method_decorator
+from datetime import datetime
 from django.views.decorators.cache import cache_control, cache_page
 from django.utils.translation import ugettext_lazy as _
 from django_contrib.html.link import Link
@@ -45,6 +46,7 @@ class UserViewBase(TemplateView):
 class SignInView(UserViewBase):
     template_name = 'users/sign-in.html'
     view_name = 'users:sign-in'
+    last_modification = datetime(2019, 8, 26)
 
     def get_context_data(self):
         context = super(SignInView, self).get_context_data()
@@ -55,6 +57,7 @@ class SignInView(UserViewBase):
 class SignUpView(UserViewBase):
     template_name = 'users/sign-up.html'
     view_name = 'users:sign-up'
+    last_modification = datetime(2019, 8, 26)
 
     def get_context_data(self):
         context = super(SignUpView, self).get_context_data()

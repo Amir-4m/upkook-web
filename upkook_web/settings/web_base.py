@@ -35,6 +35,7 @@ TEMPLATES[0]['OPTIONS'] = {
 INSTALLED_APPS += (
     'statici18n',
     'django.contrib.sites',
+    'django.contrib.sitemaps',
 
     'django_contrib.amp',
     'django_contrib.sites',
