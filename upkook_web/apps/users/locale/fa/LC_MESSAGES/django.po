@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-26 12:04+0430\n"
+"POT-Creation-Date: 2019-08-31 12:02+0430\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -164,18 +164,39 @@ msgstr "۱۵۰ یا بیشتر"
 msgid "Please choose size of your company."
 msgstr "لطفا تعداد کارمندان را مشخص کنید."
 
-#: upkook_web/apps/users/views.py:24
+#: upkook_web/apps/users/views.py:25
 msgid "UPKOOK"
 msgstr "آپ‌کوک"
 
-#: upkook_web/apps/users/views.py:25
+#: upkook_web/apps/users/views.py:26
 msgid "Blog"
 msgstr "بلاگ"
 
-#: upkook_web/apps/users/views.py:26
+#: upkook_web/apps/users/views.py:27
 msgid "Terms of Service"
 msgstr "شرایط و قوانین"
 
-#: upkook_web/apps/users/views.py:27
+#: upkook_web/apps/users/views.py:28
 msgid "Privacy Policy"
 msgstr "حریم خصوصی"
+
+#: upkook_web/apps/users/views.py:55
+msgid "Welcome, log in to UPKOOK - UPKOOK"
+msgstr "خوش آمدید! ورود به آپ کوک - آپ کوک"
+
+#: upkook_web/apps/users/views.py:56
+msgid "Log in to UPKOOK customer experience measurement platform control panel"
+msgstr "ورود به پنل مدیریت پلتفرم سنجش تجربه مشتری آپ کوک"
+
+#: upkook_web/apps/users/views.py:69
+msgid "Free registration in UPKOOK - UPKOOK"
+msgstr "ثبت نام رایگان در آپ کوک - آپ کوک"
+
+#: upkook_web/apps/users/views.py:71
+msgid ""
+"Free registration in UPKOOK customer experience measurement platform, create "
+"survey, share survey link, customer satisfaction measurement and result "
+"analysis"
+msgstr ""
+"ثبت نام رایگان در پلتفرم سنجش تجربه مشتری آپ کوک، ایجاد نظرسنجی، اشتراک لینک "
+"نظرسنجی، سنجش رضایت مشتری و تحلیل نتایج"
