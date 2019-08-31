@@ -50,7 +50,11 @@ class SignInView(UserViewBase):
 
     def get_context_data(self):
         context = super(SignInView, self).get_context_data()
-        context.update({'sign_up_url': reverse(SignUpView.view_name)})
+        context.update({
+            'sign_up_url': reverse(SignUpView.view_name),
+            'title': _('Welcome, log in to UPKOOK - UPKOOK'),
+            'description': _('Log in to UPKOOK customer experience measurement platform control panel')
+        })
         return context
 
 
@@ -61,4 +65,12 @@ class SignUpView(UserViewBase):
 
     def get_context_data(self):
         context = super(SignUpView, self).get_context_data()
+        context.update({
+            'title': _('Free registration in UPKOOK - UPKOOK'),
+            'description': _(
+                'Free registration in UPKOOK customer experience measurement platform, '
+                'create survey, share survey link, customer satisfaction measurement and result analysis'
+            )
+
+        })
         return context

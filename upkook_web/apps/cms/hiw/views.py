@@ -18,7 +18,14 @@ class HIWView(TemplateView):
 
     def get_context_data(self, amp=None):
         context = super(HIWView, self).get_context_data(amp=amp)
-        context.update({'title': _('How It Works')})
+        context.update({
+            'title': _('Customer experience measurement platform for increasing income by customer satisfaction'),
+            'description': _(
+                'Standard customer experience measurement form, '
+                'purchase satisfaction questionnaire, customer loyalty sample form;'
+                'How does UPKOOK platform help you?ُ'
+            )
+        })
 
         if amp == 'amp' or self.request.GET:
             context.update({'canonical_url': HIWService.get_index_absolute_url(self.request, is_amp=False)})
