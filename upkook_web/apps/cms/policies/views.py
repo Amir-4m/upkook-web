@@ -13,7 +13,12 @@ class TermsView(TemplateView):
     template_name = 'policies/terms.html'
 
     def get_context_data(self, **kwargs):
-        kwargs.update({'title': _('Terms of Service – Privacy &amp; Terms – Upkook')})
+        kwargs.update(
+            {
+                'title': _('Terms of Service – Privacy &amp; Terms – Upkook'),
+                'nav_template': "policies/includes/navigation.html"
+            }
+        )
         return super(TermsView, self).get_context_data(**kwargs)
 
 
@@ -22,7 +27,12 @@ class IndexView(TemplateView):
     template_name = 'policies/index.html'
 
     def get_context_data(self, **kwargs):
-        kwargs.update({'title': _('Privacy &amp; Terms – Upkook')})
+        kwargs.update(
+            {
+                'title': _('Privacy &amp; Terms – Upkook'),
+                'nav_template': "policies/includes/navigation.html"
+            }
+        )
         return super(IndexView, self).get_context_data(**kwargs)
 
 
@@ -31,5 +41,9 @@ class PrivacyView(TemplateView):
     template_name = 'policies/privacy.html'
 
     def get_context_data(self, **kwargs):
-        kwargs.update({'title': _('Privacy Policy – Privacy &amp; Terms – Upkook')})
+        kwargs.update(
+            {'title': _('Privacy Policy – Privacy &amp; Terms – Upkook'),
+             'nav_template': "policies/includes/navigation.html"
+             }
+        )
         return super(PrivacyView, self).get_context_data(**kwargs)

@@ -1,5 +1,5 @@
 <div id="sidebar" class="mdl-layout__drawer drawer" layout="nodisplay" side="left">
     <nav class="mdl-navigation navigation">
-        {% include 'upkook_web/includes/navigation.html' %}
+        {% include nav_template|default:'upkook_web/includes/navigation.html' %}
     </nav>
 </div>
