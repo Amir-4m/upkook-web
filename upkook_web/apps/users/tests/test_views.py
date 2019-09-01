@@ -1,11 +1,10 @@
 #!/usr/bin/env python
 # vim: ai ts=4 sts=4 et sw=4
-import os
 import unittest
 
+import os
 from django.test import TestCase, override_settings
 from django.urls import reverse
-from django_contrib.sites.services import SiteService
 
 
 @unittest.skipIf(
@@ -29,10 +28,9 @@ class SignInViewTestCase(TestCase):
 
         self.assertEqual(response.status_code, 200)
 
-        site = SiteService.get_current_site(response.request)
         context = response.context_data
 
-        self.assertEqual(context.get('title'), site.name)
+        self.assertEqual(context.get('title'), "Welcome, log in to UPKOOK - UPKOOK")
         self.assertEqual(context.get('dashboard_url'), 'https://testserver/dashboard/')
         self.assertEqual(context.get('sign_up_url'), reverse('users:sign-up'))
 
@@ -67,10 +65,9 @@ class SignUpViewTestCase(TestCase):
 
         self.assertEqual(response.status_code, 200)
 
-        site = SiteService.get_current_site(response.request)
         context = response.context_data
 
-        self.assertEqual(context.get('title'), site.name)
+        self.assertEqual(context.get('title'), "Free registration in UPKOOK - UPKOOK")
         self.assertEqual(context.get('dashboard_url'), 'https://testserver/dashboard/')
 
         auth_cookie = context.get('auth_cookie')
