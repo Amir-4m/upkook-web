@@ -6,19 +6,20 @@
                 <h1>
                     <a href="{{ protocol }}://{{ site.domain }}" itemprop="url" title="{{ site.name }}">
                         {% if setting and setting.logo %}
-                            {% if is_amp %}
-                                <amp-img alt="{{ site.name }}" height="64" width="64" src="{{ setting.logo.url }}"
-                                         title="{{ site.name }}" layout="intrinsic"></amp-img>
-                            {% else %}
-                                <img alt="{{ site.name }}" src="{{ setting.logo.url }}" title="{{ site.name }}"/>
-                            {% endif %}
+                        {% if is_amp %}
+                        <amp-img alt="{{ site.name }}" height="64" width="64" src="{{ setting.logo.url }}"
+                                 title="{{ site.name }}" layout="intrinsic" itemprop="logo"></amp-img>
+                        {% else %}
+                        <img itemprop="logo" alt="{{ site.name }}" src="{{ setting.logo.url }}"
+                             title="{{ site.name }}"/>
+                        {% endif %}
                         {% endif %}
                         <span itemprop="name">{{ site.name }}</span>
                     </a>
                 </h1>
             </div>
             <div class="mdl-cell mdl-cell--9-col mdl-cell--5-col-tablet">
-                <nav class="mdl-navigation navigation">
+                <nav class="mdl-navigation navigation" itemtype="http://schema.org/SiteNavigationElement">
                     {% include nav_template|default:'upkook_web/includes/navigation.html' %}
                 </nav>
             </div>

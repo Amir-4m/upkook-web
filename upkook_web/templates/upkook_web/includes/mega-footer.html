@@ -6,11 +6,32 @@
             <div class="footer-address">
                 <div class="footer-address-i">
                     <i class="material-icons">
-                    location_on
-                </i>
-                </div><div class="footer-address-text">{% trans "Upkook Address" %}</div>
+                        location_on
+                    </i>
+                </div>
+                <div itemscope itemtype="http://schema.org/PostalAddress">
 
+                    <div class="footer-address-text">
+                        <span>
+                            <span>{% trans "address: " %}</span>
+                            <span itemprop="{% if is_amp %}addressLocality{% else %}streetAddress{% endif %}">
+                                {% trans "Upkook Address" %}
+                            </span>
+                        </span>
+                    </div>
 
+                    <span class="footer-postal-code">
+                        <span>
+                            <i class="material-icons">
+                                mail_outline
+                            </i>
+                            <span>{% trans "Postal Code: " %}</span>
+                            <span itemprop="postalCode">{% trans "UPKOOK Code" %}</span>
+
+                        </span>
+
+                    </span>
+                </div>
             </div>
             <div class="footer-email">
                 <i class="material-icons">
@@ -21,16 +42,15 @@
             </div>
             <div class="mega-footer-contact">
                     <span>
-                    <i class="material-icons">
-                        phone
-                    </i>
-                    {% trans "Phone" %} </span>
+                        <i class="material-icons">
+                            phone
+                        </i>
+                         {% trans "Phone: " %}
+                        <span itemprop="telephone" dir="ltr">
+                            {% trans "UPKOOK Telephone" %}
+                        </span>
+                    </span>
 
-                <span>
-                    <i class="material-icons">
-                        mail_outline
-                    </i>
-                    {% trans "Postal Code" %} </span>
 
             </div>
 

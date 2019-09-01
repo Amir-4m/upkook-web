@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-26 12:04+0430\n"
+"POT-Creation-Date: 2019-09-01 17:11+0430\n"
 "PO-Revision-Date: 2018-12-22 15:26+0330\n"
 "Last-Translator: Saeed Salehian <saeed@upkook.com>\n"
 "Language-Team: Upkook <info@upkook.com>\n"
@@ -18,9 +18,27 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+#: upkook_web/apps/cms/policies/templates/policies/includes/footer.html:7
+msgid "UPKOOK"
+msgstr "آپ کوک"
+
+#: upkook_web/apps/cms/policies/templates/policies/includes/footer.html:8
 #: upkook_web/apps/cms/policies/templates/policies/index.html:10
 msgid "Privacy Policy"
 msgstr "سیاست حفظ حریم خصوصی"
+
+#: upkook_web/apps/cms/policies/templates/policies/includes/footer.html:9
+#: upkook_web/apps/cms/policies/templates/policies/index.html:22
+msgid "Terms of Service"
+msgstr "شرایط و قوانین استفاده"
+
+#: upkook_web/apps/cms/policies/templates/policies/includes/navigation.html:8
+msgid "Sign In"
+msgstr "ورود"
+
+#: upkook_web/apps/cms/policies/templates/policies/includes/navigation.html:11
+msgid "Sign Up"
+msgstr "ثبت نام"
 
 #: upkook_web/apps/cms/policies/templates/policies/index.html:12
 msgid ""
@@ -34,10 +52,6 @@ msgstr ""
 msgid "Read our Privacy Policy"
 msgstr "سیاست حفظ حریم خصوصی را بخوانید."
 
-#: upkook_web/apps/cms/policies/templates/policies/index.html:22
-msgid "Terms of Service"
-msgstr "شرایط و قوانین استفاده"
-
 #: upkook_web/apps/cms/policies/templates/policies/index.html:23
 msgid "Describes the rules you agree to when using our services"
 msgstr ""
@@ -48,14 +62,14 @@ msgstr ""
 msgid "Read our Terms of Service"
 msgstr "شرایط و قوانین استفاده را بخوانید."
 
-#: upkook_web/apps/cms/policies/views.py:16
+#: upkook_web/apps/cms/policies/views.py:18
 msgid "Terms of Service – Privacy &amp; Terms – Upkook"
 msgstr "شرایط و قوانین استفاده - حریم خصوصی و قوانین - آپ کوک"
 
-#: upkook_web/apps/cms/policies/views.py:25
+#: upkook_web/apps/cms/policies/views.py:32
 msgid "Privacy &amp; Terms – Upkook"
 msgstr "حریم خصوصی و قوانین - آپ کوک"
 
-#: upkook_web/apps/cms/policies/views.py:34
+#: upkook_web/apps/cms/policies/views.py:45
 msgid "Privacy Policy – Privacy &amp; Terms – Upkook"
 msgstr "حریم خصوصی - حریم خصوصی و قوانین - آپ کوک"
