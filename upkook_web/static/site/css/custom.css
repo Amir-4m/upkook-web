@@ -225,6 +225,9 @@ footer.footer-bare a:visited {
     padding-right: 10px;
 
 }
+.mega-footer-contact span span{
+    display: contents;
+}
 
 .mega-footer-contact span:first-child {
     padding-right: 0;
