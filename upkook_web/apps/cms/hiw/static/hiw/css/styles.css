@@ -62,7 +62,7 @@
 
 }
 
-.hiw-section-1-p p {
+.hiw-section-1 p {
     text-align: right;
 }
 
@@ -71,23 +71,21 @@
     padding-right: 10px;
 }
 
-.hiw-section-1-a {
-    text-align: right;
+.hiw-section-1 a.button-cta {
     display: none;
 
 }
 
-.hiw-section-2-contents {
-
+.hiw-section-2 .md-gr {
     padding-top: 0;
 
 }
 
-.hiw-section-2-h h2 {
+.hiw-section-2 h2 {
     text-align: right;
 }
 
-.hiw-section-2-p ul {
+.hiw-section-2 ul {
     text-align: right;
     list-style: disc;
 }
@@ -96,17 +94,17 @@
     text-align: right;
 }
 
-.hiw-section-3-contents {
+.hiw-section-3 .md-gr {
 
     padding-top: 0;
 
 }
 
-.hiw-section-3-h h2 {
+.hiw-section-3 h2 {
     text-align: right;
 }
 
-.hiw-section-3-p ul {
+.hiw-section-3 ul {
     text-align: right;
     list-style: disc;
 }
@@ -147,7 +145,7 @@
         font-size: 2.318rem;
     }
 
-    .hiw-section-1-p p {
+    .hiw-section-1 p {
         font-size: 1.218rem;
     }
 
@@ -155,11 +153,11 @@
         padding: 0 100px 0 120px;
     }
 
-    .hiw-section-2-h h2 {
+    .hiw-section-2 h2 {
         font-size: 2.318rem;
     }
 
-    .hiw-section-2-p ul {
+    .hiw-section-2 ul {
         font-size: 1.218rem;
     }
 
@@ -167,17 +165,17 @@
         padding: 0 100px 0 120px;
     }
 
-    .hiw-section-3-contents {
+    .hiw-section-3 .md-gr {
 
         padding-top: 0;
 
     }
 
-    .hiw-section-3-h h2 {
+    .hiw-section-3 h2 {
         font-size: 2.318rem;
     }
 
-    .hiw-section-3-p ul {
+    .hiw-section-3 ul {
         font-size: 1.218rem;
     }
 
@@ -212,23 +210,23 @@
         font-size: 2rem;
     }
 
-    .hiw-section-1-p p {
+    .hiw-section-1 p {
         font-size: 1rem;
     }
 
-    .hiw-section-2-h h2 {
+    .hiw-section-2 h2 {
         font-size: 2rem;
     }
 
-    .hiw-section-2-p ul {
+    .hiw-section-2 ul {
         font-size: 1rem;
     }
 
-    .hiw-section-3-h h2 {
+    .hiw-section-3 h2 {
         font-size: 2rem;
     }
 
-    .hiw-section-3-p ul {
+    .hiw-section-3 ul {
         font-size: 1rem;
     }
 
@@ -255,8 +253,9 @@
         display: contents;
     }
 
-    .hiw-section-1-a {
-        margin-top: 50px;
+    .hiw-section-1 a.button-cta {
+        margin: 50px auto 0;
+        display: block;
     }
 
     .mini-footer-items {
@@ -292,12 +291,6 @@
         padding: 0;
     }
 
-    .hiw-section-1-a {
-        text-align: -webkit-center;
-        text-align: -moz-center;
-        display: block;
-    }
-
     .hiw-section-1-i {
         padding: 0;
         text-align: center;
@@ -308,7 +301,7 @@
         text-align: center;
     }
 
-    .hiw-section-1-p p {
+    .hiw-section-1 p {
         font-size: 1.316rem;
         text-align: center;
     }
@@ -322,16 +315,16 @@
         text-align: center;
     }
 
-    .hiw-section-2-i i {
+    .hiw-section-2 i {
         margin-top: 0;
     }
 
-    .hiw-section-2-h h2 {
+    .hiw-section-2 h2 {
         font-size: 2.117rem;
         text-align: center;
     }
 
-    .hiw-section-2-p ul {
+    .hiw-section-2 ul {
         font-size: 1.2rem;
         padding: 0;
         text-align: center;
@@ -343,12 +336,12 @@
         padding: 0;
     }
 
-    .hiw-section-3-h h2 {
+    .hiw-section-3 h2 {
         font-size: 2.117rem;
         text-align: center;
     }
 
-    .hiw-section-3-p ul {
+    .hiw-section-3 ul {
         font-size: 1.2rem;
         padding: 0;
         text-align: center;
@@ -378,7 +371,7 @@
         font-size: 2.417rem;
     }
 
-    .hiw-section-1-p p {
+    .hiw-section-1 p {
         font-size: 1.216rem;
     }
 
@@ -386,11 +379,11 @@
         padding: 0 30px;
     }
 
-    .hiw-section-2-h h2 {
+    .hiw-section-2 h2 {
         font-size: 2.417rem;
     }
 
-    .hiw-section-2-p ul {
+    .hiw-section-2 ul {
         font-size: 1.216rem;
         line-height: 3.617rem;
     }
@@ -399,11 +392,11 @@
         padding: 0 30px;
     }
 
-    .hiw-section-3-h h2 {
+    .hiw-section-3 h2 {
         font-size: 2.417rem;
     }
 
-    .hiw-section-3-p ul {
+    .hiw-section-3 ul {
         font-size: 1.216rem;
         line-height: 3.617rem;
     }
@@ -416,11 +409,11 @@
         margin-right: -90px;
     }
 
-    .hiw-section-1-a a {
+    .hiw-section-1 a.button-cta {
         margin-top: 25px;
     }
 
-    .hiw-section-1-i i {
+    .hiw-section-1 i {
         margin-top: 0;
 
     }
@@ -445,23 +438,23 @@
         margin-left: 0;
     }
 
-    .hiw-section-3-p ul {
+    .hiw-section-3 ul {
         font-size: 1.165rem;
         line-height: 3.173rem;
         padding: 0;
     }
 
-    .hiw-section-3-h h2 {
+    .hiw-section-3 h2 {
         font-size: 2.174rem;
     }
 
-    .hiw-section-2-p ul {
+    .hiw-section-2 ul {
         font-size: 1.165rem;
         line-height: 3.617rem;
         padding: 0;
     }
 
-    .hiw-section-2-h h2 {
+    .hiw-section-2 h2 {
         font-size: 2.174rem;
     }
 
@@ -469,7 +462,7 @@
         font-size: 2.174rem;
     }
 
-    .hiw-section-1-p p {
+    .hiw-section-1 p {
         font-size: 1.165rem;
     }
 
@@ -499,14 +492,14 @@
         margin-right: 0;
     }
 
-    .hiw-section-3-p ul {
+    .hiw-section-3 ul {
         font-size: 1rem;
         line-height: 3.173rem;
         margin-top: 50px;
         padding-right: 0;
     }
 
-    .hiw-section-3-h h2 {
+    .hiw-section-3 h2 {
         font-size: 1.517rem;
         margin-top: 0;
     }
@@ -515,14 +508,14 @@
         margin: 0;
     }
 
-    .hiw-section-2-p ul {
+    .hiw-section-2 ul {
         font-size: 1rem;
         line-height: 3.173rem;
         margin-top: 50px;
         padding-right: 0;
     }
 
-    .hiw-section-2-h h2 {
+    .hiw-section-2 h2 {
         font-size: 1.517rem;
         margin-top: 0;
     }
@@ -531,7 +524,7 @@
         font-size: 1.517rem;
     }
 
-    .hiw-section-1-p p {
+    .hiw-section-1 p {
         font-size: 1rem;
     }
 
@@ -554,26 +547,18 @@
 }
 
 @media screen and (max-width: 376px) {
-    .hiw-section-1-contents {
 
-    }
-
-    .hiw-section-2-contents {
-        padding: 0;
-
-    }
-
-    .hiw-section-3-contents {
+    .hiw-section-3 .md-gr {
         padding: 0;
     }
 
-    .hiw-section-2-p ul {
+    .hiw-section-2 ul {
         padding-right: 15px;
         line-height: 4.173rem;
 
     }
 
-    .hiw-section-3-p ul {
+    .hiw-section-3 ul {
         padding-right: 15px;
         line-height: 4.173rem;
 
@@ -583,107 +568,25 @@
         font-size: 1.7rem;
     }
 
-    .hiw-section-2-h h2 {
+    .hiw-section-2 h2 {
 
         font-size: 1.7rem;
     }
 
-    .hiw-section-3-h h2 {
+    .hiw-section-3 h2 {
         font-size: 1.7rem;
     }
 
-    .hiw-section-1-p p {
+    .hiw-section-1 p {
         font-size: 0.856rem;
     }
 
-    .hiw-section-2-p ul {
+    .hiw-section-2 ul {
         font-size: 0.856rem;
     }
 
-    .hiw-section-3-p ul {
+    .hiw-section-3 ul {
         font-size: 0.856rem;
     }
 
-}
-
-@media screen and (max-width: 360px) {
-    .hiw-section-1-contents {
-
-    }
-
-    .hiw-section-2-contents {
-        padding: 0;
-
-    }
-
-    .hiw-section-3-contents {
-        padding: 0;
-    }
-
-    .hiw-section-2-p ul {
-        padding-right: 0;
-        font-size: 0.856rem;
-    }
-
-    .hiw-section-3-p ul {
-        padding-right: 0;
-        font-size: 0.856rem;
-    }
-
-    .hiw-section-1-h h2 {
-        font-size: 1.7rem;
-    }
-
-    .hiw-section-2-h h2 {
-
-        font-size: 1.7rem;
-    }
-
-    .hiw-section-3-h h2 {
-        font-size: 1.7rem;
-    }
-
-    .hiw-section-1-p p {
-        font-size: 0.856rem;
-    }
-
-}
-
-@media screen and (max-width: 320px) {
-    .hiw-section-1-a a {
-        margin-top: 0;
-    }
-
-    .hiw-section-1-a {
-        margin-top: 0;
-    }
-
-    .hiw-section-1-h h2 {
-        font-size: 1.3rem;
-        line-height: 3rem;
-    }
-
-    .hiw-section-2-h h2 {
-
-        font-size: 1.3rem;
-        line-height: 3rem;
-    }
-
-    .hiw-section-3-h h2 {
-        font-size: 1.3rem;
-        line-height: 3rem;
-    }
-
-    .hiw-section-1-p p {
-        font-size: 0.856rem;
-    }
-
-    .hiw-section-2-p ul {
-        font-size: 0.856rem;
-    }
-
-    .hiw-section-3-p ul {
-        font-size: 0.856rem;
-        margin-top: 0;
-    }
 }
