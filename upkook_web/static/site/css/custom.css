@@ -171,6 +171,16 @@ header .mdl-navigation {
     height: 64px;
 }
 
+header .header-navbar {
+    margin: 8px;
+
+}
+
+.navigation-section {
+    list-style: none;
+    display: flex;
+}
+
 /* Footer */
 footer.footer-bare {
     margin: 20px auto 0;
@@ -252,10 +262,12 @@ footer.footer-bare a:visited {
 .mega-footer-right-section i {
     font-size: 1.468rem;
 }
-.footer-address-i{
+
+.footer-address-i {
     float: right;
 }
-.footer-address-text{
+
+.footer-address-text {
     display: grid;
 }
 
@@ -431,6 +443,10 @@ footer.footer-bare a:visited {
 
     .mini-footer-middle-section {
         padding-top: 20px;
+    }
+
+    .navigation-section {
+        display: block;
     }
 
 }
