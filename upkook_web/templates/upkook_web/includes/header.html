@@ -1,8 +1,8 @@
 <div id="header-wrapper" class="header-wrapper">
     <header class="mdl-layout__header" itemprop="mainEntity" itemscope="itemscope"
             itemtype="http://schema.org/WPHeader">
-        <div class="header row mdl-grid mdl-layout__header-row" id="header">
-            <div class="mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--6-col-phone">
+        <div class="header row md-gr mdl-layout__header-row" id="header">
+            <div class="md-cl md-cl--3-col md-cl--3-col-tablet md-cl--6-col-phone">
                 <h1>
                     <a href="{{ protocol }}://{{ site.domain }}" itemprop="url" title="{{ site.name }}">
                         {% if setting and setting.logo %}
@@ -18,7 +18,7 @@
                     </a>
                 </h1>
             </div>
-            <div class="mdl-cell mdl-cell--9-col mdl-cell--5-col-tablet">
+            <div class="md-cl md-cl--9-col md-cl--5-col-tablet">
                 <nav class="mdl-navigation navigation" itemtype="http://schema.org/SiteNavigationElement">
                     {% include nav_template|default:'upkook_web/includes/navigation.html' %}
                 </nav>

@@ -1,15 +1,15 @@
 {% load i18n %}
 
 <footer class="mdl-mini-footer policies-footer">
-    <div class="mdl-grid policies-footer-grid">
-        <div class="mdl-cell--6-col mdl-cell--4-col-phone mdl-cell--8-col-tablet policies-footer-right">
+    <div class="md-gr policies-footer-grid">
+        <div class="md-cl--6-col md-cl--4-col-phone md-cl--8-col-tablet policies-footer-right">
             <div class="policies-footer-items">
                 <a href="https://www.upkook.com{% if is_amp %}/amp/{% endif %}" target="_blank">{% trans 'UPKOOK'%} </a>
                 <a href="{% url 'policies:privacy' %}" target="_blank">{% trans "Privacy Policy" %}</a>
                 <a href="{% url 'policies:terms' %}" target="_blank">{% trans "Terms of Service" %}</a>
             </div>
         </div>
-        <div class="mdl-cell--6-col mdl-cell--4-col-phone mdl-cell--8-col-tablet policies-footer-left">
+        <div class="md-cl--6-col md-cl--4-col-phone md-cl--8-col-tablet policies-footer-left">
             <div class="policies-footer-left-section">
                 {% if setting and setting.copyright %}
                 <div class="credit-wrapper">

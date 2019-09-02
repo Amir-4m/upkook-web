@@ -6,9 +6,9 @@
         <h4>{{title}}</h4>
         {{desc}}
     </div>
-    <div class="mdl-grid">
+    <div class="md-gr">
         {% for item in items %}
-        <div class=" mdl-cell mdl-cell--3-col  mdl-cell--2-col-tablet  mdl-cell--2-col-phone showcase-item">
+        <div class=" md-cl md-cl--3-col  md-cl--2-col-tablet  md-cl--2-col-phone showcase-item">
             {% if item.url %}<a href="{{ item.url }}" {% if item.target %}target="{{item.target}}" {% endif %}>{% endif %}
             {% if is_amp %}
                 <amp-img src="{{item.img_src}}" {% if item.alt %}alt="{{item.alt}}" {% endif %} layout="intrinsic" width="170" height="170"></amp-img>

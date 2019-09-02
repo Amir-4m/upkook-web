@@ -33,11 +33,11 @@ html{
     font-feature-settings: 'liga';
 }
 
-html, body, p, h1, h2, h3, h4, h5, h6, .mdl-button {
+html, body, p, h1, h2, h3, h4, h5, h6, .md-btn {
     font-family: iranyekan, Tahoma, sans-serif;
 }
 
-html, body, p, ul, ol, .mdl-button {
+html, body, p, ul, ol, .md-btn {
     font-size: 16px;
 }
 
@@ -115,16 +115,16 @@ h6, p {
     text-align: right;
 }
 
-.mdl-button {
+.md-btn {
     width: 360px;
     height: 60px;
 }
 
-.mdl-button--primary.mdl-button--primary {
+.md-btn--primary.md-btn--primary {
     color: #FF5630;
 }
 
-.mdl-button--primary.mdl-button--primary.mdl-button--raised, .mdl-button--primary.mdl-button--primary.mdl-button--fab {
+.md-btn--primary.md-btn--primary.md-btn--raised, .md-btn--primary.md-btn--primary.md-btn--fab {
     background-color: #FF5630;
 
 }
@@ -217,7 +217,7 @@ h6, p {
 }
 
 @media screen and (max-width: 414px) {
-    .mdl-button {
+    .md-btn {
         width: 100%;
     }
 }

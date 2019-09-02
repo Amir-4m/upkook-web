@@ -432,7 +432,7 @@
         display: none;
     }
 
-    .mini-footer-left-section, .mini-footer-left-section.mdl-cell--3-col-tablet.mdl-cell--3-col-tablet {
+    .mini-footer-left-section, .mini-footer-left-section.md-cl--3-col-tablet.md-cl--3-col-tablet {
 
         width: calc(75.5% - 16px);
 
@@ -480,7 +480,7 @@
         display: block;
     }
 
-    .mini-footer-left-section, .mini-footer-left-section.mdl-cell--3-col-tablet.mdl-cell--3-col-tablet {
+    .mini-footer-left-section, .mini-footer-left-section.md-cl--3-col-tablet.md-cl--3-col-tablet {
 
         width: calc(100% - 16px);
 

@@ -130,7 +130,7 @@ ul.hero__sub-header {
     list-style: none;
 }
 
-.hero .mdl-button.learn-more {
+.hero .md-btn.learn-more {
     margin-bottom: 0;
     float: none;
     width: auto;
@@ -138,11 +138,11 @@ ul.hero__sub-header {
     color: #DFE1E6;
 }
 
-.hero .mdl-button.learn-more:hover {
+.hero .md-btn.learn-more:hover {
     color: #DFE1E6;
 }
 
-.hero .mdl-button.learn-more:visited {
+.hero .md-btn.learn-more:visited {
     color: #DFE1E6;
 }
 
