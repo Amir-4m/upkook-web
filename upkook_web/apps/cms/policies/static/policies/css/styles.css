@@ -1,3 +1,7 @@
+#outer-wrapper .mdl-layout__drawer-button i.material-icons {
+    line-height: 3rem;
+}
+
 .policies-content {
     max-width: 1280px;
     width: 100%;

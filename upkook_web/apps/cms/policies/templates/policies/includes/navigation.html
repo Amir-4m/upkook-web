@@ -1,22 +1,23 @@
 {% load  i18n %}
-<li itemprop="name">
-    <a class="mdl-navigation__link" href="https://www.upkook.com{% if is_amp %}/amp/{% endif %}">
-        {% trans 'UPKOOK' %}
-    </a>
-</li>
-<li itemprop="name">
-    <a class="mdl-navigation__link" href="https://www.upkook.com/login/" itemprop="url">
-        {% trans 'Sign In' %}
-    </a>
-</li>
-<li itemprop="name">
-    <a class="mdl-navigation__link" href="https://www.upkook.com/sign-up/" itemprop="url">
-        {% trans 'Sign Up' %}
-    </a>
-</li>
-<li itemprop="name">
-    <a class="mdl-navigation__link" href="https://blog.upkook.com{% if is_amp %}/amp/{% endif %}" itemprop="url">
-        {% trans 'BLOG' %}
-    </a>
-</li>
-
+<ul>
+    <li itemprop="name">
+        <a class="mdl-navigation__link" href="https://www.upkook.com{% if is_amp %}/amp/{% endif %}">
+            {% trans 'UPKOOK' %}
+        </a>
+    </li>
+    <li itemprop="name">
+        <a class="mdl-navigation__link" href="https://www.upkook.com/login/" itemprop="url">
+            {% trans 'Sign In' %}
+        </a>
+    </li>
+    <li itemprop="name">
+        <a class="mdl-navigation__link" href="https://www.upkook.com/sign-up/" itemprop="url">
+            {% trans 'Sign Up' %}
+        </a>
+    </li>
+    <li itemprop="name">
+        <a class="mdl-navigation__link" href="https://blog.upkook.com{% if is_amp %}/amp/{% endif %}" itemprop="url">
+            {% trans 'BLOG' %}
+        </a>
+    </li>
+</ul>

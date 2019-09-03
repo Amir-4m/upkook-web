@@ -171,14 +171,17 @@ header .mdl-navigation {
     height: 64px;
 }
 
-header .header-navbar {
-    margin: 8px;
-
+header .mdl-navigation ul {
+    display: flex;
 }
 
-.navigation-section {
+nav.mdl-navigation ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav.mdl-navigation li {
     list-style: none;
-    display: flex;
 }
 
 /* Footer */
@@ -249,8 +252,6 @@ footer.footer-bare a:visited {
     align-items: center;
     background-color: #5648A3;
     color: white;
-    z-index: 1000;
-
 }
 
 .mini-footer-items a {
@@ -443,10 +444,6 @@ footer.footer-bare a:visited {
 
     .mini-footer-middle-section {
         padding-top: 20px;
-    }
-
-    .navigation-section {
-        display: block;
     }
 
 }

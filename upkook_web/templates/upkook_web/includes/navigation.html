@@ -1,5 +1,5 @@
 {% load  i18n %}
-<div class="navigation-section">
+<ul>
     <li itemprop="name">
         <a class="mdl-navigation__link"
            href="{% if is_amp %}{% url 'home:index-amp' amp %}{% else %}{% url 'home:index' %}{% endif %}">
@@ -25,4 +25,4 @@
             {% trans 'BLOG' %}
         </a>
     </li>
-</div>
+</ul>
