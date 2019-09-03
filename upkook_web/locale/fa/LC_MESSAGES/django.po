@@ -34,7 +34,7 @@ msgstr "نشانی: "
 msgid "Upkook Address"
 msgstr ""
 "تهران، بزرگراه اشرفی اصفهانی، خیابان قموشی، کوچه هما، دانشگاه علم و فرهنگ، "
-"طبقه ششم،<br/> پارک ملی علوم و فناوری های نرم و صنایع فرهنگی، اتاق 1036 "
+"طبقه ششم،<br/> پارک ملی علوم و فناوری های نرم و صنایع فرهنگی، 1036 "
 
 #: upkook_web/templates/upkook_web/includes/mega-footer.html:26
 msgid "Postal Code: "
