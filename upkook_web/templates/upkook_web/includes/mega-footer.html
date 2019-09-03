@@ -9,12 +9,12 @@
                         location_on
                     </i>
                 </div>
-                <div itemscope itemtype="http://schema.org/PostalAddress">
+                <div>
 
                     <div class="footer-address-text">
                         <span>
                             <span>{% trans "address: " %}</span>
-                            <span itemprop="{% if is_amp %}addressLocality{% else %}streetAddress{% endif %}">
+                            <span>
                                 {% trans "Upkook Address" %}
                             </span>
                         </span>
@@ -26,7 +26,7 @@
                                 mail_outline
                             </i>
                             <span>{% trans "Postal Code: " %}</span>
-                            <span itemprop="postalCode">{% trans "UPKOOK Code" %}</span>
+                            <span>{% trans "UPKOOK Code" %}</span>
 
                         </span>
 
@@ -46,7 +46,7 @@
                             phone
                         </i>
                          {% trans "Phone: " %}
-                        <span itemprop="telephone" dir="ltr">
+                        <span dir="ltr">
                             {% trans "UPKOOK Telephone" %}
                         </span>
                     </span>

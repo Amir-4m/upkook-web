@@ -1,7 +1,7 @@
 {% load  i18n %}
 <div class="navigation-section">
     <li itemprop="name">
-        <a class="mdl-navigation__link"
+        <a class="mdl-navigation__link" itemprop="url"
            href="{% if is_amp %}{% url 'home:index-amp' amp %}{% else %}{% url 'home:index' %}{% endif %}">
             {% trans 'UPKOOK' %}
         </a>
