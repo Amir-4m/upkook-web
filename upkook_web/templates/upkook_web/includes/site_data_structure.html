@@ -10,6 +10,11 @@
         "postalCode": "{% trans "UPKOOK Code" %}",
         "streetAddress" : "{% trans "Upkook Address" %}"
         },
+      "contactPoint" : [{
+        "@type" : "ContactPoint",
+        "telephone" : "{% trans "UPKOOK Telephone" %}",
+        "contactType" : "customer service"
+       }],
       {% if setting and setting.logo %}
       "logo" : "{{ setting.logo.url }}",
       {% endif %}
