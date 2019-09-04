@@ -16,10 +16,6 @@ header.mdl-layout__header {
     border: none;
 }
 
-.hiw-wrapper {
-    max-width: 100%;
-}
-
 .hiw-right-section {
     width: 100%;
 
@@ -33,14 +29,13 @@ header.mdl-layout__header {
 .hiw-section-1 {
     background-color: #4C9AFF;
     height: 100vh;
-
 }
 
-.hiw-section-1-contents {
+.hiw-section-1 .md-gr {
     padding-top: 50px;
 }
 
-.hiw-section-1-h h2 {
+.hiw-section-1 h2 {
     margin-top: 50px;
     margin-bottom: 0;
     font-size: 2.618rem;
@@ -50,7 +45,7 @@ header.mdl-layout__header {
     color: black;
 }
 
-.hiw-section-1-p p {
+.hiw-section-1 p {
     margin-top: 50px;
     font-size: 1.618rem;
     line-height: 3rem;
@@ -58,19 +53,12 @@ header.mdl-layout__header {
     color: white;
 }
 
-.hiw-section-1-a {
-    text-align: center;
-    text-align: -webkit-center;
-    text-align: -moz-center;
-
-}
-
-.hiw-section-1-a a {
+.hiw-section-1 a.button-cta {
     display: block;
-    margin-top: 50px;
+    margin: 50px auto 0;
 }
 
-.hiw-section-1-a a:hover {
+.hiw-section-1 a.button-cta:hover {
     color: white;
 }
 
@@ -81,7 +69,7 @@ header.mdl-layout__header {
 
 }
 
-.hiw-section-1-i i {
+.hiw-section-1 i {
     font-style: normal;
     margin-top: 25px;
     font-size: 3rem;
@@ -97,11 +85,11 @@ header.mdl-layout__header {
 
 }
 
-.hiw-section-2-contents {
+.hiw-section-2 .md-gr {
     padding-top: 50px;
 }
 
-.hiw-section-2-h h2 {
+.hiw-section-2 h2 {
     margin-top: 50px;
     margin-bottom: 0;
     font-size: 2.618rem;
@@ -111,7 +99,7 @@ header.mdl-layout__header {
     color: black;
 }
 
-.hiw-section-2-p ul {
+.hiw-section-2 ul {
     margin-top: 50px;
     font-size: 1.318rem;
     text-align: center;
@@ -125,7 +113,7 @@ header.mdl-layout__header {
 
 }
 
-.hiw-section-2-i i {
+.hiw-section-2 i {
     margin-top: 50px;
     font-style: normal;
     font-size: 3rem;
@@ -141,11 +129,11 @@ header.mdl-layout__header {
 
 }
 
-.hiw-section-3-contents {
+.hiw-section-3 .md-gr {
     padding-top: 50px;
 }
 
-.hiw-section-3-h h2 {
+.hiw-section-3 h2 {
     margin-top: 50px;
     margin-bottom: 0;
     font-size: 2.618rem;
@@ -155,7 +143,7 @@ header.mdl-layout__header {
     color: white;
 }
 
-.hiw-section-3-p ul {
+.hiw-section-3 ul {
     margin-top: 50px;
     text-align: center;
     color: white;
@@ -201,16 +189,19 @@ header.mdl-layout__header {
 }
 
 @media screen and (max-width: 960px) {
+    .hiw-section-1 div {
+        text-align: center;
+    }
 
 }
 
 @media screen and (max-width: 840px) {
 
-    .hiw-section-1-h h2 {
+    .hiw-section-1 h2 {
         font-size: 2.417rem;
     }
 
-    .hiw-section-1-p p {
+    .hiw-section-1 p {
         font-size: 1.216rem;
     }
 
@@ -218,17 +209,17 @@ header.mdl-layout__header {
         padding: 0 30px;
     }
 
-    .hiw-section-2-h h2 {
+    .hiw-section-2 h2 {
         font-size: 2.417rem;
         margin-top: 0;
     }
 
-    .hiw-section-2-i i {
+    .hiw-section-2 i {
 
         margin-top: 0;
     }
 
-    .hiw-section-2-p ul {
+    .hiw-section-2 ul {
         font-size: 1.216rem;
         line-height: 3.617rem;
         padding: 0;
@@ -243,12 +234,12 @@ header.mdl-layout__header {
         margin-top: 0;
     }
 
-    .hiw-section-3-h h2 {
+    .hiw-section-3 h2 {
         font-size: 2.417rem;
         margin-top: 0;
     }
 
-    .hiw-section-3-p ul {
+    .hiw-section-3 ul {
         font-size: 1.216rem;
         line-height: 3.617rem;
         padding: 0;
@@ -285,32 +276,32 @@ header.mdl-layout__header {
 
     }
 
-    .hiw-section-1-h h2 {
+    .hiw-section-1 h2 {
         font-size: 2.317rem;
     }
 
-    .hiw-section-2-h h2 {
+    .hiw-section-2 h2 {
         font-size: 2.317rem;
     }
 
-    .hiw-section-3-h h2 {
+    .hiw-section-3 h2 {
         font-size: 2.317rem;
     }
 
-    .hiw-section-1-i i {
+    .hiw-section-1 i {
         margin-top: 0;
 
     }
 
-    .hiw-section-1-p p {
+    .hiw-section-1 p {
         font-size: 1.180rem;
     }
 
-    .hiw-section-2-p ul {
+    .hiw-section-2 ul {
         font-size: 1.180rem;
     }
 
-    .hiw-section-3-p ul {
+    .hiw-section-3 ul {
         font-size: 1.180rem;
     }
 
@@ -327,42 +318,42 @@ header.mdl-layout__header {
 
     }
 
-    .hiw-section-2-p ul {
+    .hiw-section-2 ul {
         padding-right: 15px;
     }
 
-    .hiw-section-3-p ul {
+    .hiw-section-3 ul {
         padding-right: 15px;
     }
 
-    .hiw-section-1-h h2 {
+    .hiw-section-1 h2 {
         font-size: 2rem;
 
     }
 
-    .hiw-section-2-h h2 {
+    .hiw-section-2 h2 {
         font-size: 2rem;
         margin-top: 0;
     }
 
-    .hiw-section-3-h h2 {
+    .hiw-section-3 h2 {
         font-size: 2rem;
         margin-top: 0;
     }
 
-    .hiw-section-1-p p {
+    .hiw-section-1 p {
         font-size: 1rem;
     }
 
-    .hiw-section-1-a a {
+    .hiw-section-1 a.button-cta {
         margin-top: 25px;
     }
 
-    .hiw-section-2-p ul {
+    .hiw-section-2 ul {
         font-size: 1rem;
     }
 
-    .hiw-section-3-p ul {
+    .hiw-section-3 ul {
         font-size: 1rem;
     }
 
@@ -374,7 +365,7 @@ header.mdl-layout__header {
         padding: 0;
     }
 
-    .hiw-section-2-i i {
+    .hiw-section-2 i {
         margin-top: 0;
     }
 
@@ -389,99 +380,44 @@ header.mdl-layout__header {
 }
 
 @media screen and (max-width: 376px) {
-    .hiw-section-1-contents {
-
-    }
-
-    .hiw-section-2-contents {
-        padding: 0;
-
-    }
-
-    .hiw-section-3-contents {
+    .hiw-section-2 .md-gr {
         padding: 0;
     }
 
-    .hiw-section-2-p ul {
-        padding-right: 15px;
-    }
-
-    .hiw-section-3-p ul {
-        padding-right: 15px;
-    }
-
-    .hiw-section-1-h h2 {
-        font-size: 1.7rem;
-    }
-
-    .hiw-section-2-h h2 {
-
-        font-size: 1.7rem;
-    }
-
-    .hiw-section-3-h h2 {
-        font-size: 1.7rem;
-    }
-
-    .hiw-section-1-p p {
-        font-size: 0.856rem;
-    }
-
-    .hiw-section-2-p ul {
-        font-size: 0.856rem;
-    }
-
-    .hiw-section-3-p ul {
-        font-size: 0.856rem;
-    }
-
-}
-
-
-@media screen and (max-width: 360px) {
-    .hiw-section-1-contents {
-
-    }
-
-    .hiw-section-2-contents {
-        padding: 0;
-
-    }
-
-    .hiw-section-3-contents {
+    .hiw-section-3 .md-gr {
         padding: 0;
     }
 
-    .hiw-section-2-p ul {
+    .hiw-section-2 ul {
         padding-right: 15px;
     }
 
-    .hiw-section-3-p ul {
+    .hiw-section-3 ul {
         padding-right: 15px;
     }
 
-    .hiw-section-1-h h2 {
+    .hiw-section-1 h2 {
         font-size: 1.7rem;
     }
 
-    .hiw-section-2-h h2 {
+    .hiw-section-2 h2 {
 
         font-size: 1.7rem;
     }
 
-    .hiw-section-3-h h2 {
+    .hiw-section-3 h2 {
         font-size: 1.7rem;
     }
 
-    .hiw-section-1-p p {
+    .hiw-section-1 p {
         font-size: 0.856rem;
     }
 
-    .hiw-section-2-p ul {
+    .hiw-section-2 ul {
         font-size: 0.856rem;
     }
 
-    .hiw-section-3-p ul {
+    .hiw-section-3 ul {
         font-size: 0.856rem;
     }
 
