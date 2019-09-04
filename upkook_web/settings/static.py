@@ -18,7 +18,7 @@ INSTALLED_APPS += (
     'django_contrib.social',
     'upkook_web.apps.contrib.api',
     'upkook_web.apps.cms.home',
-    'upkook_Web.apps.hiw',
+    'upkook_Web.apps.cms.hiw',
     'upkook_web.apps.users',
     'upkook_web.apps.cms.policies',
 )

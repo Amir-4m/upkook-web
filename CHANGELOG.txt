@@ -1,3 +1,7 @@
+=== 1.1.2 (2019-09-04) ===
+
+- Fixed hiw app path in installed apps
+
 === 1.1.1 (2019-09-04) ===
 
 - Fixed issue for loading social font
