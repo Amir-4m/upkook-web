@@ -223,13 +223,17 @@ footer.footer-bare a:visited {
 .footer-email a {
     color: white;
 }
-
+.mega-footer-contact{
+    display: flow-root;
+}
 .mega-footer-contact span {
     padding-right: 10px;
-
 }
-.mega-footer-contact span span{
-    display: contents;
+
+.mega-footer-contact span span {
+    display: inline-block;
+    direction: ltr;
+
 }
 
 .mega-footer-contact span:first-child {
@@ -272,7 +276,7 @@ footer.footer-bare a:visited {
 }
 
 .footer-address-text {
-    display: grid;
+    display: flow-root;
 }
 
 .mini-footer-left-section {
