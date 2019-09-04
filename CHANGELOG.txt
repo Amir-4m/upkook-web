@@ -1,3 +1,7 @@
+=== 1.1.1 (2019-09-04) ===
+
+- Fixed issue for loading social font
+
 === 1.1.0 (2019-09-04) ===
 
 - Added how it works page
