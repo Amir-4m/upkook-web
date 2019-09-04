@@ -7,8 +7,6 @@
     {% seo_meta %}
     {% favicon site %}
     <!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script><![endif]-->
-    {% include "upkook_web/includes/site_data_structure.html" %}
-
     {% compress css inline %}
         {%  block css %}
             <link rel="stylesheet" href="{{ STATIC_URL }}site/css/custom.css">
