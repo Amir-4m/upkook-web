@@ -1,7 +1,7 @@
 {% load  i18n %}
-<ul>
+<div class="navigation-section">
     <li itemprop="name">
-        <a class="mdl-navigation__link" href="https://www.upkook.com{% if is_amp %}/amp/{% endif %}">
+        <a class="mdl-navigation__link" href="https://www.upkook.com{% if is_amp %}/amp/{% endif %}" itemprop="url">
             {% trans 'UPKOOK' %}
         </a>
     </li>
@@ -20,4 +20,4 @@
             {% trans 'BLOG' %}
         </a>
     </li>
-</ul>
+</div>
