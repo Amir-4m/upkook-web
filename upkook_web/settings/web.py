@@ -9,6 +9,8 @@ INSTALLED_APPS += (
     'upkook_web.apps.cms.home',
     'upkook_web.apps.users',
     'upkook_web.apps.cms.hiw',
+    'upkook_web.apps.cms.about',
+
 )
 
 API_URL = get_env_var("API_URL")

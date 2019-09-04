@@ -1,0 +1,19 @@
+{% extends "upkook_web/upkook.html" %}
+{% load staticfiles i18n %}
+{% block css %}
+{{ block.super }}
+<link rel="stylesheet" href="{{ STATIC_URL }}about/css/custom.css">
+{% endblock %}
+
+{% block content %}
+<section class="about-header">
+    <h1>داستان آپ کوک</h1>
+    <p>آپ کوک نبض تپنده کسب و کار</p>
+</section>
+{% endblock %}
+
+
+{% block stylesheets %}
+{{ block.super }}
+<link rel="stylesheet" href="{{ STATIC_URL }}about/css/styles.css">
+{% endblock %}

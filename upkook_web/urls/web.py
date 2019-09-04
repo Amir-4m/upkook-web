@@ -24,5 +24,6 @@ urlpatterns += [
     path('', include('django_contrib.sites.urls.web', 'sites')),
     path('', include('upkook_web.apps.users.urls', 'users')),
     path('', include('upkook_web.apps.cms.hiw.urls', 'hiw')),
+    path('', include('upkook_web.apps.cms.about.urls', 'about')),
 
 ]
