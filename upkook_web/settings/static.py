@@ -15,8 +15,10 @@ INSTALLED_APPS += (
     'statici18n',
     'django.contrib.sites',
     'django_contrib.sites',
+    'django_contrib.social',
     'upkook_web.apps.contrib.api',
     'upkook_web.apps.cms.home',
+    'upkook_Web.apps.hiw',
     'upkook_web.apps.users',
     'upkook_web.apps.cms.policies',
 )
