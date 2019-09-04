@@ -14,9 +14,12 @@ header.mdl-layout__header,
 header a, header a:hover, header a:visited {
     color: #DFE1E6;
 }
-
+.amp-hamburger{
+     margin: 20px 4px 4px 15px;
+}
 .amp-hamburger div {
     background-color: #DFE1E6;
+
 }
 
 #outer-wrapper .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
@@ -30,6 +33,11 @@ header a, header a:hover, header a:visited {
 
 #outer-wrapper .mdl-layout__drawer-button .material-icons {
     color: #DFE1E6;
+
+}
+#outer-wrapper .mdl-layout__drawer-button i.material-icons {
+    margin-left: 15px;
+    line-height: 3.618rem;
 }
 
 /* HERO */
