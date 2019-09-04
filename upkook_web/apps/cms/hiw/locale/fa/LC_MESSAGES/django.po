@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-31 12:02+0430\n"
+"PO-Revision-Date: 2018-12-22 15:26+0330\n"
+"Last-Translator: Saeed Salehian <saeed@upkook.com>\n"
+"Language-Team: Upkook <info@upkook.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:17
+msgid "how it works Benefits of upkook"
+msgstr "با آپ کوک هوای مشتری هات رو داشته باش"
+
+#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:23
+msgid "benefits description"
+msgstr "پلتفرم سنجش تجربه مشتری برای افزایش درآمد با جلب رضایت مشتری"
+
+#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:30
+msgid "Free sign up"
+msgstr "ثبت نام رایگان"
+
+#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:46
+msgid "how it works Why use cx measurement?"
+msgstr "در هر زمان، از هر کانال ارتباطی بازخورد مشتریان را دریافت کنید"
+
+#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:52
+msgid "Why use cx measurement des1"
+msgstr "فرم استاندارد سنجش رضایت مشتری"
+
+#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:53
+msgid "Why use cx measurement des2"
+msgstr " پرسشنامه رضایت از خرید"
+
+#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:54
+msgid "Why use cx measurement des3"
+msgstr "نمونه فرم وفاداری مشتری"
+
+#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:55
+msgid "Why use cx measurement des4"
+msgstr " نتایج تحلیلی بازخوردها ی هر مشتری"
+
+#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:56
+msgid "Why use cx measurement des5"
+msgstr "محاسبه نمره وفاداری مشتری به برند (نمره NPS)"
+
+#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:72
+msgid "how it works CX Metrics and surveys"
+msgstr "پلتفرم آپ کوک چگونه به شما کمک می کند؟"
+
+#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:77
+msgid "CX Metrics and surveys des1"
+msgstr "سنجش رضایت مشتری از پاسخگویی خدمات مشتریان"
+
+#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:78
+msgid "CX Metrics and surveys des2"
+msgstr "اندازه گیری میزان وفاداری مشتریان فعلی"
+
+#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:79
+msgid "CX Metrics and surveys des3"
+msgstr "سنجش تجربه مشتری از هر خرید"
+
+#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:80
+msgid "CX Metrics and surveys des4"
+msgstr "میزان راحتی مشتری در استفاده از کالا یا خدمات شما"
+
+#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:81
+msgid "CX Metrics and surveys des5"
+msgstr "تحلیل عملکرد هر کارمند در رضایت مشتری"
+
+#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:91
+msgid "Try Demo"
+msgstr "مشاهده دمو"
+
+#: upkook_web/apps/cms/hiw/views.py:22
+msgid ""
+"Customer experience measurement platform for increasing income by customer "
+"satisfaction"
+msgstr "پلتفرم سنجش تجربه مشتری برای افزایش درآمد با جلب رضایت مشتری - آپ کوک"
+
+#: upkook_web/apps/cms/hiw/views.py:24
+msgid ""
+"Standard customer experience measurement form, purchase satisfaction "
+"questionnaire, customer loyalty sample form;How does UPKOOK platform help "
+"you?ُ"
+msgstr ""
+"فرم استاندار سنجش رضایت مشتری، پرسشنامه رضایت از خرید، نمونه فرم وفاداری "
+"مشتری، پلتفرم آپکوک چگونه به شما کمک می کند؟"

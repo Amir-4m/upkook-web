@@ -1,0 +1,14 @@
+<script type="text/javascript">
+    const apiURL = "{{ api_url }}";
+    const dashboardURL = "{{ dashboard_url }}";
+    const ath = {
+      age: {{ auth_cookie.age }},
+      d: {% if auth_cookie.domain is not None %}"{{ auth_cookie.domain }}"{% else %}null{% endif %},
+      path: "{{ auth_cookie.path }}",
+      secure: {% if auth_cookie.secure %}true{% else %}false{% endif %},
+      ak: "{{ auth_cookie.access_key }}",
+      rk: "{{ auth_cookie.refresh_key }}",
+      uk: "{{ auth_cookie.user_track_id_key }}",
+    };
+    const token = new Token(ath);
+</script>

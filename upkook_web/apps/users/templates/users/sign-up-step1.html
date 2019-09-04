@@ -4,7 +4,7 @@
   <h5>{% trans 'Free Sign Up' %}</h5>
   <form action="#" method="POST" id="sign-up-step1" data-action="{{ api_url }}users/">
     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="fg-email">
-      <label class="mdl-textfield__label" for="email">{% trans 'Email' %}</label>
+      <label class="mdl-textfield__label" for="email">{% trans 'Work Email' %}</label>
       <input
         type="email"
         class="mdl-textfield__input"
@@ -12,8 +12,14 @@
         id="email"
         maxlength="254"
         data-required="true"
+        aria-describedby="email-helper-text"
       />
       <span class="mdl-textfield__error" data-text="{% trans 'Please enter a valid email.' %}"></span>
+    </div>
+    <div class="mdl-textfield mdl-textfield__helper-line">
+        <span id="email-helper-text" class="mdl-textfield__helper-text">
+          {% trans 'Example: n.family@workdomain.com' %}
+        </span>
     </div>
     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="fg-password">
       <label class="mdl-textfield__label" for="password">{% trans 'Password' %}</label>
@@ -50,7 +56,7 @@
       />
       <span class="mdl-textfield__error" data-text="{% trans 'Please enter your last name.' %}"></span>
     </div>
-    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary">
+    <button class="md-btn mdl-js-button md-btn--raised mdl-js-ripple-effect md-btn--primary">
       {% trans 'Continue' %}
     </button>
     <br />
@@ -61,8 +67,8 @@
   </form>
   <br />
   <br />
-  <a href="{{ sign_in_url }}">
-    <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+  <a href="{% url 'users:sign-in' %}">
+    <button class="md-btn mdl-js-button mdl-js-ripple-effect">
       {% trans 'Sign in to Upkook' %}
     </button>
   </a>

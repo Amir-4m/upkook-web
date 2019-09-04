@@ -1,0 +1,45 @@
+{% load i18n %}
+
+<div class="mdl-mega-footer">
+    <div class="md-gr mega-footer-grid">
+        <div class="mega-footer-info md-cl--12-col md-cl--8-col-tablet md-cl--4-col-phone mega-footer-right-section">
+            <div class="footer-address">
+                <div class="footer-address-i">
+                    <i class="material-icons">
+                        location_on
+                    </i>
+                </div>
+                <div class="footer-address-text">
+                    <span>{% trans "address: " %}</span>
+                    <span>
+                        {% trans "Upkook Address" %}
+                    </span>
+                </div>
+                <span class="footer-postal-code">
+                        <i class="material-icons">
+                            mail_outline
+                        </i>
+                        <span>{% trans "Postal Code: " %}</span>
+                        <span>{% trans "UPKOOK Code" %}</span>
+                </span>
+            </div>
+            <div class="footer-email">
+                <i class="material-icons">
+                    <span>alternate_email</span>
+                </i>
+                <span>{% trans "E-mail" %}: <a href="mailto:info@upkook.com" target="_top">info@upkook.com</a></span>
+            </div>
+            <div class="mega-footer-contact">
+                <span>
+                        <i class="material-icons">
+                            phone
+                        </i>
+                         {% trans "Phone: " %}
+                        <span>
+                            {% trans "UPKOOK Telephone" %}
+                        </span>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>

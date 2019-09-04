@@ -130,7 +130,7 @@ ul.hero__sub-header {
     list-style: none;
 }
 
-.hero .mdl-button.learn-more {
+.hero .md-btn.learn-more {
     margin-bottom: 0;
     float: none;
     width: auto;
@@ -138,11 +138,11 @@ ul.hero__sub-header {
     color: #DFE1E6;
 }
 
-.hero .mdl-button.learn-more:hover {
+.hero .md-btn.learn-more:hover {
     color: #DFE1E6;
 }
 
-.hero .mdl-button.learn-more:visited {
+.hero .md-btn.learn-more:visited {
     color: #DFE1E6;
 }
 
@@ -164,6 +164,7 @@ ul.hero__sub-header {
     max-width: 100%;
     padding: 0 150px;
 }
+
 /* PROMO BOX */
 .home-promo-box {
     max-width: 100%;
@@ -208,11 +209,13 @@ ul.hero__sub-header {
 
     }
 }
+
 @media screen and (max-width: 840px) {
-    .nps-benchmark{
-        padding: 0 0;
+    .nps-benchmark {
+        padding: 0;
     }
-    .home-promo-box{
+
+    .home-promo-box {
         padding: 0 20px;
     }
 }
@@ -238,6 +241,18 @@ ul.hero__sub-header {
 
     .top-section__container .button-action-secondary {
         width: 160px;
+    }
+}
+
+@media all and (min-width: 769px) and (-ms-high-contrast: none) {
+    .hero .top-section__container {
+        margin-top: 0;
+    }
+}
+
+@media all and (max-width: 768px) and (-ms-high-contrast: none) {
+    .hero .top-section__container {
+        margin-top: 80px;
     }
 }
 
@@ -273,6 +288,8 @@ ul.hero__sub-header {
 @media screen and (max-width: 568px) {
 }
 
+@media screen and (max-width: 480px) {
+}
 @media screen and (max-width: 414px) {
     .hero__background-container {
         background: url("../images/bg-home-1.0-414.png") no-repeat center top;
@@ -285,6 +302,12 @@ ul.hero__sub-header {
 
     h1.hero__header {
         font-size: 1.2472rem;;
+    }
+}
+
+@media all and (max-width: 414px) and (-ms-high-contrast: none) {
+    .hero .top-section__container {
+        margin-top: 120px;
     }
 }
 

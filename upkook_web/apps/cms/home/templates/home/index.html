@@ -1,16 +1,21 @@
 {% extends "upkook_web/upkook.html" %}
 {% load staticfiles %}
 {% block css %}
-  {{ block.super }}
-  <link rel="stylesheet" href="{{ STATIC_URL }}home/css/styles.css">
-  <link rel="stylesheet" href="{{STATIC_URL}}home/css/intro.css">
-  <link rel="stylesheet" href="{{ STATIC_URL }}showcase/css/showcase.css">
-  <link rel="stylesheet" href="{{ STATIC_URL }}promo_box/css/promobox.css">
+{{ block.super }}
+<link rel="stylesheet" href="{{ STATIC_URL }}home/css/styles.css">
+<link rel="stylesheet" href="{{STATIC_URL}}home/css/intro.css">
+<link rel="stylesheet" href="{{ STATIC_URL }}showcase/css/showcase.css">
+<link rel="stylesheet" href="{{ STATIC_URL }}promo_box/css/promobox.css">
+{% endblock %}
+
+{% block extra_head %}
+{{block.super}}
+{% include "home/includes/site_data_structure.html" %}
 {% endblock %}
 
 {% block content %}
-  {% include "home/includes/hero.html" %}
-  {% include "home/includes/intro.html" %}
-  {% include "home/includes/nps_benchmark.html" %}
-  {% include "home/includes/promo_box.html" %}
+{% include "home/includes/hero.html" %}
+{% include "home/includes/intro.html" %}
+{% include "home/includes/nps_benchmark.html" %}
+{% include "home/includes/promo_box.html" %}
 {% endblock %}

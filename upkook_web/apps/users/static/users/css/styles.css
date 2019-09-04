@@ -54,6 +54,9 @@ form .getmdl-select .mdl-icon-toggle__label {
 }
 
 @media screen and (max-width: 414px) {
+    .c-wrapper {
+        width: 95%;
+    }
 }
 
 @media screen and (max-width: 375px) {

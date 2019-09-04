@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-03 11:52+0430\n"
+"POT-Creation-Date: 2019-08-31 12:02+0430\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,27 +23,26 @@ msgid "Customers"
 msgstr "مشتریان"
 
 #: upkook_web/apps/users/templates/users/sign-in.html:5
-#: upkook_web/apps/users/templates/users/sign-up-step1.html:66
+#: upkook_web/apps/users/templates/users/sign-up-step1.html:72
 msgid "Sign in to Upkook"
 msgstr "ورود به آپ کوک"
 
 #: upkook_web/apps/users/templates/users/sign-in.html:8
-#: upkook_web/apps/users/templates/users/sign-up-step1.html:7
 msgid "Email"
 msgstr "ایمیل"
 
 #: upkook_web/apps/users/templates/users/sign-in.html:16
-#: upkook_web/apps/users/templates/users/sign-up-step1.html:16
+#: upkook_web/apps/users/templates/users/sign-up-step1.html:17
 msgid "Please enter a valid email."
 msgstr "لطفا یک ایمیل معتبر وارد نمایید."
 
 #: upkook_web/apps/users/templates/users/sign-in.html:19
-#: upkook_web/apps/users/templates/users/sign-up-step1.html:19
+#: upkook_web/apps/users/templates/users/sign-up-step1.html:25
 msgid "Password"
 msgstr "رمز عبور"
 
 #: upkook_web/apps/users/templates/users/sign-in.html:27
-#: upkook_web/apps/users/templates/users/sign-up-step1.html:27
+#: upkook_web/apps/users/templates/users/sign-up-step1.html:33
 msgid "Please enter your password."
 msgstr "لطفا رمز عبور خود را وارد نمایید."
 
@@ -60,31 +59,39 @@ msgid "Start using UPKOOK"
 msgstr "شروع به استفاده از آپ کوک"
 
 #: upkook_web/apps/users/templates/users/sign-up-step1.html:4
-#: upkook_web/apps/users/templates/users/sign-up-step2.html:56
+#: upkook_web/apps/users/templates/users/sign-up-step2.html:61
 msgid "Free Sign Up"
 msgstr "ثبت نام رایگان"
 
-#: upkook_web/apps/users/templates/users/sign-up-step1.html:30
+#: upkook_web/apps/users/templates/users/sign-up-step1.html:7
+msgid "Work Email"
+msgstr "ایمیل کاری"
+
+#: upkook_web/apps/users/templates/users/sign-up-step1.html:21
+msgid "Example: n.family@workdomain.com"
+msgstr "مثال: n.family@workdomain.com"
+
+#: upkook_web/apps/users/templates/users/sign-up-step1.html:36
 msgid "First Name"
 msgstr "نام"
 
-#: upkook_web/apps/users/templates/users/sign-up-step1.html:39
+#: upkook_web/apps/users/templates/users/sign-up-step1.html:45
 msgid "Please enter your first name."
 msgstr "لطفا نام خود را وارد نمایید."
 
-#: upkook_web/apps/users/templates/users/sign-up-step1.html:42
+#: upkook_web/apps/users/templates/users/sign-up-step1.html:48
 msgid "Last Name"
 msgstr "نام خانوادگی"
 
-#: upkook_web/apps/users/templates/users/sign-up-step1.html:51
+#: upkook_web/apps/users/templates/users/sign-up-step1.html:57
 msgid "Please enter your last name."
 msgstr "لطفا نام خانوادگی خود را وارد نمایید."
 
-#: upkook_web/apps/users/templates/users/sign-up-step1.html:54
+#: upkook_web/apps/users/templates/users/sign-up-step1.html:60
 msgid "Continue"
 msgstr "ادامه"
 
-#: upkook_web/apps/users/templates/users/sign-up-step1.html:59
+#: upkook_web/apps/users/templates/users/sign-up-step1.html:65
 msgid "By signing up at upkook, I accept terms and conditions of upkook."
 msgstr "با ثبت نام در آپ کوک شرایط و قوانین استفاده از آپ کوک را می پذیریم."
 
@@ -101,70 +108,95 @@ msgid "Please enter your business name."
 msgstr "لطفا نام کسب و کار خود را وارد نمایید."
 
 #: upkook_web/apps/users/templates/users/sign-up-step2.html:18
-msgid "Website"
-msgstr "وب سایت"
+msgid "Business Website"
+msgstr "وب سایت کسب و کار"
 
 #: upkook_web/apps/users/templates/users/sign-up-step2.html:28
 msgid "Please enter a valid domain."
 msgstr "لطفا یک دامنه معتبر وارد نمایید."
 
-#: upkook_web/apps/users/templates/users/sign-up-step2.html:34
+#: upkook_web/apps/users/templates/users/sign-up-step2.html:32
+msgid "Without https, Example: www.workdomain.com"
+msgstr "بدون https، مثال: www.workdomain.com"
+
+#: upkook_web/apps/users/templates/users/sign-up-step2.html:39
 msgid "Indsutry"
 msgstr "صنعت"
 
-#: upkook_web/apps/users/templates/users/sign-up-step2.html:37
+#: upkook_web/apps/users/templates/users/sign-up-step2.html:42
 msgid "Please choose an industry."
 msgstr "لطفا یک صنعت انتخاب کنید."
 
-#: upkook_web/apps/users/templates/users/sign-up-step2.html:43
+#: upkook_web/apps/users/templates/users/sign-up-step2.html:48
 msgid "Size"
 msgstr "تعداد کارمندان"
 
-#: upkook_web/apps/users/templates/users/sign-up-step2.html:45
+#: upkook_web/apps/users/templates/users/sign-up-step2.html:50
 msgid "1 - 5"
 msgstr "۱ - ۵"
 
 # ۱٬۲۳۴٬۵۶۷٬۸۹۰
-#: upkook_web/apps/users/templates/users/sign-up-step2.html:46
+#: upkook_web/apps/users/templates/users/sign-up-step2.html:51
 msgid "6 - 10"
 msgstr "۶ - ۱۰"
 
-#: upkook_web/apps/users/templates/users/sign-up-step2.html:47
+#: upkook_web/apps/users/templates/users/sign-up-step2.html:52
 msgid "11 - 15"
 msgstr "۱۱ - ۱۵"
 
-#: upkook_web/apps/users/templates/users/sign-up-step2.html:48
+#: upkook_web/apps/users/templates/users/sign-up-step2.html:53
 msgid "16 - 30"
 msgstr "۱۶ - ۳۰"
 
-#: upkook_web/apps/users/templates/users/sign-up-step2.html:49
+#: upkook_web/apps/users/templates/users/sign-up-step2.html:54
 msgid "31 - 50"
 msgstr "۳۱ - ۵۰"
 
-#: upkook_web/apps/users/templates/users/sign-up-step2.html:50
+#: upkook_web/apps/users/templates/users/sign-up-step2.html:55
 msgid "51 - 150"
 msgstr "۵۱ - ۱۵۰"
 
-#: upkook_web/apps/users/templates/users/sign-up-step2.html:51
+#: upkook_web/apps/users/templates/users/sign-up-step2.html:56
 msgid "150 or higher"
 msgstr "۱۵۰ یا بیشتر"
 
-#: upkook_web/apps/users/templates/users/sign-up-step2.html:53
+#: upkook_web/apps/users/templates/users/sign-up-step2.html:58
 msgid "Please choose size of your company."
 msgstr "لطفا تعداد کارمندان را مشخص کنید."
 
-#: upkook_web/apps/users/views.py:24
+#: upkook_web/apps/users/views.py:25
 msgid "UPKOOK"
 msgstr "آپ‌کوک"
 
-#: upkook_web/apps/users/views.py:25
+#: upkook_web/apps/users/views.py:26
 msgid "Blog"
 msgstr "بلاگ"
 
-#: upkook_web/apps/users/views.py:26
+#: upkook_web/apps/users/views.py:27
 msgid "Terms of Service"
 msgstr "شرایط و قوانین"
 
-#: upkook_web/apps/users/views.py:27
+#: upkook_web/apps/users/views.py:28
 msgid "Privacy Policy"
 msgstr "حریم خصوصی"
+
+#: upkook_web/apps/users/views.py:55
+msgid "Welcome, log in to UPKOOK - UPKOOK"
+msgstr "خوش آمدید! ورود به آپ کوک - آپ کوک"
+
+#: upkook_web/apps/users/views.py:56
+msgid "Log in to UPKOOK customer experience measurement platform control panel"
+msgstr "ورود به پنل مدیریت پلتفرم سنجش تجربه مشتری آپ کوک"
+
+#: upkook_web/apps/users/views.py:69
+msgid "Free registration in UPKOOK - UPKOOK"
+msgstr "ثبت نام رایگان در آپ کوک - آپ کوک"
+
+#: upkook_web/apps/users/views.py:71
+msgid ""
+"Free registration in UPKOOK customer experience measurement platform, create "
+"survey, share survey link, customer satisfaction measurement and result "
+"analysis"
+msgstr ""
+"ثبت نام رایگان در پلتفرم سنجش تجربه مشتری آپ کوک، ایجاد نظرسنجی، اشتراک لینک "
+"نظرسنجی، سنجش رضایت مشتری و تحلیل نتایج"

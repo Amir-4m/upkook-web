@@ -35,6 +35,7 @@ TEMPLATES[0]['OPTIONS'] = {
 INSTALLED_APPS += (
     'statici18n',
     'django.contrib.sites',
+    'django.contrib.sitemaps',
 
     'django_contrib.amp',
     'django_contrib.sites',
@@ -46,6 +47,8 @@ INSTALLED_APPS += (
 )
 
 PURE_CHAT_ID = get_env_var('PURE_CHAT_ID')
+
+IRAN_YEKAN_LICENSE = get_env_var('IRAN_YEKAN_LICENSE', '3.0')
 
 GA_VERSION = get_env_var('GA_VERSION', 'GA1')
 

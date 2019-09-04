@@ -2,6 +2,14 @@
 
 - Changed private git server
 
+=== 1.1.0 (2019-09-04) ===
+
+- Added how it works page
+- Added organization structured data to homepage
+- Optimized navigation structured data
+- Added sitemap.xml
+- Added mega footer and mini footer
+
 === 1.0.13 (2019-07-04) ===
 
 - Added promo box

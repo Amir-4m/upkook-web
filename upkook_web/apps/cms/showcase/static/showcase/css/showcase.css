@@ -37,7 +37,7 @@
 }
 
 @media screen and (max-width: 840px) {
-    .mdl-cell:last-child {
+    .md-cl:last-child {
         display: block;
     }
 

@@ -17,7 +17,7 @@ DATABASES = {
 # Django settings for upkook web project.
 
 # The top directory for this project. Contains requirements/, manage.py,
-# and README.rst, a upkook directory with settings etc (see
+# and README.rst, a upkook_web directory with settings etc (see
 # PROJECT_PATH), as well as a directory for each Django app added to this
 # project.
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
@@ -225,7 +225,7 @@ LOGGING = {
             'level': 'WARNING' if DEBUG else 'ERROR',
             'propagate': True,
         },
-        'upkook': {
+        'upkook_web': {
             'handlers': ['console'] if DEBUG else ['file'],
             'level': 'DEBUG' if DEBUG else 'ERROR',
             'propagate': True,

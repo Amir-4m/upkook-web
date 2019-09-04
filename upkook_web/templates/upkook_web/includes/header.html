@@ -1,25 +1,26 @@
 <div id="header-wrapper" class="header-wrapper">
     <header class="mdl-layout__header" itemprop="mainEntity" itemscope="itemscope"
             itemtype="http://schema.org/WPHeader">
-        <div class="header row mdl-grid mdl-layout__header-row" id="header">
-            <div class="mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--6-col-phone">
+        <div class="header row md-gr mdl-layout__header-row" id="header">
+            <div class="md-cl md-cl--3-col md-cl--3-col-tablet md-cl--6-col-phone">
                 <h1>
                     <a href="{{ protocol }}://{{ site.domain }}" itemprop="url" title="{{ site.name }}">
                         {% if setting and setting.logo %}
-                            {% if is_amp %}
-                                <amp-img alt="{{ site.name }}" height="64" width="64" src="{{ setting.logo.url }}"
-                                         title="{{ site.name }}" layout="intrinsic"></amp-img>
-                            {% else %}
-                                <img alt="{{ site.name }}" src="{{ setting.logo.url }}" title="{{ site.name }}"/>
-                            {% endif %}
+                        {% if is_amp %}
+                        <amp-img alt="{{ site.name }}" height="64" width="64" src="{{ setting.logo.url }}"
+                                 title="{{ site.name }}" layout="intrinsic" itemprop="image"></amp-img>
+                        {% else %}
+                        <img itemprop="image" alt="{{ site.name }}" src="{{ setting.logo.url }}"
+                             title="{{ site.name }}"/>
+                        {% endif %}
                         {% endif %}
                         <span itemprop="name">{{ site.name }}</span>
                     </a>
                 </h1>
             </div>
-            <div class="mdl-cell mdl-cell--9-col mdl-cell--5-col-tablet">
-                <nav class="mdl-navigation navigation">
-                    {% include 'upkook_web/includes/navigation.html' %}
+            <div class="md-cl md-cl--9-col md-cl--5-col-tablet">
+                <nav class="mdl-navigation navigation" itemtype="http://schema.org/SiteNavigationElement">
+                    {% include nav_template|default:'upkook_web/includes/navigation.html' %}
                 </nav>
             </div>
         </div>

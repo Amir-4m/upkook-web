@@ -2,7 +2,7 @@
     <div class="clear"></div>
     <div class="row">
         {% for link in footer_links %}
-        <a href="{{ link.href }}"{% if link.target %}target="{{ link.target }}"{% endif %}>
+        <a href="{{ link.href }}"{% if link.target %} target="{{ link.target }}"{% endif %} itemprop="url">
             {{ link.text }}
         </a>
         {% endfor %}

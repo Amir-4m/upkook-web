@@ -3,8 +3,8 @@
 {% load staticfiles %}
 
 {% block css %}
-    {{block.super}}
-    <link rel="stylesheet" href="{{ STATIC_URL }}policies/css/styles.css">
+{{block.super}}
+<link rel="stylesheet" href="{{ STATIC_URL }}policies/css/styles.css">
 {% endblock %}
 
 
@@ -13,4 +13,8 @@
     {% block policies-content %}
     {% endblock %}
 </div>
+
+{% endblock %}
+{% block footer %}
+{% include 'policies/includes/footer.html' %}
 {% endblock %}
