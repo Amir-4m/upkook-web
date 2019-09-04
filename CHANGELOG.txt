@@ -1,6 +1,6 @@
-=== 1.0.14 (2019-08-07) ===
+=== 1.1.1 (2019-09-04) ===
 
-- Changed private git server
+- Fixed issue for loading social font
 
 === 1.1.0 (2019-09-04) ===
 
@@ -9,6 +9,10 @@
 - Optimized navigation structured data
 - Added sitemap.xml
 - Added mega footer and mini footer
+
+=== 1.0.14 (2019-08-07) ===
+
+- Changed private git server
 
 === 1.0.13 (2019-07-04) ===
 
