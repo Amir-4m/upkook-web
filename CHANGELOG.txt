@@ -1,3 +1,7 @@
+=== 1.1.4 (2019-09-05) ===
+
+- Optimized amp custom css size
+
 === 1.1.3 (2019-09-04) ===
 
 - Fixed hiw app path in installed apps
