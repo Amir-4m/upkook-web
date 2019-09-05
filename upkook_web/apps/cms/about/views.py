@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 # vim: ai ts=4 sts=4 et sw=4
+from datetime import datetime
+
 from django.utils.decorators import method_decorator
 from django.views.decorators.cache import cache_control, cache_page
 from django.views.generic import TemplateView
-from datetime import datetime
-from django.utils.translation import gettext_lazy as _
+
 from .services import AboutService
 
 
