@@ -180,14 +180,6 @@ header.mdl-layout__header {
     width: 100%;
 }
 
-@media screen and (max-width: 1280px) {
-
-}
-
-@media screen and (max-width: 1080px) {
-
-}
-
 @media screen and (max-width: 960px) {
     .hiw-section-1 div {
         text-align: center;
@@ -310,6 +302,7 @@ header.mdl-layout__header {
     }
 
 }
+
 /*iphone x  landscape size*/
 @media screen and (min-width: 812px ) and (max-width: 813px) and (min-height: 375px) and (max-height: 376px ) {
     .hiw-section-1 h2 {
@@ -437,7 +430,6 @@ header.mdl-layout__header {
     }
 
 }
-
 
 @media screen and (max-width: 736px) {
 
@@ -581,7 +573,7 @@ header.mdl-layout__header {
 
 }
 
-/*nexus 5 landscape size*/
+/*galaxy s5 landscape size*/
 @media screen and (min-width: 640px ) and (max-width: 641px) and (min-height: 360px) and (max-height: 361px ) {
     .hiw-section-1 h2 {
         margin: 0;
@@ -687,6 +679,72 @@ header.mdl-layout__header {
 
     .hiw-section-3 ul {
         font-size: 1.180rem;
+    }
+
+}
+
+/*nexus 5 landscape size*/
+@media screen and (min-width: 598px ) and (max-width: 599px) and (min-height: 335px) and (max-height: 336px ) {
+    .hiw-section-1 h2 {
+        margin: 0;
+        font-size: 1.717rem;
+    }
+
+    .hiw-section-1 p {
+        margin-top: 15px;
+        font-size: 1rem;
+
+    }
+
+    .hiw-section-1 a.button-cta {
+        margin: 0 auto 0;
+    }
+
+    .hiw-section-1 i {
+        margin-top: 30px;
+        font-size: 2.3rem;
+    }
+
+    .hiw-section-1-i {
+        margin-top: 0;
+
+    }
+
+    .hiw-section-2 .md-gr {
+        padding-top: 0;
+    }
+
+    .hiw-section-2 h2 {
+        margin: 0;
+        font-size: 1.217rem;
+    }
+
+    .hiw-section-2 ul {
+        font-size: 0.986rem;
+        margin: 0;
+        line-height: 2.617rem;
+        padding: 0;
+    }
+
+    .hiw-section-2 i {
+        margin-top: 20px;
+        font-size: 2.3rem;
+    }
+
+    .hiw-section-3 .md-gr {
+        padding-top: 0;
+    }
+
+    .hiw-section-3 h2 {
+        margin: 0;
+        font-size: 1.2rem;
+    }
+
+    .hiw-section-3 ul {
+        font-size: 0.886rem;
+        margin: 0;
+        line-height: 2.217rem;
+        padding: 0;
     }
 
 }
@@ -874,6 +932,22 @@ header.mdl-layout__header {
 
     .hiw-section-3 ul {
         font-size: 0.856rem;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    .hiw-section-1 h2 {
+        margin-top: 0;
+        font-size: 1.4rem;
+    }
+
+    .hiw-section-2 h2 {
+        font-size: 1.4rem;
+    }
+
+    .hiw-section-3 h2 {
+        font-size: 1.4rem;
     }
 
 }
