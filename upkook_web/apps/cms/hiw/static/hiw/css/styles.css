@@ -403,6 +403,198 @@
 
 }
 
+/*pixel 2 xl landscape size*/
+@media screen and (min-width: 823px ) and (max-width: 824px) and (min-height: 411px) and (max-height: 412px ) {
+    .hiw-section-1 h2 {
+        margin: 0;
+        font-size: 1.817rem;
+    }
+
+    .hiw-section-1 p {
+        margin-top: 15px;
+    }
+
+    .hiw-section-1 a.button-cta {
+        margin: 0 auto 0;
+    }
+
+    .hiw-section-1 i {
+        margin-top: 30px;
+        font-size: 2.3rem;
+    }
+
+    .hiw-section-1-i {
+        margin-top: 0;
+
+    }
+
+    .hiw-section-2 .md-gr {
+        padding-top: 0;
+    }
+
+    .hiw-section-2 h2 {
+        margin: 0;
+        font-size: 1.217rem;
+    }
+
+    .hiw-section-2 ul {
+        font-size: 0.986rem;
+        margin: 0;
+        line-height: 2.617rem;
+        padding: 0;
+    }
+
+    .hiw-section-2 i {
+        margin-top: 20px;
+        font-size: 2.3rem;
+    }
+
+    .hiw-section-3 .md-gr {
+        padding-top: 0;
+    }
+
+    .hiw-section-3 h2 {
+        margin: 0;
+        font-size: 1.317rem;
+    }
+
+    .hiw-section-3 ul {
+        font-size: 0.986rem;
+        margin: 0;
+        line-height: 2.617rem;
+        padding: 0;
+    }
+
+}
+
+/*iphone x  landscape size*/
+@media screen and (min-width: 812px ) and (max-width: 813px) and (min-height: 375px) and (max-height: 376px ) {
+    .hiw-section-1 h2 {
+        margin: 0;
+        font-size: 1.817rem;
+    }
+
+    .hiw-section-1 p {
+        margin-top: 15px;
+    }
+
+    .hiw-section-1 a.button-cta {
+        margin: 0 auto 0;
+    }
+
+    .hiw-section-1 i {
+        margin-top: 30px;
+        font-size: 2.3rem;
+    }
+
+    .hiw-section-1-i {
+        margin-top: 0;
+
+    }
+
+    .hiw-section-2 .md-gr {
+        padding-top: 0;
+    }
+
+    .hiw-section-2 h2 {
+        margin: 0;
+        font-size: 1.217rem;
+    }
+
+    .hiw-section-2 ul {
+        font-size: 0.986rem;
+        margin: 0;
+        line-height: 2.617rem;
+        padding: 0;
+    }
+
+    .hiw-section-2 i {
+        margin-top: 20px;
+        font-size: 2.3rem;
+    }
+
+    .hiw-section-3 .md-gr {
+        padding-top: 0;
+    }
+
+    .hiw-section-3 h2 {
+        margin: 0;
+        font-size: 1.317rem;
+    }
+
+    .hiw-section-3 ul {
+        font-size: 0.986rem;
+        margin: 0;
+        line-height: 2.617rem;
+        padding: 0;
+    }
+
+}
+
+/*iphone 7 plus landscape size*/
+@media screen and (min-width: 736px ) and (max-width: 737px) and (min-height: 414px) and (max-height: 415px ) {
+    .hiw-section-1 h2 {
+        margin: 0;
+        font-size: 1.817rem;
+    }
+
+    .hiw-section-1 p {
+        margin-top: 15px;
+    }
+
+    .hiw-section-1 a.button-cta {
+        margin: 0 auto 0;
+    }
+
+    .hiw-section-1 i {
+        margin-top: 30px;
+        font-size: 2.3rem;
+    }
+
+    .hiw-section-1-i {
+        margin-top: 15px;
+
+    }
+
+    .hiw-section-2 .md-gr {
+        padding-top: 0;
+    }
+
+    .hiw-section-2 h2 {
+        margin: 0;
+        font-size: 1.217rem;
+    }
+
+    .hiw-section-2 ul {
+        font-size: 0.986rem;
+        margin: 0;
+        line-height: 2.617rem;
+        padding: 0;
+    }
+
+    .hiw-section-2 i {
+        margin-top: 20px;
+        font-size: 2.3rem;
+    }
+
+    .hiw-section-3 .md-gr {
+        padding-top: 0;
+    }
+
+    .hiw-section-3 h2 {
+        margin: 0;
+        font-size: 1.317rem;
+    }
+
+    .hiw-section-3 ul {
+        font-size: 0.986rem;
+        margin: 0;
+        line-height: 2.617rem;
+        padding: 0;
+    }
+
+}
+
 @media screen and (max-width: 736px) {
 
     .credit {
@@ -420,6 +612,200 @@
 
 }
 
+/*pixel 2 landscape size*/
+@media screen and (min-width: 731px ) and (max-width: 732px) and (min-height: 411px) and (max-height: 412px ) {
+    .hiw-section-1 h2 {
+        margin: 0;
+        font-size: 1.817rem;
+    }
+
+    .hiw-section-1 p {
+        margin-top: 15px;
+    }
+
+    .hiw-section-1 a.button-cta {
+        margin: 0 auto 0;
+    }
+
+    .hiw-section-1 i {
+        margin-top: 30px;
+        font-size: 2.3rem;
+    }
+
+    .hiw-section-1-i {
+        margin-top: 0;
+
+    }
+
+    .hiw-section-2 .md-gr {
+        padding-top: 0;
+    }
+
+    .hiw-section-2 h2 {
+        margin: 0;
+        font-size: 1.217rem;
+    }
+
+    .hiw-section-2 ul {
+        font-size: 0.986rem;
+        margin: 0;
+        line-height: 2.617rem;
+        padding: 0;
+    }
+
+    .hiw-section-2 i {
+        margin-top: 20px;
+        font-size: 2.3rem;
+    }
+
+    .hiw-section-3 .md-gr {
+        padding-top: 0;
+    }
+
+    .hiw-section-3 h2 {
+        margin: 0;
+        font-size: 1.317rem;
+    }
+
+    .hiw-section-3 ul {
+        font-size: 0.986rem;
+        margin: 0;
+        line-height: 2.617rem;
+        padding: 0;
+    }
+
+}
+
+/*iphone landscape size*/
+@media screen and (min-width: 667px ) and (max-width: 668px) and (min-height: 375px) and (max-height: 376px ) {
+    .hiw-section-1 h2 {
+        margin: 0;
+        font-size: 1.817rem;
+    }
+
+    .hiw-section-1 p {
+        margin-top: 15px;
+    }
+
+    .hiw-section-1 a.button-cta {
+        margin: 0 auto 0;
+    }
+
+    .hiw-section-1 i {
+        margin-top: 30px;
+        font-size: 2.3rem;
+    }
+
+    .hiw-section-1-i {
+        margin-top: 0;
+
+    }
+
+    .hiw-section-2 .md-gr {
+        padding-top: 0;
+    }
+
+    .hiw-section-2 h2 {
+        margin: 0;
+        font-size: 1.317rem;
+    }
+
+    .hiw-section-2 ul {
+        font-size: 0.986rem;
+        margin: 0;
+        line-height: 2.617rem;
+        padding: 0;
+    }
+
+    .hiw-section-2 i {
+        margin-top: 20px;
+        font-size: 2.3rem;
+    }
+
+    .hiw-section-3 .md-gr {
+        padding-top: 0;
+    }
+
+    .hiw-section-3 h2 {
+        margin: 0;
+        font-size: 1.317rem;
+    }
+
+    .hiw-section-3 ul {
+        font-size: 0.986rem;
+        margin: 0;
+        line-height: 2.617rem;
+        padding: 0;
+    }
+
+}
+
+/*galaxy s5 landscape size*/
+@media screen and (min-width: 640px ) and (max-width: 641px) and (min-height: 360px) and (max-height: 361px ) {
+    .hiw-section-1 h2 {
+        margin: 0;
+        font-size: 1.717rem;
+    }
+
+    .hiw-section-1 p {
+        margin-top: 15px;
+        font-size: 1.116rem;
+
+    }
+
+    .hiw-section-1 a.button-cta {
+        margin: 0 auto 0;
+    }
+
+    .hiw-section-1 i {
+        margin-top: 30px;
+        font-size: 2.3rem;
+    }
+
+    .hiw-section-1-i {
+        margin-top: 0;
+
+    }
+
+    .hiw-section-2 .md-gr {
+        padding-top: 0;
+    }
+
+    .hiw-section-2 h2 {
+        margin: 0;
+        font-size: 1.217rem;
+    }
+
+    .hiw-section-2 ul {
+        font-size: 0.986rem;
+        margin: 0;
+        line-height: 2.617rem;
+        padding: 0;
+    }
+
+    .hiw-section-2 i {
+        margin-top: 20px;
+        font-size: 2.3rem;
+    }
+
+    .hiw-section-3 .md-gr {
+        padding-top: 0;
+    }
+
+    .hiw-section-3 h2 {
+        margin: 0;
+        font-size: 1.317rem;
+    }
+
+    .hiw-section-3 ul {
+        font-size: 0.986rem;
+        margin: 0;
+        line-height: 2.617rem;
+        padding: 0;
+    }
+
+}
+
 @media screen and (max-width: 667px) {
     .mini-footer-right-section {
         display: none;
@@ -432,6 +818,7 @@
     }
 
 }
+
 
 @media screen and (max-width: 568px) {
     .mini-footer-social {
@@ -464,6 +851,138 @@
 
     .hiw-section-1 p {
         font-size: 1.165rem;
+    }
+
+}
+
+/*nexus 5 landscape size*/
+@media screen and (min-width: 598px ) and (max-width: 599px) and (min-height: 335px) and (max-height: 336px ) {
+    .hiw-section-1 h2 {
+        margin: 0;
+        font-size: 1.617rem;
+    }
+
+    .hiw-section-1 p {
+        margin-top: 15px;
+        font-size: 1rem;
+
+    }
+
+    .hiw-section-1 a.button-cta {
+        margin: 0 auto 0;
+    }
+
+    .hiw-section-1 i {
+        margin-top: 30px;
+        font-size: 2.3rem;
+    }
+
+    .hiw-section-1-i {
+        margin-top: 0;
+
+    }
+
+    .hiw-section-2 .md-gr {
+        padding-top: 0;
+    }
+
+    .hiw-section-2 h2 {
+        margin: 0;
+        font-size: 1.117rem;
+    }
+
+    .hiw-section-2 ul {
+        font-size: 0.986rem;
+        margin: 0;
+        line-height: 2.617rem;
+        padding: 0;
+    }
+
+    .hiw-section-2 i {
+        margin-top: 20px;
+        font-size: 2.3rem;
+    }
+
+    .hiw-section-3 .md-gr {
+        padding-top: 0;
+    }
+
+    .hiw-section-3 h2 {
+        margin: 0;
+        font-size: 1.2rem;
+    }
+
+    .hiw-section-3 ul {
+        font-size: 0.886rem;
+        margin: 0;
+        line-height: 2.217rem;
+        padding: 0;
+    }
+
+}
+
+/*iphone 5s/se landscape size*/
+@media screen and (min-width: 568px ) and (max-width: 569px) and (min-height: 320px) and (max-height: 321px ) {
+    .hiw-section-1 h2 {
+        margin: 0;
+        font-size: 1.517rem;
+    }
+
+    .hiw-section-1 p {
+        margin-top: 15px;
+        font-size: 1rem;
+    }
+
+    .hiw-section-1 a.button-cta {
+        margin: 0 auto 0;
+    }
+
+    .hiw-section-1 i {
+        margin-top: 15px;
+        font-size: 1.8rem;
+    }
+
+    .hiw-section-1-i {
+        margin-top: 0;
+
+    }
+
+    .hiw-section-2 .md-gr {
+        padding-top: 0;
+    }
+
+    .hiw-section-2 h2 {
+        margin: 0;
+        font-size: 1.1rem;
+
+    }
+
+    .hiw-section-2 ul {
+        font-size: 0.986rem;
+        margin: 0;
+        line-height: 2.317rem;
+        padding: 0;
+    }
+
+    .hiw-section-2 i {
+        margin-top: 20px;
+        font-size: 1.8rem;
+    }
+
+    .hiw-section-3 .md-gr {
+        padding-top: 0;
+    }
+
+    .hiw-section-3 h2 {
+        margin: 0;
+        font-size: 1.2rem;
+    }
+
+    .hiw-section-3 ul {
+        font-size: 0.886rem;
+        margin: 0;
+        line-height: 2.217rem;
+        padding: 0;
     }
 
 }
