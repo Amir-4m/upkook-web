@@ -11,3 +11,5 @@ Disallow: /
 
 User-agent: MJ12bot
 Disallow: /
+
+Sitemap: {{ protocol }}://{{ site.domain }}/sitemap.xml
