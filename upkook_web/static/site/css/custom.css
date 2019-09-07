@@ -410,10 +410,24 @@ footer.footer-bare a:visited {
 }
 
 @media screen and (max-width: 480px) {
+    .navigation li:nth-child(3) {
+        display: block;
+    }
+
     .header div:first-of-type {
         width: 100%;
         margin: 0 auto;
         padding: 8px;
+    }
+
+    amp-sidebar[side=left] {
+        background-color: #6554C0;
+        box-shadow: none;
+        border: 0;
+    }
+
+    amp-sidebar.mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+        color: #DFE1E6
     }
 
     #outer-wrapper .mdl-layout__drawer,
@@ -454,7 +468,6 @@ footer.footer-bare a:visited {
         width: 90%;
     }
 }
-
 
 /* MATERIAL */
 .mdl-textfield.mdl-textfield__helper-line {
