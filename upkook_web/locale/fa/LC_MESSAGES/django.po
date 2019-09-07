@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 17:11+0430\n"
+"POT-Creation-Date: 2019-09-07 11:30+0430\n"
 "PO-Revision-Date: 2018-12-17 10:22+0330\n"
 "Last-Translator: Saeed Salehian <saeed@upkook.com>\n"
 "Language-Team: Upkook <info@upkook.com>\n"
@@ -26,38 +26,38 @@ msgstr "انگلیسی"
 msgid "Farsi"
 msgstr "فارسی"
 
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:16
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:13
 msgid "address: "
 msgstr "نشانی: "
 
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:17
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:15
 msgid "Upkook Address"
 msgstr ""
 "تهران، بزرگراه اشرفی اصفهانی، خیابان قموشی، کوچه هما، دانشگاه علم و فرهنگ، "
 "طبقه ششم،<br/> پارک ملی علوم و فناوری های نرم و صنایع فرهنگی، 1036 "
 
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:26
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:22
 msgid "Postal Code: "
 msgstr "کد پستی:"
 
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:27
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:23
 msgid "UPKOOK Code"
 msgstr "1461968197"
 
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:38
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:30
 msgid "E-mail"
 msgstr "ایمیل"
 
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:46
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:37
 msgid "Phone: "
 msgstr "تلفن: "
 
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:48
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:39
 msgid "UPKOOK Telephone"
 msgstr "+98 21 44372126"
 
 #: upkook_web/templates/upkook_web/includes/mini-footer.html:8
-#: upkook_web/templates/upkook_web/includes/navigation.html:5
+#: upkook_web/templates/upkook_web/includes/navigation.html:6
 msgid "UPKOOK"
 msgstr "آپ‌کوک"
 
@@ -70,13 +70,21 @@ msgid "Privacy Policy"
 msgstr "حریم خصوصی"
 
 #: upkook_web/templates/upkook_web/includes/navigation.html:12
+msgid "How It Works"
+msgstr "کاربرد و مزایا"
+
+#: upkook_web/templates/upkook_web/includes/navigation.html:18
+msgid "Demo"
+msgstr "دمو"
+
+#: upkook_web/templates/upkook_web/includes/navigation.html:24
 msgid "Sign In"
 msgstr "ورود"
 
-#: upkook_web/templates/upkook_web/includes/navigation.html:18
+#: upkook_web/templates/upkook_web/includes/navigation.html:30
 msgid "Sign Up"
 msgstr "ثبت نام"
 
-#: upkook_web/templates/upkook_web/includes/navigation.html:24
+#: upkook_web/templates/upkook_web/includes/navigation.html:36
 msgid "BLOG"
 msgstr "بلاگ"
