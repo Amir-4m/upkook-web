@@ -6,7 +6,18 @@
             {% trans 'UPKOOK' %}
         </a>
     </li>
-
+    <li itemprop="name">
+        <a class="mdl-navigation__link" itemprop="url"
+           href="{% if is_amp %}{% url 'hiw:index-amp' amp %}{% else %}{% url 'hiw:index' %}{% endif %}">
+            {% trans "How It Works" %}
+        </a>
+    </li>
+    <li itemprop="name">
+        <a class="mdl-navigation__link" itemprop="url"
+           href="https://demo.upkook.com/">
+            {% trans "Demo" %}
+        </a>
+    </li>
     <li itemprop="name">
         <a class="mdl-navigation__link" itemprop="url"
            href="{% url 'users:sign-in' %}">

@@ -375,6 +375,17 @@ footer.footer-bare a:visited {
 
 }
 
+@media screen and (max-width: 667px) {
+    .navigation li:nth-child(3) {
+        display: none;
+    }
+
+    .mdl-navigation a.mdl-navigation__link {
+        padding: 0 8px;
+    }
+
+}
+
 @media screen and (max-width: 840px) {
 
     .mini-footer-left-section {
