@@ -5,6 +5,8 @@ from datetime import datetime
 from django.utils.decorators import method_decorator
 from django.views.decorators.cache import cache_control, cache_page
 from django.views.generic import TemplateView
+from django.utils.translation import gettext_lazy as _
+
 
 from .services import AboutService
 
@@ -14,13 +16,13 @@ from .services import AboutService
 class AboutView(TemplateView):
     http_method_names = ['get']
     template_name = 'about/about-us.html'
-    last_modification = datetime(2019, 8, 26)
+    last_modification = datetime(2019, 9, 14)
 
     def get_context_data(self, amp=None):
         context = super(AboutView, self).get_context_data(amp=amp)
         context.update({
-            'title': 'about us',
-            'description': 'about us description'
+            'title': _('About Upkook | How were upkook established ?'),
+            'description': _('Upkook startup makes Customer Orientation easier for businesses')
         })
 
         if amp == 'amp' or self.request.GET:

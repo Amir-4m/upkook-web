@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 17:11+0430\n"
+"POT-Creation-Date: 2019-09-18 14:54+0430\n"
 "PO-Revision-Date: 2018-12-22 15:26+0330\n"
 "Last-Translator: Saeed Salehian <saeed@upkook.com>\n"
 "Language-Team: Upkook <info@upkook.com>\n"
@@ -109,6 +109,18 @@ msgstr "نمره NPS شما چند خواهد بود؟"
 #: upkook_web/apps/cms/home/templates/home/includes/promo_box.html:6
 msgid "You have not calculated your brand loyalty score yet?, start now."
 msgstr "هنوز نمره وفاداری برندتان را محاسبه نکرده اید، همین الان شروع کنید."
+
+#: upkook_web/apps/cms/home/templates/home/includes/site_data_structure.html:10
+msgid "UPKOOK Code"
+msgstr ""
+
+#: upkook_web/apps/cms/home/templates/home/includes/site_data_structure.html:11
+msgid "Upkook Address"
+msgstr ""
+
+#: upkook_web/apps/cms/home/templates/home/includes/site_data_structure.html:15
+msgid "UPKOOK Telephone"
+msgstr ""
 
 #: upkook_web/apps/cms/home/views.py:46
 msgid "Free sign up"

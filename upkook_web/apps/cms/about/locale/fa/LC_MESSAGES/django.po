@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-18 14:54+0430\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: upkook_web/apps/cms/about/templates/about/about-us.html:10
+msgid "about us header title"
+msgstr "داستان آپ کوک"
+
+#: upkook_web/apps/cms/about/templates/about/about-us.html:11
+msgid "about us header description"
+msgstr "آپ کوک نبض تپنده کسب و کار"
+
+#: upkook_web/apps/cms/about/templates/about/about-us.html:14
+msgid "about us section1"
+msgstr ""
+"در <a href='/'> آپ کوک</a>، اولین پلتفرم تخصصی سنجش تجربه مشتری،  تلاش ما بر "
+"این است که مشتری مداری را برای کسب و کارهای آنلاین آسان کنیم، با روشی موثرتر "
+"و ماندگارتر که تجربه لذت بخشی برای مشتریان کسب و  کار شما ایجاد می کند. ما "
+"هوشمندانه، خلاقانه و پرانرژی تلاش می کنیم  تا مشتریان هر کسب و کار آنلاین "
+"هواداران وفادار آن باشند.  در حال حاضر تمرکز ما روی سنجش تجربه مشتری با "
+"استفاده  از شاخص های استاندارد رضایت مشتری مانند  <a href='https://blog."
+"upkook.com/customer-survey/what-is-nps/' target=\"_blank\"> NPS</a> ،<a "
+"href='https://blog.upkook.com/customer-survey/what-is-ces/' target=\"_blank"
+"\"> CES</a> و<a href='https://blog.upkook.com/customer-survey/what-is-"
+"customer-satisfaction-csat/' target=\"_blank\"> CSAT</a>  است."
+
+#: upkook_web/apps/cms/about/templates/about/about-us.html:19
+msgid "about us section2 title"
+msgstr "بنیانگذاران آپ کوک"
+
+#: upkook_web/apps/cms/about/templates/about/about-us.html:20
+msgid "about us section2 description"
+msgstr ""
+"استارتاپ آپ کوک توسط برادران صالحیان،  سعید و مجید در مهر ماه سال 1397 راه "
+"اندازی شد.  ما در ابتدا استارتاپ آپ کوک را با انتشار دانش،  تجربیات و ایده "
+"های خود درباره تجربه مشتری در  <a href='https://blog.upkook.com' "
+"target='_blank'> آپ کوک مگ </a> شروع کردیم.  ما راهنمای اندازه گیری میزان  "
+"<a href='https://blog.upkook.com/customer-loyalty/different-types-of-"
+"customer-loyalty/' target='_blank'> وفاداری مشتری </a> و  سرویس  <a "
+"href='https://blog.upkook.com/customer-survey/what-is-nps/' target='_blank'> "
+"نظرسنجی شاخص خالص مروجان (NPS)</a>  را توسعه و راه اندازی کردیم.  با انتشار "
+"<a href='https://demo.upkook.com' target='_blank'> دموی سرویس</a>  و مشاهده "
+"استقبال کسب و  کارها از این ایده تصمیم به راه اندازی <a href='/' "
+"target='_blank'> اولین پلتفرم تخصصی سنجش تجربه مشتری </a> گرفتیم. "
+
+#: upkook_web/apps/cms/about/templates/about/about-us.html:42
+msgid "about us section3 title"
+msgstr "مراحل رشد و توسعه"
+
+#: upkook_web/apps/cms/about/templates/about/about-us.html:43
+msgid "about us section3 description"
+msgstr ""
+"پس از توسعه نسخه اولیه محصول،  ورود به بازار و دریافت بازخوردهای مشتریان "
+"نیازهای کسب و  کارها را دقیق تر شناختیم. با جمع بندی و تحلیل بازخوردهای  "
+"مشتریان شروع به بهبود و توسعه ویژگی های محصول از جمله  افزودن شاخص های جدید "
+"سنجش تجربه مشتری، تحلیل نتایج، قابلیت اشتراک نظرسنجی در پلتفرم های  مختلف و "
+"دسته بندی مشتریان کردیم. در حال حاضر این خدمات  مراحل تست و باز بینی خود را "
+"طی می کنند و  به زودی برای ارائه به بازار آماده خواهد شد. "
+
+#: upkook_web/apps/cms/about/views.py:24
+msgid "About Upkook | How were upkook established ?"
+msgstr "درباره آپ کوک: استارتاپ آپ کوک از کجا و چگونه راه اندازی شد؟"
+
+#: upkook_web/apps/cms/about/views.py:25
+msgid "Upkook startup makes Customer Orientation easier for businesses"
+msgstr "استارتاپ آپ کوک مشتری مداری را برای کسب و کارهای آنلاین آسان می کند. "

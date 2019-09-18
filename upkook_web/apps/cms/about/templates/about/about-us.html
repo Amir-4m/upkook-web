@@ -7,20 +7,44 @@
 
 {% block content %}
 <section class="about-header">
-    <h1>داستان آپ کوک</h1>
-    <p>آپ کوک نبض تپنده کسب و کار</p>
+    <h1>{% trans 'about us header title' %}</h1>
+    <p>{% trans 'about us header description' %}</p>
 </section>
 <section class="about-section-1">
-    <p>
-        پلتفرم آنلاین و یکپارچه آپ کوک با ایده اولیه ارائه سرویس تحقیقات بازار بر بستر وب برای استارتاپ ها و کسب و
-        کارهای آنلاین شکل گرفت. با انجام تحقیقات اولیه و گفتگو با تنی چند از فعالان عرصه استارتاپی کشور و شناسایی نیاز
-        استارتاپ ها برای سنجش تجربه و رضایت مشتری،تصمیم برآن شد تا آپ کوک به عنوان اولین پلتفرم آنلاین تخصصی سنجش تجربه
-        مشتری بر اساس استانداردهای روز دنیا مانند CES ,CSAT و NPS روانه بازار شود.
-
-    </p>
-
+    <p>{% trans 'about us section1' %}</p>
 </section>
+<section class="about-section-2">
+    <div class="md-gr">
+        <div class="md-cl--6-col md-cl--8-col-tablet">
+            <h2>{% trans 'about us section2 title' %}</h2>
+            <p>{% trans 'about us section2 description' %}</p>
+        </div>
+        <div class="md-cl--6-col md-cl--8-col-tablet">
+            <!--{% if is_amp %}-->
+            <!--<amp-img src="{{ STATIC_URL }}about/images/ti.jpg" layout="intrinsic" width="480" height="384"></amp-img>-->
+            <!--{% else %}-->
+            <!--<img src="{{ STATIC_URL }}about/images/ti.jpg">-->
+            <!--{% endif %}-->
+        </div>
+    </div>
+</section>
+<section class="about-section-3">
+    <div class="md-gr">
+        <div class="md-cl--6-col md-cl--8-col-tablet">
+            <!--{% if is_amp %}-->
+            <!--<amp-img src="{{ STATIC_URL }}about/images/ti.jpg" layout="intrinsic" width="480" height="384"></amp-img>-->
+            <!--{% else %}-->
+            <!--<img src="{{ STATIC_URL }}about/images/ti.jpg">-->
+            <!--{% endif %}-->
 
+        </div>
+        <div class="md-cl--6-col md-cl--8-col-tablet">
+            <h2>{% trans 'about us section3 title' %}</h2>
+            <p>{% trans 'about us section3 description' %}</p>
+        </div>
+
+    </div>
+</section>
 {% endblock %}
 
 

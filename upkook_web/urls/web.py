@@ -7,10 +7,16 @@ from django.views.decorators.cache import cache_page
 from upkook_web.apps.cms.home.sitemap import HomeSitemap
 from upkook_web.apps.users.sitemap import UsersSitemap
 from upkook_web.apps.cms.hiw.sitemap import HIWSitemap
+from upkook_web.apps.cms.about.sitemap import AboutSitemap
 
 from . import urlpatterns
 
-sitemaps = {'home': HomeSitemap, 'hiw': HIWSitemap, 'users': UsersSitemap}
+sitemaps = {
+    'home': HomeSitemap,
+    'about': AboutSitemap,
+    'hiw': HIWSitemap,
+    'users': UsersSitemap
+}
 
 urlpatterns += [
     path(
@@ -25,5 +31,4 @@ urlpatterns += [
     path('', include('upkook_web.apps.users.urls', 'users')),
     path('', include('upkook_web.apps.cms.hiw.urls', 'hiw')),
     path('', include('upkook_web.apps.cms.about.urls', 'about')),
-
 ]

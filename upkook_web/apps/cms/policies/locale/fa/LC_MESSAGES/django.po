@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-07 11:30+0430\n"
+"POT-Creation-Date: 2019-09-18 14:54+0430\n"
 "PO-Revision-Date: 2018-12-22 15:26+0330\n"
 "Last-Translator: Saeed Salehian <saeed@upkook.com>\n"
 "Language-Team: Upkook <info@upkook.com>\n"
@@ -37,19 +37,19 @@ msgstr "شرایط و قوانین استفاده"
 msgid "How It Works"
 msgstr "کاربرد و مزایا"
 
-#: upkook_web/apps/cms/policies/templates/policies/includes/navigation.html:17
+#: upkook_web/apps/cms/policies/templates/policies/includes/navigation.html:16
 msgid "Demo"
 msgstr "دمو"
 
-#: upkook_web/apps/cms/policies/templates/policies/includes/navigation.html:22
+#: upkook_web/apps/cms/policies/templates/policies/includes/navigation.html:21
 msgid "Sign In"
 msgstr "ورود"
 
-#: upkook_web/apps/cms/policies/templates/policies/includes/navigation.html:27
+#: upkook_web/apps/cms/policies/templates/policies/includes/navigation.html:26
 msgid "Sign Up"
 msgstr "ثبت نام"
 
-#: upkook_web/apps/cms/policies/templates/policies/includes/navigation.html:32
+#: upkook_web/apps/cms/policies/templates/policies/includes/navigation.html:31
 msgid "BLOG"
 msgstr "بلاگ"
 

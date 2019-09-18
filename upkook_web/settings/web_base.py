@@ -36,12 +36,12 @@ INSTALLED_APPS += (
     'statici18n',
     'django.contrib.sites',
     'django.contrib.sitemaps',
-
     'django_contrib.amp',
     'django_contrib.sites',
     'django_contrib.seo',
     'django_contrib.social',
     'django_contrib.chats',
+    'django_contrib.lazy',
     'upkook_web.apps.contrib.api',
 
 )
