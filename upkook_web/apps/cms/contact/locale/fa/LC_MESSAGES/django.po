@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-18 14:54+0430\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: upkook_web/apps/cms/contact/templates/contact/contact-us.html:12
+msgid "contact us header title"
+msgstr "از شنیدن صدای شما خوشحال می شویم"
+
+#: upkook_web/apps/cms/contact/templates/contact/contact-us.html:13
+msgid "contact us header description"
+msgstr "از راه های زیر می توانید با ما در ارتباط باشید"
+
+#: upkook_web/apps/cms/contact/templates/contact/contact-us.html:18
+msgid "contact founders"
+msgstr "تماس با بنیانگذاران"
+
+#: upkook_web/apps/cms/contact/templates/contact/contact-us.html:25
+msgid "founders description"
+msgstr "مجید صالحیان<br> سعید صالحیان"
+
+#: upkook_web/apps/cms/contact/templates/contact/contact-us.html:28
+msgid "send email"
+msgstr "ارسال ایمیل"
+
+#: upkook_web/apps/cms/contact/templates/contact/contact-us.html:34
+msgid "online support"
+msgstr "کارشناسان ما آنلاین هستند"
+
+#: upkook_web/apps/cms/contact/templates/contact/contact-us.html:41
+msgid "online support description"
+msgstr "شنبه تا چهارشنبه: 9 تا 17 <br>پنج شنبه: 9 تا 13"
+
+#: upkook_web/apps/cms/contact/templates/contact/contact-us.html:43
+msgid "start discussion"
+msgstr "شروع گفتگو"
+
+#: upkook_web/apps/cms/contact/templates/contact/contact-us.html:48
+msgid "contact us"
+msgstr "تماس با ما"
+
+#: upkook_web/apps/cms/contact/templates/contact/contact-us.html:55
+msgid "contact us description"
+msgstr ""
+"برای ارتباط با آپ کوک می توانید<br>از طریق شماره زیر با ما در تماس باشید"
+
+#: upkook_web/apps/cms/contact/templates/contact/contact-us.html:56
+#: upkook_web/apps/cms/contact/templates/contact/contact-us.html:71
+msgid "UPKOOK Telephone"
+msgstr "+98 21 44372126"
+
+#: upkook_web/apps/cms/contact/templates/contact/contact-us.html:62
+msgid "where is upkook?"
+msgstr "آپ کوک دقیقا کجاست"
+
+#: upkook_web/apps/cms/contact/templates/contact/contact-us.html:66
+msgid "address: "
+msgstr "نشانی: "
+
+#: upkook_web/apps/cms/contact/templates/contact/contact-us.html:67
+msgid "Upkook Address"
+msgstr ""
+"تهران، بزرگراه اشرفی اصفهانی، خیابان قموشی، کوچه هما، دانشگاه علم و فرهنگ، "
+"طبقه ششم،<br/> پارک ملی علوم و فناوری های نرم و صنایع فرهنگی، 1036 "
+
+
+#: upkook_web/apps/cms/contact/templates/contact/contact-us.html:68
+msgid "Postal Code: "
+msgstr "کد پستی:"
+
+#: upkook_web/apps/cms/contact/templates/contact/contact-us.html:69
+msgid "UPKOOK Code"
+msgstr "1461968197"
+
+#: upkook_web/apps/cms/contact/templates/contact/contact-us.html:70
+msgid "Phone: "
+msgstr "تلفن:"
+
+#: upkook_web/apps/cms/contact/views.py:24
+msgid "Contact Us | Upkook Startup"
+msgstr "تماس با ما | استارتاپ آپ کوک"
+
+#: upkook_web/apps/cms/contact/views.py:25
+msgid "If you have any question or need support, contact us."
+msgstr ""
+"اگر سوالی دارید یا نیاز به راهنمایی و پشتیبانی دارید، با ما تماس بگیرید."

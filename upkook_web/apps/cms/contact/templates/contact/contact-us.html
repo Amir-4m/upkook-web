@@ -1,0 +1,104 @@
+{% extends "upkook_web/upkook.html" %}
+{% load staticfiles i18n %}
+{% block css %}
+{{ block.super }}
+<link rel="stylesheet" href="{{ STATIC_URL }}contact/css/custom.css" xmlns="http://www.w3.org/1999/html">
+{% endblock %}
+{% block extra_head %}
+<script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+{% endblock %}
+{% block content %}
+<section class="contact-header">
+    <h1>{% trans "contact us header title" %}</h1>
+    <p>{% trans "contact us header description" %}</p>
+</section>
+<section class="contact-section-1">
+    <div class="md-gr">
+        <div class="md-cl--4-col md-cl--8-col-tablet">
+            <h4>{% trans 'contact founders' %}</h4>
+            {% if is_amp %}
+            <amp-img src="{{ STATIC_URL }}contact/images/chat.png" layout="intrinsic" width="256"
+                     height="256"></amp-img>
+            {% else %}
+            <img data-lazy="{{ STATIC_URL }}contact/images/chat.png">
+            {% endif %}
+            <p>{% trans 'founders description'%}</p>
+            <span>
+                <a class="button-cta button-action-secondary " href="mailto:Majid@upkook.com"
+                   target="_top"> {% trans 'send email' %} </a>
+            </span>
+
+
+        </div>
+        <div class="md-cl--4-col md-cl--8-col-tablet">
+            <h4> {% trans 'online support' %}</h4>
+            {% if is_amp %}
+            <amp-img src="{{ STATIC_URL }}contact/images/chat-logo.png" layout="intrinsic" width="256"
+                     height="256"></amp-img>
+            {% else %}
+            <img data-lazy="{{ STATIC_URL }}contact/images/chat-logo.png">
+            {% endif %}
+            <p>{% trans 'online support description' %}</p>
+            <a class="button-cta button-action-secondary" href="https://app.purechat.com/w/upkook" target="_blank">
+               {% trans 'start discussion' %}
+            </a>
+
+        </div>
+        <div class="md-cl--4-col md-cl--8-col-tablet">
+            <h4>{% trans 'contact us' %}</h4>
+            {% if is_amp %}
+            <amp-img src="{{ STATIC_URL }}contact/images/phone-call.png" layout="intrinsic" width="256"
+                     height="256"></amp-img>
+            {% else %}
+            <img data-lazy="{{ STATIC_URL }}contact/images/phone-call.png">
+            {% endif %}
+            <p>{% trans 'contact us description' %}</p>
+            <a class="button-cta button-action-secondary" href="tel:+982144372126">{% trans "UPKOOK Telephone" %}</a>
+
+        </div>
+    </div>
+</section>
+<section class="contact-section-2">
+    <h2>{% trans 'where is upkook?' %}</h2>
+    <div class="md-gr">
+        <div class="md-cl--5-col md-cl--8-col-tablet">
+            <div class="contact-address">
+                <h4>{% trans "address: " %}</h4>
+                <p>{% trans "Upkook Address" %}</p>
+                <h5>{% trans "Postal Code: " %}</h5>
+                <span>{% trans "UPKOOK Code" %}</span>
+                <h5>{% trans "Phone: " %}</h5>
+                <span>{% trans "UPKOOK Telephone" %}</span>
+            </div>
+
+        </div>
+        <div class="md-cl--7-col md-cl--8-col-tablet">
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    {% if is_amp %}
+                    <amp-iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12952.220080963969!2d51.3342206!3d35.7494524!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe1843b6e2c80315d!2z2KLZviDaqdmI2qk!5e0!3m2!1sen!2s!4v1567863128852!5m2!1sen!2s"
+                            width="600" height="450" frameborder="0" allowfullscreen=""
+                            sandbox="allow-scripts allow-same-origin"
+                            layout="intrinsic"></amp-iframe>
+                    {% else %}
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12952.220080963969!2d51.3342206!3d35.7494524!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe1843b6e2c80315d!2z2KLZviDaqdmI2qk!5e0!3m2!1sen!2s!4v1567863128852!5m2!1sen!2s"
+                            width="600" height="450" frameborder="0" allowfullscreen=""></iframe>
+                    {% endif %}
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
+{% endblock %}
+
+
+{% block stylesheets %}
+{{ block.super }}
+<link rel="stylesheet" href="{{ STATIC_URL }}contact/css/styles.css">
+{% endblock %}
+

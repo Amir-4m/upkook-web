@@ -16,10 +16,13 @@ INSTALLED_APPS += (
     'django.contrib.sites',
     'django_contrib.sites',
     'django_contrib.social',
+    'django_contrib.lazy',
     'upkook_web.apps.contrib.api',
     'upkook_web.apps.cms.home',
     'upkook_web.apps.cms.hiw',
     'upkook_web.apps.users',
     'upkook_web.apps.cms.policies',
     'upkook_web.apps.cms.about',
+    'upkook_web.apps.cms.contact',
+
 )

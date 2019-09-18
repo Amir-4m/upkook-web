@@ -10,6 +10,7 @@ INSTALLED_APPS += (
     'upkook_web.apps.users',
     'upkook_web.apps.cms.hiw',
     'upkook_web.apps.cms.about',
+    'upkook_web.apps.cms.contact',
 
 )
 
