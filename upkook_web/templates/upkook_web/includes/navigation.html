@@ -36,4 +36,16 @@
             {% trans 'BLOG' %}
         </a>
     </li>
+    <li itemprop="name">
+        <a class="mdl-navigation__link" itemprop="url"
+           href="{% url 'about:index' %}">
+            {% trans 'About Us' %}
+        </a>
+    </li>
+    <li itemprop="name">
+        <a class="mdl-navigation__link" itemprop="url"
+           href="{% url 'contact:index' %}">
+            {% trans 'Contact Us' %}
+        </a>
+    </li>
 </ul>

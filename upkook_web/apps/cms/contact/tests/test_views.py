@@ -21,7 +21,7 @@ class ContactViewTestCase(TestCase):
 
         self.assertEqual(
             response.context_data.get('title'),
-            'If you have any question or need support, contact us.'
+            'Contact Us | Upkook Startup'
         )
         self.assertEqual(response.context_data.get('amp_url'), 'http://testserver/contact-us/amp/')
         self.assertEqual(response.status_code, 200)
