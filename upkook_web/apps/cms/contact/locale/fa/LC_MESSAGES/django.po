@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-18 14:54+0430\n"
+"POT-Creation-Date: 2019-09-22 14:20+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -77,7 +77,6 @@ msgid "Upkook Address"
 msgstr ""
 "تهران، بزرگراه اشرفی اصفهانی، خیابان قموشی، کوچه هما، دانشگاه علم و فرهنگ، "
 "طبقه ششم،<br/> پارک ملی علوم و فناوری های نرم و صنایع فرهنگی، 1036 "
-
 
 #: upkook_web/apps/cms/contact/templates/contact/contact-us.html:68
 msgid "Postal Code: "
