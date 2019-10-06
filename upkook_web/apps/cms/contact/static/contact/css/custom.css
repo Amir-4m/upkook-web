@@ -53,18 +53,24 @@
     padding-left: 20px;
 }
 
+.contact-section-1 .md-cl--4-col:nth-of-type(1) a {
+    padding-left: 20px;
+    line-height: 3.5rem;
+}
+
 .contact-section-1 .md-cl--4-col:nth-of-type(2) {
     border-right: 1px solid #C0B6F2;
     border-left: 1px solid #C0B6F2;
 }
 
 .contact-section-1 .md-cl--4-col:nth-of-type(2) a {
+    line-height: 3.5rem;
     padding: 2px 27px;
 }
 
 .contact-section-1 .md-cl--4-col:nth-of-type(3) a {
     direction: ltr;
-    line-height: 3rem;
+    line-height: 4rem;
 }
 
 .contact-section-1 .md-cl--4-col:nth-of-type(3) {
@@ -185,6 +191,10 @@
 }
 
 @media screen and (max-width: 1080px) {
+    .contact-section-1 .button-cta {
+        width: 90%;
+    }
+
     .contact-header {
         padding: 45px;
     }
@@ -199,6 +209,18 @@
 }
 
 @media screen and (max-width: 960px) {
+    .contact-section-1 .md-cl--4-col:nth-of-type(1) a {
+        line-height: 2.5rem;
+    }
+
+    .contact-section-1 .md-cl--4-col:nth-of-type(2) a {
+        line-height: 2.5rem;
+    }
+
+    .contact-section-1 .md-cl--4-col:nth-of-type(3) a {
+        line-height: 2.5rem;
+    }
+
     .contact-section-1 .md-cl--4-col:nth-of-type(1) {
         padding-left: 13px;
     }
@@ -286,7 +308,6 @@
     }
 
 
-
     .contact-section-2 {
         padding: 0 20px 50px 20px;
     }
@@ -294,10 +315,9 @@
 
 @media screen and (max-width: 360px) {
 
-     .contact-section-1 .button-cta {
-         width: 90%;
+    .contact-section-1 .button-cta {
+        width: 90%;
     }
-
 
 
 }
