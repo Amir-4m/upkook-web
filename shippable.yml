@@ -9,6 +9,7 @@ env:
 
 build:
   ci:
+    - sudo apt-get update
     - chmod a+x provision.sh
     - sh provision.sh
 
