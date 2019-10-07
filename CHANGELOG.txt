@@ -1,3 +1,9 @@
+=== 1.2.0 (2019-10-07) ===
+
+- About us page
+- Contact us page
+- Menu navigation optimization
+
 === 1.1.4 (2019-09-05) ===
 
 - Optimized amp custom css size
