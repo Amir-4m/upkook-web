@@ -1,6 +1,7 @@
 (function ($) {
   const SignInForm = function (form) {
     this.form = form;
+    this.retries = 0;
   };
 
   SignInForm.handleSuccess = function (data) {
@@ -13,6 +14,11 @@
     if (jqXHR.status === 400 || jqXHR.status === 401) {
       const message = gettext('No active account found with the given credentials');
       snackbar.error(message, 5000);
+      this.retries += 1;
+      console.log(this.retries);
+      if (this.retries >= 2) {
+        this.showForgotDialog();
+      }
     } else {
       handleAPIError(jqXHR);
     }
@@ -43,6 +49,21 @@
     }
   });
 
+  SignInForm.prototype.showForgotDialog = function () {
+    const dialog = document.querySelector('dialog');
+    const showModalButton = document.querySelector('#sign-in-button');
+    if (!dialog.showModal) {
+      dialogPolyfill.registerDialog(dialog);
+    }
+    showModalButton.addEventListener('click', function () {
+      dialog.showModal();
+    });
+
+    dialog.querySelector('.close').addEventListener('click', function () {
+      dialog.close();
+    });
+  };
+
   SignInForm.prototype.isValid = function () {
     return Boolean(this.email) && Boolean(this.password);
   };
@@ -61,15 +82,16 @@
     $.ajax({
       url: this.action, type: this.method, data: JSON.stringify(data),
       cache: false, contentType: "application/json", dataType: "json",
-      success: SignInForm.handleSuccess, error: SignInForm.handleError,
+      success: SignInForm.handleSuccess, error: SignInForm.handleError.bind(this),
       complete: this.handleComplete.bind(this),
     });
   };
 
   $(document).ready(function () {
-    $("#sign-in").submit(function (event) {
+    const signIn = $("#sign-in");
+    const form = new SignInForm(signIn);
+    signIn.submit(function (event) {
       event.preventDefault();
-      const form = new SignInForm(this);
       if (form.isValid()) {
         snackbar.cleanup();
         $(this).find("button").attr("disabled", "disabled");

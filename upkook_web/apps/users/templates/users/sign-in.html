@@ -26,9 +26,26 @@
       />
       <span class="mdl-textfield__error">{% trans 'Please enter your password.' %}</span>
     </div>
-    <button class="md-btn mdl-js-button md-btn--raised mdl-js-ripple-effect md-btn--primary">
+    <br/>
+    <div class="forget-password">
+      <a href="{{ forgot_password_url }}">{% trans 'Forgot password ?' %}</a>
+    </div>
+    <br/>
+    <br/>
+    <button id="sign-in-button" class="md-btn mdl-js-button md-btn--raised mdl-js-ripple-effect md-btn--primary">
       {% trans 'Sign in' %}
     </button>
+    <dialog class="md-dialog">
+      <div class="md-dialog__content">
+        <p>{% trans 'Did you forget your password ?' %}</p>
+      </div>
+      <div class="md-dialog__actions md-dialog__actions--full-width">
+        <a href="{{ forgot_password_url }}">
+          <button type="button" class="md-btn mdl-js-button md-btn--raised mdl-js-ripple-effect md-btn--primary">{% trans 'Yes' %}</button>
+        </a>
+        <button type="button" class="md-btn close-btn  mdl-js-ripple-effect close">{% trans 'No' %}</button>
+      </div>
+    </dialog>
   </form>
   <br />
   <br />

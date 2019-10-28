@@ -52,6 +52,7 @@ class SignInView(UserViewBase):
         context = super(SignInView, self).get_context_data()
         context.update({
             'sign_up_url': reverse(SignUpView.view_name),
+            'forgot_password_url': reverse(ForgotPassword.view_name),
             'title': _('Welcome, log in to UPKOOK - UPKOOK'),
             'description': _('Log in to UPKOOK customer experience measurement platform control panel')
         })
@@ -71,6 +72,22 @@ class SignUpView(UserViewBase):
                 'Free registration in UPKOOK customer experience measurement platform, '
                 'create survey, share survey link, customer satisfaction measurement and result analysis'
             )
+
+        })
+        return context
+
+
+class ForgotPassword(UserViewBase):
+    template_name = 'users/forgot-password.html'
+    view_name = 'users:forgot-password'
+    last_modification = datetime(2019, 8, 26)
+
+    def get_context_data(self):
+        context = super(ForgotPassword, self).get_context_data()
+        context.update({
+            'sign_up_url': reverse(SignUpView.view_name),
+            'sign_in_url': reverse(SignInView.view_name),
+            'title': _('Forgot Password - UPKOOK')
 
         })
         return context

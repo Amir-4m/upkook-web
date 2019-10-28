@@ -21,6 +21,122 @@ form .getmdl-select .mdl-icon-toggle__label {
     display: none;
 }
 
+.forget-password {
+
+    font-size: 0.656rem;
+    width: 50%;
+    float: left;
+
+
+}
+
+#sign-in > dialog > div.md-dialog__actions.md-dialog__actions--full-width > a > button {
+    width: 50%;
+}
+#sign-in > dialog > div.md-dialog__actions.md-dialog__actions--full-width > button{
+    color: #BF2600;
+    width: 43%;
+    position: absolute;
+
+}
+
+
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+
+    }
+}
+
+@keyframes moveUp {
+    from {
+        bottom: 0;
+    }
+    100% {
+        bottom: 200px;
+    }
+}
+
+#email-submit{
+    margin-top: 10px;
+}
+
+#signUpButton {
+    display: none;
+    font-size: 0.756rem;
+    width: 33%;
+    float: left;
+}
+
+#sentMessage {
+    display: none;
+}
+
+#sentMessage span {
+    background-color: #00B8D9;
+    color: white;
+    padding: 0;
+}
+
+#sentMessage span span {
+    font-size: 1rem;
+    font-family: iranyekan, Tahoma, sans-serif;
+    padding: 3px 9px;
+    border-radius: 25px;
+}
+
+#forgot-password {
+    min-height: 250px;
+
+}
+
 /* RESPONSIVE */
 @media screen and (max-width: 1280px) {
 
@@ -66,4 +182,9 @@ form .getmdl-select .mdl-icon-toggle__label {
 }
 
 @media screen and (max-width: 320px) {
+    #sentMessage span span {
+
+        font-size: 0.878rem;
+
+    }
 }
