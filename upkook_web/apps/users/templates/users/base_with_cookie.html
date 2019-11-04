@@ -16,4 +16,5 @@
 {% block javascripts %}
   {{ block.super }}
   <script src="{{ STATIC_URL }}users/js/token.js"></script>
+  {% include "users/js/auth-cookie-js.html" %}
 {% endblock %}

@@ -4,31 +4,29 @@
   };
 
   ForgotPasswordForm.handleSuccess = function () {
-    document.getElementById("fg-email").style.animation = '0.7s ease 0s normal forwards 1 fadeOut';
+    $("#fg-email").css("animation", '0.7s ease 0s normal forwards 1 fadeOut');
     setTimeout(function () {
-      document.getElementById("fg-email").style.display = "none";
+      $("#fg-email").css('display' , "none");
     }, 1000);
-    document.getElementById("email-submit").style.animation = '0.7s ease 0s normal forwards 1 fadeOut';
+    $("#email-submit").css("animation", '0.7s ease 0s normal forwards 1 fadeOut');
     setTimeout(function () {
-      document.getElementById("email-submit").style.display = "none";
+      $("#email-submit").css('display' , "none");
     }, 1000);
     setTimeout(function () {
-      document.getElementById("sentMessage").style.display = "block";
+      $("#sentMessage").css('display' , "block");
     }, 880);
-    document.getElementById('sentMessage').style.animation = '0.7s ease 0s normal forwards 1 fadein';
-    document.getElementById('homePage').style.animation = '2s ease 0s normal forwards 1 moveUp';
+    $('#sentMessage').css("animation", '0.7s ease 0s normal forwards 1 fadein');
+    $('#homePage').css("animation", '2s ease 0s normal forwards 1 moveUp');
   };
 
   ForgotPasswordForm.handleError = function (jqXHR) {
     if (jqXHR.status === 400) {
       const message = django.gettext('No active account found with the given Email');
       snackbar.error(message, 5000);
-      document.getElementById("signUpButton").style.display = 'block';
-      document.getElementById('signUpButton').style.animation = '0.7s ease 0s normal forwards 1 fadein';
+      $("#signUpButton").css('display' , "block");
+      $('#signUpButton').css("animation", '0.7s ease 0s normal forwards 1 fadein');
     } else {
       handleAPIError(jqXHR);
-      const message = django.gettext('Connection has been interrupted! try again later please.');
-      snackbar.error(message, 10000);
     }
   };
 
@@ -60,7 +58,7 @@
   };
 
   ForgotPasswordForm.prototype.submit = function () {
-    const data = { email: this.email };
+    const data = {email: this.email};
 
     $.ajax({
       url: this.action, type: this.method, data: JSON.stringify(data),

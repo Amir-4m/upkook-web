@@ -15,7 +15,6 @@
       const message = gettext('No active account found with the given credentials');
       snackbar.error(message, 5000);
       this.retries += 1;
-      console.log(this.retries);
       if (this.retries >= 2) {
         this.showForgotDialog();
       }

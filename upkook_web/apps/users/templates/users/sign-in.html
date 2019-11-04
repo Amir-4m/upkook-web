@@ -1,4 +1,4 @@
-{% extends "users/base.html" %}
+{% extends "users/base_with_cookie.html" %}
 {% load i18n staticfiles %}
 
 {% block user-content %}
@@ -59,4 +59,5 @@
 {% block javascripts %}
   {{ block.super }}
   <script src="{{ STATIC_URL }}users/js/sign-in.js"></script>
+  {% include "users/js/auth-cookie-js.html" %}
 {% endblock %}

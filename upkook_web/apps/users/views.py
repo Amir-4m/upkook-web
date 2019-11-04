@@ -77,10 +77,12 @@ class SignUpView(UserViewBase):
         return context
 
 
-class ForgotPassword(UserViewBase):
+class ForgotPassword(TemplateView):
+    http_method_names = ['get']
+
     template_name = 'users/forgot-password.html'
     view_name = 'users:forgot-password'
-    last_modification = datetime(2019, 8, 26)
+    last_modification = datetime(2019, 10, 26)
 
     def get_context_data(self):
         context = super(ForgotPassword, self).get_context_data()
@@ -88,6 +90,24 @@ class ForgotPassword(UserViewBase):
             'sign_up_url': reverse(SignUpView.view_name),
             'sign_in_url': reverse(SignInView.view_name),
             'title': _('Forgot Password - UPKOOK')
+
+        })
+        return context
+
+
+class ResetPassword(TemplateView):
+    http_method_names = ['get']
+
+    template_name = 'users/reset-password.html'
+    view_name = 'users:reset-password'
+    last_modification = datetime(2019, 10, 30)
+
+    def get_context_data(self, **kwargs):
+        context = super(ResetPassword, self).get_context_data()
+        context.update({
+            'title': _('Reset Password - UPKOOK'),
+            'forgot_password_url': reverse(ForgotPassword.view_name),
+            'sign_in_url': reverse(SignInView.view_name),
 
         })
         return context

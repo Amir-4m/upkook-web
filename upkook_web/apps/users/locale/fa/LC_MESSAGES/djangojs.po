@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-28 10:41+0330\n"
+"POT-Creation-Date: 2019-11-03 14:57+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,10 +26,14 @@ msgstr "کاربری با ایمیل وارد شده یافت نشد."
 msgid "Connection has been interrupted! try again later please."
 msgstr "مشکلی در ارتباط با سرور به وجود آمده. لطفا دوباره تلاش کنید . "
 
+#: upkook_web/apps/users/static/users/js/reset-password.js:13
+msgid "Link has been expired !"
+msgstr "لینک مورد نظر، منقضی شده است !"
+
 #: upkook_web/apps/users/static/users/js/sign-in.js:15
 msgid "No active account found with the given credentials"
 msgstr "ایمیل یا رمز عبور اشتباه است."
 
 #: upkook_web/apps/users/static/users/js/sign-up.js:160
-msgid "Please fix form errors"
+msgid "Please fix form errors."
 msgstr "لطفا خطای فرم را رفع کنید."
