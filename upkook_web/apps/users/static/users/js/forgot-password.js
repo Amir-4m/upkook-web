@@ -58,7 +58,14 @@
   };
 
   ForgotPasswordForm.prototype.submit = function () {
-    const data = {email: this.email};
+    grecaptcha.execute();
+  };
+
+  ForgotPasswordForm.prototype.ajax = function(recaptchaToken){
+    const data = {
+      recaptcha_token: recaptchaToken,
+      email: this.email,
+    };
 
     $.ajax({
       url: this.action, type: this.method, data: JSON.stringify(data),
@@ -72,6 +79,8 @@
     $("#forgot-password").submit(function (event) {
       event.preventDefault();
       const form = new ForgotPasswordForm(this);
+      window.forgotPasswordForm = form;
+
       if (form.isValid()) {
         snackbar.cleanup();
         $(this).find("button").attr("disabled", "disabled");
@@ -81,6 +90,9 @@
   });
 })(jQuery);
 
+function recaptchaCallback(recaptchaToken) {
+  window.forgotPasswordForm.ajax(recaptchaToken);
+}
 
 
 

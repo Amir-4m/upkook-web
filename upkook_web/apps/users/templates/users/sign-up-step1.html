@@ -64,6 +64,15 @@
     <small>
       {% trans 'By signing up at upkook, I accept terms and conditions of upkook.' %}
     </small>
+
+    <div
+      id='recaptcha'
+      class="g-recaptcha"
+      data-sitekey="{{recaptcha_public_key}}"
+      data-callback="recaptchaCallback"
+      data-size="invisible">
+    </div>
+
   </form>
   <br />
   <br />
