@@ -1,0 +1,18 @@
+{% load staticfiles %}
+<div class="list-items">
+  <h3 class="title">
+    {{ title }}
+  </h3>
+  <ol class="list">
+    {% for item in items %}
+    <li>
+      {% if is_amp %}
+      <amp-img src="{% static 'home/images/green-check.svg' %}" layout="intrinsic" width="20" height="20"></amp-img>
+      {% else %}
+      <img data-lazy="{% static 'home/images/green-check.svg' %}" />
+      {% endif %}
+      <p>{{ item }}</p>
+    </li>
+    {% endfor %}
+  </ol>
+</div>

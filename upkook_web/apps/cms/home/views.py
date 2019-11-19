@@ -9,10 +9,72 @@ from django_contrib.sites.services import SiteService
 from django.conf import settings
 from django.utils.translation import gettext_lazy as _
 
-
 from .services import HomeService
 from upkook_web.apps.cms.showcase.showcase_item import ShowcaseItem
 from django_contrib.html.link import Link
+
+nps_intro = {
+    "large_img": "",
+    "large_img_alt": "",
+    "title": _("Product NPS Title"),
+    "primary_desc": _("Product NPS Primary Desc"),
+    "quote": _("Product NPS Quote"),
+    "quote_title": _("Product NPS Quote Title"),
+    "list_title": _("Product NPS List Title"),
+    "list": [
+        _("Product NPS List Item 1"),
+        _("Product NPS List Item 2"),
+        _("Product NPS List Item 3"),
+        _("Product NPS List Item 4"),
+        _("Product NPS List Item 5"),
+        _("Product NPS List Item 6"),
+    ],
+    "box_img": "",
+    "box_img_alt": "",
+    "box_desc": _("Product NPS Box Desc ")
+}
+
+ces_intro = {
+    "large_img": "",
+    "large_img_alt": "",
+    "title": _("Product CES Title"),
+    "primary_desc": _("Product CES Primary Desc"),
+    "quote": _("Product CES Quote"),
+    "quote_title": _("Product CES Quote Title"),
+    "list_title": _("Product CES List Title"),
+    "list": [
+        _("Product CES List Item 1"),
+        _("Product CES List Item 2"),
+        _("Product CES List Item 3"),
+        _("Product CES List Item 4"),
+        _("Product CES List Item 5"),
+        _("Product CES List Item 6"),
+    ],
+    "box_img": "",
+    "box_img_alt": "",
+    "box_desc": _("Product CES Box Desc ")
+}
+
+csat_intro = {
+    "large_img": "",
+    "large_img_alt": "",
+    "title": _("Product CSAT Title"),
+    "primary_desc": _("Product CSAT Primary Desc"),
+    "quote": _("Product CSAT Quote"),
+    "quote_title": _("Product CSAT Quote Title"),
+    "list_title": _("Product CSAT List Title"),
+    "list": [
+        _("Product CSAT List Item 1"),
+        _("Product CSAT List Item 2"),
+        _("Product CSAT List Item 3"),
+        _("Product CSAT List Item 4"),
+        _("Product CSAT List Item 5"),
+        _("Product CSAT List Item 6"),
+    ],
+    "box_img": "",
+    "box_img_alt": "",
+    "box_desc": _("Product CSAT Box Desc ")
+}
 
 
 @method_decorator(cache_control(max_age=1 * 24 * 60 * 60), name='get')  # 1 day
@@ -44,6 +106,10 @@ class HomeView(TemplateView):
                 ShowcaseItem(img_src='%s%s' % (settings.STATIC_URL, 'home/images/netflix.png')),
             ],
             'promo_box_cta': Link(text=_('Free sign up'), href=reverse('users:sign-up')),
+            'nps_intro': nps_intro,
+            'ces_intro': ces_intro,
+            'csat_intro': csat_intro,
+
         })
 
         return context
