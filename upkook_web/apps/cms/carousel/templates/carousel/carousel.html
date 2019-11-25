@@ -1,0 +1,48 @@
+{% load staticfiles %}
+{% load i18n  %}
+<div class="car-wrapper">
+  <h2>{{title}}</h2>
+  <div class="md-gr">
+    <div class="options md-cl--3-col md-cl--8-col-tablet md-cl--4-col-phone">
+      <ul>
+        {% for item in items %}
+        <li class="slide-caption" id="product-slide-{{forloop.counter}}-caption" data-slide="product-slide-{{forloop.counter}}">
+          <h3>{% if item.description %}{{item.description}}{% endif %}</h3>
+        </li>
+        {% endfor %}
+        <li class="demo">
+          <a class="lg-demo" href="https://demo.upkook.com" target="_blank">{% trans 'Try Demo' %} &larr;</a>
+        </li>
+      </ul>
+    </div>
+    <br>
+    <div class="md-cl--9-col md-cl--8-col-tablet md-cl--4-col-phone">
+      <div class="md-slideshow-container">
+        {% for item in items %}
+        <div class="car-slide fade" id="product-slide-{{forloop.counter}}">
+          <h3 class="sm-description">{% if item.description %}{{item.description}}{% endif %}</h3>
+          {% if item.url %}<a href="{{ item.url }}" {% if item.target %}target="{{item.target}}" {% endif %}>{% endif %}
+          <img class="slide-medium" src="{{item.img_src}}" alt="{{item.alt}}">
+          {% if item.img_src2 %}
+          <img class="slide-small" src="{{item.img_src2}}" alt="{{item.alt}}"/>
+          {% endif %}
+          {% if item.url %}</a>{% endif %}
+        </div>
+        {% endfor %}
+        <div class="slideshow-dots md-cl--4-col-phone">
+          {% for item in items %}
+          <span class="slide-dot" id="product-slide-{{forloop.counter}}-dot" data-slide="product-slide-{{forloop.counter}}"></span>
+          {% endfor %}
+
+        </div>
+        <a
+          href="https://demo.upkook.com"
+          class="mdl-button mdl-js-button mdl-button--accent sm-demo"
+          target="_blank"
+        >
+          {% trans 'Try Demo' %} &larr;
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,18 @@
+<amp-car class="mobile-sm-slideshow-container"
+              type="slides"
+              width="350"
+              height="314"
+              layout="intrinsic"
+              controls
+              loop
+              autoplay
+              delay="3000" data-next-button-aria-label="Go to next slide"
+              data-previous-button-aria-label="Go to previous slide">
+  {% for item in items %}
+  {% if item.url %}<a href="{{ item.url }}" {% if item.target %}target="{{item.target}}" {% endif %}>{% endif %}
+  {% if item.img_src2 %}
+  <amp-img class="slide-small" src="{{item.img_src2}}" width="375" height="314" layout="intrinsic"></amp-img>
+  {% endif %}
+  {% if item.url %}</a>{% endif %}
+  {% endfor %}
+</amp-car>

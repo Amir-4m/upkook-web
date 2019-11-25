@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-22 14:20+0330\n"
+"POT-Creation-Date: 2019-11-24 13:11+0330\n"
 "PO-Revision-Date: 2018-12-22 15:26+0330\n"
 "Last-Translator: Saeed Salehian <saeed@upkook.com>\n"
 "Language-Team: Upkook <info@upkook.com>\n"
@@ -102,6 +102,10 @@ msgstr "کدام شرکت ها از نظرسنجی NPS استفاده می کن�
 msgid "<a href=\"https://www.upkook.com/sign-up/\">Join</a> pioneer companies"
 msgstr "به جمع شرکت های پیشگام بپیوندید: <a href=\"/sign-up/\">ثبت نام</a>"
 
+#: upkook_web/apps/cms/home/templates/home/includes/product-screen.html:5
+msgid "Know your customers feelings"
+msgstr "از احساس مشتریانتان باخبر شوید "
+
 #: upkook_web/apps/cms/home/templates/home/includes/promo_box.html:5
 msgid "What is your NPS score?"
 msgstr "نمره NPS شما چند خواهد بود؟"
@@ -122,7 +126,179 @@ msgstr ""
 msgid "UPKOOK Telephone"
 msgstr ""
 
-#: upkook_web/apps/cms/home/views.py:46
+#: upkook_web/apps/cms/home/views.py:20
+msgid "Product NPS Title"
+msgstr "شاخص وفاداری مشتری (NPS)"
+
+#: upkook_web/apps/cms/home/views.py:21
+msgid "Product NPS Primary Desc"
+msgstr "بازخوردهای مشتریان را به سرمایه های ارزشمند تبدیل کنید."
+
+#: upkook_web/apps/cms/home/views.py:22
+msgid "Product NPS Quote"
+msgstr "کاری کنید مشتری به شما عشق بورزد"
+
+#: upkook_web/apps/cms/home/views.py:23
+msgid "Product NPS Quote Title"
+msgstr "برای فروش بیشتر:"
+
+#: upkook_web/apps/cms/home/views.py:24
+msgid "Product NPS List Title"
+msgstr "مزایای اندازه گیری شاخص وفاداری مشتری (NPS):"
+
+#: upkook_web/apps/cms/home/views.py:26
+msgid "Product NPS List Item 1"
+msgstr "شناسایی وفاداران برند"
+
+#: upkook_web/apps/cms/home/views.py:27
+msgid "Product NPS List Item 2"
+msgstr "افزایش میزان فروش از طریق بیش فروشی و فروش مکمل به مشتریان وفادار"
+
+#: upkook_web/apps/cms/home/views.py:28
+msgid "Product NPS List Item 3"
+msgstr "کاهش هزینه های بازاریابی از طریق بازاریابی ارگانیک توسط وفاداران برند"
+
+#: upkook_web/apps/cms/home/views.py:29
+msgid "Product NPS List Item 4"
+msgstr "اتخاد تصمیمات اثربخش با تحلیل بازخوردهای مشتریان"
+
+#: upkook_web/apps/cms/home/views.py:30
+msgid "Product NPS List Item 5"
+msgstr "تبدیل بازخوردهای منفی مشتریان به محرک رشد کسب و کار"
+
+#: upkook_web/apps/cms/home/views.py:31
+msgid "Product NPS List Item 6"
+msgstr "افزایش نرخ حفظ مشتری از طریق تبدیل معترضان به وفاداران برند"
+
+#: upkook_web/apps/cms/home/views.py:35
+msgid "Product NPS Box Desc "
+msgstr ""
+"شما با استفاده از شاخص وفاداری مشتری و سنجش امکان معرفی کسب و کارتان توسط "
+"مشتریان، در واقع میزان وفاداری مشتریانتان را اندازه گیری می کنید"
+
+#: upkook_web/apps/cms/home/views.py:41
+msgid "Product CES Title"
+msgstr "شاخص تلاش مشتری (CES)"
+
+#: upkook_web/apps/cms/home/views.py:42
+msgid "Product CES Primary Desc"
+msgstr "ارائه تعامل آسان و روان برابر است با احساس راحتی و لذت مشتری"
+
+#: upkook_web/apps/cms/home/views.py:43
+msgid "Product CES Quote"
+msgstr "مشتری بودن را آسان کنید "
+
+#: upkook_web/apps/cms/home/views.py:44
+msgid "Product CES Quote Title"
+msgstr "برای افزایش نرخ جذب مشتری:"
+
+#: upkook_web/apps/cms/home/views.py:45
+msgid "Product CES List Title"
+msgstr "مزایای اندازه گیری شاخص تلاش مشتری (CES) :"
+
+#: upkook_web/apps/cms/home/views.py:47
+msgid "Product CES List Item 1"
+msgstr "افزایش سهولت در ارتباط با مشتری"
+
+#: upkook_web/apps/cms/home/views.py:48
+msgid "Product CES List Item 2"
+msgstr "کاهش تنش های ذهنی مشتریان در طول تعامل و ایجاد احساس آرامش برای آن ها"
+
+#: upkook_web/apps/cms/home/views.py:49
+msgid "Product CES List Item 3"
+msgstr "کاهش تلاش ذهنی از طریق بهبود مسیر استفاده از خدمات و سرویس ها"
+
+#: upkook_web/apps/cms/home/views.py:50
+msgid "Product CES List Item 4"
+msgstr "کاهش تلاش زمانی از طریق سرعت بخشیدن به حل مشکلات مشتری"
+
+#: upkook_web/apps/cms/home/views.py:51
+msgid "Product CES List Item 5"
+msgstr "کاهش تلاش فیزیکی از طریق تسهیل روش های دریافت محصولات و خدمات"
+
+#: upkook_web/apps/cms/home/views.py:52
+msgid "Product CES List Item 6"
+msgstr "افزایش نرخ جذب مشتری از طریق تسهیل ارتباط با مشتری"
+
+#: upkook_web/apps/cms/home/views.py:56
+msgid "Product CES Box Desc "
+msgstr ""
+"شاخص تلاش مشتری (CES) معیاری برای سنجش رضایت مشتری است، که میزان آسانی و "
+"راحتی تجربه ای که مشتری با کسب و کار شما داشته را ارزیابی می کند"
+
+#: upkook_web/apps/cms/home/views.py:62
+msgid "Product CSAT Title"
+msgstr "شاخص رضایت مشتری (CSAT)"
+
+#: upkook_web/apps/cms/home/views.py:63
+msgid "Product CSAT Primary Desc"
+msgstr ""
+"ایجاد یک حس خوب در مشتری برابر است با احساس رضایت مشتری <br>اگر می خواهید "
+"همیشه مشتریانتان در کنار شما باشند باید حس خوبی در مشتریانتان ایجاد کنید."
+
+#: upkook_web/apps/cms/home/views.py:64
+msgid "Product CSAT Quote"
+msgstr "به مشتری حس خوب بدهید"
+
+#: upkook_web/apps/cms/home/views.py:65
+msgid "Product CSAT Quote Title"
+msgstr "برای بهبود تجربه مشتری:"
+
+#: upkook_web/apps/cms/home/views.py:66
+msgid "Product CSAT List Title"
+msgstr "مزایای اندازه گیری شاخص رضایت مشتری (CSAT):"
+
+#: upkook_web/apps/cms/home/views.py:68
+msgid "Product CSAT List Item 1"
+msgstr "افزایش کیفیت سرویس و محصولات از طریق بررسی دلایل نارضایتی مشتری"
+
+#: upkook_web/apps/cms/home/views.py:69
+msgid "Product CSAT List Item 2"
+msgstr "پیش بینی نیازها و انتظارات مشتری با استفاده از بازخوردهای مشتری"
+
+#: upkook_web/apps/cms/home/views.py:70
+msgid "Product CSAT List Item 3"
+msgstr "بهبود کیفیت تعامل با مشتری از طریق برطرف کردن نیازها و انتظارات مشتری"
+
+#: upkook_web/apps/cms/home/views.py:71
+msgid "Product CSAT List Item 4"
+msgstr "بهبود تجربه مشتری از طریق افزایش سطح رضایت مشتری"
+
+#: upkook_web/apps/cms/home/views.py:72
+msgid "Product CSAT List Item 5"
+msgstr "تبدیل بازخوردهای منفی مشتریان به محرک رشد کسب و کار"
+
+#: upkook_web/apps/cms/home/views.py:73
+msgid "Product CSAT List Item 6"
+msgstr "افزایش میزان وفاداری مشتری از طریق افزایش میزان رضایت مشتری"
+
+#: upkook_web/apps/cms/home/views.py:77
+msgid "Product CSAT Box Desc "
+msgstr ""
+"با یکی از ساده ترین روش ها می توانید به طور مرتب و در یک قالب استاندارد، "
+"میزان رضایت مشتریان خود را ارزیابی کنی"
+
+#: upkook_web/apps/cms/home/views.py:113
+msgid "Make your custom survey."
+msgstr "نظرسنجی دلخواهت را بساز"
+
+#: upkook_web/apps/cms/home/views.py:118
+msgid "Set your custom settings."
+msgstr "تنظیمات دلخواهت را اعمال کن"
+
+#: upkook_web/apps/cms/home/views.py:123
+msgid "Make your survey complete."
+msgstr "نظرسنجی خودت را نهایی کن"
+
+#: upkook_web/apps/cms/home/views.py:128
+msgid "Tell your customers."
+msgstr "مشتریانت را خبر کن"
+
+#: upkook_web/apps/cms/home/views.py:133
+msgid "See a preview of your survey"
+msgstr "نتیجه کارت را ببین"
+
+#: upkook_web/apps/cms/home/views.py:136
 msgid "Free sign up"
 msgstr "ثبت نام رایگان"
 

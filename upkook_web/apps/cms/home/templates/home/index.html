@@ -4,6 +4,7 @@
 {{ block.super }}
 <link rel="stylesheet" href="{{ STATIC_URL }}home/css/styles.css">
 <link rel="stylesheet" href="{{STATIC_URL}}home/css/intro.css">
+<link rel="stylesheet" href="{{ STATIC_URL }}carousel/css/carousel.css">
 <link rel="stylesheet" href="{{ STATIC_URL }}showcase/css/showcase.css">
 <link rel="stylesheet" href="{{ STATIC_URL }}promo_box/css/promobox.css">
 {% endblock %}
@@ -12,10 +13,20 @@
 {{block.super}}
 {% include "home/includes/site_data_structure.html" %}
 {% endblock %}
+{% block external_js %}
+{{block.super}}
+<script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.2.js"></script>
+{% endblock %}
 
 {% block content %}
 {% include "home/includes/hero.html" %}
+{% include "home/includes/product-screen.html" %}
 {% include "home/includes/intro.html" %}
 {% include "home/includes/nps_benchmark.html" %}
 {% include "home/includes/promo_box.html" %}
+{% endblock %}
+
+{% block javascripts %}
+{{ block.super }}
+<script src="{{ STATIC_URL }}carousel/js/carousel.js"></script>
 {% endblock %}

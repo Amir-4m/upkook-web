@@ -12,6 +12,7 @@ from django.utils.translation import gettext_lazy as _
 
 from .services import HomeService
 from upkook_web.apps.cms.showcase.showcase_item import ShowcaseItem
+from upkook_web.apps.cms.carousel.carousel_item import CarouselItem
 from django_contrib.html.link import Link
 
 
@@ -42,6 +43,33 @@ class HomeView(TemplateView):
                 ShowcaseItem(img_src='%s%s' % (settings.STATIC_URL, 'home/images/airbnb.png')),
                 ShowcaseItem(img_src='%s%s' % (settings.STATIC_URL, 'home/images/microsoft.png')),
                 ShowcaseItem(img_src='%s%s' % (settings.STATIC_URL, 'home/images/netflix.png')),
+            ],
+            'carousel_items': [
+                CarouselItem(
+                    img_src='%s%s' % (settings.STATIC_URL, 'home/images/survey.png'),
+                    img_src2='%s%s' % (settings.STATIC_URL, 'home/images/survey-sm.png'),
+                    description=_('Make your custom survey.'),
+                ),
+                CarouselItem(
+                    img_src='%s%s' % (settings.STATIC_URL, 'home/images/message.png'),
+                    img_src2='%s%s' % (settings.STATIC_URL, 'home/images/message-sm.png'),
+                    description=_('Set your custom settings.'),
+                ),
+                CarouselItem(
+                    img_src='%s%s' % (settings.STATIC_URL, 'home/images/final-review.png'),
+                    img_src2='%s%s' % (settings.STATIC_URL, 'home/images/final-review-sm.png'),
+                    description=_('Make your survey complete.'),
+                ),
+                CarouselItem(
+                    img_src='%s%s' % (settings.STATIC_URL, 'home/images/share-link.png'),
+                    img_src2='%s%s' % (settings.STATIC_URL, 'home/images/share-link-sm.png'),
+                    description=_('Tell your customers.'),
+                ),
+                CarouselItem(
+                    img_src='%s%s' % (settings.STATIC_URL, 'home/images/report.png'),
+                    img_src2='%s%s' % (settings.STATIC_URL, 'home/images/report-sm.png'),
+                    description=_('See a preview of your survey'),
+                ),
             ],
             'promo_box_cta': Link(text=_('Free sign up'), href=reverse('users:sign-up')),
         })

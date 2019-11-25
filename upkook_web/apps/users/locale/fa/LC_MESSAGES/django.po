@@ -38,7 +38,7 @@ msgid "Please enter a valid email."
 msgstr "لطفا یک ایمیل معتبر وارد نمایید."
 
 #: upkook_web/apps/users/templates/users/forgot-password.html:25
-#: upkook_web/apps/users/templates/users/sign-in.html:54
+#: upkook_web/apps/users/templates/users/sign-in.html:63
 msgid "Sign up at UPKOOK"
 msgstr "ثبت نام در آپ کوک"
 
@@ -50,14 +50,14 @@ msgstr "بازگردانی رمز عبور"
 msgid "Reset password link has been sent to your email !"
 msgstr "لینک بازگردانی رمز عبور، به ایمیل شما ارسال شد !"
 
-#: upkook_web/apps/users/templates/users/forgot-password.html:48
-#: upkook_web/apps/users/templates/users/reset-password.html:47
+#: upkook_web/apps/users/templates/users/forgot-password.html:57
+#: upkook_web/apps/users/templates/users/reset-password.html:53
 msgid "Back to homepage"
 msgstr "بازگشت به صفحه نخست"
 
-#: upkook_web/apps/users/templates/users/forgot-password.html:55
+#: upkook_web/apps/users/templates/users/forgot-password.html:64
 #: upkook_web/apps/users/templates/users/sign-in.html:5
-#: upkook_web/apps/users/templates/users/sign-up-step1.html:72
+#: upkook_web/apps/users/templates/users/sign-up-step1.html:81
 msgid "Sign in to Upkook"
 msgstr "ورود به آپ کوک"
 
@@ -73,15 +73,15 @@ msgstr "رمز عبور جدید"
 msgid "Please enter your new password."
 msgstr "لطفا رمز عبور جدید خود را وارد نمایید."
 
-#: upkook_web/apps/users/templates/users/reset-password.html:26
+#: upkook_web/apps/users/templates/users/reset-password.html:23
 msgid "Submit"
 msgstr "تایید"
 
-#: upkook_web/apps/users/templates/users/reset-password.html:35
+#: upkook_web/apps/users/templates/users/reset-password.html:41
 msgid "Link has been expired !"
 msgstr "لینک مورد نظر، منقضی شده است !"
 
-#: upkook_web/apps/users/templates/users/reset-password.html:41
+#: upkook_web/apps/users/templates/users/reset-password.html:47
 #: upkook_web/apps/users/templates/users/sign-in.html:31
 msgid "Forgot password ?"
 msgstr "رمز عبور خود را فراموش کرده اید ؟"
@@ -238,19 +238,19 @@ msgstr "شرایط و قوانین"
 msgid "Privacy Policy"
 msgstr "حریم خصوصی"
 
-#: upkook_web/apps/users/views.py:57
+#: upkook_web/apps/users/views.py:56
 msgid "Welcome, log in to UPKOOK - UPKOOK"
 msgstr "خوش آمدید! ورود به آپ کوک - آپ کوک"
 
-#: upkook_web/apps/users/views.py:58
+#: upkook_web/apps/users/views.py:57
 msgid "Log in to UPKOOK customer experience measurement platform control panel"
 msgstr "ورود به پنل مدیریت پلتفرم سنجش تجربه مشتری آپ کوک"
 
-#: upkook_web/apps/users/views.py:71
+#: upkook_web/apps/users/views.py:70
 msgid "Free registration in UPKOOK - UPKOOK"
 msgstr "ثبت نام رایگان در آپ کوک - آپ کوک"
 
-#: upkook_web/apps/users/views.py:73
+#: upkook_web/apps/users/views.py:72
 msgid ""
 "Free registration in UPKOOK customer experience measurement platform, create "
 "survey, share survey link, customer satisfaction measurement and result "
@@ -259,11 +259,10 @@ msgstr ""
 "ثبت نام رایگان در پلتفرم سنجش تجربه مشتری آپ کوک، ایجاد نظرسنجی، اشتراک لینک "
 "نظرسنجی، سنجش رضایت مشتری و تحلیل نتایج"
 
-#: upkook_web/apps/users/views.py:91
+#: upkook_web/apps/users/views.py:92
 msgid "Forgot Password - UPKOOK"
 msgstr "بازگردانی رمز عبور - آپ کوک"
 
-#: upkook_web/apps/users/views.py:105
+#: upkook_web/apps/users/views.py:108
 msgid "Reset Password - UPKOOK"
 msgstr "تنظیم رمز عبور - آپ کوک"
-
