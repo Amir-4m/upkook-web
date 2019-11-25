@@ -41,7 +41,7 @@
 }
 
 /* Slideshow container */
-.slideshow-container {
+.md-slideshow-container {
   text-align: center;
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .1);
   width: fit-content;
