@@ -194,37 +194,55 @@
     }
   };
 
+  SignupForm.prototype.ajax = function (recaptchaToken) {
+    let headers = {};
+    const data = this.stepForm.data;
+
+    if (this.step === 1) {
+      data['recaptcha_token'] = recaptchaToken;
+    }
+    else {
+      headers = {Authorization: 'Bearer ' + token.access};
+    }
+
+    $.ajax({
+      url: this.action,
+      type: this.method,
+      headers: headers,
+      data: JSON.stringify(data),
+      cache: false,
+      contentType: "application/json",
+      dataType: "json",
+      error: this.handleError.bind(this)
+    }).fail(
+      this.fail.bind(this)
+    ).done(
+      this.done.bind(this)
+    );
+  };
+
   SignupForm.prototype.submit = function (event) {
     event.preventDefault();
     if (this.isValid()) {
       snackbar.cleanup();
       this.form.find("button").attr("disabled", "disabled");
-
-      let headers = {};
-      if (this.step === 2) {
-        headers = {Authorization: 'Bearer ' + token.access};
+      if (this.step === 1) {
+        grecaptcha.execute();
       }
-
-      $.ajax({
-        url: this.action,
-        type: this.method,
-        headers: headers,
-        data: JSON.stringify(this.stepForm.data),
-        cache: false,
-        contentType: "application/json",
-        dataType: "json",
-        error: this.handleError.bind(this)
-      }).fail(
-        this.fail.bind(this)
-      ).done(
-        this.done.bind(this)
-      );
+      else {
+        this.ajax();
+      }
     }
   };
 
   $(document).ready(function () {
     const form = new SignupForm();
     form.init();
+    window.signUpForm = form;
   });
 })
 (jQuery);
+
+function recaptchaCallback(recaptchaToken) {
+  window.signUpForm.ajax(recaptchaToken);
+}

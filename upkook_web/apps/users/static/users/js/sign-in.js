@@ -72,7 +72,12 @@
   };
 
   SignInForm.prototype.submit = function () {
+    grecaptcha.execute();
+  };
+
+  SignInForm.prototype.ajax = function (recaptchaToken) {
     const data = {
+      recaptcha_token: recaptchaToken,
       email: this.email,
       password: this.password,
       business: null,
@@ -89,6 +94,8 @@
   $(document).ready(function () {
     const signIn = $("#sign-in");
     const form = new SignInForm(signIn);
+    window.signInForm = form;
+
     signIn.submit(function (event) {
       event.preventDefault();
       if (form.isValid()) {
@@ -99,3 +106,7 @@
     });
   });
 })(jQuery);
+
+function recaptchaCallback(recaptchaToken) {
+  window.signInForm.ajax(recaptchaToken);
+}

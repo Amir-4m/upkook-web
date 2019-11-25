@@ -1,20 +1,6 @@
-{% extends "upkook_web/bare.html" %}
-{% load staticfiles %}
-
-{% block css %}
-  {{ block.super }}
-  <link rel="stylesheet" href="{{ STATIC_URL }}users/css/styles.css">
-{% endblock %}
-
-{% block content %}
-  <div class="c-wrapper">
-    {% block user-content %}
-    {% endblock %}
-  </div>
-{% endblock %}
+{% extends "users/base.html" %}
 
 {% block javascripts %}
   {{ block.super }}
-  <script src="{{ STATIC_URL }}users/js/token.js"></script>
   {% include "users/js/auth-cookie-js.html" %}
 {% endblock %}

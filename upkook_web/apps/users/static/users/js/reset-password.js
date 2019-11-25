@@ -80,9 +80,14 @@
   };
 
   ResetPasswordForm.prototype.submit = function () {
+    grecaptcha.execute();
+  };
+
+  ResetPasswordForm.prototype.ajax = function (recaptchaToken) {
     const data = {
+      recaptcha_token: recaptchaToken,
       new_password: this.password,
-      token: this.token
+      token: this.token,
     };
 
     $.ajax({
@@ -103,6 +108,8 @@
     $("#reset-password").submit(function (event) {
       event.preventDefault();
       const form = new ResetPasswordForm(this, getToken());
+      window.resetPasswordForm = form;
+
       if (form.isValid()) {
         snackbar.cleanup();
         $(this).find("button").attr("disabled", "disabled");
@@ -111,3 +118,7 @@
     });
   });
 })(jQuery);
+
+function recaptchaCallback(recaptchaToken) {
+  window.resetPasswordForm.ajax(recaptchaToken);
+}

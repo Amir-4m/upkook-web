@@ -6,5 +6,6 @@ from django.conf import settings
 def upkook_web(request):
     return {
         'IRAN_YEKAN_LICENSE': getattr(settings, 'IRAN_YEKAN_LICENSE'),
-        'pure_chat_id': settings.PURE_CHAT_ID
+        'pure_chat_id': settings.PURE_CHAT_ID,
+        'recaptcha_public_key': settings.DRF_RECAPTCHA_PUBLIC_KEY
     }

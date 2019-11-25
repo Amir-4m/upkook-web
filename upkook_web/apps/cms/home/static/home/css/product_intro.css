@@ -1,0 +1,224 @@
+.product-section {
+    background: rgb(244, 249, 253);
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.mid-product-section {
+    background: #ffffff;
+}
+
+.product-section div.content {
+    margin: auto;
+    padding: 30px 15px;
+}
+
+.product-section div.title h2 {
+    padding: 0 100px;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.product-section .customer-opinion {
+    display: flex;
+    padding: 25px;
+    margin: 45px auto;
+    max-width: 520px;
+    border: 2px solid #E1E6EF;
+    border-radius: 6px;
+    box-shadow: 0 0 12px 0 rgba(30, 40, 55, 0.1)
+}
+
+.product-section .customer-opinion p.title {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    margin-bottom: 8px;
+    color: #7786A0;
+}
+
+.product-section .customer-opinion p.text {
+    font-size: 18px;
+    line-height: 29px
+}
+
+.product-section .customer-opinion div.content {
+    margin-right: 25px;
+    padding: 0;
+}
+
+.product-section .large-image {
+    text-align: center;
+    margin-bottom: 40px
+}
+
+.product-section .large-image img {
+    max-width: 750px;
+    width: 100%;
+    border-radius: 6px;
+    vertical-align: middle;
+    box-sizing: border-box
+}
+
+.product-section .large-image-description {
+    padding: 0 100px;
+    text-align: center
+}
+
+.product-section .large-image-description p {
+    padding: 20px;
+    font-size: 1.8rem;
+}
+
+.product-section .features {
+    margin: 55px auto;
+    max-width: 1000px;
+}
+
+.product-section .features div.list-section {
+    margin-left: 15%
+}
+
+.product-section .features div.list-items {
+    text-align: right
+}
+
+.product-section .list-items p.title {
+    color: #3B4246;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 30px
+}
+
+.product-section .list {
+    list-style: none;
+    padding: 0
+}
+
+.product-section ol.list li {
+    display: flex;
+    color: #6D6D6D;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px
+}
+
+.product-section ol.list p {
+    text-align: justify;
+}
+
+.product-section ol.list img {
+    height: 20px;
+    margin-left: 15px
+}
+
+.product-section .feature-desc {
+    text-decoration: none
+}
+
+.product-section .desc-box {
+    padding: 40px;
+    min-height: auto;
+    border: 2px solid #E1E6EF;
+    background-color: white;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.15)
+}
+
+.product-section .desc-box div {
+    text-align: center;
+    margin-bottom: 25px
+}
+
+.product-section .desc-box p {
+    margin-top: 40px;
+    line-height: 2.5rem;
+}
+.product-section .small-image{
+    padding: 10px;
+}
+@media screen and (max-width: 5120px) {
+
+    .product-section .large-image-description p {
+        padding: 30px;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+
+
+
+}
+@media screen and (max-width: 1080px){
+    .product-section .desc-box{
+        padding: 25px;
+    }
+    .product-section .md-gr {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .product-section .desc-box p{
+        padding: 10px;
+    }
+    .product-section .desc-box{
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .product-section .large-image-description{
+        padding: 0;
+    }
+    .product-section .large-image-description p{
+        padding: 10px 20px;
+    }
+}
+
+
+@media screen and (max-width: 760px) {
+    .product-section .features {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .product-section .small{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 667px){
+    section.product-section div.title h2, .large-image-description p{
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    section.product-section div.title h2{
+        padding: 0;
+    }
+
+}
+@media screen and (max-width: 480px){
+    .customer-opinion{
+        margin: 30px 5px;
+    }
+    .large-image-description{
+        padding: 0 15px;
+    }
+    .desc-box{
+        padding: 0;
+        margin-left: 15px;
+    }
+    .features div.list-items{
+        margin-left: 15px;
+    }
+    .desc-box p{
+        padding: 15px;
+    }
+    .product-section div.content{
+        padding: 30px 3px;
+    }
+}

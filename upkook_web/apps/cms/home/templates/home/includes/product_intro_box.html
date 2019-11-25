@@ -1,0 +1,15 @@
+{% load staticfiles %}
+<div class="small">
+  <div class="desc-box">
+    {% if image %}
+    <div class="small-image">
+      {% if is_amp %}
+      <amp-img src="{{image}}" layout="intrinsic" width="143" height="42"></amp-img>
+      {% else %}
+      <img data-lazy="{{image}}" alt="{{alt}}" />
+      {% endif %}
+    </div>
+    {% endif %}
+    <p>{{desc}}</p>
+  </div>
+</div>

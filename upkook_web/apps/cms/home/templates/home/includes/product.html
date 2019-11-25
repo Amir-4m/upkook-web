@@ -1,0 +1,29 @@
+{% load i18n  %}
+{% load product_intro_tags %}
+
+<section class="product-section{% if is_grey_bg %} mid-product-section{% endif %}">
+  <div class="content">
+    <div class="title">
+      <h2>{{product.title}}</h2>
+    </div>
+    {% quote product.quote product.quote_title is_amp %}
+    <div class="large-image">
+      {% if is_amp %}
+      <amp-img src="{{product.large_img}}" layout="intrinsic" width="750" height="445"></amp-img>
+      {% else %}
+      <img
+        data-lazy="{{product.large_img}}"
+        alt="{{product.large_img_alt}}">
+      {% endif %}
+    </div>
+    {% product_primary_description product.primary_desc %}
+    <div class="md-gr features">
+      <div class="md-cl md-cl--7-col md-cl--8-col-tablet">
+        {% product_intro_list product.list_title product.list is_amp %}
+      </div>
+      <div class="md-cl md-cl--5-col md-cl--8-col-tablet">
+        {% product_intro_box product.box_desc product.box_img is_amp %}
+      </div>
+    </div>
+  </div>
+</section>

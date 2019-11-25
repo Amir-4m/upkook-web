@@ -1,0 +1,14 @@
+{% load staticfiles %}
+<div class="customer-opinion">
+  <div>
+    {% if is_amp %}
+    <amp-img src="{% static 'home/images/quote-icon.svg' %}" layout="intrinsic" width="70" height="70"></amp-img>
+    {% else %}
+    <img data-lazy="{% static 'home/images/quote-icon.svg' %}" />
+    {% endif %}
+  </div>
+  <div class="content">
+    <p class="title">{{title}}</p>
+    <p class="text">{{quote}}</p>
+  </div>
+</div>
