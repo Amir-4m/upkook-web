@@ -24,5 +24,5 @@ INSTALLED_APPS += (
     'upkook_web.apps.cms.policies',
     'upkook_web.apps.cms.about',
     'upkook_web.apps.cms.contact',
-
+    'upkook_web.apps.cms.videos',
 )

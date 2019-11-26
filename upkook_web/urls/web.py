@@ -34,5 +34,6 @@ urlpatterns += [
     path('', include('upkook_web.apps.cms.hiw.urls', 'hiw')),
     path('', include('upkook_web.apps.cms.about.urls', 'about')),
     path('', include('upkook_web.apps.cms.contact.urls', 'contact')),
+    path('videos/', include('upkook_web.apps.cms.videos.urls', 'videos')),
 
 ]
