@@ -179,6 +179,21 @@ ul.hero__sub-header {
     padding: 0 165px;
 }
 
+/* PRODUCT INTRO */
+.product-section ol.list amp-img {
+    height: 20px;
+    width: 20px;
+    margin-top: 19px;
+}
+
+.product-section ol.list amp-img img {
+    margin-left: 0;
+}
+
+.product-section ol.list p {
+    margin-right: 10px;
+}
+
 /* RESPONSIVE */
 @media screen and (max-width: 1280px) {
     .hero .top-section {
@@ -284,8 +299,11 @@ ul.hero__sub-header {
     .home-promo-box .promo-wrapper {
         border: 0;
     }
-}
 
+    .product-section ol.list amp-img {
+        display: none;
+    }
+}
 @media screen and (max-width: 414px) {
     .hero__background-container {
         background: url("../images/bg-home-1.0-414.png") no-repeat center top;

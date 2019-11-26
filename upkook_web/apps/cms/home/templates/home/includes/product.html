@@ -9,7 +9,9 @@
     {% quote product.quote product.quote_title is_amp %}
     <div class="large-image">
       {% if is_amp %}
+        {% if product.large_img %}
       <amp-img src="{{product.large_img}}" layout="intrinsic" width="750" height="445"></amp-img>
+        {% endif %}
       {% else %}
       <img
         data-lazy="{{product.large_img}}"

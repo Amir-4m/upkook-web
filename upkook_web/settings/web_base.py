@@ -42,6 +42,7 @@ INSTALLED_APPS += (
     'django_contrib.social',
     'django_contrib.chats',
     'django_contrib.lazy',
+    'django_contrib.video_content',
     'upkook_web.apps.contrib.api',
 
 )
