@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-25 22:13+0330\n"
+"POT-Creation-Date: 2019-11-25 23:01+0330\n"
 "PO-Revision-Date: 2018-12-22 15:26+0330\n"
 "Last-Translator: Saeed Salehian <saeed@upkook.com>\n"
 "Language-Team: Upkook <info@upkook.com>\n"
@@ -31,8 +31,8 @@ msgid "Receive valuable reactions from your customers with NPS."
 msgstr "با NPS، هزاران بازخورد ارزشمند از مشتریانتان دریافت کنید."
 
 #: upkook_web/apps/cms/home/templates/home/includes/hero.html:24
-msgid "One Different Minute"
-msgstr "یک دقیقه متفاوت"
+msgid "Learn more"
+msgstr "بیشتر بدانید"
 
 #: upkook_web/apps/cms/home/templates/home/includes/hero.html:29
 #: upkook_web/apps/cms/home/templates/home/includes/intro.html:40
