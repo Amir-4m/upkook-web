@@ -1,4 +1,4 @@
-.promo-wrapper {
+.pro-wrapper {
     border: 1px solid #ececec;
     border-radius: 5px;
     line-height: 2.618rem;
@@ -7,19 +7,18 @@
     text-align: center;
 }
 
-.promo-title {
+.pro-title {
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #FF8B00;
-
 }
 
-.promo-description {
+.pro-desc {
     width: 100%;
     display: inline-block;
     color: #212529;
 }
 
-.promo-button {
+.pro-button {
     margin: 30px auto;
 }

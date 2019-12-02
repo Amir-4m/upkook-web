@@ -27,7 +27,7 @@
     </div>
     <br>
     <div class="md-cl--9-col md-cl--8-col-tablet md-cl--4-col-phone">
-      <amp-car id="car-with-preview"
+      <amp-carousel id="car-with-preview"
                     class="mobile-md-slideshow-container"
                     type="slides"
                     layout="intrinsic"
@@ -44,7 +44,7 @@
         <amp-img class="slide-medium" src="{{item.img_src}}" layout="intrinsic" width="960" height="640"></amp-img>
         {% if item.url %}</a>{% endif %}
         {% endfor %}
-      </amp-car>
+      </amp-carousel>
       {% include "carousel/amp/carousel-mobile.html" %}
       <a
         href="https://demo.upkook.com"

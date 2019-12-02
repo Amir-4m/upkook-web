@@ -1,10 +1,10 @@
-<div class="promo-wrapper">
-  <h3 class="promo-title">{{ title }}</h3>
-  <div class="promo-description">
+<div class="pro-wrapper">
+  <h3 class="pro-title">{{ title }}</h3>
+  <div class="pro-desc">
     {{ desc }}
   </div>
   {% if cta and cta.href and cta.text %}
-    <a href="{{ cta.href }}" class="promo-button button-cta button-action-primary button-cta-md"{% if cta.target %} target="{{ cta.target }}"{% endif %}>
+    <a href="{{ cta.href }}" class="pro-button button-cta button-action-primary button-cta-md"{% if cta.target %} target="{{ cta.target }}"{% endif %}>
       {{ cta.text }}
     </a>
   {% endif %}

@@ -4,8 +4,9 @@
 {% block css %}
 {{ block.super }}
 <link rel="stylesheet" href="{{ STATIC_URL }}home/css/styles.css">
+{% if not is_amp %}
 <link rel="stylesheet" href="{{ STATIC_URL }}carousel/css/carousel.css">
-<link rel="stylesheet" href="{{ STATIC_URL }}showcase/css/showcase.css">
+{% endif %}
 <link rel="stylesheet" href="{{ STATIC_URL }}promo_box/css/promobox.css">
 <link rel="stylesheet" href="{{ STATIC_URL }}home/css/product_intro.css">
 {% endblock %}
@@ -21,11 +22,12 @@
 
 {% block content %}
 {% include "home/includes/hero.html" %}
+{% if not is_amp %}
 {% include "home/includes/product-screen.html" %}
+{% endif %}
 {% product nps_intro False is_amp %}
 {% product csat_intro True is_amp %}
 {% product ces_intro False is_amp %}
-{% include "home/includes/nps_benchmark.html" %}
 {% include "home/includes/promo_box.html" %}
 {% endblock %}
 

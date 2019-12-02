@@ -1,13 +1,13 @@
 {% load i18n  %}
 {% load product_intro_tags %}
 
-<section class="product-section{% if is_grey_bg %} mid-product-section{% endif %}">
+<section class="prd-sec{% if is_grey_bg %} mid-prd-sec{% endif %}">
   <div class="content">
     <div class="title">
       <h2>{{product.title}}</h2>
     </div>
     {% quote product.quote product.quote_title is_amp %}
-    <div class="large-image">
+    <div class="lg-img">
       {% if is_amp %}
         {% if product.large_img %}
       <amp-img src="{{product.large_img}}" layout="intrinsic" width="750" height="445"></amp-img>
