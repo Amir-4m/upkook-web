@@ -27,13 +27,13 @@ urlpatterns += [
         {'sitemaps': sitemaps},
         name='django.contrib.sitemaps.views.sitemap'
     ),
-
+    path('videos/', include('upkook_web.apps.cms.videos.urls', 'videos')),
     path('', include('upkook_web.apps.cms.home.urls', 'home')),
     path('', include('django_contrib.sites.urls.web', 'sites')),
     path('', include('upkook_web.apps.users.urls', 'users')),
     path('', include('upkook_web.apps.cms.hiw.urls', 'hiw')),
     path('', include('upkook_web.apps.cms.about.urls', 'about')),
     path('', include('upkook_web.apps.cms.contact.urls', 'contact')),
-    path('videos/', include('upkook_web.apps.cms.videos.urls', 'videos')),
+    path('', include('upkook_web.apps.cms.pricing.urls', 'pricing')),
 
 ]

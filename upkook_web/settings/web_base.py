@@ -63,3 +63,10 @@ GTM_AMP_CONF_URL = get_env_var('GTM_AMP_CONF_URL', 'https://www.googletagmanager
 GTM_CONFIG_CACHE_TIMEOUT = int(get_env_var('GTM_CONFIG_CACHE_TIMEOUT', 10 * 60))  # 10 minutes
 
 AMP_CONFIG_CORS_ORIGIN_WHITELIST = [i for i in get_env_var('AMP_CONFIG_CORS_ORIGIN_WHITELIST', "").split(",") if i]
+
+DRF_RECAPTCHA_VERIFY_ENDPOINT = "https://www.google.com/recaptcha/api/siteverify"
+DRF_RECAPTCHA_PUBLIC_KEY = get_env_var("DRF_RECAPTCHA_PUBLIC_KEY", "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI")
+
+INTRO_APARAT_VIDEO_SRC = get_env_var("INTRO_APARAT_VIDEO_SRC")
+INTRO_APARAT_VIDEO_AMP_SRC = get_env_var("INTRO_APARAT_VIDEO_AMP_SRC")
+INTRO_APARAT_VIDEO_ID = get_env_var("INTRO_APARAT_VIDEO_ID")

@@ -25,4 +25,9 @@ INSTALLED_APPS += (
     'upkook_web.apps.cms.about',
     'upkook_web.apps.cms.contact',
     'upkook_web.apps.cms.videos',
+    'upkook_web.apps.cms.pricing',
+
 )
+INTRO_APARAT_VIDEO_SRC = get_env_var("INTRO_APARAT_VIDEO_SRC")
+INTRO_APARAT_VIDEO_AMP_SRC = get_env_var("INTRO_APARAT_VIDEO_AMP_SRC")
+INTRO_APARAT_VIDEO_ID = get_env_var("INTRO_APARAT_VIDEO_ID")

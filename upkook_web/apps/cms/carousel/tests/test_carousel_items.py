@@ -12,6 +12,13 @@ class CarouselItemTestCase(TestCase):
         carousel_item.img_src = 'src'
         self.assertEqual(carousel_item.img_src, 'src')
 
+    def test_description_set(self):
+        carousel_item = CarouselItem(img_src=self.id())
+        carousel_item.img_src = 'src'
+        carousel_item.description = "test"
+        self.assertEqual(carousel_item.img_src, 'src')
+        self.assertEqual(carousel_item.description, 'test')
+
     def test_src_img2_set(self):
         carousel_item = CarouselItem(img_src=self.id(), img_src2=self.id())
         carousel_item.img_src = 'src'

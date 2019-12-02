@@ -1,0 +1,301 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-02 12:12+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:14
+msgid "pricing title"
+msgstr "سرویس های آپ کوک"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:15
+msgid "pricing description"
+msgstr "سرویس دلخواهت را انتخاب کن  و یک اشتراک یک ساله بگیر"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:22
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:164
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:179
+msgid "Standard"
+msgstr "نسخه استاندارد"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:23
+msgid "standard description"
+msgstr "برای شما که به فکر رشد کسب و کارتان هستید."
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:25
+msgid "standard price"
+msgstr "799,000 تومان"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:28
+msgid "standard off"
+msgstr "50% تخفیف"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:32
+msgid "standard price off"
+msgstr "399,500 تومان"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:35
+msgid "standard price description"
+msgstr "اشتراک یک ساله تک کاربره سرویس سنجش تجربه مشتری"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:38
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:83
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:121
+msgid "top features"
+msgstr "ویژگی های اصلی:"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:41
+msgid "standard feature 1"
+msgstr "پرسشنامه نظرسنجی از پیش آماده"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:44
+msgid "standard feature 2"
+msgstr "انجام نظرسنجی های رضایت مشتری بر اساس استاندارد CSAT و CES"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:47
+msgid "standard feature 3"
+msgstr "محاسبه نمره وفاداری برند بر اساس استاندارد NPS"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:50
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:186
+msgid "standard feature 4"
+msgstr "گزارش نتایج نظرسنجی"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:57
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:101
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:139
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:202
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:232
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:259
+msgid "Upgrade now"
+msgstr "پیش خرید می کنم"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:66
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:168
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:210
+msgid "professional"
+msgstr "نسخه حرفه ای"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:67
+msgid "pro description"
+msgstr "برای شما که می خواهید تجربه مشتری را به سطحی عالی برسانید."
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:70
+msgid "pro price"
+msgstr "3,100,000 تومان"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:73
+msgid "pro off"
+msgstr "30% تخفیف"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:77
+msgid "pro price off"
+msgstr "2،170،000 تومان"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:80
+msgid "pro price description"
+msgstr "اشتراک یک ساله تک کاربره سرویس سنجش تجربه مشتری"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:86
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:224
+msgid "pro feature1"
+msgstr "امکان استفاده از لوگو و برند در نظرسنجی ها "
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:89
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:225
+msgid "pro feature2"
+msgstr "تقسیم بندی مشتریان بر اساس نتایج بازخوردها"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:92
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:222
+msgid "pro feature3"
+msgstr "امکان نظرسنجی از کانال های ارتباطی مختلف"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:95
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:226
+msgid "pro feature4"
+msgstr "گزارش تحلیلی تجربه هر مشتری"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:109
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:172
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:240
+msgid "workshop"
+msgstr "کارگاه تجربه مشتری نیم روزه"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:110
+msgid "workshop description"
+msgstr "برای شما که به مشتریانتان اهمیت می دهید"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:111
+msgid "workshop price"
+msgstr "4,000,000 تومان"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:113
+msgid "workshop off"
+msgstr "85% تخفیف"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:116
+msgid "workshop price off"
+msgstr "600,000 تومان"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:118
+msgid "workshop price description"
+msgstr "برای شما که به مشتریانتان اهمیت می دهید"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:124
+msgid "workshop feature1"
+msgstr "آشنایی با مفاهیم تجربه مشتری"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:127
+msgid "workshop feature2"
+msgstr "آشنایی با اهمیت تجربه مشتری در کسب و کار"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:130
+msgid "workshop feature3"
+msgstr "شناخت فوائد سرمایه گذاری بر روی بهبود تجربه مشتری"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:133
+msgid "workshop feature4"
+msgstr "آشنایی با نقش UI,UX در تجربه مشتری"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:147
+msgid "nik starter description"
+msgstr ""
+"در حال حاضر پیش خرید سرویس های آپ کوک توسط پلتفرم نیک استارتر انجام می شود."
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:157
+msgid "see all featuers"
+msgstr "مشاهده همه ویژگی ها"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:183
+msgid "standard all feature 1"
+msgstr "امکان ایجاد یک نظرسنجی فعال"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:184
+msgid "standard all feature 2"
+msgstr " انجام نظرسنجی های رضایت مشتری بر اساس استاندارد CSAT و CES"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:185
+msgid "standard all feature 3"
+msgstr "محاسبه نمره وفاداری برند بر اساس استاندارد NPS"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:187
+msgid "standard all feature 4"
+msgstr "امکان مشاهده پیش نمایش فرم"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:188
+msgid "standard all feature 5"
+msgstr "امکان ایجاد تغییر و شخصی سازی فرم ها"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:189
+msgid "standard all feature 6"
+msgstr "فرم های سازگار با موبایل و تبلت"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:190
+msgid "standard all feature 7"
+msgstr "احراز هویت هر مشتری"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:191
+msgid "standard all feature 8"
+msgstr "امکان نظرسنجی از کانال های ارتباطی مختلف"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:192
+msgid "standard all feature 9"
+msgstr "جلوگیری از ثبت چندباره پاسخ"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:214
+msgid "pro all feature 1"
+msgstr "امکان ایجاد چند نظرسنجی فعال به صورت همزمان"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:215
+msgid "pro all feature 2"
+msgstr "انجام نظرسنجی های رضایت مشتری بر اساس استاندارد CSAT و CES"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:216
+msgid "pro all feature 3"
+msgstr "محاسبه نمره وفاداری برند بر اساس استاندارد NPS"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:217
+msgid "pro all feature 4"
+msgstr " گزارش نتایج نظرسنجی"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:218
+msgid "pro all feature 5"
+msgstr "امکان مشاهده پیش نمایش فرم"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:219
+msgid "pro all feature 6"
+msgstr "امکان ایجاد تغییر و شخصی سازی فرم ها"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:220
+msgid "pro all feature 7"
+msgstr "فرم های سازگار با موبایل و تبلت"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:221
+msgid "pro all feature 8"
+msgstr "احراز هویت مشتری"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:223
+msgid "pro all feature 9"
+msgstr "جلوگیری از ثبت چندباره پاسخ"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:245
+msgid "workshop all feature 1"
+msgstr "آشنایی با مفاهیم و منشاء تجربه مشتری"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:246
+msgid "workshop all feature 2"
+msgstr "معرفی مدیریت تجربه مشتری"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:247
+msgid "workshop all feature 3"
+msgstr "آشنایی با اهمیت تجربه مشتری در کسب و کار"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:248
+msgid "workshop all feature 4"
+msgstr "شناخت فوائد سرمایه گذاری بر روی بهبود تجربه مشتری"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:249
+msgid "workshop all feature 5"
+msgstr "آشنایی با نقش UI,UX در تجربه مشتری"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:250
+msgid "workshop all feature 6"
+msgstr "توصیه هایی برای setup تجربه مشتری در استارتاپ ها"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:251
+msgid "workshop all feature 7"
+msgstr "آشنایی با سفر مشتری"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:252
+msgid "workshop all feature 8"
+msgstr "روش های سنجش استاندارد تجربه مشتری"
+
+#: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:253
+msgid "workshop all feature 9"
+msgstr "حداکثر ظرفیت 30 نفر"
+
+#: upkook_web/apps/cms/pricing/views.py:23
+msgid "Pricing | Upkook Startup"
+msgstr "تعرفه سرویس های آپ کوک"
+
+#: upkook_web/apps/cms/pricing/views.py:24
+msgid "Cx metrics prices"
+msgstr "بهای سرویس سنجش تجربه مشتری"
+
+#~ msgid "pro all feature 10"
+#~ msgstr " گزارش نتایج نظرسنجی"

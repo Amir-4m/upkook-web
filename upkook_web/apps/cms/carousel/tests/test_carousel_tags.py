@@ -25,7 +25,7 @@ class CarouselTestCase(TestCase):
 
         expected_html = (
             """
-            <div class="carousel-wrapper">
+           <div class="car-wrapper">
             <h2>test title</h2>
             <div class="md-gr">
             <div class="md-cl--3-col md-cl--4-col-phone md-cl--8-col-tablet options">
@@ -44,7 +44,7 @@ class CarouselTestCase(TestCase):
     <div class="md-cl--9-col md-cl--8-col-tablet md-cl--4-col-phone">
       <div class="md-slideshow-container">
         <!-- Full-width images with number and caption text -->
-        <div class="carousel-slide fade" id="product-slide-1">
+        <div class="car-slide fade" id="product-slide-1">
         <h3 class="sm-description">test</h3>
           <a href="https://npsbenchmarks.com/companies/huawei"  target="_blank">
           <img class="slide-medium" src="/static/home/images/huawei.png" alt="first pic" >
@@ -82,7 +82,7 @@ class CarouselTestCase(TestCase):
 
         expected_html = (
             """
-                        <div class="carousel-wrapper">
+                        <div class="car-wrapper">
                         <h2>test title</h2>
                         <div class="md-gr">
                         <div class="options md-cl--3-col md-cl--8-col-tablet md-cl--4-col-phone">
@@ -103,7 +103,7 @@ class CarouselTestCase(TestCase):
                 <div class="md-cl--9-col md-cl--8-col-tablet md-cl--4-col-phone">
                   <div class="md-slideshow-container">
                     <!-- Full-width images with number and caption text -->
-                    <div class="carousel-slide fade" id="product-slide-1">
+                    <div class="car-slide fade" id="product-slide-1">
                       <h3 class="sm-description">test</h3>
                       <img class="slide-medium" src="/static/home/images/huawei.png" alt="first pic" >
                     </div>
@@ -139,7 +139,7 @@ class CarouselTestCase(TestCase):
 
         expected_html = (
             """
-                        <div class="carousel-wrapper">
+                        <div class="car-wrapper">
                         <h2>test title</h2>
                         <div class="md-gr">
                         <div class="options md-cl--3-col md-cl--8-col-tablet md-cl--4-col-phone">
@@ -160,7 +160,7 @@ class CarouselTestCase(TestCase):
                 <div class="md-cl--9-col md-cl--8-col-tablet md-cl--4-col-phone">
                   <div class="md-slideshow-container">
                     <!-- Full-width images with number and caption text -->
-                    <div class="carousel-slide fade" id="product-slide-1">
+                    <div class="car-slide fade" id="product-slide-1">
                      <h3 class="sm-description">test</h3>
                       <img class="slide-medium" src="/static/home/images/huawei.png" alt="first pic" >
                        <img class="slide-small" src="/static/home/images/huawei.png" alt="first pic"/>
@@ -179,5 +179,4 @@ class CarouselTestCase(TestCase):
                 """
 
         )
-
         self.assertHTMLEqual(html, expected_html)

@@ -1,0 +1,425 @@
+.pricing-wrapper {
+  text-align: center;
+}
+
+.pricing-wrapper .md-cl--4-col {
+  margin: auto;
+}
+
+.pricing-header h1 {
+  font-size: 2.346rem;
+  line-height: 43px;
+  font-weight: 700;
+  color: #1d1c1d;
+  letter-spacing: 0;
+  padding-top: 6px;
+  padding-bottom: 10px;
+  text-align: center;
+  margin-top: 64px;
+  margin-bottom: 0;
+}
+
+.pricing-header p {
+  margin-top: 10px;
+  padding: 0 20px;
+}
+
+.pricing-table {
+  text-align: right;
+  width: 90%;
+  margin: 55px auto;
+  box-shadow: 0 1px 30px 0 rgba(0, 0, 0, .1);
+}
+
+.pricing-table-headline {
+  padding: 6px 0;
+  background-color: #FF5630;
+}
+
+.product-type {
+  line-height: 1.36365;
+  font-weight: 700;
+  min-height: 70px;
+}
+
+.product-plan {
+  padding: 30px;
+}
+
+.middle-pricing-column {
+  border-right: lightgray 1px solid;
+  border-left: lightgray 1px solid;
+}
+
+.product-type-description {
+  padding-bottom: 32px;
+  margin: 0;
+  min-height: 65px;
+
+}
+
+.product-price {
+  font-size: 1.468rem;
+  font-weight: 700;
+  text-decoration: line-through;
+  display: initial;
+}
+
+.product-price-description {
+  line-height: 1.618rem;
+  font-size: 0.9rem;
+  color: grey;
+  margin-top: 10px;
+}
+
+.product-features {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 35px;
+  min-height: 250px;
+
+}
+
+.features-list {
+  min-height: 690px;
+}
+
+
+.product-features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.product-features li {
+  font-size: 0.9rem;
+  margin-top: 10px;
+  display: flex;
+  line-height: 1.752rem;
+
+}
+
+.product-features li:before {
+  content: "\2714\0020";
+  color: green;
+  font-size: 1rem;
+  padding-left: 10px;
+}
+
+.cross::before {
+  display: none;
+}
+
+.product-plan a {
+  width: 100%;
+  font-size: 1rem;
+  position: relative;
+}
+
+.product-plan h4 {
+  margin: 0;
+}
+
+.product-plan a:nth-child(2) {
+  margin-top: 25px;
+}
+
+.plan-upgrade {
+  text-align: center;
+}
+
+.nik-desc {
+  text-align: center;
+  margin: 0;
+  padding: 0 25px;
+}
+.price-off-text.price-off-text{
+  background-color: #FF5630;
+  color: white;
+  margin: 20px 5px;
+}
+.nik-desc p {
+  font-size: 0.8rem;
+}
+
+#content-wrapper > div > div.pricing-table > div.md-gr >
+div.consult-col.md-cl--4-col.md-cl--4-col-phone > div > div.plan-upgrade > a,
+#product-all-features > div.md-gr.product-features-table > div.consult-col.md-cl--4-col.md-cl--4-col-phone >
+div > div.plan-upgrade > a {
+  background-color: white;
+  box-shadow: none;
+  color: black;
+}
+
+.pricing-table-dropdown {
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid lightgray;
+  margin: 0 26px;
+
+}
+
+.features-dropdown {
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#dropdown-arrow {
+  cursor: pointer;
+}
+
+#product-all-features {
+  margin-top: 30px;
+
+}
+
+.product-features-header {
+  background-color: rgba(0, 0, 0, 0.08);
+  border: 1px lightgray solid;
+  border-bottom-color: darkgray;
+  text-align: center;
+}
+
+.product-features-header h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 10px 0;
+
+}
+
+.features-list-middle {
+  border-left: lightgray 1px solid;
+  border-right: lightgray 1px solid;
+}
+
+.product-all-features {
+  list-style: none;
+  text-align: right;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.618rem;
+}
+
+.product-all-features ul {
+  list-style: none;
+  text-align: right;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.618rem;
+  padding: 0 12px;
+}
+
+.product-all-features li {
+  display: flex;
+  min-height: 35px;
+  margin-bottom: 10px;
+
+}
+
+.product-all-features a {
+  width: 90%;
+}
+
+.product-all-features li::before {
+  content: "\2022";
+  color: green;
+  margin-left: 8px;
+}
+
+.product-features-table .md-cl--4-col {
+  margin: 0;
+}
+
+.product-features-table h3 {
+  display: none;
+}
+
+
+.plan-features-group {
+  min-height: auto;
+}
+
+.plan-features-group-2 {
+  min-height: auto;
+}
+
+.plan-features-group-3 {
+  min-height: auto;
+}
+
+.plan-features-group-4 {
+  min-height: auto;
+}
+
+.product-features-table {
+  border: lightgray 1px solid;
+}
+
+.product-features-table .plan-upgrade {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1480px) {
+
+
+}
+
+@media screen and (max-width: 1280px) {
+  .product-features {
+    min-height: 320px;
+  }
+
+}
+
+@media screen and (max-width: 1080px) {
+  .product-type-description {
+    min-height: 80px;
+  }
+
+  .product-features {
+    min-height: 350px;
+  }
+
+  .product-price-description {
+    min-height: 110px;
+
+  }
+
+  .product-all-features li {
+    display: flex;
+    min-height: 50px;
+    margin-bottom: 10px;
+
+  }
+
+  .features-list {
+    min-height: 810px;
+  }
+
+
+}
+
+@media screen and (max-width: 960px) {
+  .product-type-description {
+    min-height: 95px;
+  }
+
+  .product-features {
+    min-height: 370px;
+  }
+
+  .product-all-features li {
+    display: flex;
+    min-height: 60px;
+    margin-bottom: 10px;
+
+  }
+
+  .features-list {
+    min-height: 950px;
+  }
+
+
+}
+
+@media screen and (max-width: 840px) {
+  .consult-col {
+    display: none;
+  }
+
+  .plan-upgrade {
+    text-align: center;
+  }
+
+  .features-list-middle {
+    border-left: none;
+  }
+
+  .product-features-table {
+    border: none;
+  }
+
+  .middle-pricing-column {
+    border-left: none;
+  }
+
+  .product-all-features li {
+    min-height: 50px;
+  }
+
+  .features-list {
+    min-height: 830px;
+  }
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 480px) {
+  .product-features-header.product-features-header {
+    display: none;
+  }
+
+  .pricing-header h1 {
+    font-size: 1.7rem;
+  }
+
+  .product-all-features li {
+    margin-bottom: 25px;
+  }
+
+  .product-features-table h3 {
+    display: block;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .middle-pricing-column, .product-features-table, .features-list-middle, .pricing-table-dropdown {
+    border: none;
+  }
+
+  .features-list-right, .features-list-middle {
+    border-bottom: lightgray 1px solid;
+    padding-bottom: 40px;
+
+  }
+
+  .product-plan {
+    border-bottom: 1px solid lightgray;
+  }
+
+  .consult-col {
+    display: block;
+  }
+
+  .nik-desc p {
+    font-size: 0.7rem;
+  }
+
+  .product-features {
+    min-height: 340px;
+  }
+  .cross.cross{
+    display: none;
+  }
+  #product-all-features > div.md-gr.product-features-table >
+  div.consult-col.md-cl--4-col.md-cl--4-col-phone >
+  div > div.features-list{
+    min-height: 650px;
+  }
+
+}
+
+@media screen and (max-width: 360px) {
+
+
+}
+
