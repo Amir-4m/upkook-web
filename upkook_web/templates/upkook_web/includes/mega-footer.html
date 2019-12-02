@@ -1,45 +1,103 @@
 {% load i18n %}
 
-<div class="mdl-mega-footer">
-    <div class="md-gr mega-footer-grid">
-        <div class="mega-footer-info md-cl--12-col md-cl--8-col-tablet md-cl--4-col-phone mega-footer-right-section">
-            <div class="footer-address">
-                <div class="footer-address-i">
-                    <i class="material-icons">
-                        location_on
-                    </i>
-                </div>
-                <div class="footer-address-text">
-                    <span>{% trans "address: " %}</span>
-                    <span>
-                        {% trans "Upkook Address" %}
-                    </span>
-                </div>
-                <span class="footer-postal-code">
-                        <i class="material-icons">
-                            mail_outline
-                        </i>
-                        <span>{% trans "Postal Code: " %}</span>
-                        <span>{% trans "UPKOOK Code" %}</span>
-                </span>
-            </div>
-            <div class="footer-email">
-                <i class="material-icons">
-                    <span>alternate_email</span>
-                </i>
-                <span>{% trans "E-mail" %}: <a href="mailto:info@upkook.com" target="_top">info@upkook.com</a></span>
-            </div>
-            <div class="mega-footer-contact">
-                <span>
-                        <i class="material-icons">
-                            phone
-                        </i>
-                         {% trans "Phone: " %}
-                        <span>
-                            {% trans "UPKOOK Telephone" %}
-                        </span>
-                </span>
-            </div>
-        </div>
+<div class="footer-link-wrapper">
+  <div class="md-gr footer-link-grid">
+    <div class="md-cl--3-col md-cl--4-col-phone md-cl--4-col-tablet">
+      <ul>
+        <li>
+          <strong>{% trans "UPKOOK" %}</strong>
+        </li>
+        <li>
+          <a href="https://blog.upkook.com/{% if is_amp %}amp{% endif %}" target="_blank">{% trans "Upkook mag" %}</a>
+        </li>
+        <li>
+          <a href="{% if is_amp %}{% url 'videos:index-amp' amp %}{% else %}{% url 'videos:index' %}{% endif %}">
+            {% trans "One different minute" %}
+          </a>
+        </li>
+        <li>
+          <a href="{% if is_amp %}{% url 'about:index-amp' amp %}{% else %}{% url 'about:index' %}{% endif %}">
+            {% trans "About us" %}
+          </a>
+        </li>
+        <li>
+          <a href="{% if is_amp %}{% url 'contact:index-amp' amp %}{% else %}{% url 'contact:index' %}{% endif %}">
+            {% trans "Contact us" %}
+          </a>
+        </li>
+      </ul>
+
     </div>
+    <div class="md-cl--3-col md-cl--4-col-phone md-cl--4-col-tablet">
+      <ul>
+        <li>
+          <strong>{% trans "Upkook mag" %}</strong>
+        </li>
+        <li>
+          <a href="https://blog.upkook.com/customer-survey/what-is-nps/{% if is_amp %}amp{% endif %}" target="_blank">
+            {% trans "NPS" %}
+          </a>
+        </li>
+        <li>
+          <a href="https://blog.upkook.com/customer-survey/what-is-customer-satisfaction-csat/{% if is_amp %}amp{% endif %}" target="_blank">
+            {% trans "CSAT" %}
+          </a>
+        </li>
+        <li>
+          <a href="https://blog.upkook.com/customer-satisfaction/{% if is_amp %}amp{% endif %}" target="_blank">
+            {% trans "Customer satisfaction" %}
+          </a>
+        </li>
+        <li>
+          <a href="https://blog.upkook.com/customer-experience/{% if is_amp %}amp{% endif %}" target="_blank">
+            {% trans "Customer experience" %}
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="md-cl--3-col md-cl--4-col-phone md-cl--4-col-tablet">
+      <ul>
+        <li>
+          <strong>{% trans "Services" %}</strong>
+        </li>
+        <li>
+          <a href="https://demo.upkook.com/" target="_blank">{% trans "Demo" %}</a>
+        </li>
+        <li>
+          <a href="{% if is_amp %}{% url 'hiw:index-amp' amp %}{% else %}{% url 'hiw:index' %}{% endif %}">
+            {% trans "How it works" %}
+          </a>
+        </li>
+        <li>
+          <a href="#">{% trans "Features" %}</a>
+        </li>
+        <li>
+          <a href="{% if is_amp %}{% url 'pricing:index-amp' amp %}{% else %}{% url 'pricing:index' %}{% endif %}">
+            {% trans "Pricing" %}
+          </a>
+        </li>
+      </ul>
+
+    </div>
+    <div class="md-cl--3-col md-cl--4-col-phone md-cl--4-col-tablet">
+
+      <ul>
+        <li>
+          <strong>{% trans "Client Area" %}</strong>
+        </li>
+        <li>
+          <a href="{% url 'users:sign-in' %}">{% trans "Login" %}</a>
+        </li>
+        <li>
+          <a href="{% url 'users:sign-up' %}">{% trans "Sign up" %}</a>
+        </li>
+        <li>
+          <a href="https://policies.upkook.com/terms/{% if is_amp %}amp{% endif %}" target="_blank">{% trans "Terms" %}</a>
+        </li>
+        <li>
+          <a href="https://policies.upkook.com/privacy/{% if is_amp %}amp{% endif %}" target="_blank">{% trans "Privacy" %}</a></li>
+      </ul>
+
+    </div>
+  </div>
 </div>

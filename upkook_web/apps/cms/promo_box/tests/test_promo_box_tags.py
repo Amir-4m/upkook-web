@@ -21,12 +21,12 @@ class PromoBoxTestCase(TestCase):
         html = template.render(context)
 
         expected_html = (
-            '<div class="promo-wrapper">'
-            '<h3 class="promo-title">test title</h3>'
-            '<div class="promo-description">'
+            '<div class="pro-wrapper">'
+            '<h3 class="pro-title">test title</h3>'
+            '<div class="pro-desc">'
             'test desc'
             '</div>'
-            '<a href="/sign-up/" class="promo-button button-cta button-action-primary button-cta-md" '
+            '<a href="/sign-up/" class="pro-button button-cta button-action-primary button-cta-md" '
             'target="_blank">'
             'some test text'
             '</a>'
@@ -48,12 +48,12 @@ class PromoBoxTestCase(TestCase):
         html = template.render(context)
 
         expected_html = (
-            '<div class="promo-wrapper">'
-            '<h3 class="promo-title">test title</h3>'
-            '<div class="promo-description">'
+            '<div class="pro-wrapper">'
+            '<h3 class="pro-title">test title</h3>'
+            '<div class="pro-desc">'
             'test desc'
             '</div>'
-            '<a href="/sign-up/" class="promo-button button-cta button-action-primary button-cta-md">'
+            '<a href="/sign-up/" class="pro-button button-cta button-action-primary button-cta-md">'
             'some test text'
             '</a>'
             '</div>'

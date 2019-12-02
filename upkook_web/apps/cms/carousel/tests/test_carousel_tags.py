@@ -53,7 +53,8 @@ class CarouselTestCase(TestCase):
         <div class="slideshow-dots md-cl--4-col-phone">
           <span class="slide-dot" data-slide="product-slide-1" id="product-slide-1-dot"></span>
           </div>
-          <a class="mdl-button mdl-button--accent mdl-js-button sm-demo" href="https://demo.upkook.com" target="_blank">
+         <a class="button-action-secondary button-cta-sm sm-demo" href="https://demo.upkook.com"
+           target="_blank">
             Try Demo &larr;
           </a>
       </div>
@@ -110,7 +111,8 @@ class CarouselTestCase(TestCase):
                     <div class="slideshow-dots md-cl--4-col-phone">
                    <span class="slide-dot" data-slide="product-slide-1" id="product-slide-1-dot"></span>
                    </div>
-                   <a class="mdl-button mdl-button--accent mdl-js-button sm-demo" href="https://demo.upkook.com" target="_blank">
+                  <a class="button-action-secondary button-cta-sm sm-demo" href="https://demo.upkook.com"
+           target="_blank">
                      Try Demo &larr;
                    </a>
                   </div>
@@ -169,7 +171,8 @@ class CarouselTestCase(TestCase):
                     <div class="slideshow-dots md-cl--4-col-phone">
           <span class="slide-dot" data-slide="product-slide-1" id="product-slide-1-dot"></span>
           </div>
-          <a class="mdl-button mdl-button--accent mdl-js-button sm-demo" href="https://demo.upkook.com" target="_blank">
+          <a class="button-action-secondary button-cta-sm sm-demo" href="https://demo.upkook.com"
+           target="_blank">
             Try Demo &larr;
           </a>
                   </div>
@@ -179,4 +182,5 @@ class CarouselTestCase(TestCase):
                 """
 
         )
+        self.maxDiff = None
         self.assertHTMLEqual(html, expected_html)

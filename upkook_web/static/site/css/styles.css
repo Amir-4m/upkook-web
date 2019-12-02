@@ -180,19 +180,19 @@ h6, p {
     background-color: #DE350B;
 }
 
-.mega-footer-right-section i {
-    display: contents;
-
-}
-.mdl-mini-footer.mdl-mini-footer {
-    padding: 10px 0 10px 0;
-}
-.mini-footer-grid {
-    display: contents;
+.mini-footer-wrapper .md-gr {
+  padding-bottom: 8px;
+  padding-top: 25px;
 }
 
-.mini-footer-left-section p {
-    margin: 0;
+.mini-footer-wrapper img {
+  width: 64px;
+  margin-top: -15px;
+}
+
+.mini-footer-wrapper ul, .credit-wrapper {
+  padding-top: 0;
+
 }
 
 .policies-footer-grid {
@@ -206,6 +206,13 @@ h6, p {
         height: 64px;
     }
 }
+@media screen and (max-width: 840px) {
+  .mini-footer-wrapper img {
+    width: 55px;
+    margin-top: 0;
+  }
+
+}
 
 @media screen and (max-width: 479px) {
     .mdl-snackbar--active {
@@ -214,10 +221,24 @@ h6, p {
 }
 
 @media screen and (min-width: 480px) {
-    .mdl-snackbar--active {
-        -webkit-transform: translate(105%, -20px);
-        transform: translate(105%, -20px);
-    }
+  .mdl-snackbar--active {
+    -webkit-transform: translate(105%, -20px);
+    transform: translate(105%, -20px);
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .mini-footer-wrapper img {
+    width: 45px;
+  }
+
+}
+
+@media screen and (max-width: 479px) {
+  .mdl-snackbar--active {
+    right: 0;
+  }
 }
 
 @media screen and (max-width: 414px) {

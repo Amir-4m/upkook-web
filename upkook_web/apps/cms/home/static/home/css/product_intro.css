@@ -30,7 +30,7 @@
     box-shadow: 0 0 12px 0 rgba(30, 40, 55, 0.1)
 }
 
-.prd-sec .cus-op p.title {
+.prd-sec .cus-op p.quote-title {
     font-size: 12px;
     font-weight: 600;
     line-height: 15px;
@@ -38,12 +38,12 @@
     color: #7786A0;
 }
 
-.prd-sec .cus-op p.text {
+.prd-sec .cus-op p.quote-text {
     font-size: 18px;
     line-height: 29px
 }
 
-.prd-sec .cus-op div.content {
+.prd-sec .cus-op div.quote-content {
     margin-right: 25px;
     padding: 0;
 }

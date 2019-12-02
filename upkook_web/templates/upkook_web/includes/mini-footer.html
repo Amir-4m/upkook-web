@@ -1,39 +1,51 @@
-{% load i18n site_tags social_tags %}
-<div class="mdl-mini-footer">
-    <div class="md-gr mini-footer-grid">
-        <div class="md-cl--4-col md-cl--3-col-tablet md-cl--4-col-phone mini-footer-right-section">
-            <div class="mdl-mini-footer__right-section-section">
-                <div class="mini-footer-items">
-                    <a href="https://www.upkook.com{% if is_amp %}/amp/{% endif %}" target="_blank" itemprop="url">
-                        {% trans 'UPKOOK'%}</a>
-                    <a href="https://policies.upkook.com/terms/" target="_blank" itemprop="url">{% trans "Terms of Service" %}</a>
-                    <a href="https://policies.upkook.com/privacy/" target="_blank" itemprop="url">{% trans "Privacy Policy" %}</a>
+{% load i18n site_tags %}
 
-
-                </div>
-            </div>
-        </div>
-         <div class="md-cl--4-col md-cl--2-col-tablet md-cl--4-col-phone mini-footer-middle-section">
-            <div class="mdl-mini-footer__middle-section-section">
-                <div class="mini-footer-social">
-                    <a href="https://t.me/upkook" class="social-icon-telegram-send" target="_blank" itemprop="url"></a>
-                    <a href="https://www.linkedin.com/company/upkook" class="social-icon-linkedin" target="_blank" itemprop="url"></a>
-                    <a href="https://twitter.com/upkookcom" class="social-icon-twitter" target="_blank" itemprop="url"></a>
-
-
-                </div>
-            </div>
-        </div>
-        <div class="md-cl--4-col md-cl--3-col-tablet md-cl--4-col-phone mini-footer-left-section">
-            <div class="mdl-mini-footer__left-section-section">
-                {% if setting and setting.copyright %}
-                <div class="credit-wrapper">
-                    <div class="credit">
-                        {{ setting.copyright|safe }}
-                    </div>
-                </div>
-                {% endif %}
-            </div>
-        </div>
+<div class="mini-footer-wrapper">
+  <div class="md-gr">
+    <div class="md-cl--2-col md-cl--8-col-tablet md-cl--4-col-phone">
+      {% if setting and setting.logo %}
+      {% if is_amp %}
+      <amp-img alt="{{ site.name }}" height="64" width="64" src="{{ setting.logo.url }}"
+               title="{{ site.name }}" layout="intrinsic" itemprop="image"></amp-img>
+      {% else %}
+      <img itemprop="image" alt="{{ site.name }}" src="{{ setting.logo.url }}"
+           title="{{ site.name }}"/>
+      {% endif %}
+      {% endif %}
     </div>
+    <div class="md-cl--6-col md-cl--8-col-tablet md-cl--4-col-phone">
+      <ul>
+        <li>
+          <a href="https://www.upkook.com{% if is_amp %}/amp/{% endif %}" itemprop="url">
+            {% trans 'UPKOOK'%}</a>
+        </li>
+        <li>
+        </li>
+        <li>
+          <a href="https://blog.upkook.com/{% if is_amp %}amp{% endif %}" target="_blank">{% trans "Upkook mag" %}</a>
+        </li>
+        <li>
+          <a href="https://demo.upkook.com/" target="_blank">{% trans "Demo" %}</a>
+        </li>
+        <li>
+          <a href="https://policies.upkook.com/terms/{% if is_amp %}amp{% endif %}" target="_blank" itemprop="url">
+            {% trans "Terms of Service" %}</a>
+        </li>
+        <li>
+          <a href="https://policies.upkook.com/privacy/{% if is_amp %}amp{% endif %}" target="_blank" itemprop="url">
+            {% trans "Privacy Policy" %}</a>
+        </li>
+      </ul>
+
+    </div>
+    <div class="md-cl--4-col md-cl--8-col-tablet md-cl--4-col-phone">
+      {% if setting and setting.copyright %}
+      <div class="credit-wrapper">
+        <div class="credit">
+          {{ setting.copyright|safe }}
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
 </div>

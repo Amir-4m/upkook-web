@@ -53,9 +53,6 @@
   display: none;
 }
 
-.car-slide img {
-}
-
 .car-slide-active {
   display: block;
 }
@@ -431,7 +428,7 @@
 
 @media screen and (max-width: 480px) {
   .car-slide img {
-    width: 390px;
+    width: 350px;
   }
 
   .mobile-sm-slideshow-container {
@@ -518,6 +515,10 @@
     background-color: #61605f;
   }
 
+  .md-slideshow-container {
+    padding-bottom: 20px;
+  }
+
 
 }
 
@@ -535,6 +536,10 @@
     width: 330px;
   }
 
+  .car-slide img {
+    width: 320px;
+  }
+
 }
 
 
@@ -547,4 +552,7 @@
     width: 280px;
   }
 
+.car-slide img {
+    width: 280px;
+  }
 }
