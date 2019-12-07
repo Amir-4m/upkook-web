@@ -78,7 +78,7 @@ h1.hero__header {
     width: 100%;
     height: 100%;
     z-index: 1;
-    background: url("../images/bg-home-1.1.png") no-repeat left top;
+    background: url("../images/bg-home-2.0.png") no-repeat left top;
 }
 
 .hero .top-sec {
@@ -211,7 +211,7 @@ ul.hero__sub-header {
     }
 
     .hero__background-container {
-        background: url("../images/bg-home-1.0-960.png") no-repeat left top;
+        background: url("../images/bg-home-2.0-960.png") no-repeat left top;
     }
 }
 
@@ -220,22 +220,33 @@ ul.hero__sub-header {
         display: none;
 
     }
+
+    .hero__sub-header li:first-child {
+        margin-top: -30px;
+    }
 }
 
 @media screen and (max-width: 840px) {
+    .top-sec__container .button-action-primary, .top-sec__container .button-action-secondary{
+        width: 320px;
+    }
 
     .home-pro-box {
         padding: 0 20px;
     }
 }
+
 @media screen and (max-width: 768px) {
+    ul.hero__sub-header{
+        margin-top: 70px;
+    }
     .hero .top-sec {
         margin: 0 auto;
         max-width: 90%;
     }
 
     .hero__background-container {
-        background: url("../images/bg-home-1.0-660.png") no-repeat center top;
+        background: url("../images/bg-home-2.0-660.png") no-repeat center top;
     }
 
     .hero .top-sec__container {
@@ -291,7 +302,7 @@ ul.hero__sub-header {
 }
 @media screen and (max-width: 414px) {
     .hero__background-container {
-        background: url("../images/bg-home-1.0-414.png") no-repeat center top;
+        background: url("../images/bg-home-2.0-414.png") no-repeat center top;
     }
 
     .hero .top-sec__container {
