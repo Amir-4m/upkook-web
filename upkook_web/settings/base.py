@@ -145,10 +145,8 @@ PREPEND_WWW = False
 USE_ETAGS = True
 
 MIDDLEWARE_CLASSES = (
-    'htmlmin.middleware.HtmlMinifyMiddleware',
     # Adds a few conveniences for perfectionists (i.e. URL rewriting)
     'django.middleware.common.CommonMiddleware',
-    'htmlmin.middleware.MarkRequestMiddleware',
 )
 
 if DEBUG or TEST:
