@@ -1,51 +1,69 @@
 {% load  i18n %}
 <ul>
-    <li itemprop="name">
-        <a class="mdl-navigation__link" itemprop="url"
-           href="{% if is_amp %}{% url 'home:index-amp' amp %}{% else %}{% url 'home:index' %}{% endif %}">
-            {% trans 'UPKOOK' %}
-        </a>
-    </li>
-    <li itemprop="name">
-        <a class="mdl-navigation__link" itemprop="url"
-           href="{% if is_amp %}{% url 'hiw:index-amp' amp %}{% else %}{% url 'hiw:index' %}{% endif %}">
-            {% trans "How It Works" %}
-        </a>
-    </li>
-    <li itemprop="name">
-        <a class="mdl-navigation__link" itemprop="url"
-           href="https://demo.upkook.com/">
-            {% trans "Demo" %}
-        </a>
-    </li>
-    <li itemprop="name">
-        <a class="mdl-navigation__link" itemprop="url"
-           href="{% url 'users:sign-in' %}">
-            {% trans 'Sign In' %}
-        </a>
-    </li>
-    <li itemprop="name">
-        <a class="mdl-navigation__link" itemprop="url"
-           href="{% url 'users:sign-up' %}">
-            {% trans 'Sign Up' %}
-        </a>
-    </li>
-    <li itemprop="name">
-        <a class="mdl-navigation__link" itemprop="url"
-           href="https://blog.upkook.com{% if is_amp %}/amp/{% endif %}">
-            {% trans 'BLOG' %}
-        </a>
-    </li>
-    <li itemprop="name">
-        <a class="mdl-navigation__link" itemprop="url"
-           href="{% url 'about:index' %}">
-            {% trans 'About Us' %}
-        </a>
-    </li>
-    <li itemprop="name">
-        <a class="mdl-navigation__link" itemprop="url"
-           href="{% url 'contact:index' %}">
-            {% trans 'Contact Us' %}
-        </a>
-    </li>
+  <li itemprop="name">
+    <a class="mdl-navigation__link" itemprop="url"
+       href="{% if is_amp %}{% url 'hiw:index-amp' amp %}{% else %}{% url 'hiw:index' %}{% endif %}">
+      {% trans "How It Works" %}
+    </a>
+  </li>
+
+  <li itemprop="name">
+    <a class="mdl-navigation__link" itemprop="url"
+       href="{% if is_amp %}{% url 'pricing:index-amp' amp %}{% else %}{% url 'pricing:index' %}{% endif %}">
+      {% trans "Pricing" %}
+    </a>
+  </li>
+
+  <li itemprop="name">
+    <a class="mdl-navigation__link" itemprop="url"
+       href="#">
+      {% trans "Features" %}
+    </a>
+  </li>
+  <li itemprop="name">
+    <a class="mdl-navigation__link" itemprop="url" target="_blank"
+       href="https://demo.upkook.com/">
+      {% trans "Demo" %}
+    </a>
+  </li>
+
+  <li itemprop="name">
+    <a class="mdl-navigation__link" itemprop="url"
+       href="{% if is_amp %}{% url 'videos:index-amp' amp %}{% else %}{% url 'videos:index' %}{% endif %}">
+      {% trans "Different Experience" %}
+    </a>
+  </li>
+
+  <li itemprop="name">
+    <a class="mdl-navigation__link" itemprop="url" target="_blank"
+       href="https://blog.upkook.com{% if is_amp %}/amp/{% endif %}">
+      {% trans 'BLOG' %}
+    </a>
+  </li>
+
+  <li itemprop="name">
+    <div class="sign-in-sign-up">
+      <a class="nav-sign-in-sign-up" itemprop="url"
+         href="{% url 'users:sign-in' %}">
+        {% trans "Navigation Sign In" %}
+      </a>
+      <a class="nav-sign-in-sign-up" itemprop="url"
+         href="{% url 'users:sign-up' %}">
+        {% trans "Sign Up" %}
+      </a>
+    </div>
+  </li>
+
+  <li itemprop="name">
+    <a class="mdl-navigation__link" itemprop="url"
+       href="{% url 'about:index' %}">
+      {% trans 'About Us' %}
+    </a>
+  </li>
+  <li itemprop="name">
+    <a class="mdl-navigation__link" itemprop="url"
+       href="{% url 'contact:index' %}">
+      {% trans 'Contact Us' %}
+    </a>
+  </li>
 </ul>

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-01 15:13+0330\n"
+"POT-Creation-Date: 2019-12-07 17:45+0330\n"
 "PO-Revision-Date: 2018-12-17 10:22+0330\n"
 "Last-Translator: Saeed Salehian <saeed@upkook.com>\n"
 "Language-Team: Upkook <info@upkook.com>\n"
@@ -22,7 +22,6 @@ msgstr ""
 #: upkook_web/apps/cms/carousel/templates/carousel/amp/carousel.html:53
 #: upkook_web/apps/cms/carousel/templates/carousel/carousel.html:14
 #: upkook_web/apps/cms/carousel/templates/carousel/carousel.html:43
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:50
 msgid "Try Demo"
 msgstr "دمو"
 
@@ -35,115 +34,127 @@ msgid "Farsi"
 msgstr "فارسی"
 
 #: upkook_web/templates/upkook_web/includes/mega-footer.html:8
-#: upkook_web/templates/upkook_web/includes/mini-footer.html:8
-#: upkook_web/templates/upkook_web/includes/navigation.html:6
+#: upkook_web/templates/upkook_web/includes/mini-footer.html:20
 msgid "UPKOOK"
 msgstr "آپ‌کوک"
 
 #: upkook_web/templates/upkook_web/includes/mega-footer.html:11
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:28
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:34
+#: upkook_web/templates/upkook_web/includes/mini-footer.html:25
 msgid "Upkook mag"
 msgstr "آپ کوک مگ"
 
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:14
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:15
 msgid "One different minute"
 msgstr "یک دقیقه متفاوت"
 
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:17
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:20
 msgid "About us"
 msgstr "درباره ما"
 
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:20
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:25
 msgid "Contact us"
 msgstr "تماس با ما"
 
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:31
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:38
 msgid "NPS"
 msgstr "شاخص وفاداری مشتری"
 
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:34
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:43
 msgid "CSAT"
 msgstr "شاخص رضایت مشتری"
 
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:37
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:48
 msgid "Customer satisfaction"
 msgstr "رضایت مشتری"
 
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:40
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:53
 msgid "Customer experience"
 msgstr "تجربه مشتری"
 
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:47
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:61
 msgid "Services"
 msgstr "سرویس ها"
 
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:53
-msgid "How it works"
-msgstr "کاربرد و مزایا"
-
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:56
-msgid "Features"
-msgstr "ویژگی های سرویس"
-
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:59
-msgid "Pricing"
-msgstr "تعرفه قیمت ها"
-
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:68
-msgid "Client Area"
-msgstr "ناحیه کاربری"
-
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:71
-msgid "Login"
-msgstr "ورود"
-
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:75
-msgid "Sign up"
-msgstr "ثبت نام"
-
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:79
-msgid "Terms"
-msgstr "شرایط و قوانین"
-
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:83
-msgid "Privacy"
-msgstr "حریم خصوصی"
-
-#: upkook_web/templates/upkook_web/includes/mini-footer.html:9
-msgid "Terms of Service"
-msgstr "شرایط و قوانین استفاده"
-
-#: upkook_web/templates/upkook_web/includes/mini-footer.html:10
-msgid "Privacy Policy"
-msgstr "حریم خصوصی"
-
-#: upkook_web/templates/upkook_web/includes/navigation.html:12
-msgid "How It Works"
-msgstr "کاربرد و مزایا"
-
-#: upkook_web/templates/upkook_web/includes/navigation.html:18
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:64
+#: upkook_web/templates/upkook_web/includes/mini-footer.html:28
+#: upkook_web/templates/upkook_web/includes/navigation.html:26
 msgid "Demo"
 msgstr "دمو"
 
-#: upkook_web/templates/upkook_web/includes/navigation.html:24
-msgid "Sign In"
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:68
+msgid "How it works"
+msgstr "کاربرد و مزایا"
+
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:72
+#: upkook_web/templates/upkook_web/includes/navigation.html:20
+msgid "Features"
+msgstr "امکانات"
+
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:76
+#: upkook_web/templates/upkook_web/includes/navigation.html:13
+msgid "Pricing"
+msgstr "قیمت ها"
+
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:86
+msgid "Client Area"
+msgstr "ناحیه کاربری"
+
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:89
+msgid "Login"
 msgstr "ورود"
 
-#: upkook_web/templates/upkook_web/includes/navigation.html:30
-msgid "Sign Up"
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:92
+msgid "Sign up"
 msgstr "ثبت نام"
 
-#: upkook_web/templates/upkook_web/includes/navigation.html:36
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:95
+msgid "Terms"
+msgstr "شرایط و قوانین"
+
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:98
+msgid "Privacy"
+msgstr "حریم خصوصی"
+
+#: upkook_web/templates/upkook_web/includes/mini-footer.html:32
+msgid "Terms of Service"
+msgstr "شرایط و قوانین استفاده"
+
+#: upkook_web/templates/upkook_web/includes/mini-footer.html:36
+msgid "Privacy Policy"
+msgstr "حریم خصوصی"
+
+#: upkook_web/templates/upkook_web/includes/navigation.html:6
+msgid "How It Works"
+msgstr "کاربرد و مزایا"
+
+#: upkook_web/templates/upkook_web/includes/navigation.html:33
+#| msgid "Customer experience"
+msgid "Different Experience"
+msgstr "تجربه متفاوت"
+
+#: upkook_web/templates/upkook_web/includes/navigation.html:40
 msgid "BLOG"
 msgstr "بلاگ"
 
-#: upkook_web/templates/upkook_web/includes/navigation.html:42
+#: upkook_web/templates/upkook_web/includes/navigation.html:48
+msgid "Navigation Sign In"
+msgstr "ورود / "
+
+#: upkook_web/templates/upkook_web/includes/navigation.html:52
+msgid "Sign Up"
+msgstr "ثبت نام"
+
+#: upkook_web/templates/upkook_web/includes/navigation.html:60
 msgid "About Us"
 msgstr "درباره ما"
 
-#: upkook_web/templates/upkook_web/includes/navigation.html:48
+#: upkook_web/templates/upkook_web/includes/navigation.html:66
 msgid "Contact Us"
 msgstr "تماس با ما"
+
+#~ msgid "Sign In"
+#~ msgstr "ورود"
 
 #~ msgid "Upkook"
 #~ msgstr ""
