@@ -14,7 +14,7 @@ from .services import HIWService
 class HIWView(TemplateView):
     http_method_names = ['get']
     template_name = 'hiw/how-it-works.html'
-    last_modification = datetime(2019, 8, 26)
+    last_modification = datetime(2019, 12, 4)
 
     def get_context_data(self, amp=None):
         context = super(HIWView, self).get_context_data(amp=amp)

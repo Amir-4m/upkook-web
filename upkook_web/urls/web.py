@@ -9,15 +9,20 @@ from upkook_web.apps.users.sitemap import UsersSitemap
 from upkook_web.apps.cms.hiw.sitemap import HIWSitemap
 from upkook_web.apps.cms.about.sitemap import AboutSitemap
 from upkook_web.apps.cms.contact.sitemap import ContactSitemap
+from upkook_web.apps.cms.pricing.sitemap import PricingSitemap
+from upkook_web.apps.cms.videos.sitemap import VideosSitemap
 
 from . import urlpatterns
 
 sitemaps = {
     'home': HomeSitemap,
+    'pricing': PricingSitemap,
     'about': AboutSitemap,
     'contact': ContactSitemap,
     'hiw': HIWSitemap,
-    'users': UsersSitemap
+    'users': UsersSitemap,
+    'videos': VideosSitemap,
+
 }
 
 urlpatterns += [
