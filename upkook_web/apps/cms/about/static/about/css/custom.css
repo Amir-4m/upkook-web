@@ -97,6 +97,10 @@
 
 }
 
+#content-wrapper > section.about-section-2 > div > div:nth-child(2) > amp-img {
+  float: left;
+}
+
 .about-section-3 {
   background-color: #EAE6FF;
   color: black;
@@ -143,7 +147,6 @@
   width: 480px;
   height: 384px;
   float: right;
-  margin-top: -80px;
 
 
 }
@@ -207,7 +210,6 @@
   .about-section-2 .md-cl--6-col:nth-of-type(2) img {
     width: 388px;
     height: 310px;
-    margin-top: 120px;
 
 
   }
@@ -240,6 +242,9 @@
     height: 514px;
 
   }
+  #content-wrapper > section.about-section-2 > div > div:nth-child(2) > amp-img {
+  float: none;
+}
 
   .about-section-2 .md-cl--6-col:nth-of-type(2) {
     width: calc(100% - 16px);
