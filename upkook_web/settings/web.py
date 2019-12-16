@@ -14,7 +14,10 @@ INSTALLED_APPS += (
     'upkook_web.apps.cms.videos',
     'upkook_web.apps.cms.pricing',
 )
-
+MIDDLEWARE = (
+    'htmlmin.middleware.HtmlMinifyMiddleware',
+    'htmlmin.middleware.MarkRequestMiddleware',
+)
 API_URL = get_env_var("API_URL")
 
 DASHBOARD_URL = get_env_var('DASHBOARD_URL', 'https://dash.upkook.com')
