@@ -20,22 +20,22 @@
             <p>{% trans 'about us section2 description' %}</p>
         </div>
         <div class="md-cl--6-col md-cl--8-col-tablet">
-            <!--{% if is_amp %}-->
-            <!--<amp-img src="{{ STATIC_URL }}about/images/ti.jpg" layout="intrinsic" width="480" height="384"></amp-img>-->
-            <!--{% else %}-->
-            <!--<img src="{{ STATIC_URL }}about/images/ti.jpg">-->
-            <!--{% endif %}-->
+            {% if is_amp %}
+            <amp-img src="{{ STATIC_URL }}about/images/ceo.jpg" layout="intrinsic" width="480" height="384"></amp-img>
+            {% else %}
+            <img src="{{ STATIC_URL }}about/images/ceo.jpg">
+            {% endif %}
         </div>
     </div>
 </section>
 <section class="about-section-3">
     <div class="md-gr">
         <div class="md-cl--6-col md-cl--8-col-tablet">
-            <!--{% if is_amp %}-->
-            <!--<amp-img src="{{ STATIC_URL }}about/images/ti.jpg" layout="intrinsic" width="480" height="384"></amp-img>-->
-            <!--{% else %}-->
-            <!--<img src="{{ STATIC_URL }}about/images/ti.jpg">-->
-            <!--{% endif %}-->
+            {% if is_amp %}
+            <amp-img src="{{ STATIC_URL }}about/images/grow.png" layout="intrinsic" width="480" height="384"></amp-img>
+            {% else %}
+            <img src="{{ STATIC_URL }}about/images/grow.png">
+            {% endif %}
 
         </div>
         <div class="md-cl--6-col md-cl--8-col-tablet">
