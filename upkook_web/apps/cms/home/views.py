@@ -15,8 +15,8 @@ from upkook_web.apps.cms.carousel.carousel_item import CarouselItem
 from django_contrib.html.link import Link
 
 nps_intro = {
-    "large_img": "",
-    "large_img_alt": "",
+    "large_img": "%shome/images/nps.png" % settings.STATIC_URL,
+    "large_img_alt": _("NPS"),
     "title": _("Product NPS Title"),
     "primary_desc": _("Product NPS Primary Desc"),
     "quote": _("Product NPS Quote"),
@@ -30,14 +30,14 @@ nps_intro = {
         _("Product NPS List Item 5"),
         _("Product NPS List Item 6"),
     ],
-    "box_img": "",
-    "box_img_alt": "",
+    "box_img": "%shome/images/nps-small.png" % settings.STATIC_URL,
+    "box_img_alt": _("NPS"),
     "box_desc": _("Product NPS Box Desc ")
 }
 
 ces_intro = {
-    "large_img": "",
-    "large_img_alt": "",
+    "large_img": "%shome/images/ces.png" % settings.STATIC_URL,
+    "large_img_alt": _("CES"),
     "title": _("Product CES Title"),
     "primary_desc": _("Product CES Primary Desc"),
     "quote": _("Product CES Quote"),
@@ -51,14 +51,14 @@ ces_intro = {
         _("Product CES List Item 5"),
         _("Product CES List Item 6"),
     ],
-    "box_img": "",
-    "box_img_alt": "",
+    "box_img": "%shome/images/ces-small.png" % settings.STATIC_URL,
+    "box_img_alt": _("CES"),
     "box_desc": _("Product CES Box Desc ")
 }
 
 csat_intro = {
-    "large_img": "",
-    "large_img_alt": "",
+    "large_img": "%shome/images/csat.png" % settings.STATIC_URL,
+    "large_img_alt": _("CSAT"),
     "title": _("Product CSAT Title"),
     "primary_desc": _("Product CSAT Primary Desc"),
     "quote": _("Product CSAT Quote"),
@@ -72,8 +72,8 @@ csat_intro = {
         _("Product CSAT List Item 5"),
         _("Product CSAT List Item 6"),
     ],
-    "box_img": "",
-    "box_img_alt": "",
+    "box_img": "%shome/images/csat-small.png" % settings.STATIC_URL,
+    "box_img_alt": _("CSAT"),
     "box_desc": _("Product CSAT Box Desc ")
 }
 
