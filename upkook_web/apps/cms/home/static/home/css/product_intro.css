@@ -138,6 +138,10 @@
 .prd-sec .small-image{
     padding: 10px;
 }
+.small-image img{
+    width: 80px;
+    height: 80px;
+}
 @media screen and (max-width: 5120px) {
 
     .prd-sec .lg-img-desc p {

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-22 14:20+0330\n"
+"POT-Creation-Date: 2019-12-17 10:22+0330\n"
 "PO-Revision-Date: 2018-12-22 15:26+0330\n"
 "Last-Translator: Saeed Salehian <saeed@upkook.com>\n"
 "Language-Team: Upkook <info@upkook.com>\n"
@@ -22,65 +22,63 @@ msgstr ""
 msgid "how it works Benefits of upkook"
 msgstr "با آپ کوک هوای مشتریانت را داشته باش"
 
-#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:17
+#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:18
 msgid "benefits description"
-msgstr "ارائه تجربه مشتری خوب و لذت بخش، یک مزیت رقابتی جدید که شما هم باید داشته باشید"
+msgstr ""
+"ارائه تجربه مشتری خوب و لذت بخش، یک مزیت رقابتی جدید که شما هم باید داشته "
+"باشید"
 
-#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:21
+#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:36
 msgid "Free sign up"
 msgstr "ثبت نام رایگان"
 
-#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:33
+#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:44
 msgid "how it works Why use cx measurement?"
 msgstr "در هر زمان، از هر کانال ارتباطی دلخواه، بازخورد مشتریانت را دریافت کن"
 
-#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:37
+#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:49
 msgid "Why use cx measurement des1"
 msgstr "از فرم های استاندارد برای سنجش تجربه مشتری استفاده کن"
 
-#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:38
+#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:50
 msgid "Why use cx measurement des2"
 msgstr "فرم های نظرسنجی را با مشتریانت به اشتراک بذار"
 
-#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:39
+#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:51
 msgid "Why use cx measurement des3"
 msgstr "نمره وفاداری برندت را محاسبه کن و وفادارانت را بشناس"
 
-#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:40
+#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:52
 msgid "Why use cx measurement des4"
 msgstr "با استفاده از وفادارانت، هزینه های بازاریابی را کم کن"
 
-#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:41
+#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:53
 msgid "Why use cx measurement des5"
 msgstr "تحلیل بازخوردهای مشتریانت را دریافت کن"
 
-#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:53
+#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:70
 msgid "how it works CX Metrics and surveys"
 msgstr "در تمامی مراحل کسب و کارت از آپ کوک کمک بگیر و عملکردت را بهبود ببخش"
 
-#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:57
+#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:75
 msgid "CX Metrics and surveys des1"
 msgstr "می توانی تجربه مشتری را بعد از هر خرید بسنجی"
 
-#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:58
+#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:76
 msgid "CX Metrics and surveys des2"
 msgstr "می توانی میزان رضایت مشتریانت را ارزیابی کنی"
 
-#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:59
+#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:77
 msgid "CX Metrics and surveys des3"
 msgstr "می توانی میزان وفاداری مشتریانت را اندازه گیری کنی"
 
-#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:60
+#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:78
 msgid "CX Metrics and surveys des4"
 msgstr "می توانی میزان راحتی مشتریانت در استفاده از کالا و خدماتت بسنجی"
 
-#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:61
+#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:79
 msgid "CX Metrics and surveys des5"
 msgstr "می توانی عملکرد هر کارمندت را در ارتباط با تجربه مشتری تحلیل کنی"
-
-#: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:70
-msgid "Try Demo"
-msgstr "مشاهده دمو"
 
 #: upkook_web/apps/cms/hiw/views.py:22
 msgid ""
@@ -96,3 +94,6 @@ msgid ""
 msgstr ""
 "فرم استاندار سنجش رضایت مشتری، پرسشنامه رضایت از خرید، نمونه فرم وفاداری "
 "مشتری، پلتفرم آپکوک چگونه به شما کمک می کند؟"
+
+#~ msgid "Try Demo"
+#~ msgstr "مشاهده دمو"

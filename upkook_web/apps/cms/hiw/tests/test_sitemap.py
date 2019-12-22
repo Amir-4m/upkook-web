@@ -25,11 +25,11 @@ class HomeSitemapTestCase(TestCase):
         items = HIWSitemap().items()
         self.assertEqual(len(items), 1)
         self.assertEqual(items[0]['view_name'], 'hiw:index')
-        self.assertEqual(items[0]['lastmod'], datetime(2019, 8, 26))
+        self.assertEqual(items[0]['lastmod'], datetime(2019, 12, 4))
 
     def test_lastmod(self):
         last_mod = HIWSitemap().lastmod(self.item)
-        self.assertEqual(last_mod, datetime(2019, 8, 26))
+        self.assertEqual(last_mod, datetime(2019, 12, 4))
 
     @unittest.skipIf(
         os.environ['DJANGO_SETTINGS_MODULE'] != 'upkook_web.settings.web',

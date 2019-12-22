@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-19 12:25+0330\n"
+"POT-Creation-Date: 2019-12-17 10:22+0330\n"
 "PO-Revision-Date: 2018-12-22 15:26+0330\n"
 "Last-Translator: Saeed Salehian <saeed@upkook.com>\n"
 "Language-Team: Upkook <info@upkook.com>\n"
@@ -128,6 +128,10 @@ msgstr ""
 msgid "UPKOOK Telephone"
 msgstr "+98 21 44372126"
 
+#: upkook_web/apps/cms/home/views.py:19 upkook_web/apps/cms/home/views.py:34
+msgid "NPS"
+msgstr "شاخص وفاداری مشتری"
+
 #: upkook_web/apps/cms/home/views.py:20
 msgid "Product NPS Title"
 msgstr "شاخص وفاداری مشتری (NPS)"
@@ -178,6 +182,10 @@ msgstr ""
 "شما با استفاده از شاخص وفاداری مشتری و سنجش امکان معرفی کسب و کارتان توسط "
 "مشتریان، در واقع میزان وفاداری مشتریانتان را اندازه گیری می کنید"
 
+#: upkook_web/apps/cms/home/views.py:40 upkook_web/apps/cms/home/views.py:55
+msgid "CES"
+msgstr "شاخص تلاش مشتری"
+
 #: upkook_web/apps/cms/home/views.py:41
 msgid "Product CES Title"
 msgstr "شاخص تلاش مشتری (CES)"
@@ -227,6 +235,10 @@ msgid "Product CES Box Desc "
 msgstr ""
 "شاخص تلاش مشتری (CES) معیاری برای سنجش رضایت مشتری است، که میزان آسانی و "
 "راحتی تجربه ای که مشتری با کسب و کار شما داشته را ارزیابی می کند"
+
+#: upkook_web/apps/cms/home/views.py:61 upkook_web/apps/cms/home/views.py:76
+msgid "CSAT"
+msgstr "شاخص رضایت مشتری"
 
 #: upkook_web/apps/cms/home/views.py:62
 msgid "Product CSAT Title"
