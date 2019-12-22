@@ -20,7 +20,7 @@ msgstr ""
 
 #: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:16
 msgid "how it works Benefits of upkook"
-msgstr "با آپ کوک هوای مشتری هات رو داشته باش"
+msgstr "با آپ کوک هوای مشتریانت را داشته باش"
 
 #: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:17
 msgid "benefits description"

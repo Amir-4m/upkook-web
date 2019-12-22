@@ -2,6 +2,15 @@
   width: 100%;
 }
 
+#outer-wrapper .mdl-layout__drawer-button .material-icons {
+  color: #DFE1E6;
+
+}
+
+.amp-hamburger div {
+  background-color: #DFE1E6;
+}
+
 .header {
   background-color: #6554C0;
   color: white;
@@ -111,7 +120,6 @@ header.mdl-layout__header {
   line-height: 3rem;
   list-style: none;
 }
-
 
 
 .hw-s-3 {
@@ -255,7 +263,7 @@ header.mdl-layout__header {
     padding: 0;
   }
 
-  .hw-s-1-img img ,.hw-s-1-mob-img, .hw-s-2-img img,
+  .hw-s-1-img img, .hw-s-1-mob-img, .hw-s-2-img img,
   .hw-s-2-mob-img, .hw-s-3-img img, .hw-s-3-mob-img {
     display: none;
   }
@@ -312,7 +320,7 @@ header.mdl-layout__header {
     padding: 0;
   }
 
-  .hw-s-1-img img ,.hw-s-1-mob-img, .hw-s-2-img img,
+  .hw-s-1-img img, .hw-s-1-mob-img, .hw-s-2-img img,
   .hw-s-2-mob-img, .hw-s-3-img img, .hw-s-3-mob-img {
     display: none;
   }
@@ -363,7 +371,7 @@ header.mdl-layout__header {
     padding: 0;
   }
 
-  .hw-s-1-img img ,.hw-s-1-mob-img, .hw-s-2-img img,
+  .hw-s-1-img img, .hw-s-1-mob-img, .hw-s-2-img img,
   .hw-s-2-mob-img, .hw-s-3-img img, .hw-s-3-mob-img {
     display: none;
   }
@@ -424,7 +432,7 @@ header.mdl-layout__header {
     padding: 0;
   }
 
- .hw-s-1-img img ,.hw-s-1-mob-img, .hw-s-2-img img,
+  .hw-s-1-img img, .hw-s-1-mob-img, .hw-s-2-img img,
   .hw-s-2-mob-img, .hw-s-3-img img, .hw-s-3-mob-img {
     display: none;
   }
@@ -475,7 +483,7 @@ header.mdl-layout__header {
     padding: 0;
   }
 
-  .hw-s-1-img img ,.hw-s-1-mob-img, .hw-s-2-img img,
+  .hw-s-1-img img, .hw-s-1-mob-img, .hw-s-2-img img,
   .hw-s-2-mob-img, .hw-s-3-img img, .hw-s-3-mob-img {
     display: none;
   }
@@ -525,7 +533,7 @@ header.mdl-layout__header {
     padding: 0;
   }
 
-  .hw-s-1-img img ,.hw-s-1-mob-img, .hw-s-2-img img,
+  .hw-s-1-img img, .hw-s-1-mob-img, .hw-s-2-img img,
   .hw-s-2-mob-img, .hw-s-3-img img, .hw-s-3-mob-img {
     display: none;
   }
@@ -661,7 +669,7 @@ header.mdl-layout__header {
     padding: 0;
   }
 
-  .hw-s-1-img img ,.hw-s-1-mob-img, .hw-s-2-img img,
+  .hw-s-1-img img, .hw-s-1-mob-img, .hw-s-2-img img,
   .hw-s-2-mob-img, .hw-s-3-img img, .hw-s-3-mob-img {
     display: none;
   }
@@ -672,7 +680,8 @@ header.mdl-layout__header {
   .mini-footer-right-sec {
     display: block;
   }
-  .hw-s-1 a.button-cta{
+
+  .hw-s-1 a.button-cta {
     margin-top: 50px;
   }
 
@@ -728,6 +737,7 @@ header.mdl-layout__header {
     line-height: 2rem;
 
   }
+
   #content-wrapper > section.hw-right-sec > div.hw-s-1 >
   div > div:nth-child(1) {
     margin: auto;

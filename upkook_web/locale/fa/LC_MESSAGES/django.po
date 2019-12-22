@@ -139,7 +139,7 @@ msgstr "بلاگ"
 
 #: upkook_web/templates/upkook_web/includes/navigation.html:48
 msgid "Navigation Sign In"
-msgstr "ورود / "
+msgstr "حساب کاربری "
 
 #: upkook_web/templates/upkook_web/includes/navigation.html:52
 msgid "Sign Up"
