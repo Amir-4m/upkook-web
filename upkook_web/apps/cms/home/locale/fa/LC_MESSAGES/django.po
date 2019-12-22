@@ -290,7 +290,7 @@ msgstr "افزایش میزان وفاداری مشتری از طریق افزا
 msgid "Product CSAT Box Desc "
 msgstr ""
 "با یکی از ساده ترین روش ها می توانید به طور مرتب و در یک قالب استاندارد، "
-"میزان رضایت مشتریان خود را ارزیابی کنی"
+"میزان رضایت مشتریان خود را ارزیابی کنید"
 
 #: upkook_web/apps/cms/home/views.py:113
 msgid "Make your custom survey."

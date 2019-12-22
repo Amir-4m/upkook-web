@@ -169,11 +169,13 @@
   };
 
   SignupForm.prototype.track = function (jqXHR) {
-    dataLayer.push({
-      event: 'signUp',
-      signUpAction: this.step === 1 ? 'create-user' : 'create-business',
-      signUpStatus: jqXHR.status,
-    });
+    if (window.dataLayer !== undefined) {
+      dataLayer.push({
+        event: 'signUp',
+        signUpAction: this.step === 1 ? 'create-user' : 'create-business',
+        signUpStatus: jqXHR.status,
+      });
+    }
   };
 
   SignupForm.prototype.fail = function (jqXHR) {
@@ -200,8 +202,7 @@
 
     if (this.step === 1) {
       data['recaptcha_token'] = recaptchaToken;
-    }
-    else {
+    } else {
       headers = {Authorization: 'Bearer ' + token.access};
     }
 
@@ -228,8 +229,7 @@
       this.form.find("button").attr("disabled", "disabled");
       if (this.step === 1) {
         grecaptcha.execute();
-      }
-      else {
+      } else {
         this.ajax();
       }
     }
