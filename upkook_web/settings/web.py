@@ -32,11 +32,11 @@ AUTH_USER_TRACK_ID_COOKIE_NAME = get_env_var('AUTH_USER_TRACK_ID_COOKIE_NAME', '
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
 # Subject-line prefix for email messages sent.
-EMAIL_SUBJECT_PREFIX = _('[Upkook] ')
+EMAIL_SUBJECT_PREFIX = '[Blog] '
 
 DEFAULT_FROM_EMAIL = 'Upkook <noreply@upkook.com>'
 
-SERVER_EMAIL = 'noreply@upkook.com'
+SERVER_EMAIL = 'server@upkook.com'
 
 # The host to use for sending email.
 EMAIL_HOST = get_env_var('EMAIL_HOST', 'smtp.mailgun.org')
