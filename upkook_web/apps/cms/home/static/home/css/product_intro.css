@@ -119,6 +119,7 @@
 }
 
 .prd-sec .desc-box {
+    text-align: justify;
     padding: 40px;
     min-height: auto;
     border: 2px solid #E1E6EF;
