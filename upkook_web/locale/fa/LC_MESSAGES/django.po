@@ -23,7 +23,7 @@ msgstr ""
 #: upkook_web/apps/cms/carousel/templates/carousel/carousel.html:14
 #: upkook_web/apps/cms/carousel/templates/carousel/carousel.html:43
 msgid "Try Demo"
-msgstr "دمو"
+msgstr "مشاهده دمو"
 
 #: upkook_web/settings/static.py:10 upkook_web/settings/web_base.py:11
 msgid "English"

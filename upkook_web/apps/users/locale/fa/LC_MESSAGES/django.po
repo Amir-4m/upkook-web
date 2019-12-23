@@ -24,7 +24,7 @@ msgstr "مشتریان"
 
 #: upkook_web/apps/users/templates/users/forgot-password.html:8
 msgid "Recover Password"
-msgstr "بازگردانی رمز عبور"
+msgstr "بازیابی رمز عبور"
 
 #: upkook_web/apps/users/templates/users/forgot-password.html:11
 #: upkook_web/apps/users/templates/users/sign-up-step1.html:7
@@ -44,16 +44,16 @@ msgstr "ثبت نام در آپ کوک"
 
 #: upkook_web/apps/users/templates/users/forgot-password.html:33
 msgid "Recover password"
-msgstr "بازگردانی رمز عبور"
+msgstr "بازیابی رمز عبور"
 
 #: upkook_web/apps/users/templates/users/forgot-password.html:37
 msgid "Reset password link has been sent to your email !"
-msgstr "لینک بازگردانی رمز عبور، به ایمیل شما ارسال شد !"
+msgstr "لینک بازیابی رمز عبور، به ایمیل شما ارسال شد !"
 
 #: upkook_web/apps/users/templates/users/forgot-password.html:57
 #: upkook_web/apps/users/templates/users/reset-password.html:53
 msgid "Back to homepage"
-msgstr "بازگشت به صفحه نخست"
+msgstr "بازگشت به صفحه اصلی"
 
 #: upkook_web/apps/users/templates/users/forgot-password.html:64
 #: upkook_web/apps/users/templates/users/sign-in.html:5
@@ -261,7 +261,7 @@ msgstr ""
 
 #: upkook_web/apps/users/views.py:92
 msgid "Forgot Password - UPKOOK"
-msgstr "بازگردانی رمز عبور - آپ کوک"
+msgstr "بازیابی رمز عبور - آپ کوک"
 
 #: upkook_web/apps/users/views.py:108
 msgid "Reset Password - UPKOOK"

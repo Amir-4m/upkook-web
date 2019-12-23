@@ -247,8 +247,7 @@ msgstr "شاخص رضایت مشتری (CSAT)"
 #: upkook_web/apps/cms/home/views.py:63
 msgid "Product CSAT Primary Desc"
 msgstr ""
-"ایجاد یک حس خوب در مشتری برابر است با احساس رضایت مشتری <br>اگر می خواهید "
-"همیشه مشتریانتان در کنار شما باشند باید حس خوبی در مشتریانتان ایجاد کنید."
+"ایجاد یک حس خوب در مشتری برابر است با احساس رضایت مشتری."
 
 #: upkook_web/apps/cms/home/views.py:64
 msgid "Product CSAT Quote"
