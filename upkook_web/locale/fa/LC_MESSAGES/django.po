@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-17 10:22+0330\n"
+"POT-Creation-Date: 2019-12-23 17:39+0330\n"
 "PO-Revision-Date: 2018-12-17 10:22+0330\n"
 "Last-Translator: Saeed Salehian <saeed@upkook.com>\n"
 "Language-Team: Upkook <info@upkook.com>\n"
@@ -136,21 +136,20 @@ msgstr "تجربه متفاوت"
 msgid "BLOG"
 msgstr "بلاگ"
 
-#: upkook_web/templates/upkook_web/includes/navigation.html:48
+#: upkook_web/templates/upkook_web/includes/navigation.html:47
 msgid "Navigation Sign In"
 msgstr "حساب کاربری "
 
-#: upkook_web/templates/upkook_web/includes/navigation.html:52
-msgid "Sign Up"
-msgstr "ثبت نام"
-
-#: upkook_web/templates/upkook_web/includes/navigation.html:60
+#: upkook_web/templates/upkook_web/includes/navigation.html:54
 msgid "About Us"
 msgstr "درباره ما"
 
-#: upkook_web/templates/upkook_web/includes/navigation.html:66
+#: upkook_web/templates/upkook_web/includes/navigation.html:60
 msgid "Contact Us"
 msgstr "تماس با ما"
+
+#~ msgid "Sign Up"
+#~ msgstr "ثبت نام"
 
 #~ msgid "Sign In"
 #~ msgstr "ورود"

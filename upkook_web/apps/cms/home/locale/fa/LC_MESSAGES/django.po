@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-17 10:22+0330\n"
+"POT-Creation-Date: 2019-12-23 17:39+0330\n"
 "PO-Revision-Date: 2018-12-22 15:26+0330\n"
 "Last-Translator: Saeed Salehian <saeed@upkook.com>\n"
 "Language-Team: Upkook <info@upkook.com>\n"
@@ -246,8 +246,7 @@ msgstr "شاخص رضایت مشتری (CSAT)"
 
 #: upkook_web/apps/cms/home/views.py:63
 msgid "Product CSAT Primary Desc"
-msgstr ""
-"ایجاد یک حس خوب در مشتری برابر است با احساس رضایت مشتری."
+msgstr "ایجاد یک حس خوب در مشتری برابر است با احساس رضایت مشتری."
 
 #: upkook_web/apps/cms/home/views.py:64
 msgid "Product CSAT Quote"
@@ -279,11 +278,11 @@ msgstr "بهبود تجربه مشتری از طریق افزایش سطح رض�
 
 #: upkook_web/apps/cms/home/views.py:72
 msgid "Product CSAT List Item 5"
-msgstr "تبدیل بازخوردهای منفی مشتریان به محرک رشد کسب و کار"
+msgstr "افزایش میزان وفاداری مشتری از طریق افزایش میزان رضایت مشتری"
 
 #: upkook_web/apps/cms/home/views.py:73
 msgid "Product CSAT List Item 6"
-msgstr "افزایش میزان وفاداری مشتری از طریق افزایش میزان رضایت مشتری"
+msgstr "افزایش میزان درآمد از طریق افزایش میزان وفاداری مشتری"
 
 #: upkook_web/apps/cms/home/views.py:77
 msgid "Product CSAT Box Desc "
