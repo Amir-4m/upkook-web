@@ -32,7 +32,7 @@ AUTH_USER_TRACK_ID_COOKIE_NAME = get_env_var('AUTH_USER_TRACK_ID_COOKIE_NAME', '
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
 # Subject-line prefix for email messages sent.
-EMAIL_SUBJECT_PREFIX = '[Blog] '
+EMAIL_SUBJECT_PREFIX = '[UPKOOK] '
 
 DEFAULT_FROM_EMAIL = 'Upkook <noreply@upkook.com>'
 
