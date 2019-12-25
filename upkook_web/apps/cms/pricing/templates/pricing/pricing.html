@@ -17,14 +17,52 @@
   <div class="pricing-table">
     <div class="pricing-table-headline"></div>
     <div class="md-gr">
-      <div class="md-cl--4-col md-cl--4-col-tablet md-cl--4-col-phone">
+      <div class="consult-col md-cl--4-col md-cl--4-col-phone">
+        <div class="product-plan">
+          <h2 class="product-type">{% trans "Base" %}</h2>
+          <h4 class="product-price">
+            {% trans "free price" %}
+          </h4>
+          <br>
+          <br>
+          <br>
+
+
+          <p class="product-price-description">
+            {% trans "free price description" %}
+          </p>
+          <div class="product-features">
+            <span role="button">{% trans "top features" %}</span>
+            <ul>
+              <li>
+                <span>{% trans "free feature1" %}</span>
+              </li>
+              <li>
+                <span>{% trans "free feature2" %}</span>
+              </li>
+              <li>
+                <span>{% trans "free feature3" %}</span>
+              </li>
+              <li>
+                <span>{% trans "free feature4" %}</span>
+              </li>
+            </ul>
+          </div>
+          <div class="plan-upgrade">
+            <a href="{% url 'users:sign-up' %}" class="button-cta button-action-primary">
+              {% trans 'Free Sign Up' %}
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="middle-pricing-column md-cl--4-col md-cl--4-col-tablet md-cl--4-col-phone">
         <div class="product-plan">
           <h2 class="product-type">{% trans "Standard" %}</h2>
-          <p class="product-type-description">{% trans "standard description" %}</p>
           <h4 class="product-price">
             {% trans "standard price" %}
           </h4>
-           <span class="md-chip price-off-text">
+          <span class="md-chip price-off-text">
          <span class="md-chip_text">{% trans "standard off" %}</span>
           </span>
           <br>
@@ -61,10 +99,9 @@
 
       </div>
 
-      <div class="middle-pricing-column md-cl--4-col md-cl--4-col-tablet md-cl--4-col-phone">
+      <div class="md-cl--4-col md-cl--4-col-tablet md-cl--4-col-phone">
         <div class="product-plan">
           <h2 class="product-type">{% trans "professional" %}</h2>
-          <p class="product-type-description">{% trans "pro description" %}</p>
 
           <h4 class="product-price">
             {% trans "pro price" %}
@@ -103,48 +140,10 @@
           </div>
         </div>
       </div>
-
-      <div class="consult-col md-cl--4-col md-cl--4-col-phone">
-        <div class="product-plan">
-          <h2 class="product-type">{% trans "workshop" %}</h2>
-          <p class="product-type-description">{% trans "workshop description" %}</p>
-          <h4 class="product-price">{% trans "workshop price" %}</h4>
-           <span class="md-chip price-off-text">
-         <span class="md-chip_text">{% trans "workshop off" %}</span>
-          </span>
-          <br>
-          <h4 class="product-price-off">{% trans "workshop price off" %}</h4>
-          <p class="product-price-description">
-            {% trans "workshop price description" %}
-          </p>
-          <div class="product-features">
-            <span role="button">{% trans "top features" %}</span>
-            <ul>
-              <li>
-                <span>{% trans "workshop feature1" %}</span>
-              </li>
-              <li>
-                <span>{% trans "workshop feature2" %}</span>
-              </li>
-              <li>
-                <span>{% trans "workshop feature3" %}</span>
-              </li>
-              <li>
-                <span>{% trans "workshop feature4" %}</span>
-              </li>
-            </ul>
-          </div>
-          <div class="plan-upgrade">
-            <a href="{{nik_url}}" target="_blank" class="button-cta button-action-primary">
-              {% trans "Upgrade now" %}
-            </a>
-          </div>
-        </div>
-      </div>
     </div>
     <div class="nik-desc">
       {% if is_amp %}
-      <amp-img src="{{ STATIC_URL }}pricing/images/niklogo.png" width="130" height="41" layout="intrinsic" ></amp-img>
+      <amp-img src="{{ STATIC_URL }}pricing/images/niklogo.png" width="130" height="41" layout="intrinsic"></amp-img>
       {% else %}
       <img src="{{ STATIC_URL }}pricing/images/niklogo.png"/>
       {% endif %}
@@ -165,6 +164,9 @@
 
       <div class="product-all-features" id="product-all-features" hidden>
         <div class="md-gr product-features-header">
+          <div class="consult-col md-cl--4-col md-cl--4-col-phone">
+            <h3>{% trans "Free" %}</h3>
+          </div>
           <div class="md-cl--4-col md-cl--4-col-tablet md-cl--4-col-phone">
             <h3>{% trans "Standard" %}</h3>
 
@@ -173,14 +175,41 @@
             <h3>{% trans "professional" %}</h3>
 
           </div>
-          <div class="consult-col md-cl--4-col md-cl--4-col-phone">
-            <h3>{% trans "workshop" %}</h3>
-
-          </div>
         </div>
         <div class="md-gr product-features-table">
-          <div class="md-cl--4-col md-cl--4-col-tablet md-cl--4-col-phone">
+          <div class="consult-col md-cl--4-col md-cl--4-col-phone">
             <div class="features-list-right">
+              <h3>{% trans "Free" %}</h3>
+              <div class="features-list">
+
+                <div class="plan-features-group">
+                  <ul>
+                    <li>{% trans "free all feature 1" %}</li>
+                    <li>{% trans "free all feature 2" %}</li>
+                    <li>{% trans "free all feature 3" %}</li>
+                    <li>{% trans "free all feature 4" %}</li>
+                    <li class="cross">&#10060;</li>
+                    <li>{% trans "free all feature 6" %}</li>
+                    <li class="cross">&#10060;</li>
+                    <li>{% trans "free all feature 5" %}</li>
+                    <li class="cross">&#10060;</li>
+                    <li class="cross">&#10060;</li>
+                    <li class="cross">&#10060;</li>
+                    <li class="cross">&#10060;</li>
+                    <li class="cross">&#10060;</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-upgrade">
+                <a href="{% url 'users:sign-up' %}" class="button-cta button-action-primary">
+                  {% trans 'Free Sign Up' %}
+                </a>
+              </div>
+            </div>
+
+          </div>
+          <div class="md-cl--4-col md-cl--4-col-tablet md-cl--4-col-phone">
+            <div class="features-list-middle">
               <h3>{% trans "Standard" %}</h3>
               <div class="features-list">
                 <div class="plan-features-group">
@@ -208,10 +237,9 @@
                 </a>
               </div>
             </div>
-
           </div>
           <div class="md-cl--4-col md-cl--4-col-tablet md-cl--4-col-phone">
-            <div class="features-list-middle">
+            <div class="features-list-left">
               <h3>{% trans "professional" %}</h3>
               <div class="features-list">
                 <div class="plan-features-group">
@@ -238,41 +266,11 @@
                 </a>
               </div>
             </div>
-
-          </div>
-          <div class="consult-col md-cl--4-col md-cl--4-col-phone">
-            <div class="features-list-left">
-              <h3>{% trans "workshop" %}</h3>
-              <div class="features-list">
-
-                <div class="plan-features-group">
-                  <ul>
-                    <li>{% trans "workshop all feature 1" %}</li>
-                    <li>{% trans "workshop all feature 2" %}</li>
-                    <li>{% trans "workshop all feature 3" %}</li>
-                    <li>{% trans "workshop all feature 4" %}</li>
-                    <li>{% trans "workshop all feature 5" %}</li>
-                    <li>{% trans "workshop all feature 6" %}</li>
-                    <li>{% trans "workshop all feature 7" %}</li>
-                    <li>{% trans "workshop all feature 8" %}</li>
-                    <li>{% trans "workshop all feature 9" %}</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="plan-upgrade">
-                <a href="{{nik_url}}" target="_blank" class="button-cta button-action-primary">
-                  {% trans "Upgrade now" %}
-                </a>
-              </div>
-            </div>
-
           </div>
         </div>
-
       </div>
     </div>
   </div>
-
 </div>
 
 {% endblock %}
