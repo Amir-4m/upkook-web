@@ -79,19 +79,19 @@
             <li>{% trans 'CX Metrics and surveys des5' %}</li>
           </ul>
         </div>
-          <div class="hw-s-3-img">
-            {% if is_amp %}
-            <amp-img class="hw-s-3-mob-img" src="{{ STATIC_URL }}/hiw/images/hiw-sec3.png" width="510"
-                     height="387"
-                     layout="intrinsic"></amp-img>
-            {% else %}
-            <img data-lazy="{{ STATIC_URL }}/hiw/images/hiw-sec3.png">
-            {% endif %}
-          </div>
-
+        <div class="hw-s-3-img">
+          {% if is_amp %}
+          <amp-img class="hw-s-3-mob-img" src="{{ STATIC_URL }}/hiw/images/hiw-sec3.png" width="510"
+                   height="387"
+                   layout="intrinsic"></amp-img>
+          {% else %}
+          <img data-lazy="{{ STATIC_URL }}/hiw/images/hiw-sec3.png">
+          {% endif %}
         </div>
+
       </div>
     </div>
+  </div>
 </section>
 {% if not is_amp %}
 <section class="hw-left-sec">
@@ -109,6 +109,15 @@
 {{ block.super }}
 <link rel="stylesheet" href="{{ STATIC_URL }}hiw/css/styles.css">
 {% endblock %}
+
+
+{% block external_js %}
+{{block.super}}
+{% if not is_amp %}
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+{% endif %}
+{% endblock %}
+
 
 {% block javascripts %}
 {{ block.super }}
