@@ -13,6 +13,7 @@ INSTALLED_APPS += (
     'upkook_web.apps.cms.contact',
     'upkook_web.apps.cms.videos',
     'upkook_web.apps.cms.pricing',
+    'upkook_web.apps.cms.features',
 )
 MIDDLEWARE = (
     'htmlmin.middleware.HtmlMinifyMiddleware',

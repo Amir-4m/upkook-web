@@ -6,6 +6,6 @@ from .views import AboutView
 app_name = 'about'
 
 urlpatterns = [
-    path('about-us/', AboutView.as_view(), name='index'),
-    path('about-us/<amp:amp>/', AboutView.as_view(), name='index-amp'),
+    path('', AboutView.as_view(), name='index'),
+    path('<amp:amp>/', AboutView.as_view(), name='index-amp'),
 ]

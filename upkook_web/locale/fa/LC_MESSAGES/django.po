@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-23 17:39+0330\n"
+"POT-Creation-Date: 2019-12-28 17:12+0330\n"
 "PO-Revision-Date: 2018-12-17 10:22+0330\n"
 "Last-Translator: Saeed Salehian <saeed@upkook.com>\n"
 "Language-Team: Upkook <info@upkook.com>\n"
@@ -86,33 +86,33 @@ msgstr "دمو"
 msgid "How it works"
 msgstr "کاربرد و مزایا"
 
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:72
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:73
 #: upkook_web/templates/upkook_web/includes/navigation.html:20
 msgid "Features"
 msgstr "امکانات"
 
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:76
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:78
 #: upkook_web/templates/upkook_web/includes/navigation.html:13
 msgid "Pricing"
 msgstr "قیمت ها"
 
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:86
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:88
 msgid "Client Area"
 msgstr "ناحیه کاربری"
 
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:89
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:91
 msgid "Login"
 msgstr "ورود"
 
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:92
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:94
 msgid "Sign up"
 msgstr "ثبت نام"
 
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:95
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:97
 msgid "Terms"
 msgstr "شرایط و قوانین"
 
-#: upkook_web/templates/upkook_web/includes/mega-footer.html:98
+#: upkook_web/templates/upkook_web/includes/mega-footer.html:100
 msgid "Privacy"
 msgstr "حریم خصوصی"
 

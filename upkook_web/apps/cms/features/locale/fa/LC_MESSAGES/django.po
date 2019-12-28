@@ -1,0 +1,179 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-28 17:12+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: upkook_web/apps/cms/features/templates/features/includes/all-features.html:4
+msgid "features"
+msgstr "ویژگی ها"
+
+#: upkook_web/apps/cms/features/templates/features/includes/all-features.html:7
+msgid "features all-features col1 title"
+msgstr "فرم های نظرسنجی "
+
+#: upkook_web/apps/cms/features/templates/features/includes/all-features.html:8
+msgid "features all-features col1 desc"
+msgstr ""
+"با استفاده از فرم های استاندارد و از پیش آماده از نظر مشتریانتان باخبر شوید"
+
+#: upkook_web/apps/cms/features/templates/features/includes/all-features.html:16
+msgid "features all-features col2 title"
+msgstr "تحلیل بازخوردهای مشتری"
+
+#: upkook_web/apps/cms/features/templates/features/includes/all-features.html:17
+msgid "features all-features col2 desc"
+msgstr "گزارش تحلیلی از بازخورد مشتریانتان دریافت کنید"
+
+#: upkook_web/apps/cms/features/templates/features/includes/banner.html:14
+msgid "features banner title"
+msgstr "هوشمندانه و بر اساس تحلیل دقیق داده ها حرکت کنید."
+
+#: upkook_web/apps/cms/features/templates/features/includes/banner.html:17
+msgid "features banner desc"
+msgstr ""
+"با استفاده از فرم های استاندارد، بازخوردهای مشتریانتان را جمع آوری کنید و "
+"گزارش تحلیلی دریافت کنید."
+
+#: upkook_web/apps/cms/features/templates/features/includes/promo.html:5
+#| msgid "UPKOOK Values"
+msgid "UPKOOK features"
+msgstr "ویژگی های آپ کوک"
+
+#: upkook_web/apps/cms/features/templates/features/includes/promo.html:21
+msgid "features promo item1 title"
+msgstr "نظرسنجی"
+
+#: upkook_web/apps/cms/features/templates/features/includes/promo.html:22
+msgid "features promo item1 desc"
+msgstr "استاندارد و آماده"
+
+#: upkook_web/apps/cms/features/templates/features/includes/promo.html:34
+msgid "features promo item2 title"
+msgstr "سازگار با موبایل"
+
+#: upkook_web/apps/cms/features/templates/features/includes/promo.html:35
+msgid "features promo item2 desc"
+msgstr "ساده و کارآمد"
+
+#: upkook_web/apps/cms/features/templates/features/includes/promo.html:51
+msgid "features promo item3 title"
+msgstr "تحلیل"
+
+#: upkook_web/apps/cms/features/templates/features/includes/promo.html:52
+msgid "features promo item3 desc"
+msgstr "سریع و دقیق"
+
+#: upkook_web/apps/cms/features/templates/features/includes/promo.html:64
+msgid "features promo item4 title"
+msgstr "احراز هویت"
+
+#: upkook_web/apps/cms/features/templates/features/includes/promo.html:65
+msgid "features promo item4 desc"
+msgstr "مطمئن و هوشمند"
+
+#: upkook_web/apps/cms/features/templates/features/includes/promo.html:80
+msgid "features promo box title"
+msgstr "آپ کوک، دستیار هوشمند کسب و کار"
+
+#: upkook_web/apps/cms/features/templates/features/includes/values.html:4
+msgid "UPKOOK Values"
+msgstr "ارزش های آپ کوک"
+
+#: upkook_web/apps/cms/features/templates/features/includes/values.html:15
+msgid "features values item1 title"
+msgstr "هوشمندانه فکر کنید"
+
+#: upkook_web/apps/cms/features/templates/features/includes/values.html:27
+msgid "features values item2 title"
+msgstr "به درک عمیقی برسید"
+
+#: upkook_web/apps/cms/features/templates/features/includes/values.html:39
+msgid "features values item3 title"
+msgstr "خلاقانه حرکت کنید"
+
+#: upkook_web/apps/cms/features/templates/features/includes/values.html:51
+msgid "features values item4 title"
+msgstr "سریع به نتیجه برسید"
+
+#: upkook_web/apps/cms/features/views.py:11
+msgid "features all-features col1 item1"
+msgstr "استفاده از فرم های آماده"
+
+#: upkook_web/apps/cms/features/views.py:12
+msgid "features all-features col1 item2"
+msgstr "فرم های سازگار با موبایل و تبلت"
+
+#: upkook_web/apps/cms/features/views.py:13
+msgid "features all-features col1 item3"
+msgstr "امکان ایجاد تغییر و شخصی سازی فرم ها"
+
+#: upkook_web/apps/cms/features/views.py:14
+msgid "features all-features col1 item4"
+msgstr "امکان ایجاد چندین فرم فعال به صورت همزمان"
+
+#: upkook_web/apps/cms/features/views.py:15
+msgid "features all-features col1 item5"
+msgstr "امکان مشاهده پیش نمایش فرم ها"
+
+#: upkook_web/apps/cms/features/views.py:16
+msgid "features all-features col1 item6"
+msgstr "تعداد نامحدود پاسخ"
+
+#: upkook_web/apps/cms/features/views.py:17
+msgid "features all-features col1 item7"
+msgstr "امکان استفاده از لوگو و برند در نظرسنجی ها"
+
+#: upkook_web/apps/cms/features/views.py:18
+msgid "features all-features col1 item8"
+msgstr "انجام نظرسنجی های رضایت مشتری بر اساس استاندارد CSAT و CES"
+
+#: upkook_web/apps/cms/features/views.py:19
+msgid "features all-features col1 item9"
+msgstr "محاسبه نمره وفاداری برند بر اساس استاندارد NPS"
+
+#: upkook_web/apps/cms/features/views.py:23
+msgid "features all-features col2 item1"
+msgstr "گزارش نتایج نظرسنجی"
+
+#: upkook_web/apps/cms/features/views.py:24
+msgid "features all-features col2 item2"
+msgstr "تقسیم بندی مشتریان بر اساس نتایج بازخوردها"
+
+#: upkook_web/apps/cms/features/views.py:25
+msgid "features all-features col2 item3"
+msgstr "گزارش تحلیلی تجربه هر مشتری"
+
+#: upkook_web/apps/cms/features/views.py:26
+msgid "features all-features col2 item4"
+msgstr "احراز هویت پاسخ دهندگان"
+
+#: upkook_web/apps/cms/features/views.py:27
+msgid "features all-features col2 item5"
+msgstr "گزارش پاسخ دهندگان"
+
+#: upkook_web/apps/cms/features/views.py:28
+msgid "features all-features col2 item6"
+msgstr "جلوگیری از ثبت چندباره پاسخ"
+
+#: upkook_web/apps/cms/features/views.py:40
+msgid "Features | Upkook Startup"
+msgstr "ویژگی سرویس های آپ کوک"
+
+#: upkook_web/apps/cms/features/views.py:41
+msgid "Features Page Description"
+msgstr "با سنجش تجربه مشتری یک قدم از رقبایتان جلوتر باشید"

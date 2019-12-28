@@ -1,0 +1,55 @@
+{% load staticfiles i18n %}
+
+<div class="values">
+  <h6>{% trans "UPKOOK Values" %}</h6>
+  <div class="md-gr values-box">
+    <div class="md-cl md-cl--3-col md-cl--3-col-tablet md-cl--4-col-phone values-item right-value-item">
+      {% if is_amp %}
+      <div class="values-img-amp">
+      <amp-img src="{{ STATIC_URL }}features/images/brain.png" layout="intrinsic" width="500"
+               height="100"></amp-img>
+      </div>
+      {% else %}
+      <img data-lazy="{{ STATIC_URL }}features/images/brain.png">
+      {% endif %}
+      <h4>{% trans "features values item1 title" %}</h4>
+    </div>
+
+    <div class="md-cl md-cl--3-col md-cl--3-col-tablet md-cl--4-col-phone values-item left-value-item">
+      {% if is_amp %}
+      <div class="values-img-amp">
+        <amp-img src="{{ STATIC_URL }}features/images/understanding.png" layout="intrinsic" width="500"
+                 height="100"></amp-img>
+      </div>
+      {% else %}
+      <img data-lazy="{{ STATIC_URL }}features/images/understanding.png">
+      {% endif %}
+      <h4>{% trans "features values item2 title" %}</h4>
+    </div>
+
+    <div class="md-cl md-cl--3-col md-cl--3-col-tablet md-cl--4-col-phone values-item right-value-item">
+      {% if is_amp %}
+      <div class="values-img-amp">
+      <amp-img src="{{ STATIC_URL }}features/images/creative.png" layout="intrinsic" width="500"
+               height="100"></amp-img>
+      </div>
+      {% else %}
+      <img data-lazy="{{ STATIC_URL }}features/images/creative.png">
+      {% endif %}
+      <h4>{% trans "features values item3 title" %}</h4>
+    </div>
+
+    <div class="md-cl md-cl--3-col md-cl--3-col-tablet md-cl--4-col-phone values-item left-value-item">
+      {% if is_amp %}
+      <div class="values-img-amp">
+      <amp-img src="{{ STATIC_URL }}features/images/bullseye.png" layout="intrinsic" width="500"
+               height="100"></amp-img>
+      </div>
+      {% else %}
+      <img data-lazy="{{ STATIC_URL }}features/images/bullseye.png">
+      {% endif %}
+      <h4>{% trans "features values item4 title" %}</h4>
+    </div>
+
+  </div>
+</div>

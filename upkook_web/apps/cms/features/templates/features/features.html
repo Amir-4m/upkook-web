@@ -1,0 +1,15 @@
+{% extends "upkook_web/upkook.html" %}
+{% load staticfiles %}
+{% block css %}
+{{ block.super }}
+<link rel="stylesheet" href="{{ STATIC_URL }}features/css/features.css" />
+{% endblock %}
+
+{% block content %}
+<div class="features-wrap">
+  {% include "features/includes/banner.html" %}
+  {% include "features/includes/promo.html" %}
+  {% include "features/includes/values.html" %}
+  {% include "features/includes/all-features.html" %}
+</div>
+{% endblock %}

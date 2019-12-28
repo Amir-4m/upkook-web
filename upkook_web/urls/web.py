@@ -33,12 +33,13 @@ urlpatterns += [
         name='django.contrib.sitemaps.views.sitemap'
     ),
     path('videos/', include('upkook_web.apps.cms.videos.urls', 'videos')),
+    path('how-it-works/', include('upkook_web.apps.cms.hiw.urls', 'hiw')),
+    path('about-us/', include('upkook_web.apps.cms.about.urls', 'about')),
+    path('contact-us/', include('upkook_web.apps.cms.contact.urls', 'contact')),
+    path('pricing/', include('upkook_web.apps.cms.pricing.urls', 'pricing')),  #
+    path('features/', include('upkook_web.apps.cms.features.urls', 'features')),
     path('', include('upkook_web.apps.cms.home.urls', 'home')),
     path('', include('django_contrib.sites.urls.web', 'sites')),
     path('', include('upkook_web.apps.users.urls', 'users')),
-    path('', include('upkook_web.apps.cms.hiw.urls', 'hiw')),
-    path('', include('upkook_web.apps.cms.about.urls', 'about')),
-    path('', include('upkook_web.apps.cms.contact.urls', 'contact')),
-    path('', include('upkook_web.apps.cms.pricing.urls', 'pricing')),
 
 ]

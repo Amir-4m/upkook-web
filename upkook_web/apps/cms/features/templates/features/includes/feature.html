@@ -1,0 +1,10 @@
+{% load staticfiles %}
+<li>
+  {% if is_amp %}
+  <amp-img src="{% static 'home/images/green-check.svg' %}" layout="responsive" width="20"
+           height="20"></amp-img>
+  {% else %}
+  <img data-lazy="{% static 'home/images/green-check.svg' %}"/>
+  {% endif %}
+  <p class="{% if is_amp %}all-features-item-amp{% endif %}">{{feature}}</p>
+</li>

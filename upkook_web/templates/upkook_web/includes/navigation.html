@@ -16,7 +16,7 @@
 
   <li itemprop="name">
     <a class="mdl-navigation__link" itemprop="url"
-       href="#">
+       href="{% if is_amp %}{% url 'features:index-amp' amp %}{% else %}{% url 'features:index' %}{% endif %}">
       {% trans "Features" %}
     </a>
   </li>

@@ -6,6 +6,6 @@ from .views import HIWView
 app_name = 'hiw'
 
 urlpatterns = [
-    path('how-it-works/', HIWView.as_view(), name='index'),
-    path('how-it-works/<amp:amp>/', HIWView.as_view(), name='index-amp'),
+    path('', HIWView.as_view(), name='index'),
+    path('<amp:amp>/', HIWView.as_view(), name='index-amp'),
 ]

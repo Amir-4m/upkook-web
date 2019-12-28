@@ -6,6 +6,6 @@ from .views import PricingView
 app_name = 'pricing'
 
 urlpatterns = [
-    path('pricing/', PricingView.as_view(), name='index'),
-    path('pricing/<amp:amp>/', PricingView.as_view(), name='index-amp'),
+    path('', PricingView.as_view(), name='index'),
+    path('<amp:amp>/', PricingView.as_view(), name='index-amp'),
 ]

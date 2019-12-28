@@ -69,7 +69,9 @@
           </a>
         </li>
         <li>
-          <a href="#">{% trans "Features" %}</a>
+          <a href="{% if is_amp %}{% url 'features:index-amp' amp %}{% else %}{% url 'features:index' %}{% endif %}">
+            {% trans "Features" %}
+          </a>
         </li>
         <li>
           <a href="{% if is_amp %}{% url 'pricing:index-amp' amp %}{% else %}{% url 'pricing:index' %}{% endif %}">

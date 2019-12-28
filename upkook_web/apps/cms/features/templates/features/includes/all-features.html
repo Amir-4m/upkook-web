@@ -1,0 +1,25 @@
+{% load staticfiles i18n %}
+
+<div class="all-features-wrap">
+  <h6>{% trans "features" %}</h6>
+  <div class="md-gr all-features">
+    <div class="md-cl md-cl--5-col md-cl--8-col-tablet all-features-item">
+      <h4>{% trans "features all-features col1 title" %}</h4>
+      <p>{% trans "features all-features col1 desc" %}</p>
+      <ul class="list">
+        {% for feature in features_col_1 %}
+          {% include "features/includes/feature.html" with feature=feature %}
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="md-cl md-cl--5-col md-cl--8-col-tablet all-features-item">
+      <h4>{% trans "features all-features col2 title" %}</h4>
+      <p>{% trans "features all-features col2 desc" %}</p>
+      <ul class="list">
+        {% for feature in features_col_2 %}
+          {% include "features/includes/feature.html" with feature=feature %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

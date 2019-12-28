@@ -6,6 +6,6 @@ from .views import ContactView
 app_name = 'contact'
 
 urlpatterns = [
-    path('contact-us/', ContactView.as_view(), name='index'),
-    path('contact-us/<amp:amp>/', ContactView.as_view(), name='index-amp'),
+    path('', ContactView.as_view(), name='index'),
+    path('<amp:amp>/', ContactView.as_view(), name='index-amp'),
 ]

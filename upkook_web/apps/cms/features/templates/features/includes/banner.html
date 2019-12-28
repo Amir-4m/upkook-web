@@ -1,0 +1,20 @@
+{% load staticfiles i18n %}
+
+<div class="banner-wrap">
+  <div class="content-wrap">
+    <h2>
+      {% if is_amp %}
+      <amp-img src="{{ STATIC_URL }}features/images/upkook.png" layout="intrinsic" width="128"
+               height="128"></amp-img>
+      {% else %}
+      <img data-lazy="{{ STATIC_URL }}features/images/upkook.png" class="banner-logo"/>
+      {% endif %}
+    </h2>
+    <h1>
+      {% trans "features banner title" %}
+    </h1>
+    <p>
+      {% trans "features banner desc" %}
+    </p>
+  </div>
+</div>
