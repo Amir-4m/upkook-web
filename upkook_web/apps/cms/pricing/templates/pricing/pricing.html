@@ -19,19 +19,17 @@
     <div class="md-gr">
       <div class="consult-col md-cl--4-col md-cl--4-col-phone">
         <div class="product-plan">
-          <h2 class="product-type">{% trans "Base" %}</h2>
-          <h4 class="product-price">
+          <h2 class="product-type product-type-right-col">{% trans "Base" %}</h2>
+          <h4 class="product-price product-price-right-col">
             {% trans "free price" %}
           </h4>
           <br>
           <br>
           <br>
-
-
-          <p class="product-price-description">
+          <p class="product-price-description product-price-description-right-col">
             {% trans "free price description" %}
           </p>
-          <div class="product-features">
+          <div class="product-features product-features-right-col">
             <span role="button">{% trans "top features" %}</span>
             <ul>
               <li>
@@ -48,7 +46,7 @@
               </li>
             </ul>
           </div>
-          <div class="plan-upgrade">
+          <div class="plan-upgrade plan-upgrade-right-col">
             <a href="{% url 'users:sign-up' %}" class="button-cta button-action-primary">
               {% trans 'Free Sign Up' %}
             </a>
@@ -180,7 +178,7 @@
           <div class="consult-col md-cl--4-col md-cl--4-col-phone">
             <div class="features-list-right">
               <h3>{% trans "Free" %}</h3>
-              <div class="features-list">
+              <div class="features-list features-list-right-col">
 
                 <div class="plan-features-group">
                   <ul>
@@ -200,7 +198,7 @@
                   </ul>
                 </div>
               </div>
-              <div class="plan-upgrade">
+              <div class="plan-upgrade plan-upgrade-right-col">
                 <a href="{% url 'users:sign-up' %}" class="button-cta button-action-primary">
                   {% trans 'Free Sign Up' %}
                 </a>

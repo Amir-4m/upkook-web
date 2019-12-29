@@ -68,14 +68,12 @@
   display: initial;
 }
 
-#content-wrapper > div > div.pricing-table > div.md-gr >
-div.consult-col.md-cl--4-col.md-cl--4-col-phone > div > h2 {
+.product-type-right-col {
   min-height: 92px;
 
 }
 
-#content-wrapper > div > div.pricing-table > div.md-gr >
-div.consult-col.md-cl--4-col.md-cl--4-col-phone > div > h4 {
+.product-price-right-col {
   text-decoration: none;
 }
 
@@ -158,10 +156,7 @@ div.consult-col.md-cl--4-col.md-cl--4-col-phone > div > h4 {
   font-size: 0.8rem;
 }
 
-#content-wrapper > div > div.pricing-table > div.md-gr >
-div.consult-col.md-cl--4-col.md-cl--4-col-phone > div > div.plan-upgrade > a,
-#product-all-features > div.md-gr.product-features-table > div.consult-col.md-cl--4-col.md-cl--4-col-phone >
-div > div.plan-upgrade > a {
+.plan-upgrade-right-col a{
   background-color: white;
   box-shadow: none;
   color: black;
@@ -281,7 +276,7 @@ div > div.plan-upgrade > a {
   margin-bottom: 20px;
 }
 
-#content-wrapper > div > div.pricing-table > div.md-gr > div.consult-col.md-cl--4-col.md-cl--4-col-phone > div > p {
+.product-price-description-right-col {
   min-height: 59px;
 
 }
@@ -299,11 +294,7 @@ div > div.plan-upgrade > a {
 }
 
 @media screen and (max-width: 1080px) {
-  #content-wrapper > div > div.pricing-table > div.md-gr >
-  div.consult-col.md-cl--4-col.md-cl--4-col-phone > div > p {
-    min-height: 145px;
 
-  }
 
   .product-type-description {
     min-height: 80px;
@@ -315,6 +306,11 @@ div > div.plan-upgrade > a {
 
   .product-price-description {
     min-height: 110px;
+
+  }
+
+  .product-price-description-right-col {
+    min-height: 145px;
 
   }
 
@@ -394,23 +390,16 @@ div > div.plan-upgrade > a {
 }
 
 @media screen and (max-width: 480px) {
-  #content-wrapper > div > div.pricing-table > div.md-gr >
-  div.consult-col.md-cl--4-col.md-cl--4-col-phone > div > p{
-    min-height: 50px;
-  }
-  #content-wrapper > div > div.pricing-table > div.md-gr >
-  div.consult-col.md-cl--4-col.md-cl--4-col-phone > div > h2 {
+
+
+  .product-type-right-col {
     min-height: 64px;
   }
-  #content-wrapper > div > div.pricing-table > div.md-gr >
-  div.consult-col.md-cl--4-col.md-cl--4-col-phone > div > div.product-features{
-    min-height: 250px;
+
+  .product-price-description-right-col {
+    min-height: 50px;
   }
 
-  #product-all-features > div.md-gr.product-features-table >
-  div.consult-col.md-cl--4-col.md-cl--4-col-phone > div > div.features-list {
-    min-height: 500px;
-  }
 
   .product-features-header.product-features-header {
     display: none;
@@ -460,11 +449,13 @@ div > div.plan-upgrade > a {
     display: none;
   }
 
+  .product-features-right-col {
+    min-height: 250px;
+  }
 
-}
-
-@media screen and (max-width: 360px) {
-
+  .features-list-right-col {
+    min-height: 500px;
+  }
 
 }
 
