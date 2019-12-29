@@ -22,7 +22,6 @@
       handleAPIError(jqXHR);
     }
   };
-
   Object.defineProperty(SignInForm.prototype, 'email', {
     get: function () {
       return $(this.form).find("input[name=email]").val().trim();
@@ -74,7 +73,6 @@
   SignInForm.prototype.submit = function () {
     grecaptcha.execute();
   };
-
   SignInForm.prototype.ajax = function (recaptchaToken) {
     const data = {
       recaptcha_token: recaptchaToken,
@@ -109,4 +107,14 @@
 
 function recaptchaCallback(recaptchaToken) {
   window.signInForm.ajax(recaptchaToken);
+}
+
+document.getElementById('forget-password-button').addEventListener('click', forgetPassword);
+document.getElementById('dialog-forget-button').addEventListener('click', forgetPassword);
+
+function forgetPassword(event) {
+  event.preventDefault();
+  const forgotButton = document.getElementById('forget-password-button');
+  const email = document.getElementById('email').value;
+  window.location.assign(forgotButton.getAttribute('href') + '?email=' + email);
 }

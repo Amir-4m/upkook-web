@@ -28,7 +28,7 @@
     </div>
     <br/>
     <div class="forget-password">
-      <a href="{{ forgot_password_url }}">{% trans 'Forgot password ?' %}</a>
+      <a id="forget-password-button" href="{{ forgot_password_url }}">{% trans 'Forgot password ?' %}</a>
     </div>
     <br/>
     <br/>
@@ -40,7 +40,7 @@
         <p>{% trans 'Did you forget your password ?' %}</p>
       </div>
       <div class="md-dialog__actions md-dialog__actions--full-width">
-        <a href="{{ forgot_password_url }}">
+        <a id="dialog-forget-button" href="{{ forgot_password_url }}">
           <button type="button" class="md-btn mdl-js-button md-btn--raised mdl-js-ripple-effect md-btn--primary">{% trans 'Yes' %}</button>
         </a>
         <button type="button" class="md-btn close-btn  mdl-js-ripple-effect close">{% trans 'No' %}</button>

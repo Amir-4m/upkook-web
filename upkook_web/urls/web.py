@@ -11,6 +11,7 @@ from upkook_web.apps.cms.about.sitemap import AboutSitemap
 from upkook_web.apps.cms.contact.sitemap import ContactSitemap
 from upkook_web.apps.cms.pricing.sitemap import PricingSitemap
 from upkook_web.apps.cms.videos.sitemap import VideosSitemap
+from upkook_web.apps.cms.features.sitemap import FeaturesSitemap
 
 from . import urlpatterns
 
@@ -22,6 +23,7 @@ sitemaps = {
     'hiw': HIWSitemap,
     'users': UsersSitemap,
     'videos': VideosSitemap,
+    'features': FeaturesSitemap,
 
 }
 
