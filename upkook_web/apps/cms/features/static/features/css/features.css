@@ -152,8 +152,9 @@ div.region-promo ul li a {
   float: right;
   margin: 10px 20px;
 }
-.promo-app a:hover{
-    color: white;
+
+.promo-app a:hover {
+  color: white;
 }
 
 .promo-sign-up {
@@ -189,7 +190,8 @@ div.promo-col h6 {
 }
 
 div.region-promo div.promo-sec {
-  display: block;
+  display: flex;
+
 }
 
 div.promo-sec div.promo-sec-item {
