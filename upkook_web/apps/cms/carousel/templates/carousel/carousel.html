@@ -6,7 +6,8 @@
     <div class="options md-cl--3-col md-cl--8-col-tablet md-cl--4-col-phone">
       <ul>
         {% for item in items %}
-        <li class="slide-caption" id="product-slide-{{forloop.counter}}-caption" data-slide="product-slide-{{forloop.counter}}">
+        <li class="slide-caption" id="product-slide-{{forloop.counter}}-caption"
+            data-slide="product-slide-{{forloop.counter}}">
           <h3>{% if item.description %}{{item.description}}{% endif %}</h3>
         </li>
         {% endfor %}
@@ -16,7 +17,7 @@
       </ul>
     </div>
     <br>
-    <div class="md-cl--9-col md-cl--8-col-tablet md-cl--4-col-phone">
+    <div class="car-slides md-cl--9-col md-cl--8-col-tablet md-cl--4-col-phone">
       <div class="md-slideshow-container">
         {% for item in items %}
         <div class="car-slide fade" id="product-slide-{{forloop.counter}}">
@@ -31,18 +32,20 @@
         {% endfor %}
         <div class="slideshow-dots md-cl--4-col-phone">
           {% for item in items %}
-          <span class="slide-dot" id="product-slide-{{forloop.counter}}-dot" data-slide="product-slide-{{forloop.counter}}"></span>
+          <span class="slide-dot" id="product-slide-{{forloop.counter}}-dot"
+                data-slide="product-slide-{{forloop.counter}}"></span>
           {% endfor %}
 
         </div>
-        <a
-          href="https://demo.upkook.com"
-          class="button-cta-sm button-action-secondary sm-demo"
-          target="_blank"
-        >
-          {% trans 'Try Demo' %} &larr;
-        </a>
+
       </div>
     </div>
   </div>
+  <a
+    href="https://demo.upkook.com"
+    class="button-cta-sm button-action-secondary sm-demo"
+    target="_blank"
+  >
+    {% trans 'Try Demo' %} &larr;
+  </a>
 </div>

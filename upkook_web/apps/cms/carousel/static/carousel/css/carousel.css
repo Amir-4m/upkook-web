@@ -5,6 +5,9 @@
   letter-spacing: -.8px;
   margin-bottom: 50px;
 }
+.car-slides{
+  margin: auto;
+}
 
 .sm-demo {
   display: none;
@@ -428,7 +431,7 @@
 
 @media screen and (max-width: 480px) {
   .car-slide img {
-    width: 350px;
+    width: 340px;
   }
 
   .mobile-sm-slideshow-container {
@@ -442,7 +445,7 @@
 
   .sm-demo {
     display: block;
-    margin: 50px auto 0 auto;
+    margin: 20px auto 20px auto;
     text-align: center;
   }
 
@@ -475,9 +478,12 @@
   }
 
   .sm-description {
-    color: black;
+    color: dimgrey;
     text-align: center;
+    margin: 0;
+    font-size: 1rem;
     display: block;
+    padding: 10px 0;
   }
 
   .car-wrapper {
@@ -552,7 +558,7 @@
     width: 280px;
   }
 
-.car-slide img {
+  .car-slide img {
     width: 280px;
   }
 }
