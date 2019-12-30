@@ -41,7 +41,7 @@ class CarouselTestCase(TestCase):
       </ul>
     </div>
     <br>
-    <div class="md-cl--9-col md-cl--8-col-tablet md-cl--4-col-phone">
+    <div class="car-slides md-cl--9-col md-cl--8-col-tablet md-cl--4-col-phone">
       <div class="md-slideshow-container">
         <!-- Full-width images with number and caption text -->
         <div class="car-slide fade" id="product-slide-1">
@@ -53,18 +53,18 @@ class CarouselTestCase(TestCase):
         <div class="slideshow-dots md-cl--4-col-phone">
           <span class="slide-dot" data-slide="product-slide-1" id="product-slide-1-dot"></span>
           </div>
-         <a class="button-action-secondary button-cta-sm sm-demo" href="https://demo.upkook.com"
-           target="_blank">
-            Try Demo &larr;
-          </a>
+        
       </div>
     </div>
   </div>
+   <a class="button-action-secondary button-cta-sm sm-demo" href="https://demo.upkook.com"
+           target="_blank">
+            Try Demo &larr;
+          </a>
 </div>
     """
 
         )
-
         self.assertHTMLEqual(html, expected_html)
 
     def test_carousel_without_url(self):
@@ -101,7 +101,7 @@ class CarouselTestCase(TestCase):
                   </ul>
                 </div>
                 <br>
-                <div class="md-cl--9-col md-cl--8-col-tablet md-cl--4-col-phone">
+                <div class="car-slides md-cl--9-col md-cl--8-col-tablet md-cl--4-col-phone">
                   <div class="md-slideshow-container">
                     <!-- Full-width images with number and caption text -->
                     <div class="car-slide fade" id="product-slide-1">
@@ -111,13 +111,14 @@ class CarouselTestCase(TestCase):
                     <div class="slideshow-dots md-cl--4-col-phone">
                    <span class="slide-dot" data-slide="product-slide-1" id="product-slide-1-dot"></span>
                    </div>
-                  <a class="button-action-secondary button-cta-sm sm-demo" href="https://demo.upkook.com"
-           target="_blank">
-                     Try Demo &larr;
-                   </a>
+                  
                   </div>
                 </div>
               </div>
+              <a class="button-action-secondary button-cta-sm sm-demo" href="https://demo.upkook.com"
+           target="_blank">
+                     Try Demo &larr;
+                   </a>
             </div>
                 """
 
@@ -159,7 +160,7 @@ class CarouselTestCase(TestCase):
                   </ul>
                 </div>
                 <br>
-                <div class="md-cl--9-col md-cl--8-col-tablet md-cl--4-col-phone">
+                <div class="car-slides md-cl--9-col md-cl--8-col-tablet md-cl--4-col-phone">
                   <div class="md-slideshow-container">
                     <!-- Full-width images with number and caption text -->
                     <div class="car-slide fade" id="product-slide-1">
@@ -171,13 +172,14 @@ class CarouselTestCase(TestCase):
                     <div class="slideshow-dots md-cl--4-col-phone">
           <span class="slide-dot" data-slide="product-slide-1" id="product-slide-1-dot"></span>
           </div>
-          <a class="button-action-secondary button-cta-sm sm-demo" href="https://demo.upkook.com"
-           target="_blank">
-            Try Demo &larr;
-          </a>
+          
                   </div>
                 </div>
               </div>
+              <a class="button-action-secondary button-cta-sm sm-demo" href="https://demo.upkook.com"
+           target="_blank">
+            Try Demo &larr;
+          </a>
             </div>
                 """
 
