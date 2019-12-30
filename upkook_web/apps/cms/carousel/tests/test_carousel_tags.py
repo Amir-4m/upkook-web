@@ -53,7 +53,6 @@ class CarouselTestCase(TestCase):
         <div class="slideshow-dots md-cl--4-col-phone">
           <span class="slide-dot" data-slide="product-slide-1" id="product-slide-1-dot"></span>
           </div>
-        
       </div>
     </div>
   </div>
@@ -111,7 +110,6 @@ class CarouselTestCase(TestCase):
                     <div class="slideshow-dots md-cl--4-col-phone">
                    <span class="slide-dot" data-slide="product-slide-1" id="product-slide-1-dot"></span>
                    </div>
-                  
                   </div>
                 </div>
               </div>
@@ -172,7 +170,6 @@ class CarouselTestCase(TestCase):
                     <div class="slideshow-dots md-cl--4-col-phone">
           <span class="slide-dot" data-slide="product-slide-1" id="product-slide-1-dot"></span>
           </div>
-          
                   </div>
                 </div>
               </div>
@@ -184,5 +181,4 @@ class CarouselTestCase(TestCase):
                 """
 
         )
-        self.maxDiff = None
         self.assertHTMLEqual(html, expected_html)
