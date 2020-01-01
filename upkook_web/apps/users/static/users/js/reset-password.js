@@ -37,7 +37,7 @@
 
   function getToken() {
     const url = window.location.href;
-    return url.match(/^(http[s]?:\/\/)([^\/\s]+\/)users\/password\/reset\/([^\/\s]+)\/$/);
+    return url.match(/^(http[s]?:\/\/)([^\/\s]+\/)users\/password\/reset\/([^\/\s]+)\/$/)[3];
   }
 
   const ResetPasswordForm = function (form, token) {
@@ -97,7 +97,6 @@
       complete: this.handleComplete.bind(this),
     });
   };
-
   window.onload = function () {
     const tokenVerification = new TokenVerification(getToken());
     tokenVerification.submit();
