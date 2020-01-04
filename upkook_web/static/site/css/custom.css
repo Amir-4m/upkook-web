@@ -456,7 +456,7 @@ footer.footer-bare a:visited {
 
   .mini-footer-wrapper li {
     margin-top: 20px;
-    display: initial;
+    display: inline-block;
   }
 
   .mini-footer-wrapper .credit {

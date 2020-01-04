@@ -247,7 +247,7 @@ div.hw-s-3 > div > div:nth-child(2) {
     font-size: 1.218rem;
   }
 
-  .mini-footer-wrapper li:nth-child(3), li:nth-child(4) {
+  .mini-footer-wrapper li:nth-child(3), .mini-footer-wrapper li:nth-child(4) {
     display: none;
   }
 

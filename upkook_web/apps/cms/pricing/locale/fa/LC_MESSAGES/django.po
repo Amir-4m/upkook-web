@@ -169,7 +169,7 @@ msgstr "مشاهده همه ویژگی ها"
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:170
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:186
 msgid "Free"
-msgstr "نسخه رایگان"
+msgstr "نسخه پایه"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:191
 msgid "free all feature 1"
