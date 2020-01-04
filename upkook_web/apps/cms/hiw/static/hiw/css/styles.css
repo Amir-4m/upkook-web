@@ -1,4 +1,4 @@
-.mdl-navigation.navigation {
+.md-nav.navigation {
   display: none;
 }
 
@@ -396,7 +396,7 @@ div.hw-s-3 > div > div:nth-child(2) {
     width: 100%;
   }
 
-  .mdl-navigation.navigation {
+  .md-nav.navigation {
     display: flex;
   }
 

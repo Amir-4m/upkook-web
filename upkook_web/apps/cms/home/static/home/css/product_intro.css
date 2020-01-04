@@ -71,16 +71,16 @@
     font-size: 1.8rem;
 }
 
-.prd-sec .features {
+.prd-sec .ft {
     margin: 55px auto;
     max-width: 85%;
 }
 
-.prd-sec .features div.ls-sec {
+.prd-sec .ft div.ls-sec {
     margin-left: 15%
 }
 
-.prd-sec .features div.ls-items {
+.prd-sec .ft div.ls-items {
     text-align: right
 }
 
@@ -183,7 +183,7 @@
 
 
 @media screen and (max-width: 760px) {
-    .prd-sec .features {
+    .prd-sec .ft {
         display: block;
         width: 100%;
         text-align: center;
@@ -217,7 +217,7 @@
         padding: 0;
         margin-left: 15px;
     }
-    .features div.ls-items{
+    .ft div.ls-items{
         margin-left: 15px;
     }
     .desc-box p{

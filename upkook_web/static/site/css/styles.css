@@ -87,7 +87,7 @@ h6, p {
   border-bottom: 1px solid rgba(151, 151, 151, 0.5)
 }
 
-.mdl-layout__header-row .mdl-navigation__link {
+.mdl-layout__header-row .md-nav__link {
   color: inherit;
 }
 
@@ -209,7 +209,7 @@ h6, p {
 /* Responsive */
 
 @media screen and (max-width: 1024px) {
-  .mdl-layout__header-row .mdl-navigation {
+  .mdl-layout__header-row .md-nav {
     height: 64px;
   }
 }

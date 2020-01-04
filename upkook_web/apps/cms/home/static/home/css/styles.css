@@ -22,11 +22,11 @@ header a, header a:hover, header a:visited {
 
 }
 
-#outer-wrapper .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+#outer-wrapper .mdl-layout__drawer .md-nav .md-nav__link {
     color: #DFE1E6;
 }
 
-#outer-wrapper .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+#outer-wrapper .mdl-layout__drawer .md-nav .md-nav__link:hover {
     background-color: #EAE6FF;
     color: #6554C0;
 }
@@ -108,12 +108,12 @@ h1.hero__header {
     position: relative;
 }
 
-.hero .top-sec__container {
+.hero .top-sec_cont {
     width: 100%;
     margin-top: -300px;
 }
 
-.top-sec__container .dot {
+.top-sec_cont .dot {
     width: 12px;
     height: 12px;
     margin: -3px 0;
@@ -152,16 +152,16 @@ ul.hero__sub-header {
 .hero .md-btn.learn-more:visited {
     color: #DFE1E6;
 }
-.top-sec__container a {
+.top-sec_cont a {
     float: right;
     margin-left: 15px;
 }
 
-.top-sec__container .button-action-primary {
+.top-sec_cont .button-action-primary {
     width: 340px;
 }
 
-.top-sec__container .button-action-secondary {
+.top-sec_cont .button-action-secondary {
     width: 180px;
 }
 /* PROMO BOX */
@@ -190,17 +190,17 @@ ul.hero__sub-header {
         max-width: 523px;
     }
 
-    .hero .top-sec__container {
+    .hero .top-sec_cont {
         margin-top: -200px;
     }
 
-    .top-sec__container a {
+    .top-sec_cont a {
         float: right;
         margin-bottom: 15px;
     }
 
-    .top-sec__container .button-action-primary,
-    .top-sec__container .button-action-secondary {
+    .top-sec_cont .button-action-primary,
+    .top-sec_cont .button-action-secondary {
         width: 360px;
     }
 }
@@ -216,7 +216,7 @@ ul.hero__sub-header {
 }
 
 @media screen and (max-width: 960px) {
-    .hero .top-sec__container li:nth-of-type(2) {
+    .hero .top-sec_cont li:nth-of-type(2) {
         display: none;
 
     }
@@ -227,7 +227,7 @@ ul.hero__sub-header {
 }
 
 @media screen and (max-width: 840px) {
-    .top-sec__container .button-action-primary, .top-sec__container .button-action-secondary{
+    .top-sec_cont .button-action-primary, .top-sec_cont .button-action-secondary{
         width: 320px;
     }
 
@@ -249,44 +249,44 @@ ul.hero__sub-header {
         background: url("../images/bg-home-2.0-660.png") no-repeat center top;
     }
 
-    .hero .top-sec__container {
+    .hero .top-sec_cont {
         width: 100%;
         margin-top: -150px;
     }
 
-    .top-sec__container .button-action-primary {
+    .top-sec_cont .button-action-primary {
         width: 320px;
     }
 
-    .top-sec__container .button-action-secondary {
+    .top-sec_cont .button-action-secondary {
         width: 160px;
     }
 }
 
 @media all and (min-width: 769px) and (-ms-high-contrast: none) {
-    .hero .top-sec__container {
+    .hero .top-sec_cont {
         margin-top: 0;
     }
 }
 
 @media all and (max-width: 768px) and (-ms-high-contrast: none) {
-    .hero .top-sec__container {
+    .hero .top-sec_cont {
         margin-top: 80px;
     }
 }
 
 @media screen and (max-width: 640px) {
-    .hero .top-sec__container {
+    .hero .top-sec_cont {
         text-align: center;
     }
 
-    .top-sec__container a {
+    .top-sec_cont a {
         float: none;
     }
 
-    .hero .top-sec__container li span,
-    .hero .top-sec__container li:last-child,
-    .top-sec__container a:last-child {
+    .hero .top-sec_cont li span,
+    .hero .top-sec_cont li:last-child,
+    .top-sec_cont a:last-child {
         display: none;
     }
 }
@@ -305,7 +305,7 @@ ul.hero__sub-header {
         background: url("../images/bg-home-2.0-414.png") no-repeat center top;
     }
 
-    .hero .top-sec__container {
+    .hero .top-sec_cont {
         text-align: center;
         margin-top: -75px;
     }
@@ -316,13 +316,13 @@ ul.hero__sub-header {
 }
 
 @media all and (max-width: 414px) and (-ms-high-contrast: none) {
-    .hero .top-sec__container {
+    .hero .top-sec_cont {
         margin-top: 120px;
     }
 }
 
 @media screen and (max-width: 360px) {
-    .top-sec__container .button-action-primary {
+    .top-sec_cont .button-action-primary {
         width: 280px;
     }
 }

@@ -101,26 +101,6 @@ header.mdl-layout__header {
   text-align: center;
 }
 
-.hw-s-2 h2 {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 1.918rem;
-  line-height: 3rem;
-  font-weight: 600;
-  text-align: center;
-  color: black;
-}
-
-.hw-s-2 ul {
-  margin-top: 20px;
-  margin-bottom: -15px;
-  font-size: 1.318rem;
-  text-align: center;
-  color: black;
-  line-height: 3rem;
-  list-style: none;
-}
-
 
 .hw-s-3 {
   background-color: white;
@@ -143,7 +123,7 @@ header.mdl-layout__header {
   text-align: center;
 }
 
-.hw-s-3 h2 {
+.hw-s-3 h2, .hw-s-2 h2 {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 1.918rem;
@@ -153,7 +133,7 @@ header.mdl-layout__header {
   color: black;
 }
 
-.hw-s-3 ul {
+.hw-s-3 ul, .hw-s-2 ul {
   margin-top: 20px;
   margin-bottom: -15px;
   font-size: 1.318rem;
@@ -188,27 +168,16 @@ header.mdl-layout__header {
     padding: 0 10px;
   }
 
-  .hw-s-2 h2 {
-    font-size: 1.867rem;
-    margin-top: 0;
-  }
-
-  .hw-s-2 ul {
-    font-size: 1.116rem;
-    line-height: 2.617rem;
-    padding: 0;
-  }
-
   .hw-s-3 {
     padding: 0 30px;
   }
 
-  .hw-s-3 h2 {
+  .hw-s-3 h2, .hw-s-2 h2 {
     font-size: 1.867rem;
     margin-top: 0;
   }
 
-  .hw-s-3 ul {
+  .hw-s-3 ul, .hw-s-2 ul {
     font-size: 1.116rem;
     line-height: 2.617rem;
     padding: 0;
@@ -240,12 +209,6 @@ header.mdl-layout__header {
     font-size: 1.217rem;
   }
 
-  .hw-s-2 ul {
-    font-size: 0.986rem;
-    margin: 0;
-    line-height: 2.617rem;
-    padding: 0;
-  }
 
   .hw-s-3 .md-gr {
     padding-top: 10px;
@@ -256,7 +219,7 @@ header.mdl-layout__header {
     font-size: 1.317rem;
   }
 
-  .hw-s-3 ul {
+  .hw-s-3 ul, .hw-s-2 ul {
     font-size: 0.986rem;
     margin: 0;
     line-height: 2.617rem;
@@ -301,19 +264,12 @@ header.mdl-layout__header {
     font-size: 1.217rem;
   }
 
-  .hw-s-2 ul {
-    font-size: 0.986rem;
-    margin: 0;
-    line-height: 2.617rem;
-    padding: 0;
-  }
-
   .hw-s-3 h2 {
     margin: 0;
     font-size: 1.317rem;
   }
 
-  .hw-s-3 ul {
+  .hw-s-3 ul, .hw-s-2 ul {
     font-size: 0.986rem;
     margin: 0;
     line-height: 2.617rem;
@@ -352,19 +308,13 @@ header.mdl-layout__header {
     font-size: 1.217rem;
   }
 
-  .hw-s-2 ul {
-    font-size: 0.986rem;
-    margin: 0;
-    line-height: 2.617rem;
-    padding: 0;
-  }
 
   .hw-s-3 h2 {
     margin: 0;
     font-size: 1.317rem;
   }
 
-  .hw-s-3 ul {
+  .hw-s-3 ul, .hw-s-2 ul {
     font-size: 0.986rem;
     margin: 0;
     line-height: 2.617rem;
@@ -413,19 +363,13 @@ header.mdl-layout__header {
     font-size: 1.217rem;
   }
 
-  .hw-s-2 ul {
-    font-size: 0.986rem;
-    margin: 0;
-    line-height: 2.617rem;
-    padding: 0;
-  }
 
   .hw-s-3 h2 {
     margin: 0;
     font-size: 1.317rem;
   }
 
-  .hw-s-3 ul {
+  .hw-s-3 ul, .hw-s-2 ul {
     font-size: 0.986rem;
     margin: 0;
     line-height: 2.617rem;
@@ -463,20 +407,13 @@ header.mdl-layout__header {
     font-size: 1.317rem;
   }
 
-  .hw-s-2 ul {
-    font-size: 0.986rem;
-    margin: 0;
-    line-height: 2.617rem;
-    padding: 0;
-  }
-
 
   .hw-s-3 h2 {
     margin: 0;
     font-size: 1.317rem;
   }
 
-  .hw-s-3 ul {
+  .hw-s-3 ul, .hw-s-2 ul {
     font-size: 0.986rem;
     margin: 0;
     line-height: 2.617rem;
@@ -514,19 +451,13 @@ header.mdl-layout__header {
     font-size: 1.217rem;
   }
 
-  .hw-s-2 ul {
-    font-size: 0.986rem;
-    margin: 0;
-    line-height: 2.617rem;
-    padding: 0;
-  }
 
   .hw-s-3 h2 {
     margin: 0;
     font-size: 1.317rem;
   }
 
-  .hw-s-3 ul {
+  .hw-s-3 ul, .hw-s-2 ul {
     font-size: 0.986rem;
     margin: 0;
     line-height: 2.617rem;
@@ -541,29 +472,11 @@ header.mdl-layout__header {
 }
 
 @media screen and (max-width: 600px) {
-  .hw-s-1 {
+  .hw-s-1, .hw-s-2, .hw-s-3 {
     padding: 0 15px;
   }
 
-  .hw-s-2 {
-    padding: 0 15px;
-
-  }
-
-  .hw-s-3 {
-    padding: 0 15px;
-
-  }
-
-  .hw-s-1 p {
-    font-size: 1.180rem;
-  }
-
-  .hw-s-2 ul {
-    font-size: 1.180rem;
-  }
-
-  .hw-s-3 ul {
+  .hw-s-1 p, .hw-s-2 ul, .hw-s-3 ul {
     font-size: 1.180rem;
   }
 
@@ -602,11 +515,6 @@ header.mdl-layout__header {
     padding: 0;
   }
 
-  .hw-s-2 i {
-    margin-top: 20px;
-    font-size: 2.3rem;
-  }
-
 
   .hw-s-3 h2 {
     margin: 0;
@@ -643,7 +551,7 @@ header.mdl-layout__header {
     padding-top: 0;
   }
 
-  .hw-s-2 h2 {
+  .hw-s-2 h2, .hw-s-3 h2 {
     margin: 0;
     font-size: 1.2rem;
 
@@ -656,11 +564,6 @@ header.mdl-layout__header {
     padding: 0;
   }
 
-
-  .hw-s-3 h2 {
-    margin: 0;
-    font-size: 1.2rem;
-  }
 
   .hw-s-3 ul {
     font-size: 0.886rem;
