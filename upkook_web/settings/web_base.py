@@ -49,6 +49,8 @@ INSTALLED_APPS += (
 
 PURE_CHAT_ID = get_env_var('PURE_CHAT_ID')
 
+DASHBOARD_URL = get_env_var('DASHBOARD_URL', 'https://dash.upkook.com')
+
 IRAN_YEKAN_LICENSE = get_env_var('IRAN_YEKAN_LICENSE', '3.0')
 
 GA_VERSION = get_env_var('GA_VERSION', 'GA1')

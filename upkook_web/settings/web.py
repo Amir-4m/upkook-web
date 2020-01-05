@@ -21,8 +21,6 @@ MIDDLEWARE = (
 )
 API_URL = get_env_var("API_URL")
 
-DASHBOARD_URL = get_env_var('DASHBOARD_URL', 'https://dash.upkook.com')
-
 AUTH_COOKIE_AGE = get_env_var('AUTH_COOKIE_AGE', 24 * 60 * 60)  # (1 day, in seconds)
 AUTH_COOKIE_DOMAIN = get_env_var('AUTH_COOKIE_DOMAIN')
 AUTH_COOKIE_SECURE = get_env_var('AUTH_COOKIE_SECURE', False) == 'True'
