@@ -15,9 +15,7 @@
       const message = gettext('No active account found with the given credentials');
       snackbar.error(message, 5000);
       this.retries += 1;
-      if (this.retries >= 2) {
-        this.showForgotDialog();
-      }
+
     } else {
       handleAPIError(jqXHR);
     }
@@ -54,7 +52,9 @@
       dialogPolyfill.registerDialog(dialog);
     }
     showModalButton.addEventListener('click', function () {
-      dialog.showModal();
+      if (this.retries >= 2) {
+        dialog.showModal();
+      }
     });
 
     dialog.querySelector('.close').addEventListener('click', function () {
