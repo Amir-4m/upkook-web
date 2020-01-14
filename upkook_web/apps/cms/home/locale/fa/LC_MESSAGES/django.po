@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-23 17:39+0330\n"
+"POT-Creation-Date: 2020-01-14 12:05+0330\n"
 "PO-Revision-Date: 2018-12-22 15:26+0330\n"
 "Last-Translator: Saeed Salehian <saeed@upkook.com>\n"
 "Language-Team: Upkook <info@upkook.com>\n"
@@ -93,6 +93,22 @@ msgstr ""
 "href=\"https://blog.upkook.com/customer-survey/what-is-nps/\" title=\"NPS "
 "چیست\" target=\"_blank\">شاخص خالص مروجان (NPS)</a> را اندازه گیری کنید و "
 "نمره وفاداری برندتان را محاسبه کنید."
+
+#: upkook_web/apps/cms/home/templates/home/includes/newsletter.html:4
+msgid "Subscribe to our newsletter to get up-to-date news"
+msgstr "با عضویت در خبرنامه از اخبار آپ کوک با خبر شوید"
+
+#: upkook_web/apps/cms/home/templates/home/includes/newsletter.html:13
+msgid "email placeholder"
+msgstr "آدرس ایمیل"
+
+#: upkook_web/apps/cms/home/templates/home/includes/newsletter.html:15
+msgid "Please enter a valid email."
+msgstr "لطفا یک ایمیل معتبر وارد نمایید."
+
+#: upkook_web/apps/cms/home/templates/home/includes/newsletter.html:19
+msgid "sign in newsletter"
+msgstr "عضویت در خبرنامه"
 
 #: upkook_web/apps/cms/home/templates/home/includes/nps_benchmark.html:5
 msgid "Which companies are using NPS?"

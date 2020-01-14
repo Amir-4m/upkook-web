@@ -4,11 +4,12 @@
 {% block css %}
 {{ block.super }}
 <link rel="stylesheet" href="{{ STATIC_URL }}home/css/styles.css">
-{% if not is_amp %}
-<link rel="stylesheet" href="{{ STATIC_URL }}carousel/css/carousel.css">
-{% endif %}
 <link rel="stylesheet" href="{{ STATIC_URL }}promo_box/css/promobox.css">
 <link rel="stylesheet" href="{{ STATIC_URL }}home/css/product_intro.css">
+{% if not is_amp %}
+<link rel="stylesheet" href="{{ STATIC_URL }}carousel/css/carousel.css">
+<link rel="stylesheet" href="{{ STATIC_URL }}home/css/newsletter.css">
+{% endif %}
 {% endblock %}
 
 {% block extra_head %}
@@ -17,7 +18,7 @@
 {% endblock %}
 {% block external_js %}
 {{block.super}}
-<script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.2.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 {% endblock %}
 
 {% block content %}
@@ -28,9 +29,13 @@
 {% product nps_intro False is_amp %}
 {% product csat_intro True is_amp %}
 {% product ces_intro False is_amp %}
+{% if not is_amp %}
+{% include "home/includes/newsletter.html" %}
+{% endif %}
 {% endblock %}
 
 {% block javascripts %}
 {{ block.super }}
 <script src="{{ STATIC_URL }}carousel/js/carousel.js"></script>
+<script src="{{ STATIC_URL }}home/js/newsletter.js"></script>
 {% endblock %}

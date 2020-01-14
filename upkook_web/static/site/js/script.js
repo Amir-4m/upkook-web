@@ -20,6 +20,12 @@ Snackbar.prototype.error = function (message, timeout) {
   this.notification.MaterialSnackbar.showSnackbar({message: message, timeout: timeout});
 };
 
+Snackbar.prototype.success = function (message, timeout) {
+  timeout = timeout || 3750;
+  this.setClass('success');
+  this.notification.MaterialSnackbar.showSnackbar({message: message, timeout: timeout});
+};
+
 Snackbar.prototype.cleanup = function () {
   const mSnackbar = this.notification.MaterialSnackbar;
   mSnackbar.element_.classList.remove(mSnackbar.cssClasses_.ACTIVE);

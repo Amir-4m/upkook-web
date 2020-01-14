@@ -113,9 +113,7 @@
 
 {% block external_js %}
 {{block.super}}
-{% if not is_amp %}
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-{% endif %}
 {% endblock %}
 
 

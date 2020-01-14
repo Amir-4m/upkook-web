@@ -4,7 +4,8 @@
 {{ block.super }}
 <link rel="stylesheet" href="{{ STATIC_URL }}contact/css/custom.css" xmlns="http://www.w3.org/1999/html">
 {% endblock %}
-{% block extra_head %}
+{% block amp_js %}
+{{block.super}}
 <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
 {% endblock %}
 {% block content %}

@@ -1,0 +1,32 @@
+{% load i18n %}
+<div class="newsletter">
+  <form action="#" data-action="{{ api_url }}newsletter/" method="POST" id="newsletter">
+    <h3>{% trans "Subscribe to our newsletter to get up-to-date news" %}</h3>
+    <div class="newsletter-wrap">
+      <div class="mdl-textfield mdl-js-textfield">
+        <input
+          data-required="true"
+          class="mdl-textfield__input"
+          type="email"
+          id="newsletterEmail"
+          name="email"
+          placeholder="{% trans 'email placeholder' %}"
+        />
+        <span class="mdl-textfield__error">{% trans 'Please enter a valid email.' %}</span>
+      </div>
+      <button class="md-btn mdl-js-button md-btn--raised">
+        <img data-lazy="{{STATIC_URL}}home/images/subscribe.png">
+        {% trans "sign in newsletter" %}
+      </button>
+    </div>
+
+    <div
+      id='recaptcha'
+      class="g-recaptcha"
+      data-sitekey="{{recaptcha_public_key}}"
+      data-callback="recaptchaCallback"
+      data-error-callback="recaptchaErrorCallback"
+      data-size="invisible">
+    </div>
+  </form>
+</div>
