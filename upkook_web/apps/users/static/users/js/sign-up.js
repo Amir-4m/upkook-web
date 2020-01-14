@@ -246,3 +246,8 @@
 function recaptchaCallback(recaptchaToken) {
   window.signUpForm.ajax(recaptchaToken);
 }
+function recaptchaErrorCallback() {
+  const message = gettext('Limited or No Connectivity. Please check your internet connection.');
+  snackbar.error(message, 5000);
+  window.signUpForm.fail({ status: 408 });
+}
