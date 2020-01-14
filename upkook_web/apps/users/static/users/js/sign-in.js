@@ -109,6 +109,12 @@ function recaptchaCallback(recaptchaToken) {
   window.signInForm.ajax(recaptchaToken);
 }
 
+function recaptchaErrorCallback() {
+  const message = gettext('Limited or No Connectivity. Please check your internet connection.');
+  snackbar.error(message, 5000);
+  window.signInForm.handleComplete();
+}
+
 document.getElementById('forget-password-button').addEventListener('click', forgetPassword);
 document.getElementById('dialog-forget-button').addEventListener('click', forgetPassword);
 
