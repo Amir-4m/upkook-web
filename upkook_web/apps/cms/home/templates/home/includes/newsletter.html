@@ -28,5 +28,16 @@
       data-error-callback="recaptchaErrorCallback"
       data-size="invisible">
     </div>
+    <div class="recaptcha">
+      <p>
+        {% trans "This form is protected by reCAPTCHA" %}
+        {% trans "with" %}
+        <a href="https://policies.google.com/privacy" target="_blank">{% trans "privacy policy" %}</a>
+        {% trans "and" %}
+        <a href="https://policies.google.com/terms" target="_blank">{% trans "terms of service" %}</a>
+        {% trans "apply" %}
+      </p>
+    </div>
   </form>
+
 </div>

@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-14 12:05+0330\n"
+"POT-Creation-Date: 2020-01-19 11:47+0330\n"
 "PO-Revision-Date: 2018-12-22 15:26+0330\n"
 "Last-Translator: Saeed Salehian <saeed@upkook.com>\n"
 "Language-Team: Upkook <info@upkook.com>\n"
@@ -109,6 +109,31 @@ msgstr "لطفا یک ایمیل معتبر وارد نمایید."
 #: upkook_web/apps/cms/home/templates/home/includes/newsletter.html:19
 msgid "sign in newsletter"
 msgstr "عضویت در خبرنامه"
+
+#: upkook_web/apps/cms/home/templates/home/includes/newsletter.html:33
+#| msgid "This site is protected by reCAPTCHA"
+msgid "This form is protected by reCAPTCHA"
+msgstr "این فرم توسط reCAPTCHA "
+
+#: upkook_web/apps/cms/home/templates/home/includes/newsletter.html:34
+msgid "with"
+msgstr "با "
+
+#: upkook_web/apps/cms/home/templates/home/includes/newsletter.html:35
+msgid "privacy policy"
+msgstr "قوانین حریم خصوصی "
+
+#: upkook_web/apps/cms/home/templates/home/includes/newsletter.html:36
+msgid "and"
+msgstr "و "
+
+#: upkook_web/apps/cms/home/templates/home/includes/newsletter.html:37
+msgid "terms of service"
+msgstr "شرایط سرویس گوگل"
+
+#: upkook_web/apps/cms/home/templates/home/includes/newsletter.html:38
+msgid "apply"
+msgstr "حفاظت می شود."
 
 #: upkook_web/apps/cms/home/templates/home/includes/nps_benchmark.html:5
 msgid "Which companies are using NPS?"
