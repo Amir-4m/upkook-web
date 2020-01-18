@@ -11,11 +11,6 @@
           <a href="https://blog.upkook.com/{% if is_amp %}amp{% endif %}" target="_blank">{% trans "Upkook mag" %}</a>
         </li>
         <li>
-          <a href="{% if is_amp %}{% url 'videos:index-amp' amp %}{% else %}{% url 'videos:index' %}{% endif %}">
-            {% trans "One different minute" %}
-          </a>
-        </li>
-        <li>
           <a href="{% if is_amp %}{% url 'about:index-amp' amp %}{% else %}{% url 'about:index' %}{% endif %}">
             {% trans "About us" %}
           </a>

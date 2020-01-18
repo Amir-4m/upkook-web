@@ -28,13 +28,6 @@
   </li>
 
   <li itemprop="name">
-    <a class="md-nav__link" itemprop="url"
-       href="{% if is_amp %}{% url 'videos:index-amp' amp %}{% else %}{% url 'videos:index' %}{% endif %}">
-      {% trans "Different Experience" %}
-    </a>
-  </li>
-
-  <li itemprop="name">
     <a class="md-nav__link" itemprop="url" target="_blank"
        href="https://blog.upkook.com{% if is_amp %}/amp/{% endif %}">
       {% trans 'BLOG' %}
