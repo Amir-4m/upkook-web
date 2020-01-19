@@ -10,5 +10,6 @@ urlpatterns = [
     path('<amp:amp>/', IndexView.as_view(), name='index-amp'),
     path('terms/', TermsView.as_view(), name='terms'),
     path('terms/<amp:amp>/', TermsView.as_view(), name='terms-amp'),
-    path('privacy/', PrivacyView.as_view(), name='privacy')
+    path('privacy/', PrivacyView.as_view(), name='privacy'),
+    path('privacy/<amp:amp>/', PrivacyView.as_view(), name='privacy-amp'),
 ]
