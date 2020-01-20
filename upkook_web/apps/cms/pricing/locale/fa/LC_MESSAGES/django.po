@@ -20,7 +20,7 @@ msgstr ""
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:14
 msgid "pricing title"
-msgstr "سرویس های آپ کوک"
+msgstr "پیش فروش سرویس های آپ کوک"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:15
 msgid "pricing description"
@@ -46,15 +46,15 @@ msgstr "ویژگی های اصلی:"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:38
 msgid "free feature1"
-msgstr "امکان ایجاد یک نظرسنجی فعال"
+msgstr "ایجاد نظرسنجی یک مشتری فعال"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:41
 msgid "free feature2"
-msgstr "امکان مشاهده پیش نمایش فرم"
+msgstr "مشاهده پیش نمایش پرسشنامه نظرسنجی"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:44
 msgid "free feature3"
-msgstr "فرم های سازگار با موبایل و تبلت"
+msgstr "فرم رضایت مشتری سازگار با موبایل و تبلت"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:47
 msgid "free feature4"
@@ -93,20 +93,20 @@ msgstr "اشتراک یک ساله تک کاربره سرویس سنجش تجر�
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:80
 msgid "standard feature 1"
-msgstr "پرسشنامه نظرسنجی از پیش آماده"
+msgstr "پرسشنامه رضایت سنجی مشتری پیش آماده"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:83
 msgid "standard feature 2"
-msgstr "انجام نظرسنجی های رضایت مشتری بر اساس استاندارد CSAT و CES"
+msgstr "انجام نظرسنجی رضایت مشتری بر اساس شاخص CSAT و CES"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:86
 msgid "standard feature 3"
-msgstr "محاسبه نمره وفاداری برند بر اساس استاندارد NPS"
+msgstr "محاسبه نمره وفاداری مشتری بر اساس شاخص NPS"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:89
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:218
 msgid "standard feature 4"
-msgstr "گزارش نتایج نظرسنجی"
+msgstr "گزارش نتایج نظرسنجی مشتری"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:96
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:139
@@ -140,7 +140,7 @@ msgstr "اشتراک یک ساله تک کاربره سرویس سنجش تجر�
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:124
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:256
 msgid "pro feature1"
-msgstr "امکان استفاده از لوگو و برند در نظرسنجی ها "
+msgstr "استفاده از لوگو و برند در نظرسنجی مشتری "
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:127
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:257
@@ -150,7 +150,7 @@ msgstr "تقسیم بندی مشتریان بر اساس نتایج بازخور
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:130
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:254
 msgid "pro feature3"
-msgstr "امکان نظرسنجی از کانال های ارتباطی مختلف"
+msgstr "نظرسنجی از کانال های ارتباطی مختلف"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:133
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:258
@@ -173,19 +173,19 @@ msgstr "نسخه پایه"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:191
 msgid "free all feature 1"
-msgstr "پرسشنامه نظرسنجی از پیش آماده"
+msgstr "پرسشنامه رضایت سنجی مشتری پیش آماده"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:192
 msgid "free all feature 2"
-msgstr "انجام نظرسنجی های رضایت مشتری بر اساس استاندارد CSAT و CES"
+msgstr "انجام نظرسنجی رضایت مشتری بر اساس شاخص CSAT و CES"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:193
 msgid "free all feature 3"
-msgstr "محاسبه نمره وفاداری برند بر اساس استاندارد NPS"
+msgstr "محاسبه نمره وفاداری مشتری بر اساس شاخص NPS"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:194
 msgid "free all feature 4"
-msgstr "گزارش نتایج نظرسنجی"
+msgstr "گزارش نتایج نظرسنجی مشتری"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:195
 msgid "free all feature 5"
@@ -193,31 +193,31 @@ msgstr "احراز هویت مشتری در هنگام نظرسنجی"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:196
 msgid "free all feature 6"
-msgstr " امکان ایجاد تغییر و شخصی سازی فرم ها"
+msgstr " ایجاد تغییر و شخصی سازی فرم ها"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:215
 msgid "standard all feature 1"
-msgstr "امکان ایجاد یک نظرسنجی فعال"
+msgstr "ایجاد یک نظرسنجی فعال"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:216
 msgid "standard all feature 2"
-msgstr " انجام نظرسنجی های رضایت مشتری بر اساس استاندارد CSAT و CES"
+msgstr " انجام نظرسنجی رضایت مشتری بر اساس شاخص CSAT و CES"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:217
 msgid "standard all feature 3"
-msgstr "محاسبه نمره وفاداری برند بر اساس استاندارد NPS"
+msgstr "محاسبه نمره وفاداری مشتری بر اساس شاخص NPS"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:219
 msgid "standard all feature 4"
-msgstr "امکان مشاهده پیش نمایش فرم"
+msgstr "مشاهده پیش نمایش پرسشنامه نظرسنجی"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:220
 msgid "standard all feature 5"
-msgstr "امکان ایجاد تغییر و شخصی سازی فرم ها"
+msgstr "ایجاد تغییر و شخصی سازی فرم ها"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:221
 msgid "standard all feature 6"
-msgstr "فرم های سازگار با موبایل و تبلت"
+msgstr "فرم رضایت مشتری سازگار با موبایل و تبلت"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:222
 msgid "standard all feature 7"
@@ -225,7 +225,7 @@ msgstr "احراز هویت هر مشتری"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:223
 msgid "standard all feature 8"
-msgstr "امکان نظرسنجی از کانال های ارتباطی مختلف"
+msgstr "نظرسنجی از کانال های ارتباطی مختلف"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:224
 msgid "standard all feature 9"
@@ -233,31 +233,31 @@ msgstr "جلوگیری از ثبت چندباره پاسخ"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:246
 msgid "pro all feature 1"
-msgstr "امکان ایجاد چند نظرسنجی فعال به صورت همزمان"
+msgstr "ایجاد چند نظرسنجی مشتری فعال به صورت همزمان"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:247
 msgid "pro all feature 2"
-msgstr "انجام نظرسنجی های رضایت مشتری بر اساس استاندارد CSAT و CES"
+msgstr "انجام نظرسنجی رضایت مشتری بر اساس شاخص CSAT و CES"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:248
 msgid "pro all feature 3"
-msgstr "محاسبه نمره وفاداری برند بر اساس استاندارد NPS"
+msgstr "محاسبه نمره وفاداری مشتری بر اساس شاخص NPS"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:249
 msgid "pro all feature 4"
-msgstr " گزارش نتایج نظرسنجی"
+msgstr " گزارش نتایج نظرسنجی مشتری"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:250
 msgid "pro all feature 5"
-msgstr "امکان مشاهده پیش نمایش فرم"
+msgstr "مشاهده پیش نمایش پرسشنامه نظرسنجی"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:251
 msgid "pro all feature 6"
-msgstr "امکان ایجاد تغییر و شخصی سازی فرم ها"
+msgstr "ایجاد تغییر و شخصی سازی فرم ها"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:252
 msgid "pro all feature 7"
-msgstr "فرم های سازگار با موبایل و تبلت"
+msgstr "فرم رضایت مشتری سازگار با موبایل و تبلت"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:253
 msgid "pro all feature 8"
@@ -269,7 +269,7 @@ msgstr "جلوگیری از ثبت چندباره پاسخ"
 
 #: upkook_web/apps/cms/pricing/views.py:23
 msgid "Pricing | Upkook Startup"
-msgstr "تعرفه سرویس های آپ کوک"
+msgstr "تعرفه ی سرویس های سنجش تجربه مشتری | آپ کوک"
 
 #: upkook_web/apps/cms/pricing/views.py:24
 msgid "Cx metrics prices"

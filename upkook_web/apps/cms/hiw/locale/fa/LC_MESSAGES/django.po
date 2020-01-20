@@ -46,7 +46,7 @@ msgstr "فرم های نظرسنجی را با مشتریانت به اشترا�
 
 #: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:51
 msgid "Why use cx measurement des3"
-msgstr "نمره وفاداری برندت را محاسبه کن و وفادارانت را بشناس"
+msgstr "نمره وفاداری مشتری را محاسبه کن و وفادارانت را بشناس"
 
 #: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:52
 msgid "Why use cx measurement des4"
@@ -66,15 +66,15 @@ msgstr "می توانی تجربه مشتری را بعد از هر خرید ب�
 
 #: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:76
 msgid "CX Metrics and surveys des2"
-msgstr "می توانی میزان رضایت مشتریانت را ارزیابی کنی"
+msgstr "می توانی میزان رضایت مشتری را ارزیابی کنی"
 
 #: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:77
 msgid "CX Metrics and surveys des3"
-msgstr "می توانی میزان وفاداری مشتریانت را اندازه گیری کنی"
+msgstr "می توانی میزان وفاداری مشتری را اندازه گیری کنی"
 
 #: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:78
 msgid "CX Metrics and surveys des4"
-msgstr "می توانی میزان راحتی مشتریانت در استفاده از کالا و خدماتت بسنجی"
+msgstr "می توانی میزان راحتی مشتری در استفاده از کالا و خدماتت بسنجی"
 
 #: upkook_web/apps/cms/hiw/templates/hiw/how-it-works.html:79
 msgid "CX Metrics and surveys des5"
