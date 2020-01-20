@@ -161,6 +161,11 @@
   box-shadow: none;
   color: black;
 }
+.plan-upgrade-right-col a:hover{
+  background-color: white;
+  box-shadow: none;
+  color: black;
+}
 
 .pricing-table-dropdown {
   text-align: center;

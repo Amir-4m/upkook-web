@@ -20,11 +20,11 @@ msgstr ""
 
 #: upkook_web/apps/cms/features/templates/features/includes/all-features.html:4
 msgid "features"
-msgstr "ویژگی ها"
+msgstr "ویژگی های سرویس سنجش تجربه مشتری"
 
 #: upkook_web/apps/cms/features/templates/features/includes/all-features.html:7
 msgid "features all-features col1 title"
-msgstr "فرم های نظرسنجی "
+msgstr "فرم های سنجش تجربه مشتری "
 
 #: upkook_web/apps/cms/features/templates/features/includes/all-features.html:8
 msgid "features all-features col1 desc"
@@ -47,7 +47,7 @@ msgstr "هوشمندانه و بر اساس تحلیل دقیق داده ها ح
 msgid "features banner desc"
 msgstr ""
 "با استفاده از فرم های استاندارد، بازخوردهای مشتریانتان را جمع آوری کنید و "
-"گزارش تحلیلی دریافت کنید."
+"گزارش تحلیلی تجربه مشتری دریافت کنید."
 
 #: upkook_web/apps/cms/features/templates/features/includes/promo.html:5
 #| msgid "UPKOOK Values"
@@ -112,23 +112,23 @@ msgstr "سریع به نتیجه برسید"
 
 #: upkook_web/apps/cms/features/views.py:11
 msgid "features all-features col1 item1"
-msgstr "استفاده از فرم های آماده"
+msgstr "استفاده از پرسشنامه نظرسنجی آماده"
 
 #: upkook_web/apps/cms/features/views.py:12
 msgid "features all-features col1 item2"
-msgstr "فرم های سازگار با موبایل و تبلت"
+msgstr "فرم رضایت مشتری سازگار با موبایل و تبلت"
 
 #: upkook_web/apps/cms/features/views.py:13
 msgid "features all-features col1 item3"
-msgstr "امکان ایجاد تغییر و شخصی سازی فرم ها"
+msgstr "ایجاد تغییر و شخصی سازی فرم ها"
 
 #: upkook_web/apps/cms/features/views.py:14
 msgid "features all-features col1 item4"
-msgstr "امکان ایجاد چندین فرم فعال به صورت همزمان"
+msgstr "ایجاد چندین فرم نظرسنجی فعال به صورت همزمان"
 
 #: upkook_web/apps/cms/features/views.py:15
 msgid "features all-features col1 item5"
-msgstr "امکان مشاهده پیش نمایش فرم ها"
+msgstr "مشاهده پیش نمایش پرسشنامه نظرسنجی"
 
 #: upkook_web/apps/cms/features/views.py:16
 msgid "features all-features col1 item6"
@@ -136,19 +136,19 @@ msgstr "تعداد نامحدود پاسخ"
 
 #: upkook_web/apps/cms/features/views.py:17
 msgid "features all-features col1 item7"
-msgstr "امکان استفاده از لوگو و برند در نظرسنجی ها"
+msgstr "استفاده از لوگو و برند در نظرسنجی مشتری"
 
 #: upkook_web/apps/cms/features/views.py:18
 msgid "features all-features col1 item8"
-msgstr "انجام نظرسنجی های رضایت مشتری بر اساس استاندارد CSAT و CES"
+msgstr "انجام نظرسنجی رضایت مشتری بر اساس شاخص CSAT و CES"
 
 #: upkook_web/apps/cms/features/views.py:19
 msgid "features all-features col1 item9"
-msgstr "محاسبه نمره وفاداری برند بر اساس استاندارد NPS"
+msgstr "محاسبه نمره وفاداری مشتری بر اساس شاخص NPS"
 
 #: upkook_web/apps/cms/features/views.py:23
 msgid "features all-features col2 item1"
-msgstr "گزارش نتایج نظرسنجی"
+msgstr "گزارش نتایج نظرسنجی مشتری"
 
 #: upkook_web/apps/cms/features/views.py:24
 msgid "features all-features col2 item2"
@@ -172,7 +172,7 @@ msgstr "جلوگیری از ثبت چندباره پاسخ"
 
 #: upkook_web/apps/cms/features/views.py:40
 msgid "Features | Upkook Startup"
-msgstr "ویژگی سرویس های آپ کوک"
+msgstr "ویژگی های سرویس سنجش تجربه مشتری | آپ کوک"
 
 #: upkook_web/apps/cms/features/views.py:41
 msgid "Features Page Description"
