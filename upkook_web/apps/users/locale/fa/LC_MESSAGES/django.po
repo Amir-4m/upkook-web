@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-23 17:39+0330\n"
+"POT-Creation-Date: 2020-01-20 11:04+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,14 +50,14 @@ msgstr "بازیابی رمز عبور"
 msgid "Reset password link has been sent to your email !"
 msgstr "لینک بازیابی رمز عبور، به ایمیل شما ارسال شد !"
 
-#: upkook_web/apps/users/templates/users/forgot-password.html:57
-#: upkook_web/apps/users/templates/users/reset-password.html:53
+#: upkook_web/apps/users/templates/users/forgot-password.html:58
+#: upkook_web/apps/users/templates/users/reset-password.html:54
 msgid "Back to homepage"
 msgstr "بازگشت به صفحه اصلی"
 
-#: upkook_web/apps/users/templates/users/forgot-password.html:64
+#: upkook_web/apps/users/templates/users/forgot-password.html:65
 #: upkook_web/apps/users/templates/users/sign-in.html:5
-#: upkook_web/apps/users/templates/users/sign-up-step1.html:81
+#: upkook_web/apps/users/templates/users/sign-up-step1.html:82
 msgid "Sign in to Upkook"
 msgstr "ورود به آپ کوک"
 
@@ -77,11 +77,11 @@ msgstr "لطفا رمز عبور جدید خود را وارد نمایید."
 msgid "Submit"
 msgstr "تایید"
 
-#: upkook_web/apps/users/templates/users/reset-password.html:41
+#: upkook_web/apps/users/templates/users/reset-password.html:42
 msgid "Link has been expired !"
 msgstr "لینک مورد نظر، منقضی شده است !"
 
-#: upkook_web/apps/users/templates/users/reset-password.html:47
+#: upkook_web/apps/users/templates/users/reset-password.html:48
 #: upkook_web/apps/users/templates/users/sign-in.html:31
 msgid "Forgot password ?"
 msgstr "رمز عبور خود را فراموش کرده اید ؟"
