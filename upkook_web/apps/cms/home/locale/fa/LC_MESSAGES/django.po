@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-19 11:47+0330\n"
+"POT-Creation-Date: 2020-01-20 13:59+0330\n"
 "PO-Revision-Date: 2018-12-22 15:26+0330\n"
 "Last-Translator: Saeed Salehian <saeed@upkook.com>\n"
 "Language-Team: Upkook <info@upkook.com>\n"
@@ -23,24 +23,33 @@ msgid "Become your Customers Favorite."
 msgstr "کسب و کار محبوب مشتریان باشید."
 
 #: upkook_web/apps/cms/home/templates/home/includes/hero.html:13
+msgid "Increase customer retention rates"
+msgstr "نرخ حفظ مشتری را افزایش دهید."
+
+#: upkook_web/apps/cms/home/templates/home/includes/hero.html:17
+msgid "Increase your sales by at least 25."
+msgstr "حداقل 25% میزان فروشتان را افزایش دهید."
+
+#: upkook_web/apps/cms/home/templates/home/includes/hero.html:21
 msgid "Be smart, creative and confident in customer satisfaction."
 msgstr "هوشمندانه، خلاقانه و با اطمینان رضایت مشتریان را بسنجید."
 
-#: upkook_web/apps/cms/home/templates/home/includes/hero.html:17
-msgid "Receive valuable reactions from your customers with NPS."
-msgstr "با NPS، هزاران بازخورد ارزشمند از مشتریانتان دریافت کنید."
+#: upkook_web/apps/cms/home/templates/home/includes/hero.html:26
+#| msgid "Increase customer retention rates"
+msgid "Measure customer satisfaction"
+msgstr "رضایت مشتریان را بسنجید."
 
-#: upkook_web/apps/cms/home/templates/home/includes/hero.html:24
-msgid "Learn more"
-msgstr "بیشتر بدانید"
+#: upkook_web/apps/cms/home/templates/home/includes/hero.html:33
+msgid "Save up to 7x on your marketing costs."
+msgstr "تا 7 برابر در هزینه های بازاریابی تان صرفه جویی کنید."
 
-#: upkook_web/apps/cms/home/templates/home/includes/hero.html:29
+#: upkook_web/apps/cms/home/templates/home/includes/hero.html:40
 #: upkook_web/apps/cms/home/templates/home/includes/intro.html:40
 #: upkook_web/apps/cms/home/templates/home/includes/intro.html:43
 msgid "Free Sign Up"
 msgstr "ثبت نام رایگان"
 
-#: upkook_web/apps/cms/home/templates/home/includes/hero.html:36
+#: upkook_web/apps/cms/home/templates/home/includes/hero.html:47
 msgid "Try Demo"
 msgstr "مشاهده دمو"
 
@@ -111,7 +120,6 @@ msgid "sign in newsletter"
 msgstr "عضویت در خبرنامه"
 
 #: upkook_web/apps/cms/home/templates/home/includes/newsletter.html:33
-#| msgid "This site is protected by reCAPTCHA"
 msgid "This form is protected by reCAPTCHA"
 msgstr "این فرم توسط reCAPTCHA "
 
@@ -354,3 +362,9 @@ msgstr "نتیجه کارت را ببین"
 #: upkook_web/apps/cms/home/views.py:136
 msgid "Free sign up"
 msgstr "ثبت نام رایگان"
+
+#~ msgid "Receive valuable reactions from your customers with NPS."
+#~ msgstr "با NPS، هزاران بازخورد ارزشمند از مشتریانتان دریافت کنید."
+
+#~ msgid "Learn more"
+#~ msgstr "بیشتر بدانید"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-20 11:04+0330\n"
+"POT-Creation-Date: 2020-01-20 13:59+0330\n"
 "PO-Revision-Date: 2018-12-17 10:22+0330\n"
 "Last-Translator: Saeed Salehian <saeed@upkook.com>\n"
 "Language-Team: Upkook <info@upkook.com>\n"
@@ -39,7 +39,6 @@ msgid "UPKOOK"
 msgstr "آپ‌کوک"
 
 #: upkook_web/templates/upkook_web/includes/mega-footer.html:12
-#| msgid "Customer experience"
 msgid "Customer Experience Measurement"
 msgstr "سنجش تجربه مشتری"
 
