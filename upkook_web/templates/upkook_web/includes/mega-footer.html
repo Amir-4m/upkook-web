@@ -8,6 +8,11 @@
           <strong>{% trans "UPKOOK" %}</strong>
         </li>
         <li>
+          <a href="{% if is_amp %}{% url 'home:index-amp' amp %}{% else %}{% url 'home:index' %}{% endif %}">
+            {% trans "Customer Experience Measurement" %}
+          </a>
+        </li>
+        <li>
           <a href="https://blog.upkook.com/{% if is_amp %}amp{% endif %}" target="_blank">{% trans "Upkook mag" %}</a>
         </li>
         <li>
