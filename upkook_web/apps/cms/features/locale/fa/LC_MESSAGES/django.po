@@ -136,7 +136,7 @@ msgstr "تعداد نامحدود پاسخ"
 
 #: upkook_web/apps/cms/features/views.py:17
 msgid "features all-features col1 item7"
-msgstr "استفاده از لوگو و برند در نظرسنجی مشتری"
+msgstr "استفاده از لوگو و برند در نظرسنجی تجربه مشتری"
 
 #: upkook_web/apps/cms/features/views.py:18
 msgid "features all-features col1 item8"

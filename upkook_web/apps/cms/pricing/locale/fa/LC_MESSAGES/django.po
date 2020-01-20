@@ -46,7 +46,7 @@ msgstr "ویژگی های اصلی:"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:38
 msgid "free feature1"
-msgstr "ایجاد نظرسنجی یک مشتری فعال"
+msgstr "ایجاد یک نظرسنجی فعال"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:41
 msgid "free feature2"
@@ -93,7 +93,7 @@ msgstr "اشتراک یک ساله تک کاربره سرویس سنجش تجر�
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:80
 msgid "standard feature 1"
-msgstr "پرسشنامه رضایت سنجی مشتری پیش آماده"
+msgstr "پرسشنامه رضایت سنجی مشتری از پیش آماده"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:83
 msgid "standard feature 2"
@@ -140,7 +140,7 @@ msgstr "اشتراک یک ساله تک کاربره سرویس سنجش تجر�
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:124
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:256
 msgid "pro feature1"
-msgstr "استفاده از لوگو و برند در نظرسنجی مشتری "
+msgstr "استفاده از لوگو و برند در نظرسنجی تجربه مشتری "
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:127
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:257
@@ -173,7 +173,7 @@ msgstr "نسخه پایه"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:191
 msgid "free all feature 1"
-msgstr "پرسشنامه رضایت سنجی مشتری پیش آماده"
+msgstr "پرسشنامه رضایت سنجی مشتری از پیش آماده"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:192
 msgid "free all feature 2"
@@ -233,7 +233,7 @@ msgstr "جلوگیری از ثبت چندباره پاسخ"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:246
 msgid "pro all feature 1"
-msgstr "ایجاد چند نظرسنجی مشتری فعال به صورت همزمان"
+msgstr "ایجاد چند نظرسنجی فعال به صورت همزمان"
 
 #: upkook_web/apps/cms/pricing/templates/pricing/pricing.html:247
 msgid "pro all feature 2"
@@ -269,7 +269,7 @@ msgstr "جلوگیری از ثبت چندباره پاسخ"
 
 #: upkook_web/apps/cms/pricing/views.py:23
 msgid "Pricing | Upkook Startup"
-msgstr "تعرفه ی سرویس های سنجش تجربه مشتری | آپ کوک"
+msgstr "تعرفه سرویس های سنجش تجربه مشتری | آپ کوک"
 
 #: upkook_web/apps/cms/pricing/views.py:24
 msgid "Cx metrics prices"
