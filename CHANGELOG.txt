@@ -1,3 +1,16 @@
+=== 1.3.0 (2020-01-20) ===
+
+- Reset password
+- Protected public forms by google invisible recaptcha
+- Change password
+- Newsletter subscription
+- Resend verification email
+- Added pages pricing, video, & features
+- Redesigned homepage
+- Redesigned mini and mega footer
+- Enabled HTML Minification
+- Updated about us page
+
 === 1.2.0 (2019-10-07) ===
 
 - About us page
