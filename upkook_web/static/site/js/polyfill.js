@@ -26,8 +26,8 @@ Cookie.prototype.getItem = function (key) {
   return match ? match[2] : null;
 };
 
-Cookie.prototype.removeItem = function (key) {
-  this.setItem(key, '', -1);
+Cookie.prototype.removeItem = function (key, path, domain, secure) {
+  this.setItem(key, '', -1, path, domain, secure);
 };
 
 const cookie = new Cookie();
