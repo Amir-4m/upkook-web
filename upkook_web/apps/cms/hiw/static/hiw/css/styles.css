@@ -17,6 +17,14 @@
   overflow-y: scroll;
   overflow-x: hidden;
   scrollbar-width: none;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+@supports (-ms-ime-align:auto) {
+  .hw-left-sec {
+    overflow-y: unset;
+    overflow-x: unset;
+  }
 }
 
 .hw-left-sec::-webkit-scrollbar {
