@@ -108,6 +108,14 @@ class ResetPassword(TemplateView):
             'title': _('Reset Password - UPKOOK'),
             'forgot_password_url': reverse(ForgotPassword.view_name),
             'sign_in_url': reverse(SignInView.view_name),
-
+            'auth_cookie': {
+                'age': settings.AUTH_COOKIE_AGE,
+                'domain': settings.AUTH_COOKIE_DOMAIN,
+                'path': settings.AUTH_COOKIE_PATH,
+                'secure': settings.AUTH_COOKIE_SECURE,
+                'access_key': settings.AUTH_ACCESS_COOKIE_NAME,
+                'refresh_key': settings.AUTH_REFRESH_COOKIE_NAME,
+                'user_track_id_key': settings.AUTH_USER_TRACK_ID_COOKIE_NAME,
+            }
         })
         return context

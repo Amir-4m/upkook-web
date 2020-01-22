@@ -19,6 +19,10 @@ Token.prototype.setCookie = function (key, value) {
   );
 };
 
+Token.prototype.removeCookie = function (key) {
+  cookie.removeItem(key, this.path, this.d, this.secure);
+};
+
 Object.defineProperty(Token.prototype, 'access', {
   get: function () {
     return cookie.getItem(this.ak);
@@ -50,4 +54,10 @@ Token.prototype.update = function (data) {
   this.access = data.access;
   this.refresh = data.refresh;
   this.trackId = data[this.uk];
+};
+
+Token.prototype.reset = function () {
+  this.removeCookie(this.ak);
+  this.removeCookie(this.rk);
+  this.removeCookie(this.uk);
 };

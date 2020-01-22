@@ -46,6 +46,7 @@
   };
 
   ResetPasswordForm.handleSuccess = function () {
+    tk.reset();
     window.location.replace(signInURL);
   };
 
