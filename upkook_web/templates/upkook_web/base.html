@@ -96,10 +96,10 @@
     <script src="{{ STATIC_URL }}jsi18n/{{ LANGUAGE_CODE }}/djangojs.js"></script>
     <script src="{{ STATIC_URL }}api/js/api.js"></script>
     <script src="{{ STATIC_URL }}site/js/script.js"></script>
+    {% pure_chat pure_chat_id %}
     {% endblock %}
     {% block extrajs %}{% endblock %}
     {% endcompress %}
     {% render_block "js" %}
-    {% pure_chat pure_chat_id %}
 </body>
 </html>
