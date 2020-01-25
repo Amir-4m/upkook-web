@@ -22,7 +22,7 @@
   };
   Object.defineProperty(SignInForm.prototype, 'email', {
     get: function () {
-      return $(this.form).find("input[name=email]").val().trim();
+      return $(this.form).find("input[name=email]").val().trim().toLowerCase();
 
     }
   });

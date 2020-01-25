@@ -66,6 +66,11 @@ input[name=domain] {
   text-align: left;
 }
 
+input[type=email],
+input[name=domain] {
+    text-transform: lowercase;
+}
+
 button {
   width: 360px;
   height: 60px;
