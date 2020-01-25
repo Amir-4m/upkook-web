@@ -558,7 +558,7 @@ footer.footer-bare a:visited {
     color: #DFE1E6
   }
 
-  #outer-wrapper .mdl-layout__drawer,
+  #outer-wrapper .mdl-layout__drawer.is-visible,
   #outer-wrapper .mdl-layout__drawer-button {
     display: inline-block;
   }
