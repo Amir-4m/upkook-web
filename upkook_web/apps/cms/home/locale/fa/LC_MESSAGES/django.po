@@ -32,7 +32,7 @@ msgstr "حداقل 25% میزان فروشتان را افزایش دهید."
 
 #: upkook_web/apps/cms/home/templates/home/includes/hero.html:21
 msgid "Be smart, creative and confident in customer satisfaction."
-msgstr "هوشمندانه، خلاقانه و با اطمینان رضایت مشتریان را بسنجید."
+msgstr "هوشمندانه، خلاقانه و با اطمینان تجربه مشتری را بسنجید."
 
 #: upkook_web/apps/cms/home/templates/home/includes/hero.html:26
 #| msgid "Increase customer retention rates"
@@ -211,7 +211,7 @@ msgstr "افزایش میزان فروش از طریق بیش فروشی و فر
 
 #: upkook_web/apps/cms/home/views.py:28
 msgid "Product NPS List Item 3"
-msgstr "کاهش هزینه های بازاریابی از طریق بازاریابی ارگانیک توسط وفاداران برند"
+msgstr "کاهش هزینه های بازاریابی از طریق ترویج دهان به دهان توسط وفاداران برند"
 
 #: upkook_web/apps/cms/home/views.py:29
 msgid "Product NPS List Item 4"
@@ -336,8 +336,8 @@ msgstr "افزایش میزان درآمد از طریق افزایش میزان
 #: upkook_web/apps/cms/home/views.py:77
 msgid "Product CSAT Box Desc "
 msgstr ""
-"با یکی از ساده ترین روش ها می توانید به طور مرتب و در یک قالب استاندارد، "
-"میزان رضایت مشتریان خود را ارزیابی کنید."
+"شاخص رضایت مشتری یکی از ساده ترین و کاربردی ترین شاخص ها"
+ "در سنجش تجربه مشتری است که سطح رضایت مشتری در هر تعامل با شما را می سنجد"
 
 #: upkook_web/apps/cms/home/views.py:113
 msgid "Make your custom survey."
