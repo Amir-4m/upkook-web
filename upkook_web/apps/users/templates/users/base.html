@@ -18,5 +18,6 @@
 
 {% block javascripts %}
   {{ block.super }}
+  <script src="{{ STATIC_URL }}site/js/cookie.js"></script>
   <script src="{{ STATIC_URL }}users/js/token.js"></script>
 {% endblock %}
