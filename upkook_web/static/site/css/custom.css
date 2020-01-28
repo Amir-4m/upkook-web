@@ -66,6 +66,11 @@ input[name=domain] {
   text-align: left;
 }
 
+input[type=email],
+input[name=domain] {
+    text-transform: lowercase;
+}
+
 button {
   width: 360px;
   height: 60px;
@@ -558,7 +563,7 @@ footer.footer-bare a:visited {
     color: #DFE1E6
   }
 
-  #outer-wrapper .mdl-layout__drawer,
+  #outer-wrapper .mdl-layout__drawer.is-visible,
   #outer-wrapper .mdl-layout__drawer-button {
     display: inline-block;
   }

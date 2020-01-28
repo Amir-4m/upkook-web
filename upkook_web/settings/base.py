@@ -144,7 +144,7 @@ PREPEND_WWW = False
 # https://docs.djangoproject.com/en/dev/ref/settings/#std:setting-USE_ETAGS
 USE_ETAGS = True
 
-MIDDLEWARE_CLASSES = (
+MIDDLEWARE = (
     # Adds a few conveniences for perfectionists (i.e. URL rewriting)
     'django.middleware.common.CommonMiddleware',
 )

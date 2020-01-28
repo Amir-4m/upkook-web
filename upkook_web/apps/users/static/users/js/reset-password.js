@@ -61,7 +61,7 @@
 
   Object.defineProperty(ResetPasswordForm.prototype, 'password', {
     get: function () {
-      return $(this.form).find("input[name=password]").val().trim();
+      return $(this.form).find("input[name=password]").val();
     }
   });
 

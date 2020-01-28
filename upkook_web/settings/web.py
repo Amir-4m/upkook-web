@@ -15,10 +15,13 @@ INSTALLED_APPS += (
     'upkook_web.apps.cms.pricing',
     'upkook_web.apps.cms.features',
 )
+
 MIDDLEWARE = (
     'htmlmin.middleware.HtmlMinifyMiddleware',
+    'django.middleware.common.CommonMiddleware',
     'htmlmin.middleware.MarkRequestMiddleware',
 )
+
 API_URL = get_env_var("API_URL")
 
 AUTH_COOKIE_AGE = get_env_var('AUTH_COOKIE_AGE', 24 * 60 * 60)  # (1 day, in seconds)

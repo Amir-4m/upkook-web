@@ -49,7 +49,7 @@
   Object.defineProperty(StepOne.prototype, 'data', {
     get: function () {
       return {
-        email: $(this.form).find("input[name=email]").val().trim(),
+        email: $(this.form).find("input[name=email]").val().trim().toLowerCase(),
         password: $(this.form).find("input[name=password]").val(),
         first_name: $(this.form).find("input[name=first_name]").val().trim(),
         last_name: $(this.form).find("input[name=last_name]").val().trim(),
@@ -65,7 +65,7 @@
   Object.defineProperty(StepTwo.prototype, 'data', {
     get: function () {
       return {
-        domain: $(this.form).find("input[name=domain]").val().trim(),
+        domain: $(this.form).find("input[name=domain]").val().trim().toLowerCase(),
         name: $(this.form).find("input[name=name]").val().trim(),
         industry: $(this.form).find("input[name=industry]").val(),
         size: $(this.form).find("input[name=size]").val(),
