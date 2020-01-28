@@ -1,0 +1,49 @@
+.mdl-snackbar {
+  left: auto;
+  right: 100%;
+  z-index: 2147483647;
+}
+
+.mdl-snackbar__text {
+  float: right;
+  text-align: right;
+  width: 100%;
+  font-family: iranyekan, Tahoma, sans-serif;
+  font-size: 0.8rem;
+}
+
+.mdl-snackbar--success,
+.mdl-snackbar--info,
+.mdl-snackbar--warning,
+.mdl-snackbar--error {
+  color: #FFFFFF;
+}
+
+.mdl-snackbar--success {
+  background-color: #00875A;
+}
+
+.mdl-snackbar--info {
+  background-color: #2979FF;
+}
+
+.mdl-snackbar--warning {
+  background-color: #FF8B00;
+}
+
+.mdl-snackbar--error {
+  background-color: #DE350B;
+}
+
+@media screen and (max-width: 479px) {
+  .mdl-snackbar--active {
+    right: 0;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .mdl-snackbar--active {
+    -webkit-transform: translate(105%, -20px);
+    transform: translate(105%, -20px);
+  }
+}
