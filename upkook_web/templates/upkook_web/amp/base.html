@@ -9,6 +9,7 @@
     <!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script><![endif]-->
     {% compress css inline %}
         {%  block css %}
+            <link rel="stylesheet" href="{{ STATIC_URL }}mdl/1.3.0/css/custom.css">
             <link rel="stylesheet" href="{{ STATIC_URL }}site/css/custom.css">
             <link rel="stylesheet" href="{{ STATIC_URL }}iranyekan/{{ IRAN_YEKAN_LICENSE|default:'3.0' }}/css/custom.css">
             <link rel="stylesheet" href="{{ STATIC_URL }}social/css/social.css">

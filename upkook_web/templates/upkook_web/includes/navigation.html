@@ -37,20 +37,20 @@
   <li itemprop="name">
 
     <a class="md-nav__link" itemprop="url"
-       href="{{dashboard_url}}">
+       href="{{ dashboard_url }}">
       {% trans "Navigation Sign In" %}
     </a>
   </li>
 
   <li itemprop="name">
     <a class="md-nav__link" itemprop="url"
-       href="{% url 'about:index' %}">
+       href="{% if is_amp %}{% url 'about:index-amp' amp %}{% else %}{% url 'about:index' %}{% endif %}">
       {% trans 'About Us' %}
     </a>
   </li>
   <li itemprop="name">
     <a class="md-nav__link" itemprop="url"
-       href="{% url 'contact:index' %}">
+       href="{% if is_amp %}{% url 'contact:index-amp' amp %}{% else %}{% url 'contact:index' %}{% endif %}">
       {% trans 'Contact Us' %}
     </a>
   </li>
