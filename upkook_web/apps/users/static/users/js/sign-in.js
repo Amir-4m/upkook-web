@@ -14,6 +14,7 @@
     if (jqXHR.status === 400 || jqXHR.status === 401) {
       const message = gettext('No active account found with the given credentials');
       snackbar.error(message, 5000);
+      this.retries += 1;
       this.showForgotDialog()
 
     } else {
