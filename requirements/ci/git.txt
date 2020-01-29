@@ -1,2 +1,2 @@
 -e git+ssh://git@bitbucket.org/nargeel/django-fancy-imagefield.git@master#egg=django-fancy-imagefield
--e git+ssh://git@bitbucket.org/nargeel/django-contrib.git@master#egg=django-contrib
+-e git+ssh://git@bitbucket.org/nargeel/django-contrib.git@develop#egg=django-contrib
