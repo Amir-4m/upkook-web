@@ -1,55 +1,67 @@
 {% load i18n %}
 
 <div class="footer-link-wrapper">
-  <div class="md-gr footer-link-grid">
+  <div class="md-gr footer-link-grid" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
     <div class="md-cl--3-col md-cl--4-col-phone md-cl--4-col-tablet">
       <ul>
         <li>
           <strong>{% trans "UPKOOK" %}</strong>
         </li>
-        <li>
-          <a href="{% if is_amp %}{% url 'home:index-amp' amp %}{% else %}{% url 'home:index' %}{% endif %}">
+        <li itemprop="name">
+          <a href="{% if is_amp %}{% url 'home:index-amp' amp %}{% else %}{% url 'home:index' %}{% endif %}"
+             itemprop="url">
             {% trans "Customer Experience Measurement" %}
           </a>
         </li>
-        <li>
-          <a href="https://blog.upkook.com/{% if is_amp %}amp{% endif %}" target="_blank">{% trans "Upkook mag" %}</a>
+        <li itemprop="name">
+          <a href="https://blog.upkook.com/{% if is_amp %}amp{% endif %}" target="_blank" itemprop="url">
+            {% trans "Upkook mag" %}
+          </a>
         </li>
-        <li>
-          <a href="{% if is_amp %}{% url 'about:index-amp' amp %}{% else %}{% url 'about:index' %}{% endif %}">
+        <li itemprop="name">
+          <a href="{% if is_amp %}{% url 'about:index-amp' amp %}{% else %}{% url 'about:index' %}{% endif %}"
+             itemprop="url">
             {% trans "About us" %}
           </a>
         </li>
-        <li>
-          <a href="{% if is_amp %}{% url 'contact:index-amp' amp %}{% else %}{% url 'contact:index' %}{% endif %}">
+        <li itemprop="name">
+          <a href="{% if is_amp %}{% url 'contact:index-amp' amp %}{% else %}{% url 'contact:index' %}{% endif %}"
+             itemprop="url">
             {% trans "Contact us" %}
           </a>
         </li>
       </ul>
-
     </div>
     <div class="md-cl--3-col md-cl--4-col-phone md-cl--4-col-tablet">
       <ul>
         <li>
           <strong>{% trans "Upkook mag" %}</strong>
         </li>
-        <li>
-          <a href="https://blog.upkook.com/customer-survey/what-is-nps/{% if is_amp %}amp{% endif %}" target="_blank">
+        <li itemprop="name">
+          <a href="https://blog.upkook.com/customer-survey/what-is-nps/{% if is_amp %}amp{% endif %}" target="_blank"
+             itemprop="url">
             {% trans "NPS" %}
           </a>
         </li>
-        <li>
-          <a href="https://blog.upkook.com/customer-survey/what-is-customer-satisfaction-csat/{% if is_amp %}amp{% endif %}" target="_blank">
+        <li itemprop="name">
+          <a
+            href="https://blog.upkook.com/customer-survey/what-is-customer-satisfaction-csat/{% if is_amp %}amp{% endif %}"
+            target="_blank"
+            itemprop="url">
             {% trans "CSAT" %}
           </a>
         </li>
-        <li>
-          <a href="https://blog.upkook.com/customer-satisfaction/{% if is_amp %}amp{% endif %}" target="_blank">
+        <li itemprop="name">
+          <a href="https://blog.upkook.com/customer-satisfaction/{% if is_amp %}amp{% endif %}"
+             target="_blank"
+             itemprop="url">
             {% trans "Customer satisfaction" %}
           </a>
         </li>
-        <li>
-          <a href="https://blog.upkook.com/customer-experience/{% if is_amp %}amp{% endif %}" target="_blank">
+        <li itemprop="name">
+          <a href="https://blog.upkook.com/customer-experience/{% if is_amp %}amp{% endif %}"
+             target="_blank"
+             itemprop="url">
             {% trans "Customer experience" %}
           </a>
         </li>
@@ -60,21 +72,24 @@
         <li>
           <strong>{% trans "Services" %}</strong>
         </li>
-        <li>
-          <a href="https://demo.upkook.com/" target="_blank">{% trans "Demo" %}</a>
+        <li itemprop="name">
+          <a href="https://demo.upkook.com/" target="_blank" itemprop="url">{% trans "Demo" %}</a>
         </li>
-        <li>
-          <a href="{% if is_amp %}{% url 'hiw:index-amp' amp %}{% else %}{% url 'hiw:index' %}{% endif %}">
+        <li itemprop="name">
+          <a href="{% if is_amp %}{% url 'hiw:index-amp' amp %}{% else %}{% url 'hiw:index' %}{% endif %}"
+             itemprop="url">
             {% trans "How it works" %}
           </a>
         </li>
-        <li>
-          <a href="{% if is_amp %}{% url 'features:index-amp' amp %}{% else %}{% url 'features:index' %}{% endif %}">
+        <li itemprop="name">
+          <a href="{% if is_amp %}{% url 'features:index-amp' amp %}{% else %}{% url 'features:index' %}{% endif %}"
+             itemprop="url">
             {% trans "Features" %}
           </a>
         </li>
-        <li>
-          <a href="{% if is_amp %}{% url 'pricing:index-amp' amp %}{% else %}{% url 'pricing:index' %}{% endif %}">
+        <li itemprop="name">
+          <a href="{% if is_amp %}{% url 'pricing:index-amp' amp %}{% else %}{% url 'pricing:index' %}{% endif %}"
+             itemprop="url">
             {% trans "Pricing" %}
           </a>
         </li>
@@ -82,24 +97,31 @@
 
     </div>
     <div class="md-cl--3-col md-cl--4-col-phone md-cl--4-col-tablet">
-
       <ul>
         <li>
           <strong>{% trans "Client Area" %}</strong>
         </li>
-        <li>
-          <a href="{% url 'users:sign-in' %}">{% trans "Login" %}</a>
+        <li itemprop="name">
+          <a href="{% url 'users:sign-in' %}" itemprop="url">{% trans "Login" %}</a>
         </li>
-        <li>
-          <a href="{% url 'users:sign-up' %}">{% trans "Sign up" %}</a>
+        <li itemprop="name">
+          <a href="{% url 'users:sign-up' %}" itemprop="url">{% trans "Sign up" %}</a>
         </li>
-        <li>
-          <a href="https://policies.upkook.com/terms/{% if is_amp %}amp{% endif %}" target="_blank">{% trans "Terms" %}</a>
+        <li itemprop="name">
+          <a href="https://policies.upkook.com/terms/{% if is_amp %}amp{% endif %}"
+             itemprop="url"
+             target="_blank">
+            {% trans "Terms" %}
+          </a>
         </li>
-        <li>
-          <a href="https://policies.upkook.com/privacy/{% if is_amp %}amp{% endif %}" target="_blank">{% trans "Privacy" %}</a></li>
+        <li itemprop="name">
+          <a href="https://policies.upkook.com/privacy/{% if is_amp %}amp{% endif %}"
+             itemprop="url"
+             target="_blank">
+            {% trans "Privacy" %}
+          </a>
+        </li>
       </ul>
-
     </div>
   </div>
 </div>

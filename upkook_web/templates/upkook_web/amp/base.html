@@ -25,7 +25,7 @@
     {% endblock %}
     {% block extra_head %}{% endblock %}
 </head>
-<body itemscope="itemscope" itemtype="http://schema.org/WebPage">
+<body>
     {% if setting and setting.gtm_id_amp %}<amp-analytics config="{{ request.scheme }}://{{ request.get_host }}/amp/gtm.json?id={{ setting.gtm_id_amp }}&gtm.url=SOURCE_URL" data-credentials="include"></amp-analytics>{% endif %}
     {% if setting and setting.ga_id %}
     <amp-analytics config="{{ request.scheme }}://{{ request.get_host }}/amp/analytics.json" type="gtag" data-credentials="include">

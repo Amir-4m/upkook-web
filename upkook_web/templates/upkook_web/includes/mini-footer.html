@@ -4,47 +4,49 @@
   <div class="md-gr">
     <div class="md-cl--2-col md-cl--8-col-tablet md-cl--4-col-phone">
       {% if setting and setting.logo %}
-      {% if is_amp %}
-      <amp-img alt="{{ site.name }}" height="64" width="64" src="{{ setting.logo.url }}"
-               title="{{ site.name }}" layout="intrinsic" itemprop="image"></amp-img>
-      {% else %}
-      <img itemprop="image" alt="{{ site.name }}" src="{{ setting.logo.url }}"
-           title="{{ site.name }}"/>
-      {% endif %}
+        {% if is_amp %}
+          <amp-img alt="{{ site.name }}" height="64" width="64" src="{{ setting.logo.url }}"
+                   title="{{ site.name }}" layout="intrinsic" itemprop="image"></amp-img>
+        {% else %}
+          <img itemprop="image" alt="{{ site.name }}" src="{{ setting.logo.url }}"
+               title="{{ site.name }}"/>
+        {% endif %}
       {% endif %}
     </div>
     <div class="md-cl--6-col md-cl--8-col-tablet md-cl--4-col-phone">
-      <ul>
-        <li>
+      <ul itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+        <li itemprop="name">
           <a href="https://www.upkook.com{% if is_amp %}/amp/{% endif %}" itemprop="url">
-            {% trans 'UPKOOK'%}</a>
+            {% trans 'UPKOOK' %}
+          </a>
         </li>
-        <li>
+        <li itemprop="name">
+          <a href="https://blog.upkook.com/{% if is_amp %}amp{% endif %}" target="_blank" itemprop="url">
+            {% trans "Upkook mag" %}
+          </a>
         </li>
-        <li>
-          <a href="https://blog.upkook.com/{% if is_amp %}amp{% endif %}" target="_blank">{% trans "Upkook mag" %}</a>
+        <li itemprop="name">
+          <a href="https://demo.upkook.com/" target="_blank" itemprop="url">{% trans "Demo" %}</a>
         </li>
-        <li>
-          <a href="https://demo.upkook.com/" target="_blank">{% trans "Demo" %}</a>
-        </li>
-        <li>
+        <li itemprop="name">
           <a href="https://policies.upkook.com/terms/{% if is_amp %}amp{% endif %}" target="_blank" itemprop="url">
-            {% trans "Terms of Service" %}</a>
+            {% trans "Terms of Service" %}
+          </a>
         </li>
-        <li>
+        <li itemprop="name">
           <a href="https://policies.upkook.com/privacy/{% if is_amp %}amp{% endif %}" target="_blank" itemprop="url">
-            {% trans "Privacy Policy" %}</a>
+            {% trans "Privacy Policy" %}
+          </a>
         </li>
       </ul>
-
     </div>
     <div class="md-cl--4-col md-cl--8-col-tablet md-cl--4-col-phone">
       {% if setting and setting.copyright %}
-      <div class="credit-wrapper">
-        <div class="credit">
-          {{ setting.copyright|safe }}
+        <div class="credit-wrapper">
+          <div class="credit">
+            {{ setting.copyright|safe }}
+          </div>
         </div>
-      </div>
       {% endif %}
     </div>
   </div>

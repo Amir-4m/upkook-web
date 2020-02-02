@@ -1,28 +1,29 @@
 <div id="header-wrapper" class="header-wrapper">
-    <header class="mdl-layout__header" itemprop="mainEntity" itemscope="itemscope"
-            itemtype="http://schema.org/WPHeader">
-        <div class="header row md-gr mdl-layout__header-row" id="header">
-            <div class="md-cl md-cl--3-col md-cl--2-col-tablet md-cl--6-col-phone">
-                <h1>
-                    <a href="{{ protocol }}://{{ site.domain }}" itemprop="url" title="{{ site.name }}">
-                        {% if setting and setting.logo %}
-                        {% if is_amp %}
-                        <amp-img alt="{{ site.name }}" height="64" width="64" src="{{ setting.logo.url }}"
-                                 title="{{ site.name }}" layout="intrinsic" itemprop="image"></amp-img>
-                        {% else %}
-                        <img itemprop="image" alt="{{ site.name }}" src="{{ setting.logo.url }}"
-                             title="{{ site.name }}"/>
-                        {% endif %}
-                        {% endif %}
-                        <span itemprop="name">{{ site.name }}</span>
-                    </a>
-                </h1>
-            </div>
-            <div class="md-cl md-cl--9-col md-cl--6-col-tablet">
-                <nav class="md-nav navigation" itemtype="http://schema.org/SiteNavigationElement">
-                    {% include nav_template|default:'upkook_web/includes/navigation.html' %}
-                </nav>
-            </div>
-        </div>
-    </header>
+  <header class="mdl-layout__header"
+          itemscope="itemscope"
+          itemtype="http://schema.org/WPHeader">
+    <div class="header row md-gr mdl-layout__header-row" id="header">
+      <div class="md-cl md-cl--3-col md-cl--2-col-tablet md-cl--6-col-phone">
+        <h1>
+          <a href="{{ protocol }}://{{ site.domain }}" itemprop="url" title="{{ site.name }}">
+            {% if setting and setting.logo %}
+              {% if is_amp %}
+                <amp-img alt="{{ site.name }}" height="64" width="64" src="{{ setting.logo.url }}"
+                         title="{{ site.name }}" layout="intrinsic" itemprop="image"></amp-img>
+              {% else %}
+                <img itemprop="image" alt="{{ site.name }}" src="{{ setting.logo.url }}"
+                     title="{{ site.name }}"/>
+              {% endif %}
+            {% endif %}
+            <span itemprop="name">{{ site.name }}</span>
+          </a>
+        </h1>
+      </div>
+      <div class="md-cl md-cl--9-col md-cl--6-col-tablet">
+        <nav class="md-nav navigation">
+          {% include nav_template|default:'upkook_web/includes/navigation.html' with serp=True %}
+        </nav>
+      </div>
+    </div>
+  </header>
 </div>

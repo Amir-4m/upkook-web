@@ -1,55 +1,55 @@
 {% load  i18n %}
-<ul>
-  <li itemprop="name">
-    <a class="md-nav__link" itemprop="url"
+<ul role="menu" {% if serp %}itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement"{% endif %}>
+  <li role="menuitem" {% if serp %}itemprop="name"{% endif %}>
+    <a class="md-nav__link" {% if serp %}itemprop="url"{% endif %}
        href="{% if is_amp %}{% url 'hiw:index-amp' amp %}{% else %}{% url 'hiw:index' %}{% endif %}">
       {% trans "How It Works" %}
     </a>
   </li>
 
-  <li itemprop="name">
-    <a class="md-nav__link" itemprop="url"
+  <li role="menuitem" {% if serp %}itemprop="name"{% endif %}>
+    <a class="md-nav__link" {% if serp %}itemprop="url"{% endif %}
        href="{% if is_amp %}{% url 'pricing:index-amp' amp %}{% else %}{% url 'pricing:index' %}{% endif %}">
       {% trans "Pricing" %}
     </a>
   </li>
 
-  <li itemprop="name">
-    <a class="md-nav__link" itemprop="url"
+  <li role="menuitem" {% if serp %}itemprop="name"{% endif %}>
+    <a class="md-nav__link" {% if serp %}itemprop="url"{% endif %}
        href="{% if is_amp %}{% url 'features:index-amp' amp %}{% else %}{% url 'features:index' %}{% endif %}">
       {% trans "Features" %}
     </a>
   </li>
-  <li itemprop="name">
-    <a class="md-nav__link" itemprop="url" target="_blank"
+  <li role="menuitem" {% if serp %}itemprop="name"{% endif %}>
+    <a class="md-nav__link" {% if serp %}itemprop="url"{% endif %} target="_blank"
        href="https://demo.upkook.com/">
       {% trans "Demo" %}
     </a>
   </li>
 
-  <li itemprop="name">
-    <a class="md-nav__link" itemprop="url" target="_blank"
+  <li role="menuitem" {% if serp %}itemprop="name"{% endif %}>
+    <a class="md-nav__link" {% if serp %}itemprop="url"{% endif %} target="_blank"
        href="https://blog.upkook.com{% if is_amp %}/amp/{% endif %}">
       {% trans 'BLOG' %}
     </a>
   </li>
 
-  <li itemprop="name">
-
-    <a class="md-nav__link" itemprop="url"
+  <li role="menuitem" {% if serp %}itemprop="name"{% endif %}>
+    <a class="md-nav__link" {% if serp %}itemprop="url"{% endif %}
        href="{{ dashboard_url }}">
       {% trans "Navigation Sign In" %}
     </a>
   </li>
 
-  <li itemprop="name">
-    <a class="md-nav__link" itemprop="url"
+  <li role="menuitem" {% if serp %}itemprop="name"{% endif %}>
+    <a class="md-nav__link" {% if serp %}itemprop="url"{% endif %}
        href="{% if is_amp %}{% url 'about:index-amp' amp %}{% else %}{% url 'about:index' %}{% endif %}">
       {% trans 'About Us' %}
     </a>
   </li>
-  <li itemprop="name">
-    <a class="md-nav__link" itemprop="url"
+
+  <li role="menuitem" {% if serp %}itemprop="name"{% endif %}>
+    <a class="md-nav__link" {% if serp %}itemprop="url"{% endif %}
        href="{% if is_amp %}{% url 'contact:index-amp' amp %}{% else %}{% url 'contact:index' %}{% endif %}">
       {% trans 'Contact Us' %}
     </a>
