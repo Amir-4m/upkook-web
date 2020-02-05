@@ -303,9 +303,18 @@
 }
 
 @media screen and (max-width: 480px) {
-    .contact-header {
-        padding: 45px 10px;
-    }
+
+  .contact-header h1 {
+    font-size: 1.7rem;
+  }
+
+  .contact-header p {
+    font-size: 0.9rem;
+  }
+
+  .contact-header {
+    padding: 45px 10px;
+  }
 
 
     .contact-section-2 {
@@ -318,6 +327,5 @@
     .contact-section-1 .button-cta {
         width: 90%;
     }
-
 
 }
