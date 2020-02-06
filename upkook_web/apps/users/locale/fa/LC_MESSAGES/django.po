@@ -1,17 +1,16 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Upkook web
+# Copyright (C) 2019-2020 UPKOOK
+# Saeed Salehian <saeed@upkook.com>, 2019.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-20 11:04+0330\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-02-06 09:08+0330\n"
+"PO-Revision-Date: 2020-02-06 09:08+0330\n"
+"Last-Translator: Saeed Salehian <saeed@upkook.com>\n"
+"Language-Team: Upkook <info@upkook.com>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -57,7 +56,7 @@ msgstr "بازگشت به صفحه اصلی"
 
 #: upkook_web/apps/users/templates/users/forgot-password.html:65
 #: upkook_web/apps/users/templates/users/sign-in.html:5
-#: upkook_web/apps/users/templates/users/sign-up-step1.html:82
+#: upkook_web/apps/users/templates/users/sign-up-step1.html:95
 msgid "Sign in to Upkook"
 msgstr "ورود به آپ کوک"
 
@@ -91,12 +90,12 @@ msgid "Email"
 msgstr "ایمیل"
 
 #: upkook_web/apps/users/templates/users/sign-in.html:19
-#: upkook_web/apps/users/templates/users/sign-up-step1.html:25
+#: upkook_web/apps/users/templates/users/sign-up-step1.html:38
 msgid "Password"
 msgstr "رمز عبور"
 
 #: upkook_web/apps/users/templates/users/sign-in.html:27
-#: upkook_web/apps/users/templates/users/sign-up-step1.html:33
+#: upkook_web/apps/users/templates/users/sign-up-step1.html:46
 msgid "Please enter your password."
 msgstr "لطفا رمز عبور خود را وارد نمایید."
 
@@ -129,27 +128,35 @@ msgstr "ثبت نام رایگان"
 msgid "Example: n.family@workdomain.com"
 msgstr "مثال: n.family@workdomain.com"
 
-#: upkook_web/apps/users/templates/users/sign-up-step1.html:36
+#: upkook_web/apps/users/templates/users/sign-up-step1.html:25
+msgid "Mobile Number"
+msgstr "شماره تلفن همراه"
+
+#: upkook_web/apps/users/templates/users/sign-up-step1.html:35
+msgid "Please enter a valid mobile number."
+msgstr "لطفا یک شماره تلفن همراه معتبر وارد نمایید."
+
+#: upkook_web/apps/users/templates/users/sign-up-step1.html:49
 msgid "First Name"
 msgstr "نام"
 
-#: upkook_web/apps/users/templates/users/sign-up-step1.html:45
+#: upkook_web/apps/users/templates/users/sign-up-step1.html:58
 msgid "Please enter your first name."
 msgstr "لطفا نام خود را وارد نمایید."
 
-#: upkook_web/apps/users/templates/users/sign-up-step1.html:48
+#: upkook_web/apps/users/templates/users/sign-up-step1.html:61
 msgid "Last Name"
 msgstr "نام خانوادگی"
 
-#: upkook_web/apps/users/templates/users/sign-up-step1.html:57
+#: upkook_web/apps/users/templates/users/sign-up-step1.html:70
 msgid "Please enter your last name."
 msgstr "لطفا نام خانوادگی خود را وارد نمایید."
 
-#: upkook_web/apps/users/templates/users/sign-up-step1.html:60
+#: upkook_web/apps/users/templates/users/sign-up-step1.html:73
 msgid "Continue"
 msgstr "ادامه"
 
-#: upkook_web/apps/users/templates/users/sign-up-step1.html:65
+#: upkook_web/apps/users/templates/users/sign-up-step1.html:78
 msgid "By signing up at upkook, I accept terms and conditions of upkook."
 msgstr "با ثبت نام در آپ کوک شرایط و قوانین استفاده از آپ کوک را می پذیریم."
 

@@ -21,6 +21,19 @@
           {% trans 'Example: n.family@workdomain.com' %}
         </span>
     </div>
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="fg-mobile_number">
+      <label class="mdl-textfield__label" for="mobile_number">{% trans 'Mobile Number' %}</label>
+      <input
+        type="text"
+        pattern="^(\+98|0|098|0098|98|\+)?9\d{9}$"
+        class="mdl-textfield__input"
+        name="mobile_number"
+        id="mobile_number"
+        maxlength="20"
+        data-required="true"
+      />
+      <span class="mdl-textfield__error" data-text="{% trans 'Please enter a valid mobile number.' %}"></span>
+    </div>
     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="fg-password">
       <label class="mdl-textfield__label" for="password">{% trans 'Password' %}</label>
       <input
@@ -59,8 +72,8 @@
     <button class="md-btn mdl-js-button md-btn--raised mdl-js-ripple-effect md-btn--primary">
       {% trans 'Continue' %}
     </button>
-    <br />
-    <br />
+    <br/>
+    <br/>
     <small>
       {% trans 'By signing up at upkook, I accept terms and conditions of upkook.' %}
     </small>
@@ -68,15 +81,15 @@
     <div
       id='recaptcha'
       class="g-recaptcha"
-      data-sitekey="{{recaptcha_public_key}}"
+      data-sitekey="{{ recaptcha_public_key }}"
       data-callback="recaptchaCallback"
       data-error-callback="recaptchaErrorCallback"
       data-size="invisible">
     </div>
 
   </form>
-  <br />
-  <br />
+  <br/>
+  <br/>
   <a href="{% url 'users:sign-in' %}">
     <button class="md-btn mdl-js-button mdl-js-ripple-effect">
       {% trans 'Sign in to Upkook' %}
