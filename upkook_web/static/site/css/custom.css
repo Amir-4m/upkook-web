@@ -54,7 +54,8 @@ select {
 
 input[type=email],
 input[type=password],
-input[name=domain] {
+input[name=domain],
+input[name=mobile_number] {
   direction: ltr;
   text-align: left;
 }
