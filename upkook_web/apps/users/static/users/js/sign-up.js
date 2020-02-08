@@ -42,7 +42,7 @@
   };
 
   const StepOne = function (form) {
-    this.fields = ['email', 'password', 'first_name', 'last_name'];
+    this.fields = ['email', 'mobile_number', 'password', 'first_name', 'last_name'];
     this.form = form;
   };
 
@@ -50,6 +50,7 @@
     get: function () {
       return {
         email: $(this.form).find("input[name=email]").val().trim().toLowerCase(),
+        mobile_number: $(this.form).find("input[name=mobile_number]").val(),
         password: $(this.form).find("input[name=password]").val(),
         first_name: $(this.form).find("input[name=first_name]").val().trim(),
         last_name: $(this.form).find("input[name=last_name]").val().trim(),
@@ -197,13 +198,13 @@
   };
 
   SignupForm.prototype.ajax = function (recaptchaToken) {
-    let headers = {};
+    let headers = {Accept: 'application/json; version=1.2'};
     const data = this.stepForm.data;
 
     if (this.step === 1) {
       data['recaptcha_token'] = recaptchaToken;
     } else {
-      headers = {Authorization: 'Bearer ' + token.access};
+      headers = Object.assign({}, headers, {Authorization: 'Bearer ' + token.access});
     }
 
     $.ajax({
@@ -246,8 +247,9 @@
 function recaptchaCallback(recaptchaToken) {
   window.signUpForm.ajax(recaptchaToken);
 }
+
 function recaptchaErrorCallback() {
   const message = gettext('Limited or No Connectivity. Please check your internet connection.');
   snackbar.error(message, 5000);
-  window.signUpForm.fail({ status: 408 });
+  window.signUpForm.fail({status: 408});
 }

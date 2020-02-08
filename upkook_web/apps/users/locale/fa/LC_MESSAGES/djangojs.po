@@ -1,17 +1,16 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Upkook web
+# Copyright (C) 2019-2020 UPKOOK
+# Saeed Salehian <saeed@upkook.com>, 2019.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-03 14:57+0330\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-02-06 09:13+0330\n"
+"PO-Revision-Date: 2020-02-06 09:08+0330\n"
+"Last-Translator: Saeed Salehian <saeed@upkook.com>\n"
+"Language-Team: Upkook <info@upkook.com>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,11 +21,15 @@ msgstr ""
 msgid "No active account found with the given Email"
 msgstr "کاربری با ایمیل وارد شده یافت نشد."
 
-#: upkook_web/apps/users/static/users/js/forgot-password.js:30
-msgid "Connection has been interrupted! try again later please."
-msgstr "مشکلی در ارتباط با سرور به وجود آمده. لطفا دوباره تلاش کنید . "
+#: upkook_web/apps/users/static/users/js/forgot-password.js:100
+#: upkook_web/apps/users/static/users/js/reset-password.js:127
+#: upkook_web/apps/users/static/users/js/sign-in.js:110
+#: upkook_web/apps/users/static/users/js/sign-up.js:252
+msgid "Limited or No Connectivity. Please check your internet connection."
+msgstr "شما به شبکه متصل نیستید، لطفا اتصال اینترنت خود را بررسی نمایید."
 
 #: upkook_web/apps/users/static/users/js/reset-password.js:13
+#: upkook_web/apps/users/static/users/js/reset-password.js:55
 msgid "Link has been expired !"
 msgstr "لینک مورد نظر، منقضی شده است !"
 
@@ -34,6 +37,6 @@ msgstr "لینک مورد نظر، منقضی شده است !"
 msgid "No active account found with the given credentials"
 msgstr "ایمیل یا رمز عبور اشتباه است."
 
-#: upkook_web/apps/users/static/users/js/sign-up.js:160
+#: upkook_web/apps/users/static/users/js/sign-up.js:161
 msgid "Please fix form errors."
 msgstr "لطفا خطای فرم را رفع کنید."
