@@ -42,7 +42,6 @@
   min-height: 64px;
   margin: 15px 0;
 
-
 }
 
 .product-plan {
@@ -96,7 +95,6 @@
 .features-list {
   min-height: 690px;
 }
-
 
 .product-features ul {
   list-style: none;
@@ -156,12 +154,13 @@
   font-size: 0.8rem;
 }
 
-.plan-upgrade-right-col a{
+.plan-upgrade-right-col a {
   background-color: white;
   box-shadow: none;
   color: black;
 }
-.plan-upgrade-right-col a:hover{
+
+.plan-upgrade-right-col a:hover {
   background-color: white;
   box-shadow: none;
   color: black;
@@ -256,7 +255,6 @@
   display: none;
 }
 
-
 .plan-features-group {
   min-height: auto;
 }
@@ -288,7 +286,6 @@
 
 @media screen and (max-width: 1480px) {
 
-
 }
 
 @media screen and (max-width: 1280px) {
@@ -299,7 +296,6 @@
 }
 
 @media screen and (max-width: 1080px) {
-
 
   .product-type-description {
     min-height: 80px;
@@ -330,11 +326,9 @@
     min-height: 810px;
   }
 
-
 }
 
 @media screen and (max-width: 960px) {
-
 
   .product-type-description {
     min-height: 95px;
@@ -354,7 +348,6 @@
   .features-list {
     min-height: 950px;
   }
-
 
 }
 
@@ -387,15 +380,15 @@
     min-height: 830px;
   }
 
-
 }
 
-@media screen and (max-width: 768px) {
-
+@media screen and (max-width: 515px) {
+  .product-plan {
+    padding: 22px;
+  }
 }
 
-@media screen and (max-width: 480px) {
-
+@media screen and (max-width: 479px) {
 
   .product-type-right-col {
     min-height: 64px;
@@ -404,7 +397,6 @@
   .product-price-description-right-col {
     min-height: 50px;
   }
-
 
   .product-features-header.product-features-header {
     display: none;
