@@ -52,6 +52,7 @@
       dialogPolyfill.registerDialog(dialog);
     }
     if (this.retries >= 3) {
+      this.retries = 0;
       dialog.showModal();
     }
     dialog.querySelector('.close').addEventListener('click', function () {
